@@ -17,7 +17,7 @@
         TEMPLATES: {
             enquiry:     'template_kk9qdwk',
             contact:     'template_mu2vflj',
-            application: 'YOUR_APPLICATION_TEMPLATE_ID' // To be configured later
+            application: '' // Application template ID not yet configured
         }
     };
 
