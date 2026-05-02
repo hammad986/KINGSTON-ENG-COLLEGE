@@ -1,0 +1,87 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Nunito",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#0D6EFD",
+    "secondary": "#86B7FE",
+    "accent": "#920E26",
+    "background": "#FFFFFF",
+    "textPrimary": "#920E26",
+    "link": "#920E26"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Nunito",
+      "heading": "Nunito"
+    },
+    "fontStacks": {
+      "heading": [
+        "Nunito"
+      ],
+      "body": [
+        "Nunito"
+      ],
+      "paragraph": [
+        "Nunito"
+      ]
+    },
+    "fontSizes": {
+      "h1": "20px",
+      "h2": "48px",
+      "body": "16px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "0px"
+  },
+  "components": {},
+  "images": {
+    "logo": "File saved at: attached_assets/logo.png",
+    "favicon": "File saved at: attached_assets/favicon.ico",
+    "ogImage": null,
+    "logoHref": "File saved at: attached_assets/logoHref.html",
+    "logoAlt": "logo"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "Selected #0 because it is visible, large, located in the header, and links to the homepage, matching the brand 'Kingston Engineering College'.",
+    "confidence": 0.95,
+    "source": "llm"
+  },
+  "personality": {
+    "tone": "professional",
+    "energy": "medium",
+    "targetAudience": "students and educators"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0,
+    "colors": 0.9,
+    "overall": 0.45
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 0,
+        "selectedLogoReasoning": "Selected #0 because it is visible, large, located in the header, and links to the homepage, matching the brand 'Kingston Engineering College'.",
+        "confidence": 0.95
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": false,
+      "llmSucceeded": false
+    }
+  }
+}
