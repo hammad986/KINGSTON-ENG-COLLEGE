@@ -1,0 +1,29 @@
+"Yes, please go ahead and auto-generate the sitemap.xml for Cloudflare/Google indexing.
+
+However, STOP generating new designs of your own. You made critical layout mistakes in the last step. Execute the following fixes strictly:
+
+1. FIX THE LEFT MENU BAR (Carousel/Sidebar) ACROSS ALL DEPARTMENTS:
+
+You injected a custom 'dark navy' sidebar into the 334 sub-pages. This is WRONG.
+
+The Fix: Go to the main department pages (e.g., dept_cse.html). Extract the EXACT HTML structure, classes, and CSS of the existing, highly styled 'Left Menu Bar'.
+
+Copy THAT EXACT original menu and replace your custom navy sidebar in all the respective sub-pages (e.g., inside the cse/ folder like about.html, vision.html, newsletter.html, etc.).
+
+Crucial Routing Check: Ensure the links in this left menu point to the correct local sub-pages within that department's folder, NOT the root pages. For example, the 'Contact Us' link in the CSE left menu must point to the specific CSE contact page (contact.html inside the CSE folder), NOT the college's main contact page. Repeat this exact cloning process for all 10+ departments.
+
+2. FIX VIDEO GALLERY HEADER:
+
+The header in video_gallery.html is broken.
+
+The Fix: Copy the EXACT <head> (all CSS/JS links), <header>, and .main-nav HTML from index.html and paste it into video_gallery.html. It must be pixel-perfect identical to the homepage header.
+
+3. REBUILD ACHIEVEMENTS.HTML (Completely Broken):
+
+The achievements.html page is currently entirely broken.
+
+The Fix: Rebuild it from scratch. Use the exact header and footer from index.html. For the main content, implement the lightweight, high-performance 'glassmorphism-lite' grid system we used in the sports section. Add placeholder achievement data if necessary, but the UI must be stunning, responsive, and fully functional.
+
+Do not use heavy JavaScript or backdrop-filter: blur. Stick to the existing AOS library and standard CSS transitions.
+
+Execute this precision fix and give me a clear report once the left menus match the main pages perfectly!"
