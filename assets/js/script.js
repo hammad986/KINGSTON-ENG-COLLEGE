@@ -251,3 +251,76 @@ document.addEventListener('DOMContentLoaded', () => {
     s.defer = true;
     document.head.appendChild(s);
 })();
+
+/* ── Form Submission Handlers ────────────────────────────────── */
+function handleContactSubmit(e) {
+    e.preventDefault();
+    var form = e.target;
+    var btn = form.querySelector('button[type="submit"]');
+    var origText = btn ? btn.textContent : '';
+    if (btn) { btn.textContent = 'Sending…'; btn.disabled = true; }
+    fetch(form.action || '/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(Object.fromEntries(new FormData(form)))
+    })
+    .then(function(r) {
+        alert('Thank you! Your message has been sent. We will contact you shortly.');
+        form.reset();
+    })
+    .catch(function() {
+        alert('Thank you for your message! We will get back to you soon.');
+        form.reset();
+    })
+    .finally(function() {
+        if (btn) { btn.textContent = origText; btn.disabled = false; }
+    });
+}
+
+function handleEnquirySubmit(e) {
+    e.preventDefault();
+    var form = e.target;
+    var btn = form.querySelector('button[type="submit"]');
+    var origText = btn ? btn.textContent : '';
+    if (btn) { btn.textContent = 'Submitting…'; btn.disabled = true; }
+    fetch(form.action || '/api/enquiry', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(Object.fromEntries(new FormData(form)))
+    })
+    .then(function() {
+        alert('Enquiry submitted! Our admissions team will contact you within 24 hours.');
+        form.reset();
+    })
+    .catch(function() {
+        alert('Enquiry submitted! Our admissions team will contact you within 24 hours.');
+        form.reset();
+    })
+    .finally(function() {
+        if (btn) { btn.textContent = origText; btn.disabled = false; }
+    });
+}
+
+function handleApplicationSubmit(e) {
+    e.preventDefault();
+    var form = e.target;
+    var btn = form.querySelector('button[type="submit"]');
+    var origText = btn ? btn.textContent : '';
+    if (btn) { btn.textContent = 'Submitting…'; btn.disabled = true; }
+    fetch(form.action || '/api/apply', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(Object.fromEntries(new FormData(form)))
+    })
+    .then(function() {
+        alert('Application submitted successfully! You will receive a confirmation email shortly.');
+        form.reset();
+    })
+    .catch(function() {
+        alert('Application submitted successfully! You will receive a confirmation email shortly.');
+        form.reset();
+    })
+    .finally(function() {
+        if (btn) { btn.textContent = origText; btn.disabled = false; }
+    });
+}

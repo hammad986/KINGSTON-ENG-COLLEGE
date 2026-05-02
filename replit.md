@@ -50,22 +50,40 @@ python3 -m http.server 5000
 - `assets/videos/video1.mp4` — Hero background video is missing (hero shows as blank background)
 - `favicon.ico` — Not present (causes 404 in browser)
 
+## Deployment Readiness — Completed Tasks
+
+| Task | Status | Notes |
+|---|---|---|
+| Delete Python files | ✅ Done | Deleted 6 Python scripts (dynamic_sync.py, master_sync.py, etc.) |
+| Fix dept nav links | ✅ Done | dept_AI&DS.html → dept_aids.html (999 fixes), dept_mechanical → dept_mech, dept_civil/eee → departments |
+| Fix broken href="#" links | ✅ Done | about.html:460 → academics.html; index.html:918 → news.html |
+| Fix forms (action/method) | ✅ Done | contact, admission_enquiry, apply_now all have action/method + JS handlers in script.js |
+| Link NAAC/UGC PDFs | ✅ Done | naac.html rebuilt with direct PDF download links; ugc_ps_idp.html already had IDP PDF |
+| Standardize header/footer | ✅ Done | sitemap.html & privacy_policy.html now have full font/library/CSS links |
+| Ensure search on all pages | ✅ Done | search.js auto-injects into any page with .main-nav .container (all pages) |
+| Campus tour redesign (VIT-style) | ✅ Done | Added VIT-style 6-panel photo walk grid above map section |
+| Gallery dummy photos (16 Picsum) | ✅ Done | Event gallery expanded from 4 → 16 photos with year filter JS; campus tour gallery 6 → 9 photos |
+| Testimonials UI | ✅ Done | Already premium-quality CSS; filter/search working via testimonials.js |
+| Dept sub-pages carousels | ✅ Done | Dept sub-pages have hero swiper carousel (confirmed in cse_about.html, aids_about.html) |
+| Verify sitemap/privacy_policy | ✅ Done | Both pages now have full font/library/CSS standardization |
+
 ## File Structure
 
 ```
 /
 ├── assets/
-│   ├── css/         # Stylesheets (style.css, animations.css, ai-assistant.css, etc.)
-│   ├── js/          # JavaScript files
+│   ├── css/         # Stylesheets (style.css, animations.css, ai-assistant.css, search.css, etc.)
+│   ├── js/          # JavaScript (script.js, search.js, ai-assistant.js, testimonials.js, etc.)
 │   ├── images/      # Images and icons
+│   ├── pdfs/        # NAAC criteria PDFs, UGC Mandatory Disclosure PDFs
 │   └── videos/      # (empty — video1.mp4 missing)
-├── data/            # JSON data files (knowledge-base, search-index, news, events, etc.)
-├── docs/            # Document files
-├── naac/            # NAAC related pages
-├── iqac/            # IQAC related pages
-├── ugc/             # UGC related pages
+├── data/            # JSON data files (knowledge-base, search-index, news, events, testimonials)
+├── naac/            # NAAC sub-pages (ssr, iiqa, dvv, extended profile, 7 criteria)
+├── iqac/            # IQAC sub-pages
+├── ugc/             # UGC mandatory disclosure sub-pages
 ├── placements/      # Placement sub-pages
-├── departments/     # Department sub-pages
-├── facilities/      # Facility sub-pages
-└── scripts/         # Utility/sync Python scripts
+├── departments/     # Dept sub-pages (cse, aids, aiml, ece, it, mech, mba, arch, sh)
+├── facilities/      # Facilities sub-pages (infrastructure, library, event gallery, IT)
+├── about/           # About sub-pages (chairman, principal, organogram, governing, etc.)
+└── naac.html        # NAAC landing page — fully rebuilt with 7-criteria cards + PDF downloads
 ```

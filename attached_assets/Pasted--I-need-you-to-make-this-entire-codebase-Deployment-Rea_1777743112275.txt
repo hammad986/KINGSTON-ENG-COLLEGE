@@ -1,0 +1,43 @@
+"I need you to make this entire codebase 'Deployment Ready' by executing the following comprehensive tasks. Please perform a deep analysis (simulate a hard refresh) across all pages to ensure everything is perfectly implemented. Here are your strict instructions:
+
+1. File Cleanup & Standardization:
+
+Delete Python Files: Safely remove all 61 .py generator files. They are no longer needed.
+
+Department Pages Resolution: Compare dept_aids.html and dept_AI&DS.html. Keep the one that is properly styled and contains the 'left carousels'. Delete the other one and fix any broken navigation links pointing to it.
+
+Layout Consistency: Ensure that ALL department main pages and sub-pages have the left carousels perfectly implemented.
+
+Header & Footer: Make the header and footer exactly the same across ALL pages, using index.html as the absolute master reference.
+
+Search Feature: Ensure the search button and its functionality (from index.html) is present and working on all pages.
+
+2. Content & UI Enhancements:
+
+Campus Tour: Redesign the campus tour section to match the style and layout of [https://chennaicampustour.vit.ac.in/](https://chennaicampustour.vit.ac.in/). Use dummy images for now, but add clear HTML comments like <!-- REPLACE IMAGE HERE: Campus Tour --> so I can easily swap them with my real college photos later.
+
+Galleries: Add 10 to 20 dummy photos (using Unsplash/Picsum placeholders) to the Photo Gallery and Event Gallery. Again, add HTML comments for easy replacement later.
+
+Testimonials: Enhance the UI/design of the testimonials to make them look more premium, but strictly keep the existing data format.
+
+Broken Action Links: Search all pages for "view all", "view more", or "more details" buttons that have href="#". Do NOT leave them as #. Either create simple new pages for them or implement modal popups to display the content.
+
+3. Document Handling (PDFs):
+
+For the "NAAC" section, link the front/main PDF located in assets\pdfs\naac.
+
+For "Public Self Disclosure", link the main PDF located in assets\pdfs\UGC Mandatory Disclosure.
+
+If any page is missing a PDF link, deeply search the assets folder for the relevant file and link it correctly.
+
+4. Backend Preparation & External Content:
+
+Remove EmailJS: Completely strip out all EmailJS code and dependencies from all forms (Contact, Admission, etc.). Prepare these forms for a standard custom backend (e.g., set up standard <form action="/api/submit" method="POST"> structures).
+
+External Pages: Analyze [https://engineering.kingston.ac.in/](https://engineering.kingston.ac.in/) to extract/replicate the 'Sitemap' and 'Privacy Policy', and create dedicated pages for them in my project.
+
+5. Exclusions:
+
+Leave the 'Student Login' and 'Staff Login' pages exactly as they are right now. Do not touch them.
+
+Once you have executed ALL of these steps, please provide a clear Final Report detailing exactly what was fixed and if there is absolutely anything else left pending before I hand this over for deployment."
