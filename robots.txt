@@ -1,0 +1,17 @@
+# robots.txt — Kingston Engineering College
+# https://www.kingston.ac.in/
+
+User-agent: *
+Allow: /
+
+# Block private/utility paths
+Disallow: /assets/pdfs/internal/
+Disallow: /_redirects
+Disallow: /_headers
+Disallow: /sitemap.xml.gz
+
+# Crawl-delay for polite bots
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://www.kingston.ac.in/sitemap.xml
