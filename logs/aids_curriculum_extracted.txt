@@ -1,0 +1,930 @@
+--- PAGE 1 ---
+ 
+1 
+  
+ANNA UNIVERSITY, CHENNAI  
+NON - AUTONOMOUS AFFILIATED COLLEGES  
+REGULATIONS 2021  
+CHOICE BASED CREDIT SYSTEM  
+   
+ 
+ 
+I.   PROGRAM EDUCATIONAL OBJECTIVES (PEOs)  
+ 
+Graduates can  
+1. Utilize their proficiencies in the fundamental knowledge of basic sciences, mathematics, 
+Artificial Intelligence, data science and statistics to build systems that require management 
+and analysis of large volumes of data.  
+2. Advance their technical skills to pursue pioneering research in the f ield of AI and Data 
+Science and create disruptive and sustainable solutions for the welfare of ecosystems.   
+3. Think logically, pursue lifelong learning and collaborate with an ethical attitude in a 
+multidisciplinary team.   
+4. Design and model AI based solutions  to critical problem domains in the real world.  
+5. Exhibit innovative thoughts and creative ideas for effective contribution towards economy 
+building.  
+ 
+II. PROGRAM OUTCOMES (POs )  
+ 
+PO#   Graduate  Attribute  
+1 Engineering knowledge: Apply the knowledge of mathematics, science, engineering 
+fundamentals, and an engineering specialization to the solution of complex engineering 
+problems. 
+2 Problem a nalysis: Identify, formulate, review research literature, and analyze complex 
+engineering problems  reaching  substantiated  conclusions  using  first  principles  of  
+mathematics,  natural  sciences, a nd engineering sciences. 
+3 Design/developm ent of solutions: Design solutions for complex engineering problems and 
+design system components or processes that meet the specified needs with appropriate 
+consideration for the public health and safety, and the cultural, societal, and environmental 
+considerations. 
+4 Conduct   investigations   of   complex   problems:   Use   research -based   knowledge   
+and   research m ethods including design of experiments, analysis and interpretation of data, 
+and synthesis of the information to provide valid conclusions. 
+5 Modern  tool  usage:  Create,  select,  and  apply  ap propriate  techniques,  resources,  and  
+modern engineering and IT tools including prediction and modeling to complex engineering 
+activities with an understanding of the limitations. 
+6 The  engineer  and  society:  Apply  reasoning  informed  by  the  contextual  knowledge  to  
+assess s ocietal,  health,  sa fety,  legal  and  cultural  issues and  the  c onsequent  
+responsibilities relevant  to  the professional engineering practice. 
+B.TECH. ARTIFICIAL INTELLIGENCE AND DATA SCIENCE  
+--- PAGE 2 ---
+ 
+2 
+ 7 Environment and sustainability: Understand the impact of the professional engineering 
+solutions in societal and environmental contexts, and demonstrate the knowledge of, and need 
+for sustainable development. 
+8 Ethics: Apply ethical principles and commit to professional ethics and responsibilities and 
+norms of the engineering practice. 
+9 Individual  and  team  work:  Function  effectively  as  an  individual,  and  as  a  member  or  
+leader  in diverse teams,  and in multidisciplinary settings. 
+10 Communication:   Communicate effectively on complex engineering  activities  with  the  
+engineering community and with society at large, such as, being able to comprehend and write 
+effective reports and design documentation, make effective presentations, and give and 
+receive clear instructions.  
+11 Project management and finance:  Demonstrate knowledge and understanding of the 
+engineering and management principles and apply these to one’s own work, as a member and 
+leader in a team, to manage projects and in multidisciplina ry environments.  
+ 
+12 Life-long  learning:  Recognize  the  need  for,  and  have  the  preparation  and  ability  to  
+engage  in indepe ndent and life-long learning in the broadest context of technological 
+change. 
+ 
+III.   PROGRAM SPECIFIC OUTCOMES (PSOs)  
+  
+Graduates should be able to:  
+1. evolve AI based efficient domain specific processes for effective decision making in several 
+domains such as business and governance domains.  
+2. arrive at actionable Foresight, Insight, hindsight from data for solving business and  
+engineering problems  
+3. create, select and apply the theoretical knowledge of AI and Data Analytics along with 
+practical industrial tools and techniques to manage and solve wicked societal problems  
+4. develop data analytics and data visualization skills, skills  pertaining to knowledge 
+acquisition, knowledge representation and knowledge engineering, and hence be capable 
+of coordinating complex projects.  
+5. able to carry out fundamental research to cater the critical needs of the society through 
+cutting edge technolo gies of AI.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+--- PAGE 3 ---
+ 
+3 
+   Mapping of Course Outcome and Programme Outcome  
+Year  Sem  Course name  PO PSO  
+1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 
+ 
+I I Induction Programme  
+  
+  
+     
+  
+    
+Professional English - I 1.6 2.2 1.8 2.2 1.5 3 3 3 1.6 3 3 3 - - - 
+Matrices  and  Calculus  3 3 1 1 0 0 0 0 2 0 2 3 - - - 
+Engineering Physics  3 3 1.6 1.2 1.8 1 - - - - - 1 - - - 
+Engineering Chemistry  2.8 1.3 1.6 1 - 1.5 1.8 -  - - 1.5 - - - 
+Problem Solving and 
+Python Programming  2 3 3 3 2 - - - - - 2 2 3 3  
+தமிழர்  மரபு   
+/Heritage of Tamils    
+  
+     
+  
+    
+Problem Solving and 
+Python Programming 
+Laboratory  2 3 3 3 2 - - - - - 2 2 3 3 - 
+Physics and Chemistry 
+Laboratory  3 2.4 2.6 1 1           
+2.6 1.3 1.6 1 1 1.4 1.8 - - - - 1.3 - - - 
+English Laboratory $ 3 3 3 3 1 3 3 3 3 3 3 3 - - - 
+II Professional English - II 3 3 3 3 2.75 3 3 3 2.2 3 3 3 - - - 
+ Statistics and 
+Numerical Methods  3 3 1 1 1 0 0 0 2 0 2 3 - - - 
+  Physics for Information 
+Science  3 1.3 2 1.3 2.3 1 1.3 - - - - 2 - - - 
+  Basic Electrical and 
+Electronics Engineering  2 1.8 1 - - - - 1 - - - 2 - - 1 
+  Engineering Graphics  3 1 2 - 2 - - - - 3 - 2 2 2 - 
+  Data Structures Design                 
+  தமிழரும்  
+ததொழில்நுட்பமும்  
+/Tamils and 
+Technology    
+  
+     
+  
+    
+  Engineering Practices 
+Laboratory  3 2 - - 1 1 1 - - - - 2 2 1 1 
+  Data Structures Design 
+Laboratory                 
+  Communication 
+Laboratory / Foreign 
+Language $ 2.4 2.8 3 3 1.8 3 3 3 3 3 3 3 - - - 
+II Iii Discrete Mathematics  1 3 2 1 - - - - - 1 - - - - - 
+  Digital Principles and 
+Computer Organization  3 3 3 3 1.8 1.6 1 1 1 1 1.6 2.6 1.4 2.6 1.6 
+  Database Design and 
+Management  2 2 2 2 1 - - - 2 2 1 1 2 2 2 
+  Design and  Analysis of 
+Algorithms  3 2 2 2 2 - - - 2 2 2 2 2 2 2 
+--- PAGE 4 ---
+ 
+4 
+   Data Exploration and 
+Visualization  2 1 2 2 1 - - - 2 2 2 2 2 2 2 
+  Artificial Intelligence  2 1 2 2 1 - - - 2 2 2 2 2 2 2 
+  Database Design and 
+Management 
+Laboratory  2 2 2 2 1 - - - 2 2 2 2 2 2 2 
+  Artificial Intelligence 
+Laboratory  2 1 2 2 1 - - - 2 2 2 2 2 2 2 
+  Professional 
+Development$   
+  
+     
+  
+    
+ IV Probability and 
+Statistics  3 3 1 1 0 0 0 0 2 0 0 2    
+  Operating Systems  2 2 2 2 1 - - - 2 2 2 2 2 1 2 
+  Machine Learning  2 2 3 2 2 - - - 2 2 2 2 2 2 1 
+  Fundamentals of  Data 
+Science and Analytics  1 1 2 2 2 - - - 3 2 2 2 3 2 1 
+  Computer Networks  2 2 2 2 2 - - - 2 2 2 1 2 2 2 
+  Environmental 
+Sciences and 
+Sustainability  2.8 1.8 1 1 - 2.2 2.4 - - - - 1.8 - - - 
+  Data Science and 
+Analytics Laboratory  2 2 1 2 2 - - - 2 2 2 2 2 2 1 
+  Machine Learning 
+Laboratory  2 2 2 2 2 - - - 2 2 2 2 2 2 2 
+III V Deep Learning  2.8 2.4 2 2.4 2.2 - - - 1.6 2.4 1.4 2.4 2 1.8 2.6 
+  Data and Information 
+Security  2.4 2.6 2.4 2.2 1.5 - - - 1.4 2.2 1.2 2.2 1.8 2 1.6 
+  Distributed Computing  1.8 2.4 1.8 2.4 2 - - - 2.6 2.2 2.2 1.6 2 1.8 1.6 
+  Big Data Analytics  2.8 3 2.8 2.8 2.8 - - - 2.2 1.8 2.6 2 2.2 2.8 2.6 
+  Deep Learning 
+Laboratory  2.6 2.6 1.6 2 1.4 - - - 2 2.4 2.2 1.6 2.4 2.8 2 
+  Summer internship                 
+ VI Embedded Systems 
+and IoT  2.6 2 3 2.4 1.5 - - - 1 2.2 2.2 2.4 2.2 1.6 2.6 
+IV VII Human Values and 
+Ethics    
+  
+     
+  
+    
+  Summer internship  
+  
+  
+     
+  
+    
+ VIII Project Work / 
+Internship    
+  
+     
+  
+    
+1 - low, 2 - medium,  3 - high, ‘ -' - no correlation  
+  
+--- PAGE 5 ---
+ 
+5 
+ ANNA UNIVERSITY, CHENNAI  
+NON - AUTONOMOUS AFFILIATED COLLEGES  
+REGULATIONS 2021  
+CHOICE BASED CREDIT SYSTEM  
+B.TECH. ARTIFICIAL INTELLIGENCE AND DATA SCIENCE  
+  CURRICULUM AND SYLLABI FOR SEMESTERS I TO VIII  
+SEMESTER I  
+S. 
+NO. COURSE  
+CODE  COURSE TITLE  CATE - 
+GORY  PERIODS PER 
+WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+1.  IP3151  Induction Programme  - - - - - 0 
+THEORY  
+2.  HS3152  Professional English - I HSMC  3 0 0 3 3 
+3.  MA3151  Matrices  and  Calculus  BSC 3 1 0 4 4 
+4.  PH3151  Engineering Physics  BSC 3 0 0 3 3 
+5.  CY3151  Engineering Chemistry  BSC 3 0 0 3 3 
+6.  GE3151  Problem Solving and Python 
+Programming  ESC 3 0 0 3 3 
+7.  GE3152  தமிழர்  மரபு   /Heritage of Tamils  HSMC  1 0 0 1 1 
+PRACTICALS  
+8.  GE3171  Problem Solving and Python 
+Programming Laboratory  ESC 0 0 4 4 2 
+9.  BS3171  Physics and Chemistry Laboratory  BSC 0 0 4 4 2 
+10.  GE3172  English Laboratory $ EEC 0 0 2 2 1 
+TOTAL  16 1 10 27 22 
+$ Skill Based Course  
+SEMESTER II  
+S. 
+NO. COURSE  
+CODE  COURSE TITLE  CATE - 
+GORY  PERIODS PER 
+WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+THEORY  
+1.  HS3252  Professional English - II HSMC  2 0 0 2 2 
+2.  MA3251  Statistics and Numerical Methods   BSC 3 1 0 4 4 
+3.  PH3256  Physics for Information Science  BSC 3 0 0 3 3 
+4.  BE3251  Basic Electrical and Electronics 
+Engineering  ESC 3 0 0 3 3 
+5.  GE3251  Engineering Graphics  ESC 2 0 4 6 4 
+6.  AD3251  Data Structures Design   PCC  3 0 0 3 3 
+7.  GE3252  தமிழரும்  ததொழில்நுட்பமும்  
+/Tamils and Technology  HSMC  1 0 0 1 1 
+8.   NCC Credit Course Level 1# - 2 0 0 2 2# 
+PRACTICALS  
+9.  GE3271  Engineering Practices Laboratory  ESC 0 0 4 4 2 
+10.  AD3271  Data Structures Design Laboratory  PCC  0 0 4 4 2 
+11.  GE3272  Communication Laboratory / 
+Foreign Language $ EEC 0 0 4 4 2 
+TOTAL  17 1 16 34 26 
+# NCC Credit Course level 1 is offered for NCC students only. The grades earned by the students will be 
+recorded in the Mark Sheet, however the same shall not be considered for the computation of CGPA.  
+$ Skill Based Course    
+--- PAGE 6 ---
+ 
+6 
+ SEMESTER III  
+S. 
+NO. COURSE  
+CODE  COURSE TITLE  CATE  
+GORY  PERIODS 
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+THEORY  
+1.  MA3354  Discrete Mathematics  BSC 3 1 0 4 4 
+2.  CS335 1 Digital Principles and 
+Computer Organization   PCC  3 0 2 5 4 
+3.  AD3391  Database Design and 
+Management   PCC  3 0 0 3 3 
+4.  AD3351  Design and Analysis of 
+Algorithms  PCC  3 0 2 5 4 
+5.  AD3301  Data Exploration and 
+Visualization  PCC 3 0 2 5 4 
+6.  AL3391  Artificial Intelligence  PCC 3 0 0 3 3 
+PRACTICALS  
+7.  AD3381  Database Design and 
+Management Laboratory   PCC  0 0 3 3 1.5 
+8.  AD3311  Artificial Intelligence 
+Laboratory  PCC 0 0 3 3 1.5 
+9.  GE3361  Professional Development$ EEC 0 0 2 2 1 
+TOTAL  18 1 14 33 26 
+$ Skill Based Course  
+SEMESTER IV  
+S. 
+NO. COURSE  
+CODE  COURSE TITLE  CATE  
+GORY  PERIODS 
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+THEORY  
+1.  MA3391  Probability and Statistics  BSC  3 1 0 4 4 
+2.  AL3452  Operating Systems  PCC  3 0 2 5 4 
+3.  AL3451  Machine Learning  PCC  3 0 0 3 3 
+4.  AD3491  Fundamentals of  Data 
+Science and Analytics  PCC  3 0 0 3 3 
+5.  CS3591  Computer Networks  PCC  3 0 2 5 4 
+6.  GE3451  Environmental Science s and 
+Sustainability  BSC 2 0 0 2 2 
+7.   NCC Credit Course Level 2#  3 0 0 3   3 # 
+PRACTICALS  
+8.  AD3411  Data Science and Analytics 
+Laboratory  PCC 0 0 4 4 2 
+9.  AD3461 Machine Learning Laboratory  PCC  0 0 4 4 2 
+TOTAL  17 1 12 30 24 
+# NCC Credit Course level 2 is offered for NCC students only. The grades earned by the students will 
+be recorded in the Mark Sheet, however the same shall not be considered for the computation of 
+CGPA.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 7 ---
+ 
+7 
+ SEMESTER V  
+S. 
+NO. COURSE  
+CODE  COURSE TITLE  CATE  
+GORY  PERIODS 
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+THEORY  
+1.  AD3501  Deep Learning  PCC  3 0 0 3 3 
+2.  CW3551  Data and Information 
+Security  PCC 3 0 0 3 3 
+3.  CS3551  Distributed Computing  PCC  3 0 0 3 3 
+4.  CCS334  Big Data Analytics  PCC  2 0 2 4 3 
+5.   Professional Elective I  PEC - - - - 3 
+6.   Professional Elective II  PEC - - - - 3 
+7.   Mandatory Course -I& MC 3 0 0 3 0 
+PRACTICALS  
+8.  AD3511  Deep Learning Laboratory  PCC 0 0 4 4 2 
+9.  AD3512  Summer internship  EEC 0 0 0 0 2 
+TOTAL  - - - - 22 
+& Mandatory Course -I is a Non -credit Course ( Student shall select one course from the list given 
+under Mandatory Course -I) 
+ 
+SEMESTER VI  
+S. 
+NO. COURSE  
+CODE  COURSE TITLE  CATE  
+GORY  PERIODS 
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+THEORY  
+1.  CS3691  Embedded Systems and IoT  PCC  3 0 2 5 4 
+2.   Open Elective – I* OEC  3 0 0 3 3 
+3.   Professional Elective III  PEC - - - - 3 
+4.   Professional Elective IV  PEC - - - - 3 
+5.   Professional Elective V  PEC - - - - 3 
+6.   Professional Elective VI  PEC - - - - 3 
+7.   Mandatory Course -II & AC 3 0 0 3 0 
+8.   NCC Credit Course Level 3#  3 0 0 3  
+TOTAL  - - - - 19 
+*Open Elective – I Shall be chosen from the list of open electives offered by other Programmes   
+     
+& Mandatory Course -II is a Non -credit Course (Student shall select one  course from the list given 
+under Mandatory Course -II) 
+ 
+# NCC Credit Course level 3 is offered for NCC students only. The grades earned by the students will 
+be recorded in the Mark Sheet, however the same shall not be considered for the computation of 
+CGPA  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 8 ---
+ 
+8 
+ SEMESTER VII / VIII*  
+S. 
+NO
+. COURSE  
+CODE  COURSE TITLE  CATE  
+GORY  PERIODS  
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+THEORY  
+1.  GE3791  Human Values and Ethics  HSMC  2 0 0 2 2 
+2.   Elective - Management# HSMC  3 0 0 3 3 
+3.   Open Elective – II** OEC  3 0 0 3 3 
+4.   Open Elective – III** OEC  3 0 0 3 3 
+5.   Open Elective – IV** OEC  3 0 0 3 3 
+TOTAL  14 0 0 14 14 
+*If students undergo internship in Semester VII, then the courses offered during semester VII will be 
+offered  during semester VIII.  
+** Open Elective II - IV (Shall be chosen from the list of open electives offered by other Programmes).  
+# Elective - Management shall be chosen from the Elective Management courses.  
+ 
+SEMESTER VIII /VII * 
+ 
+S. 
+NO
+. COURSE  
+  CODE  COURSE TITLE  CATE  
+GORY  PERIODS 
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+PRACTICALS  
+1.  AD3811  Project Work  / Internship  EEC 0 0 20 20 10 
+TOTAL  0 0 20 20 10 
+*If students undergo internship in Semester VII, then the courses offered during semester VII will be 
+offered during semester VIII. 
+ 
+                                                                                                           TOTAL CREDITS: 163   
+ 
+ELECTIVE – MANAGEMENT COURSES  
+ 
+S. 
+NO. COURSE  
+CODE  COUR SE TITLE CATE  
+ GORY  PERIODS 
+PER WEEK TOTAL 
+CONTACT 
+PERIODS  CREDITS 
+L T P 
+1.  GE3751  Principles of Management  HSMC  3 0 0 3 3 
+2.  GE3752  Total Quality Management  HSMC  3 0 0 3 3 
+3.  GE3753  Engineering Economics and 
+Financial Accounting  HSMC  3 0 0 3 3 
+4.  GE3754  Human Resource 
+Management  HSMC  3 0 0 3 3 
+5.  GE3755  Knowledge Management  HSMC  3 0 0 3 3 
+6.  GE3792  Industrial Management  HSMC  3 0 0 3 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 9 ---
+ 
+9 
+ MANDATORY COURSES I  
+ 
+S. 
+NO.  
+COURSE  
+CODE  COURSE TITLE  CATE  
+GORY  PERIODS 
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+1.  MX3081  Introduction to Women 
+and Gender Studies  MC 3 0 0 3 0 
+2.  MX3082  Elements of Literature  MC 3 0 0 3 0 
+3.  MX3083  Film Appreciation  MC 3 0 0 3 0 
+4.  MX3084  Disaster Risk Reduction 
+and Management  MC 3 0 0 3 0 
+ 
+ 
+MANDATORY COURSES II  
+S. 
+NO.     
+COURSE  
+  CODE  COURSE TITLE  CATE  
+GORY  PERIODS 
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+1.  
+MX3085  Well Being with 
+Traditional Practices -
+Yoga, Ayurveda and 
+Siddha  MC 3 0 0 3 0 
+2.  MX3086  History of Science and 
+Technology in India  MC 3 0 0 3 0 
+3.  
+MX3087  Political and Economic 
+Thought for a Humane 
+Society  MC 3 0 0 3 0 
+4.  MX3088  State,  Nation Building 
+and Politics in India  MC 3 0 0 3 0 
+5.  MX3089  Industrial Safety  MC 3 0 0 3 0 
+ 
+ 
+   
+  
+ 
+--- PAGE 10 ---
+ 
+1 
+ PROFESSIONAL ELECTIVE COURSES: VERTICALS  
+ 
+ 
+ 
+Registration of Professional Elective Courses from Verticals:  
+ 
+Professional Elective Courses will be registered in Semesters V and VI. These courses are listed in groups called verticals that represent a particular area of specialisation / diversified 
+group. Students are permitted to choose all the Professional Electives from a particular vertical or from different verticals .  Further, only one Professional Elective course  shall be 
+chosen in a semester horizontally (row -wise). However, two courses are permitted from the same row, provided one course is enrolled in Semester V and another in sem ester VI.   
+ 
+ The registration of courses for B.E./B.Tech (Honours) or Minor degree  shall be done from Semester V to VIII.   The procedure for registration of courses explained above shall be 
+followed for the courses of B.E/B.Tech (Honours) or Minor degree also. For more details on B.E./B.Tech (Honours) or Minor deg ree refer to the Regula tions 2021, Clause 4.10  
+(Amendments) . 
+ 
+ Vertical  for AIDS   
+I Vertical II  
+Full Stack 
+Development for IT  Vertical III  
+Cloud Computing and 
+Data Cen ter 
+Technologies  Vertical IV  
+Cyber Security and 
+Data Privacy  Vertical V  
+Creative  Media  Vertical VI  
+Emerging 
+Technologies  Vertical for  AIDS 
+II 
+ 
+Knowledge 
+Engineering  Cloud Computing  Cloud Computing  Ethical Hacking  Augmented 
+Reality/Virtual 
+Reality  Augmented 
+Reality/Virtual 
+Reality  Bio-Inspired 
+Optimization 
+Techniques  
+Recommender 
+Systems  App Development  Virtualization  Digital and Mobile 
+Forensics  Multimedia and 
+Animation  Robotic Process 
+Automation  App Development  
+Soft Computing  Cloud Services 
+Management  Cloud Services 
+Management  
+ Social Network 
+Security  Video Creation 
+and Editing  Neural Networks 
+and Deep Learning  Health Care 
+Analytics  
+Text and Speech   
+Analysis  UI and UX Design  Data Warehousing  Modern Cryptography  UI and UX 
+Design  Cyber Security  Cyber Security  
+Business 
+Analytics  Software Testing and 
+Automation  Storage Technologies  Engineering Secure 
+Software Systems  Digital marketing  Quantum 
+Computing  Optimization 
+Techniques  
+Image and video 
+analytics  Web Application 
+Security  Software Defined 
+Networks  Cryptocurrency and 
+Blockchain 
+Technologies  Multimedia Data 
+Compression 
+and  Stora ge Cryptocurrency and 
+Blockchain 
+Technologies  Game Theory  
+Computer Vision  DevOps Stream Processing  Network Security  Game 
+Development  Game Development  Cognitive 
+Science  
+Big Data 
+Analytics  Principles of 
+Programming 
+Languages  Security and Privacy in 
+Cloud  Security and Privacy 
+in Cloud  Visual Effects  3D Printing and 
+Design  Ethics and AI 
+--- PAGE 11 ---
+ 
+2 
+ PROFESSIONAL ELECTIVE COURSES: VERTICALS  
+ 
+VERTICAL 1: VERTICALS FOR AIDS I  
+ 
+S. 
+NO. COURSE  
+    CODE  COURSE TITLE  CATE  
+GORY  PERIODS  
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+1.  CCS350  Knowledge Engineering  PEC 2 0 2 4 3 
+2.  CCS360  Recommender Systems  PEC 2 0 2 4 3 
+3.  CCS364  Soft Computing  PEC 2 0 2 4 3 
+4.  CCS369  Text and Speech   
+Analysis  PEC 2 0 2 4 3 
+5.  CCW331  Business Analytics  PEC 2 0 2 4 3 
+6.  CCS349  Image and Video 
+Analytics  PEC 2 0 2 4 3 
+7.  CCS338  Computer Vision  PEC 2 0 2 4 3 
+8.  CCS334  Big Data Analytics  PEC 2 0 2 4 3 
+ 
+VERTICAL 2:  FULL STACK DEVELOPMENT  FOR IT  
+ 
+S. 
+NO. COURSE  
+    CODE  COURSE TITLE  CATE  
+GORY  PERIODS  
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+1.  CCS335  Cloud Computing  PEC 2 0 2 4 3 
+2.  CCS332  App Development    PEC 2 0 2 4 3 
+3.  CCS336  Cloud Services 
+Management  PEC 2 0 2 4 3 
+4.  CCS370  UI and UX Design  PEC 2 0 2 4 3 
+5.  CCS366  Software Testing and 
+Automation  PEC 2 0 2 4 3 
+6.  CCS374  Web Application 
+Security  PEC 2 0 2 4 3 
+7.  CCS342  DevOps  PEC 2 0 2 4 3 
+8.  
+CCS358  Principles of 
+Programming 
+Languages  PEC 3 0 0 3 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 12 ---
+ 
+3 
+ VERTICAL 3: CLOUD COMPUTING AND DATA CENT ER TECHNOLOGIES  
+ 
+S. 
+NO. COURSE  
+   CODE  COURSE TITLE  CATE  
+GORY  PERIODS  
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+1.  CCS335  Cloud Computing  PEC 2 0 2 4 3 
+2.  CCS372  Virtualization  PEC 2 0 2 4 3 
+3.  CCS336  Cloud Services 
+Management  PEC 2 0 2 4 3 
+4.  CCS341  Data Warehousing  PEC 2 0 2 4 3 
+5.  CCS367  Storage Technologies  PEC 3 0 0 3 3 
+6.  CCS365  Software Defined 
+Networks  PEC 2 0 2 4 3 
+7.  CCS368  Stream Processing  PEC 2 0 2 4 3 
+8.  CCS362  Security and Privacy in 
+Cloud  PEC 2 0 2 4 3 
+ 
+VERTICAL 4: CYBER SECURITY AND DATA PRIVACY  
+ 
+S. 
+NO. COURSE  
+   CODE  COURSE TITLE  CATE  
+GORY  PERIODS  
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+1.  CCS344  Ethical Hacking  PEC 2 0 2 4 3 
+2.  CCS343  Digital and Mobile 
+Forensics  PEC 2 0 2 4 3 
+3.  CCS363  Social Network Security  PEC 2 0 2 4 3 
+4.  CCS351  Modern Cryptography  PEC 2 0 2 4 3 
+5.  CB3591  Engineering Secure 
+Software Systems   PEC 2 0 2 4 3 
+6.  CCS339  Cryptocurrency and 
+Blockchain Technologies  PEC 2 0 2 4 3 
+7.  CCS354  Network Security  PEC 2 0 2 4 3 
+8.  CCS362  Security and Privacy in 
+Cloud  PEC 2 0 2 4 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 13 ---
+ 
+4 
+ VERTICAL 5: CREATIVE MEDIA  
+ 
+S. 
+NO. COURSE  
+   CODE  COURSE  TITLE  CATE  
+GORY  PERIODS  
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+1.  CCS333  Augmented 
+Reality/Virtual Reality  PEC 2 0 2 4 3 
+2.  CCS352  Multimedia and 
+Animation  PEC 2 0 2 4 3 
+3.  CCS371  Video Creation and 
+Editing  PEC 2 0 2 4 3 
+4.  CCS370  UI and UX Design  PEC 2 0 2 4 3 
+5.  CCW332  Digital marketing  PEC 2 0 2 4 3 
+6.  
+CCS353  Multimedia Data 
+Compression  and 
+Storage  PEC 2 0 2 4 3 
+7.  CCS347  Game Development  PEC 2 0 2 4 3 
+8.  CCS373  Visual Effects  PEC 2 0 2 4 3 
+ 
+VERTICAL 6: EMERGING TECHNOLOGIES  
+ 
+S. 
+NO. COURSE  
+   CODE  COURSE TITLE  CATE  
+GORY  PERIODS  
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+1.  CCS333  Augmented 
+Reality/Virtual Reality  PEC 2 0 2 4 3 
+2.  CCS361  Robotic Process 
+Automation  PEC 2 0 2 4 3 
+3.  CCS355  Neural Networks and 
+Deep Learning  PEC 2 0 2 4 3 
+4.  CCS340  Cyber Security  PEC 2 0 2 4 3 
+5.  CCS359  Quantum Computing  PEC 2 0 2 4 3 
+6.  
+CCS339  Cryptocurrency and 
+Blockchain 
+Technologies  PEC 2 0 2 4 3 
+7.  CCS347  Game Development  PEC 2 0 2 4 3 
+8.  CCS331  3D Printing and Design  PEC 2 0 2 4 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 14 ---
+ 
+5 
+ VERTICAL 7: VERTICALS FOR AIDS II  
+ 
+S. 
+NO. COURSE  
+    CODE  COURSE TITLE  CATE  
+GORY  PERIODS  
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+1.  
+AD3001  Bio-Inspired 
+Optimization 
+Techniques  PEC 3 0 0 3 3 
+2.  CCS332  App Development   PEC 2 0 2 4 3 
+3.  AD3002  Health Care Analytics  PEC 3 0 0 3 3 
+4.  CCS340  Cyber Security  PEC 2 0 2 4 3 
+5.  CCS357  Optimization 
+Techniques  PEC 2 0 2 4 3 
+6.  CCS348  Game Theory  PEC 2 0 2 4 3 
+7.  CCS337  Cognitive Science  PEC 2 0 2 4 3 
+8.  CCS345  Ethics and AI PEC 2 0 2 4 3 
+ 
+ 
+ 
+OPEN ELECTIVES  
+(Students shall choose the open elective courses, such that the course contents are not 
+similar to any other course contents/title under other course categories).  
+ 
+OPEN ELECTIVES – I  
+ 
+S. 
+NO. COURSE  
+CODE  
+ COURSE TITLE  CATE  
+GORY  PERIODS  
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+1.  OAS351  Space Science  OEC  3 0 0 3 3 
+2.  OIE351  Introduction to Industrial 
+Engineering  OEC  3 0 0 3 3 
+3.  OBT351  Food, Nutrition and Health  OEC  3 0 0 3 3 
+4.  OCE351  Environment and Social 
+Impact Assessment  OEC  3 0 0 3 3 
+5.  OEE351  Renewable Energy System  OEC  3 0 0 3 3 
+6.  OEI351  Introduction to Industrial 
+Instrumentation and Control  OEC  3 0 0 3 3 
+7.  OMA351  Graph Theory  OEC  3 0 0 3 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 15 ---
+ 
+6 
+ OPEN ELECTIVES –  II 
+ 
+S. 
+NO. COURSE  
+  CODE  COURSE TITLE  CATE  
+ GORY  PERIODS  
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+1.  OIE352  Resource Management 
+Techniques  OEC  3 0 0 3 3 
+2.  OMG351  Fintech Regulation  OEC  3 0 0 3 3 
+3.  OFD351  Holistic Nutrition     OEC  3 0 0 3 3 
+4.  AI3021  IT in Agricultural System  OEC  3 0 0 3 3 
+5.  OEI352  Introduction  to Control 
+Engineering  OEC  3 0 0 3 3 
+6.  OPY351  Pharmaceutical  
+Nanotechnology  OEC  3 0 0 3 3 
+7.  OAE351  Aviation Management  OEC  3 0 0 3 3 
+ 
+ 
+OPEN ELECTIVES – III  
+ 
+SL. 
+NO. COURSE  
+  CODE  
+ COURSE TITLE  CATE  
+GORY  PERIODS  
+PER WEEK  TOTAL 
+CONTACT 
+PERIODS  CREDITS  
+L T P 
+1.  OHS351  English for Competitive 
+Examinations  OEC  3 0 0 3 3 
+2.  OMG352  NGOs and Sustainable 
+Development  OEC  3 0 0 3 3 
+3.  OMG353  Democracy and Good 
+Governance  OEC  3 0 0 3 3 
+4.  CME365  Renewable Energy 
+Technologies  OEC  3 0 0 3 3 
+5.  OME354  Applied Design Thinking  OEC  3 0 0 3 3 
+6.  MF3003  Reverse Engineering  OEC  3 0 0 3 3 
+7.  OPR351  Sustainable Manufacturing  OEC  3 0 0 3 3 
+8.  AU3791  Electric and Hybrid Vehicles  OEC  3 0 0 3 3 
+9.  OAS352  Space Engineering  OEC  3 0 0 3 3 
+10.  OIM351  Industrial Management  OEC  3 0 0 3 3 
+11.  OIE354  Quality Engineering  OEC  3 0 0 3 3 
+12.  OSF351  Fire Safety Engineering  OEC  3 0 0 3 3 
+13.  OML351  Introduction to Non -destructive 
+Testing  OEC  3 0 0 3 3 
+14.  OMR351  Mechatronics  OEC  3 0 0 3 3 
+15.  ORA351  Foundation of  Robotics  OEC  3 0 0 3 3 
+16.  OAE352  Fundamentals of Aeronautical  
+Engineering   OEC  3 0 0 3 3 
+17.  OGI351  Remote Sensing Concepts  OEC  3 0 0 3 3 
+18.  OAI351  Urban Agriculture  OEC  3 0 0 3 3 
+19.  OEN351  Drinking Water Supply and 
+Treatment  OEC  3 0 0 3 3 

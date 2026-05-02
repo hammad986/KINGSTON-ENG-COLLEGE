@@ -1,0 +1,278 @@
+KNEC - CSBS-News Letter   2023-2024: Issue 1  
+ 
+Department of Computer Science and Business Systems  
+JUNE  2023 – MAY 2024      Issue 1  
+ 
+NEWS LETTER                      For private circulation only  
+ 
+ 
+Department Vision  
+ 2023-2024 
+KNEC - CSBS-News Letter   2023-2024: Issue 1   
+ 
+ 
+CONTENTS  
+ Mission  
+ Vision  
+ PEO’S  
+ About the Department  
+❖ Department Events  
+ Symposium, Workshops & Guest Lecture organized by the  Department  
+ Sports Activities  
+ FDP/Workshop attended by the Faculty  
+ FDP/Workshop/Paper Presentation attended by the Students  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+KNEC - CSBS-News Letter   2023-2024: Issue 1   
+ 
+Department Vision  
+To provide the best opportunity to the students to attain technical excellence in the field of 
+Computer Science and Business Systems Engineering and to produce competitive and 
+versatile computer engineers.  
+Department Mission  
+1. Educating students with the background of fundamentals, stretching their imagination 
+to meet the challenges in the field of Computer Science and Business Systems . 
+2. Transforming the emerging technology to the young minds by effective teaching 
+learning process.  
+3. Imparting the self learning ability, leadership and managerial quality to the students.  
+ 
+Programme Educational Objectives (PEOs)  
+PE01  - To ensure graduates will be proficient in utilizing the fundamental knowledge of 
+basic sciences, mathematics, Computer Science and Business systems for the 
+applications relevant to various streams of Engineering and Technology . 
+ 
+PEO2 - To enrich graduates with the core competencies necessary for applying 
+knowledge of computer science and Data analytics tools to store, retrieve, implement 
+and analyze data in the context of business enterprise  
+ 
+PEO3  - To enable graduates to gain employment in organizations and establish 
+themselves as professionals by applying their technical skills and leadership qualities 
+to solve real world problems and meet the diversified needs of industry, academia 
+and research  
+ 
+PEO4 - To equip the graduates with entrepreneurial skills and qualities which help them 
+to perceive the functioning of business, diagnose business problems, explore the 
+entrepreneurial opportunities and prepare them to manage business efficiently.  
+KNEC - CSBS-News Letter   2023-2024: Issue 1   
+Programme Outcomes (POs)  
+Engineering Graduates will be able to:  
+ 
+1. Engineering knowledge : Apply the knowledge of mathematics, science, engineering  
+fundamentals, and an engineering specialization to the solution of complex engineering 
+problems.  
+2. Problem analysis : Identify, formulate, review research literature, and analyze complex  
+engineering problems reaching substantiated conclusions using first principles of 
+mathematics, natural sciences, and engineering sciences.  
+3. Design/development of solutions : Design solutions for complex engineering 
+problems and  design system components or processes that meet the specified needs 
+with appropriate consideration for the public health and safety, and the cultural, 
+societal, and environmental considerations.  
+4. Conduct investigations of complex problems : Use research -based knowledge and 
+research  methods including design of experiments, analysis and interpretation of data, 
+and synthesis of the information to provide valid conclusions.  
+5. Modern tool usage : Create, select, and apply appropriate techniques, resources, and 
+modern  engineering and IT tools including prediction and modeling to complex 
+engineering activities with an understanding of the limitations.  
+6. The engineer and society : Apply reasoning informed by the contextual knowledge to 
+assess  societal, health, safety, legal and cultural issues and the consequent 
+responsibilities relevant to the professional engineering practice.  
+7. Environment and sustainability : Understand the impact of the professional 
+engineering solutions  in societal and environmental contexts, and demonstrate the 
+knowledge of, and need for sustainable development.  
+8. Ethics : Apply ethical principles and commit to professional ethics and responsibilities 
+and norms of  the engineering practice.  
+9. Individual and team work : Function effectively as an individual, and as a member or 
+leader in  diverse teams, and in multidisciplinary settings.  
+10. Communication : Communicate effectively on complex engineering activities with the 
+engineering  community and with society at large, such as, being able to comprehend 
+and write effective reports and design documentation, make effective presentations, 
+and give and receive clear instructions.  
+11. Project management and finance : Demonstrate knowledge and understanding of the  
+engineering and management principles and apply these to one’s own work, as a 
+member and leader in a team, to manage projects and in multidisciplinary 
+environments.  
+12. Life -long learning : Recognize the need for, and have the preparation and ability to 
+engage in  independent and life -long learning in the broadest context of technological 
+change.  
+KNEC - CSBS-News Letter   2023-2024: Issue 1   
+Programme Specific Outcomes (PSOs)  
+At the end of the programme, the graduates will be able to:  
+PSO1 - To create, select, and apply appropriate techniques, resources, modern 
+engineering and business tools including prediction and data analytics to complex 
+engineering activities and business solutions  
+PSO2 - To evolve computer science domain specific methodologies for effective decision 
+making in several critical problem domains of the real world.  
+PSO3  - To be able to apply entrepreneurial skills and management tools for identifying, 
+analyzing and creating business opportunities with smart business ideas  
+PSO4  - To manage complex IT projects with consideration of the human, financial, ethical 
+and environmental factors and an understanding of risk management processes, and 
+operational and policy implications  
+ 
+ 
+ 
+       Department of computer science and business systems organized a 5 day Value added 
+course on Cloud Computing Technologies (Microsoft Azure, Amazon ) from 06/03/2024 to 
+09/03/2024. Ms.M.Anitha  Head of Department  introduced a chief guest Mr. Venkatesan 
+Gopal, Senior Solution Architect, Finastra MISYS, A sonata software services company, 
+Chennai.  This course focused in enabling the students for using and understanding AZURE 
+AD RBAC . Understand the potential impact of cloud technologies on various industries. 
+Provided insight into the emerging trends and future directions of AWS cloud.  At 
+valedictory ceremony, the participant s were awarded the certificates.  The ceremony  
+function came to an end with a group photo session . 
+ VALUE ADDED COURSE  
+ 
+KNEC - CSBS-News Letter   2023-2024: Issue 1   
+ 
+✓ Ms. M. Anitha – attended an Online FDP on Five Days National Level Online Faculty 
+Development Programme on “Unlocking Industry Insights in Data Science” from 
+12.02.2024 to 16.02.2024 organized by Department of Computer Science & Engineering 
+(Data Science), Madanapalle Institute of Technology & Science, Madanapalle -517325.  
+✓ Ms. M. Anitha – Published a Book Chapter titled Artificial Intelligence – Emerging Marketing 
+in Economies, Challenges, Opportunities, with Integrated Development of SMES in PMS in 
+Futuristic Trends in Computing Technologies and Data Sciences, e -ISBN: 978 -93-6252 -
+441-6, IIP Series, Volume 3, Book 6, Part 1, Chapter 1   February 2024.  
+✓ Ms. M. Anitha – Published a Journal titled Dynamic Mobile Cloud Ecosystem Security a 
+Review in International Journal of Data Informatics and Intelligent Computing. March 
+23, 2023  
+✓ Ms. M. Anitha – Published a Journal titled Skin Cancer Detection Using Deep Learning a 
+Review in International Journal of Scientific Research in Engineering & Management, 
+May, 2023  
+✓ Ms. M. Anitha – attended FDP on Full Stack with Python Programming at KCG College of 
+Engineering and Technology, Chennai.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ FDP/WORKSHOP /journal/conference  ATTENDED BY THE FACULTIES  
+KNEC - CSBS-News Letter   2023-2024: Issue 1   
+ 
+ 
+S. 
+No. Academ
+ic Year  Event Type  
+Workshop/  
+Conference/  
+Symposium  College 
+/Industry/Univ
+ersity  
+Attended  Name of the Event  Students 
+Participated  Prizes / 
+Awards Won  
+1 2023 -24 Online Course  Infosys 
+Springboard  Introduction To Java  
+ Velmurugan S  
+Dharshan J  
+Logeswaran S  Completed  
+2 2023 -24 Project Expo -24 
+ Kingston 
+Engineering 
+College  Project Expo -24 
+ Logeswaran S  
+Sarath Kumar U  
+Rohith R  
+Chethanprasath T C  Second Prize  
+3 2023 -24 Workshop  Kingston 
+Engineering 
+College  Self Defence Training 
+Program for Girls  
+ Sathyasadhana S  
+Salini V  
+Priyanka S  
+Mathumitha S  
+Gayathri G  
+Monica B  
+Monica P  
+Gayathri G  
+Harini Sree S  
+Divya K  
+Archana G  Participated  
+4 2023 -24 Online Course  Infosys 
+Springboard  Personal Skills For 
+Effective Business Analysis  Priyanka S  Completed  
+5 2023 -24 Online Course  Infosys 
+Springboard  Business Analysis 
+Analytical Techniques  Priyanka S  Completed  
+6 2023 -24 Online Course  Infosys 
+Springboard  Cloud Computing  Priyanka S  Completed  
+7 2023 -24 Online Course  Infosys 
+Springboard  Python Programming -01 Priyanka S  Completed  
+8 2023 -24 Online Course  Infosys 
+Springboard  Machine Learning With 
+Matlab  Priyanka S  Completed  
+9 2023 -24 Online Course  Infosys 
+Springboard  Self Defence Training 
+Program For Girls  Priyanka S  Completed  
+10 2023 -24 Online Course  Infosys 
+Springboard  Business Analyst To Data 
+Analyst  Priyanka S  Completed  
+11 2023 -24 Online Course  Infosys 
+Springboard  Business Analyst  Priyanka S  Completed  
+12 2023 -24 Online Course  Infosys 
+Springboard  Decision Analyst  Priyanka S  Completed  
+13 2023 -24 Online Course  Infosys 
+Springboard  The Strategy Analysis 
+Knowledge Area  Priyanka S  Completed  
+14 2023 -24 Online Course  Infosys 
+Springboard  Full Stack Development:  
+Introduction  Priyanka S  Completed  
+15 2023 -24 Online Course  Infosys 
+Springboard  Ruby Full Stack 
+Development:  Introduction  Priyanka S  Completed  
+16 2023 -24 Online Course  Infosys 
+Springboard  Business Analysis 
+Overview  Priyanka S  
+ Completed  
+17 2023 -24 Online Course  Infosys 
+Springboard  System Analyst  Priyanka S  
+ Completed  
+18 2023 -24 Cultural  Kingston 
+Engineering 
+College  POSTER MAKING 
+COMPETITION  Divya K  
+ Participated  Inplant training/internship/ WORKSHOP/ PAPER PRESENTATION ATTENDED BY THE STUDENTS  
+KNEC - CSBS-News Letter   2023-2024: Issue 1   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

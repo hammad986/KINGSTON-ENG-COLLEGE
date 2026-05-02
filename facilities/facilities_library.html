@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library - Kingston Engineering College</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/animations.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/ai-assistant.css">
+    <style>
+        /* ---- HERO SWIPER CAROUSEL ---- */
+        .hero-slides-wrap {
+            position: absolute;
+            top: 50%;
+            right: 56px;
+            transform: translateY(-50%);
+            z-index: 10;
+            width: 660px;
+            max-width: 48vw;
+            pointer-events: all;
+        }
+
+        .hero-main-swiper {
+            width: 100%;
+        }
+
+        .hero-slide-card {
+            background: rgba(0, 0, 0, 0.62);
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            border-radius: 18px;
+            padding: 36px 42px 28px;
+            color: #fff;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            transition: transform 0.4s;
+        }
+
+        .hero-slide-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .hero-card-title {
+            font-size: 1.6rem;
+            font-weight: 800;
+            margin-bottom: 28px;
+            color: #fff;
+            letter-spacing: 0.5px;
+        }
+
+        .hero-card-flex {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+        }
+
+        .hero-card-item {
+            flex: 1;
+            text-align: center;
+        }
+
+        .hero-card-logo-box {
+            background: #fff;
+            border-radius: 10px;
+            padding: 18px 14px 10px;
+            margin-bottom: 14px;
+            min-height: 110px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .hero-card-logo-box img {
+            width: 70px;
+            height: auto;
+            object-fit: contain;
+        }
+
+        .hero-card-logo-box p {
+            font-size: 0.6rem;
+            color: #333;
+            font-weight: 700;
+            text-align: center;
+            line-height: 1.3;
+        }
+
+        .hero-card-divider {
+            width: 1px;
+            background: rgba(255, 255, 255, 0.25);
+            min-height: 140px;
+            align-self: center;
+            flex-shrink: 0;
+        }
+
+        .hero-card-label {
+            color: #f5c518;
+            font-size: 0.78rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .hero-card-value {
+            color: #fff;
+            font-size: 1.15rem;
+            font-weight: 800;
+        }
+
+        .hero-swiper-pagination {
+            margin-top: 18px;
+            position: static !important;
+            text-align: center;
+        }
+
+        .hero-swiper-pagination .swiper-pagination-bullet {
+            background: #fff;
+            opacity: 0.5;
+            width: 8px;
+            height: 8px;
+        }
+
+        .hero-swiper-pagination .swiper-pagination-bullet-active {
+            background: #f5c518;
+            opacity: 1;
+            width: 22px;
+            border-radius: 4px;
+        }
+
+        /* ---- PREMIUM MODERN LIBRARY STYLES (NON-GLASSMORPHIC BUT GLOSSY) ---- */
+        :root {
+            --lib-primary: #003366;
+            --lib-accent: #f5c518;
+            --lib-bg-light: #fdfdfd;
+            --lib-text-muted: #64748b;
+            --lib-shadow-sm: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --lib-shadow-md: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --lib-shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+
+        .library-main-container {
+            background-color: var(--lib-bg-light);
+            color: #1e293b;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Enriched Overview Styles */
+        .overview-section {
+            padding: 100px 0;
+            background: linear-gradient(180deg, #fff 0%, #f8fafc 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .overview-section::before {
+            content: '';
+            position: absolute;
+            top: -150px;
+            right: -150px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(245, 197, 24, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+            z-index: 0;
+        }
+
+        .overview-box {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .overview-badge {
+            background: rgba(0, 51, 102, 0.05);
+            color: var(--lib-primary);
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 25px;
+            border: 1px solid rgba(0, 51, 102, 0.1);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .overview-title {
+            font-size: clamp(2.2rem, 5vw, 3.5rem);
+            font-weight: 900;
+            color: var(--lib-primary);
+            margin-bottom: 30px;
+            line-height: 1.1;
+        }
+
+        .overview-title span {
+            color: var(--lib-accent);
+            position: relative;
+        }
+
+        .overview-text {
+            font-size: 1.25rem;
+            line-height: 1.8;
+            color: #475569;
+            margin-bottom: 40px;
+        }
+
+        /* Stats Grid */
+        .lib-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin-top: 60px;
+        }
+
+        .lib-stat-item {
+            background: #fff;
+            padding: 35px 25px;
+            border-radius: 20px;
+            box-shadow: var(--lib-shadow-md);
+            border: 1px solid #f1f5f9;
+            transition: all 0.4s ease;
+            text-align: center;
+        }
+
+        .lib-stat-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--lib-shadow-lg);
+            border-color: var(--lib-accent);
+        }
+
+        .lib-stat-icon {
+            font-size: 2.2rem;
+            color: var(--lib-primary);
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+
+        .lib-stat-number {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--lib-primary);
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .lib-stat-label {
+            font-size: 0.95rem;
+            color: var(--lib-text-muted);
+            font-weight: 500;
+        }
+
+        /* Policy Navigator Styles */
+        .policy-section {
+            padding: 100px 0;
+            background: #0f172a;
+            color: #fff;
+            position: relative;
+        }
+
+        .policy-header {
+            text-align: center;
+            margin-bottom: 70px;
+        }
+
+        .policy-tagline {
+            color: var(--lib-accent);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .policy-main-title {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .policy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .policy-item {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 24px;
+            padding: 40px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .policy-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 0;
+            background: var(--lib-accent);
+            transition: height 0.4s ease;
+        }
+
+        .policy-item:hover {
+            background: rgba(255, 255, 255, 0.06);
+            transform: scale(1.02);
+            border-color: rgba(245, 197, 24, 0.3);
+        }
+
+        .policy-item:hover::before {
+            height: 100%;
+        }
+
+        .policy-icon-box {
+            width: 60px;
+            height: 60px;
+            background: rgba(245, 197, 24, 0.1);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+            font-size: 1.5rem;
+            color: var(--lib-accent);
+        }
+
+        .policy-title-sub {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #f8fafc;
+        }
+
+        .policy-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .policy-list li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 15px;
+            color: #94a3b8;
+            line-height: 1.6;
+            font-size: 1rem;
+        }
+
+        .policy-list li i {
+            position: absolute;
+            left: 0;
+            top: 6px;
+            font-size: 0.85rem;
+            color: var(--lib-accent);
+        }
+
+        .policy-highlight {
+            color: var(--lib-accent);
+            font-weight: 700;
+        }
+
+        /* Premium Gallery Grid Expansion */
+        .library-gallery-section {
+            background: #f8fafc;
+            padding: 120px 0;
+        }
+
+        .gallery-nav-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .liquid-card {
+            position: relative;
+            border-radius: 28px;
+            overflow: hidden;
+            background: #fff;
+            box-shadow: var(--lib-shadow-lg);
+            transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+            aspect-ratio: 4/5;
+        }
+
+        .liquid-card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 40px 80px rgba(0, 51, 102, 0.2);
+        }
+
+        .liquid-img-wrap {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .liquid-img-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 1.2s cubic-bezier(0.19, 1, 0.22, 1);
+        }
+
+        .liquid-card:hover .liquid-img-wrap img {
+            transform: scale(1.15);
+        }
+
+        .liquid-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 40px 30px 30px;
+            background: linear-gradient(0deg, rgba(0, 51, 102, 0.95) 0%, rgba(0, 51, 102, 0.7) 40%, transparent 100%);
+            color: #fff;
+            transform: translateY(40px);
+            transition: all 0.5s ease;
+            opacity: 0;
+        }
+
+        .liquid-card:hover .liquid-overlay {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .liquid-tag {
+            background: var(--lib-accent);
+            color: var(--lib-primary);
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .liquid-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .liquid-desc {
+            font-size: 0.95rem;
+            color: #cbd5e1;
+            line-height: 1.5;
+            margin-bottom: 0;
+        }
+
+        /* Interactive Timeline/Hours */
+        .hours-box {
+            background: linear-gradient(135deg, var(--lib-primary) 0%, #004080 100%);
+            padding: 40px;
+            border-radius: 30px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 50px;
+            box-shadow: var(--lib-shadow-lg);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .hours-box { flex-direction: column; text-align: center; gap: 30px; }
+            .policy-main-title { font-size: 2.2rem; }
+        }
+
+        .hour-item { text-align: center; flex: 1; }
+        .hour-label { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2px; color: #cbd5e1; margin-bottom: 10px; display: block; }
+        .hour-time { font-size: 1.8rem; font-weight: 900; color: var(--lib-accent); }
+    </style>
+
+    <style>
+        /* === ROOT DESIGN TOKENS === */
+        :root {
+            --clr-navy:    #020e22;
+            --clr-dark:    #0a1628;
+            --clr-gold:    #f5c518;
+            --clr-gold2:   #e8a500;
+            --clr-blue:    #003366;
+            --clr-surface: #111c2e;
+            --clr-muted:   #64748b;
+            --clr-text:    #e2e8f0;
+            --transition:  0.6s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        @keyframes lib-float    { 0%,100%{transform:translateY(0) rotate(0)} 33%{transform:translateY(-18px) rotate(1.5deg)} 66%{transform:translateY(-8px) rotate(-1deg)} }
+        @keyframes lib-pulse-ring { 0%{transform:scale(1);opacity:1} 100%{transform:scale(2.2);opacity:0} }
+        @keyframes lib-draw-line  { from{transform:scaleX(0)} to{transform:scaleX(1)} }
+        @keyframes lib-slide-up   { from{transform:translateY(40px);opacity:0} to{transform:translateY(0);opacity:1} }
+        @keyframes lib-shimmer    { 0%{background-position:-200% center} 100%{background-position:200% center} }
+        @keyframes lib-card-glow  { 0%,100%{box-shadow:0 0 0 0 rgba(245,197,24,0)} 50%{box-shadow:0 0 40px 4px rgba(245,197,24,0.18)} }
+
+        body { scroll-behavior: smooth; }
+        .library-main-container { background: var(--clr-navy); color: var(--clr-text); font-family: 'Inter', sans-serif; overflow-x: hidden; }
+
+        /* Decorative BG blobs */
+        .lib-particle-bg { position:absolute; inset:0; pointer-events:none; overflow:hidden; }
+        .lib-particle-bg::before,.lib-particle-bg::after { content:''; position:absolute; border-radius:50%; background:var(--clr-gold); }
+        .lib-particle-bg::before { width:600px;height:600px;top:-200px;right:-150px;opacity:0.05;animation:lib-float 14s ease-in-out infinite; }
+        .lib-particle-bg::after  { width:350px;height:350px;bottom:-100px;left:-80px;opacity:0.04;animation:lib-float 18s ease-in-out infinite reverse; }
+
+        /* ── OVERVIEW ── */
+        .overview-section { position:relative;padding:130px 0 150px;background:#fff;overflow:hidden; }
+        .overview-section .lib-particle-bg::before { background:var(--clr-blue);opacity:0.04;width:500px;height:500px;top:-120px;right:-100px; }
+        .overview-section::after { content:'';position:absolute;bottom:0;left:0;right:0;height:80px;background:var(--clr-navy);clip-path:polygon(0 100%,100% 0,100% 100%); }
+        .overview-inner { position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center; }
+        @media(max-width:900px){.overview-inner{grid-template-columns:1fr;gap:40px;}}
+
+        .lib-eyebrow { display:inline-flex;align-items:center;gap:10px;background:rgba(0,51,102,0.06);color:var(--clr-blue);padding:8px 18px;border-radius:40px;font-size:0.8rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;border:1px solid rgba(0,51,102,0.12);margin-bottom:28px; }
+        .lib-eyebrow::before { content:'';width:8px;height:8px;border-radius:50%;background:var(--clr-gold);display:inline-block;animation:lib-pulse-ring 1.8s ease-out infinite; }
+        .overview-big-title { font-size:clamp(2.4rem,5vw,4rem);font-weight:900;line-height:1.05;color:var(--clr-blue);margin-bottom:30px; }
+        .overview-big-title .highlight { position:relative;color:var(--clr-gold2);display:inline-block; }
+        .overview-big-title .highlight::after { content:'';position:absolute;bottom:-4px;left:0;right:0;height:4px;background:var(--clr-gold);border-radius:2px;transform-origin:left;animation:lib-draw-line 1s 0.5s ease both; }
+        .overview-desc { font-size:1.1rem;line-height:1.9;color:#475569;margin-bottom:40px; }
+        .overview-desc b { color:var(--clr-blue);font-weight:700; }
+        .lib-cta-chips { display:flex;gap:14px;flex-wrap:wrap; }
+        .lib-chip { padding:12px 24px;border-radius:50px;font-size:0.9rem;font-weight:700;cursor:pointer;transition:var(--transition);text-decoration:none; }
+        .lib-chip-primary { background:var(--clr-blue);color:#fff;box-shadow:0 8px 30px rgba(0,51,102,0.25); }
+        .lib-chip-primary:hover { background:var(--clr-gold);color:var(--clr-blue);transform:translateY(-3px); }
+        .lib-chip-outline { background:transparent;color:var(--clr-blue);border:2px solid var(--clr-blue); }
+        .lib-chip-outline:hover { background:var(--clr-blue);color:#fff;transform:translateY(-3px); }
+
+        /* Stats cards */
+        .stats-col { display:grid;grid-template-columns:1fr 1fr;gap:20px; }
+        .lib-stat-card { background:#fff;border-radius:24px;padding:32px 24px;text-align:center;border:1px solid #e8eef6;box-shadow:0 4px 24px rgba(0,51,102,0.07);transition:var(--transition);position:relative;overflow:hidden; }
+        .lib-stat-card::before { content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--clr-gold),var(--clr-blue));transform:scaleX(0);transform-origin:left;transition:transform 0.4s ease; }
+        .lib-stat-card:hover::before { transform:scaleX(1); }
+        .lib-stat-card:hover { transform:translateY(-12px);box-shadow:0 24px 60px rgba(0,51,102,0.15); }
+        .stat-icon-ring { width:60px;height:60px;border-radius:50%;background:rgba(0,51,102,0.06);display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:1.4rem;color:var(--clr-blue); }
+        .lib-stat-num { font-size:2.2rem;font-weight:900;color:var(--clr-blue);display:block;margin-bottom:6px;line-height:1; }
+        .lib-stat-lbl { font-size:0.85rem;color:var(--clr-muted);font-weight:600; }
+        .lib-stat-card.gold-accent .stat-icon-ring { background:rgba(245,197,24,0.12);color:var(--clr-gold2); }
+        .lib-stat-card.gold-accent .lib-stat-num { color:var(--clr-gold2); }
+
+        /* ── POLICY TABS ── */
+        .policy-section { position:relative;padding:120px 0;background:var(--clr-dark);overflow:hidden; }
+        .section-eyebrow { text-align:center;margin-bottom:70px; }
+        .section-eyebrow .tag { display:inline-block;background:rgba(245,197,24,0.1);color:var(--clr-gold);border:1px solid rgba(245,197,24,0.25);padding:8px 22px;border-radius:40px;font-size:0.8rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:22px; }
+        .section-eyebrow h2 { font-size:clamp(2rem,4vw,3.2rem);font-weight:900;color:#fff; }
+        .section-eyebrow h2 em { font-style:normal;color:var(--clr-gold); }
+        .policy-tabs-nav { display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-bottom:50px; }
+        .ptab-btn { padding:12px 28px;border-radius:50px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:rgba(255,255,255,0.55);font-size:0.9rem;font-weight:600;cursor:pointer;transition:all 0.35s ease;display:flex;align-items:center;gap:10px; }
+        .ptab-btn:hover { border-color:var(--clr-gold);color:var(--clr-gold); }
+        .ptab-btn.active { background:var(--clr-gold);color:var(--clr-blue);border-color:var(--clr-gold);font-weight:800;box-shadow:0 6px 30px rgba(245,197,24,0.35); }
+        .policy-panel { display:none;animation:lib-slide-up 0.45s ease both; }
+        .policy-panel.active { display:block; }
+        .policy-panel-inner { display:grid;grid-template-columns:1fr 1fr;gap:24px; }
+        @media(max-width:768px){.policy-panel-inner{grid-template-columns:1fr;}}
+        .policy-rule-card { background:rgba(255,255,255,0.025);border:1px solid rgba(255,255,255,0.07);border-radius:20px;padding:32px;transition:all 0.4s ease;position:relative; }
+        .policy-rule-card:hover { background:rgba(245,197,24,0.04);border-color:rgba(245,197,24,0.25);transform:translateY(-6px); }
+        .rule-num { font-size:2.5rem;font-weight:900;color:rgba(245,197,24,0.1);position:absolute;top:16px;right:22px;line-height:1; }
+        .rule-icon { width:50px;height:50px;border-radius:14px;background:rgba(245,197,24,0.08);display:flex;align-items:center;justify-content:center;font-size:1.3rem;color:var(--clr-gold);margin-bottom:18px; }
+        .rule-title { font-size:1.1rem;font-weight:700;color:#f1f5f9;margin-bottom:10px; }
+        .rule-text { font-size:0.95rem;color:#7a8faa;line-height:1.65; }
+        .rule-text .highlight { color:var(--clr-gold);font-weight:700; }
+        .lib-hours-banner { margin-top:50px;border-radius:24px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;background:linear-gradient(135deg,var(--clr-blue) 0%,#00244d 100%); }
+        @media(max-width:640px){.lib-hours-banner{grid-template-columns:1fr;}}
+        .lib-hours-cell { padding:40px 50px;position:relative;overflow:hidden; }
+        .lib-hours-cell:first-child { border-right:1px solid rgba(255,255,255,0.12); }
+        .lib-hours-cell .hour-label { display:flex;align-items:center;gap:10px;font-size:0.8rem;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:2px;margin-bottom:12px;font-weight:600; }
+        .lib-hours-cell .hour-label i { color:var(--clr-gold); }
+        .lib-hours-cell .hour-time { font-size:clamp(1.8rem,3.5vw,2.4rem);font-weight:900;color:var(--clr-gold);display:block; }
+
+        /* ── BENTO GALLERY ── */
+        .library-gallery-section { padding:130px 0;background:#f0f4f8;position:relative; }
+        .library-gallery-section::after { content:'';position:absolute;top:0;left:0;right:0;height:80px;background:var(--clr-dark);clip-path:polygon(0 0,100% 0,100% 100%); }
+        .gallery-header { text-align:center;margin-bottom:70px;position:relative;z-index:2; }
+        .gallery-header .tag { display:inline-block;background:rgba(0,51,102,0.07);color:var(--clr-blue);border:1px solid rgba(0,51,102,0.15);padding:8px 22px;border-radius:40px;font-size:0.8rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:20px; }
+        .gallery-header h2 { font-size:clamp(2rem,4vw,3.2rem);font-weight:900;color:var(--clr-blue); }
+        .gallery-header h2 em { font-style:normal;color:var(--clr-gold2); }
+
+        /* Bento Grid */
+        .lib-bento-grid { display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:80px;gap:16px;position:relative;z-index:2; }
+        @media(max-width:900px){.lib-bento-grid{grid-template-columns:repeat(6,1fr);}.bento-item{grid-column:span 3!important;grid-row:span 3!important;}}
+        @media(max-width:540px){.lib-bento-grid{grid-template-columns:1fr 1fr;grid-auto-rows:180px;}.bento-item{grid-column:span 1!important;grid-row:span 1!important;}}
+        .bento-item { border-radius:22px;overflow:hidden;position:relative;cursor:pointer;box-shadow:0 8px 30px rgba(0,0,0,0.1);transition:var(--transition);transform-style:preserve-3d; }
+        .bento-wide  { grid-column:span 7;grid-row:span 5; }
+        .bento-tall  { grid-column:span 5;grid-row:span 8; }
+        .bento-med   { grid-column:span 5;grid-row:span 4; }
+        .bento-sq    { grid-column:span 3;grid-row:span 4; }
+        .bento-land  { grid-column:span 4;grid-row:span 3; }
+        .bento-band  { grid-column:span 7;grid-row:span 3; }
+        .bento-full  { grid-column:span 12;grid-row:span 4; }
+        .bento-item img { width:100%;height:100%;object-fit:cover;transition:transform 1s cubic-bezier(0.19,1,0.22,1);display:block; }
+        .bento-item:hover img { transform:scale(1.1); }
+        .bento-overlay { position:absolute;inset:0;background:linear-gradient(to top,rgba(2,14,34,0.95) 0%,rgba(2,14,34,0.4) 50%,transparent 100%);display:flex;flex-direction:column;justify-content:flex-end;padding:28px;opacity:0;transform:translateY(8px);transition:all 0.4s ease; }
+        .bento-item:hover .bento-overlay { opacity:1;transform:translateY(0); }
+        .bento-tag { display:inline-block;background:var(--clr-gold);color:var(--clr-blue);padding:4px 14px;border-radius:30px;font-size:0.72rem;font-weight:800;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px;width:fit-content; }
+        .bento-title { font-size:1.2rem;font-weight:700;color:#fff;margin-bottom:6px; }
+        .bento-desc  { font-size:0.88rem;color:rgba(255,255,255,0.65);line-height:1.5; }
+
+        /* Lightbox */
+        .lib-lightbox { position:fixed;inset:0;z-index:9999;background:rgba(2,14,34,0.97);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity 0.4s ease; }
+        .lib-lightbox.open { opacity:1;pointer-events:all; }
+        .lib-lightbox img { max-width:90vw;max-height:88vh;border-radius:16px;box-shadow:0 40px 100px rgba(0,0,0,0.6);transform:scale(0.9);transition:transform 0.4s ease; }
+        .lib-lightbox.open img { transform:scale(1); }
+        .lib-lightbox-close { position:absolute;top:24px;right:32px;background:none;border:none;color:#fff;font-size:2rem;cursor:pointer;line-height:1;transition:color 0.3s; }
+        .lib-lightbox-close:hover { color:var(--clr-gold); }
+        .lib-lightbox-cap { position:absolute;bottom:30px;text-align:center;color:rgba(255,255,255,0.6);font-size:0.9rem;left:0;right:0; }
+
+        /* ── FAC HERO (preserve) ── */
+        .fac-hero {
+            position: relative;
+            width: 100%;
+            height: 460px;
+            overflow: hidden;
+            background: #000;
+        }
+
+        .fac-hero video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .fac-hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.25) 60%, transparent 100%);
+            display: flex;
+            align-items: flex-end;
+            padding: 44px 64px;
+        }
+
+        .fac-hero-overlay h1 {
+            color: #fff;
+            font-size: 2.8rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            border-left: 6px solid #f5c518;
+            padding-left: 22px;
+        }
+
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: 0.3s;
+        }
+
+        .stat-card:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
+        }
+
+        .stat-card h3 {
+            font-size: 2.5rem;
+            color: #f5c518;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Floating Buttons -->
+    <div class="floating-side-buttons">
+        <a href="../apply_now.html" class="btn-side bg-light-gray text-black rotate-text">Apply Now</a>
+        <a href="../admission_enquiry.html" class="btn-side bg-brand-yellow text-black rotate-text">Admission Enquiry</a>
+    </div>
+
+    <!-- Mobile Sticky CTA Bar -->
+    <div class="mobile-sticky-cta">
+        <a href="../admission_enquiry.html" class="btn-enquiry">Admission Enquiry</a>
+        <a href="../apply_now.html" class="btn-apply">Apply Now</a>
+    </div>
+
+    <div class="floating-circle-buttons">
+        <a href="#" class="circle-btn bg-brand-blue ai-widget-toggle"><i class="fa-solid fa-robot"></i></a>
+        <a href="#" class="circle-btn bg-green"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+
+    <!-- Header Section -->
+    <header class="main-header">
+        <!-- Top Info Bar -->
+        <div class="top-bar">
+            <div class="container top-bar-inner">
+                <div class="top-bar-left">
+                    <span>For Admission</span>
+                    <a href="tel:+917540037999"><i class="fa-solid fa-phone"></i> +91 75400 37999</a>
+                    <a href="mailto:admission@kingston.ac.in"><i class="fa-solid fa-envelope"></i>
+                        admission@kingston.ac.in</a>
+                </div>
+                <div class="top-bar-middle hidden-mobile">
+                    <a href="../coe.html">COE</a>
+                    <a href="../alumni.html">Alumni</a>
+                    <a href="../grievance_helpdesk.html">Grievance & Help Desk</a>
+                    <a href="../admission.html">Admission</a>
+                    <a href="#" title="Coming Soon">Student-Log In</a>
+                    <a href="#" title="Coming Soon">Staff-Log In</a>
+                </div>
+                <div class="top-bar-right">
+                    <a href="../careers.html" class="btn-pay-online"
+                        style="background:#003366; color:#f5c518; border: 1px solid #f5c518; transition: all 0.3s; box-shadow: 0 4px 15px rgba(0,51,102,0.3);"
+                        onmouseover="this.style.background='#f5c518'; this.style.color='#003366';"
+                        onmouseout="this.style.background='#003366'; this.style.color='#f5c518';">Careers <i
+                            class="fa-solid fa-briefcase"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Middle Logo Bar -->
+        <div class="logo-bar">
+            <div class="container logo-bar-inner">
+                <div class="logo-area">
+                    <img src="../assets/images/icons/001-web_logo_banner_2026.png" width="450" height="150" alt="Logo"
+                        class="main-logo" onerror="this.src="../assets/images/icons/001-web_logo_banner_2026.png"">
+                </div>
+                <div class="accreditations-area">
+                    <div class="accred-logos">
+                        <!-- Desktop View / Mobile Marquee duplicated -->
+                        <img src="../assets/images/icons/002-UGC_India_Logo.png" alt="UGC">
+                        <img src="../assets/images/icons/003-All_India_Council_for_Technical_Education_logo.png"
+                            alt="AICTE">
+                        <img src="../assets/images/icons/004-coa.png" alt="coa">
+                        <img src="../assets/images/icons/005-Anna_University_Logo.svg.png" alt="Anna University">
+                        <img src="../assets/images/icons/006-naaclogo-a.png" alt="NAAC">
+                        <img src="../assets/images/icons/007-IIC_logo-e1671727022354.png" alt="IIC">
+                        <img src="../assets/images/icons/008-blue-horizontal.png" alt="blue-horizontal">
+                        <!-- Duplicates for seamless marquee (Mobile Only) -->
+                        <img src="../assets/images/icons/002-UGC_India_Logo.png" alt="UGC" class="mobile-only-logo">
+                        <img src="../assets/images/icons/003-All_India_Council_for_Technical_Education_logo.png"
+                            alt="AICTE" class="mobile-only-logo">
+                        <img src="../assets/images/icons/004-coa.png" alt="coa" class="mobile-only-logo">
+                        <img src="../assets/images/icons/005-Anna_University_Logo.svg.png" alt="Anna University"
+                            class="mobile-only-logo">
+                        <img src="../assets/images/icons/006-naaclogo-a.png" alt="NAAC" class="mobile-only-logo">
+                        <img src="../assets/images/icons/007-IIC_logo-e1671727022354.png" alt="IIC"
+                            class="mobile-only-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Notice Bar -->
+        <div class="notice-bar">
+            <div class="notice-label">Register Here</div>
+            <div class="marquee-wrapper">
+                <div class="marquee-content notice-marquee">
+                    <span style="color: white;">Tamil Nadu Govt's En kanavu En Ethirkaalam - <a href="../events.html"
+                            style="color: #ffc107; text-decoration: underline;">Click Here</a></span>
+                    <span style="color: white;">Tamil Nadu Govt's En kanavu En Ethirkaalam - <a href="../events.html"
+                            style="color: #ffc107; text-decoration: underline;">Click Here</a></span>
+                    <span style="color: white;">Tamil Nadu Govt's En kanavu En Ethirkaalam - <a href="../events.html"
+                            style="color: #ffc107; text-decoration: underline;">Click Here</a></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Navigation -->
+        <nav class="main-nav">
+            <div class="container">
+                <button class="mobile-menu-toggle" id="mobile-menu-btn"><i class="fa-solid fa-bars"></i> Menu</button>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="../index.html" class="active">Home</a></li>
+                    <li class="has-dropdown">
+                        <a href="../about.html">About Us</a>
+                        <ul class="dropdown js-exclude-dropdown">
+                            <li><a href="../about/about_chairman.html">Chairman</a></li>
+                            <li><a href="../about/about_principal.html">Principal</a></li>
+                            <li><a href="../about/about_mou.html">MOU</a></li>
+                            <li><a href="../about/about_awards.html">Awards and Achievements</a></li>
+                            <li><a href="../about/about_organogram.html">Organogram</a></li>
+                            <li><a href="../about/about_governing.html">Governing Council</a></li>
+                            <li><a href="../about/about_accreditation.html">Accreditation</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="../departments.html">Departments</a>
+                        <ul class="dropdown dropdown-columns js-exclude-dropdown">
+                            <li><a href="../dept_cse.html">Computer Science and Engineering</a></li>
+                            <li><a href="../dept_AI&DS.html">Artificial Intelligence and Data Science</a></li>
+                            <li><a href="../dept_AI&ML.html">Computer Science Engineering with AI & ML</a></li>
+                            <li><a href="../dept_IT.html">Information Technology</a></li>
+                            <li><a href="../dept_ece.html">Electronics and Communication Engineering</a></li>
+                            <li><a href="../dept_csbs.html">Computer Science and Business Systems</a></li>
+                            <li><a href="../dept_mechanical.html">Mechanical Engineering</a></li>
+                            <li><a href="../dept_BA.html">Bachelor of Architecture</a></li>
+                            <li><a href="../dept_MBA.html">Masters in Business Administration</a></li>
+                            <li><a href="../dept_S&H.html">Science and Humanities</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../academics.html">Academics</a></li>
+                    <li class="has-dropdown">
+                        <a href="../facilities.html">Facilities</a>
+                        <ul class="dropdown js-exclude-dropdown">
+                            <li><a href="facilities_infrastructure.html">Infrastructure</a></li>
+                            <li><a href="facilities_event_gallery.html">Event Gallery</a></li>
+                            <li><a href="../blog.html">Blog</a></li>
+                            <li><a href="../news.html">News</a></li>
+                            <li><a href="facilities_it.html">IT Infrastructure</a></li>
+                            <li><a href="facilities_library.html">Library</a></li>
+                            <li><a href="facilities_welfare.html">Welfare Measures</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../policies.html">Policies</a></li>
+                    <li class="has-dropdown">
+                        <a href="#">Placements</a>
+                        <ul class="dropdown js-exclude-dropdown">
+                            <li><a href="../placements/placement_pat.html">Placement & Training Cell</a></li>
+                            <li><a href="../placements/placement_vision_mission.html">Vision & Mission, Objectives</a></li>
+                            <li><a href="../placements/placement_recruiters.html">Corporate Recruiters</a></li>
+                            <li><a href="../placements/placement_report.html">Placement Report</a></li>
+                            <li><a href="../placements/placement_industry_connect.html">Industry Connect</a></li>
+                            <li><a href="../placements/placement_campus_hiring.html">Campus Hiring</a></li>
+                            <li><a href="../placements/placement_value_added.html">Value added Courses Training</a></li>
+                            <li><a href="../placements/placement_capacity_dev.html">Capacity Dev and Skill Dev</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">IQAC</a>
+                        <ul class="dropdown js-exclude-dropdown">
+                            <li><a href="../iqac/iqac_about.html">IQAC</a></li>
+                            <li><a href="../iqac/iqac_mom.html">Minutes of Meeting</a></li>
+                            <li><a href="../iqac/iqac_quality_initiatives.html">IQAC Quality Initiatives</a></li>
+                            <li><a href="../iqac/iqac_annual_reports.html">Annual Reports</a></li>
+                            <li><a href="../iqac/iqac_academic_audit.html">Academic Audit</a></li>
+                            <li><a href="../iqac/iqac_feedback.html">Feedback</a></li>
+                            <li><a href="../iqac/iqac_strategic_plan.html">Strategic Plan 2024</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">NAAC</a>
+                        <ul class="dropdown js-exclude-dropdown">
+                            <li><a href="../naac/naac_iiqa.html">IIQA</a></li>
+                            <li><a href="../naac/naac_ssr.html">SSR</a></li>
+                            <li><a href="../naac/naac_dvv.html">DVV Clarification</a></li>
+                            <li><a href="../naac/naac_rti.html">RTI</a></li>
+                            <li><a href="../naac/naac_extended_profile.html">Extended Profile</a></li>
+                            <li><a href="../naac/naac_curricular_aspects.html">Curricular Aspects</a></li>
+                            <li><a href="../naac/naac_teaching_learning.html">Teaching Learning and Evaluation</a></li>
+                            <li><a href="../naac/naac_research_innovation.html">Research Innovation and Extension</a></li>
+                            <li><a href="../naac/naac_infrastructure.html">Infrastructure and Learning Resource</a></li>
+                            <li><a href="../naac/naac_student_support.html">Student Support Progression</a></li>
+                            <li><a href="../naac/naac_governance.html">Governance, Leadership and Management</a></li>
+                            <li><a href="../naac/naac_institutional_values.html">Institution Values and Best Practices</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="../ugc/ugc_mandatory_committee.html">UGC Mandatory Committee <i
+                                class="fas fa-caret-down"></i></a>
+                        <ul class="dropdown js-exclude-dropdown">
+                            <li><a href="../ugc/ugc_mc_icc.html">Internal Complaint Committee</a></li>
+                            <li><a href="../ugc/ugc_mc_sgrc.html">Student Grievance Redressal</a></li>
+                            <li><a href="../ugc/ugc_mc_posh.html">POSH Cell</a></li>
+                            <li><a href="../ugc/ugc_mc_sedg.html">SEDG</a></li>
+                            <li><a href="../ugc/ugc_mc_arc.html">Anti Ragging Committee</a></li>
+                            <li><a href="../ugc/ugc_mc_eqc.html">Equal Opportunity Cell</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="../ugc/ugc_undertaking.html">UGC Undertaking Letter By HOI <i
+                                class="fas fa-caret-down"></i></a>
+                        <ul class="dropdown js-exclude-dropdown">
+                            <li><a href="../ugc/ugc_ul_1.html">Undertaking Letter I</a></li>
+                            <li><a href="../ugc/ugc_ul_2.html">Undertaking Letter II</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="../public_self_disclosure.html">Public Self Disclosure <i
+                                class="fas fa-caret-down"></i></a>
+                        <ul class="dropdown js-exclude-dropdown">
+                            <li class="has-dropdown">
+                                <a href="#">About HEI <i class="fas fa-angle-right"
+                                        style="float:right; margin-top:4px;"></i></a>
+                                <ul class="dropdown js-exclude-dropdown">
+                                    <li><a href="../ugc/ugc_ps_aboutus.html">About Us</a></li>
+                                    <li><a href="../ugc/ugc_ps_act_statutes.html">Act and Statutes</a></li>
+                                    <li><a href="../ugc/ugc_ps_idp.html">Institutional Development Plan</a></li>
+                                    <li><a href="../ugc/ugc_ps_affiliating.html">Affiliating University</a></li>
+                                    <li><a href="../ugc/ugc_ps_accreditation.html">Accreditation / Ranking Status</a></li>
+                                    <li><a href="../ugc/ugc_ps_recognition.html">Recognition / Approvals</a></li>
+                                    <li><a href="../ugc/ugc_ps_annual_reports.html">Annual Reports</a></li>
+                                    <li><a href="../ugc/ugc_ps_annual_accounts.html">Annual Accounts & Audit Reports</a></li>
+                                    <li><a href="../ugc/ugc_ps_sponsoring_body.html">Sponsoring Body Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Administrations <i class="fas fa-angle-right"
+                                        style="float:right; margin-top:4px;"></i></a>
+                                <ul class="dropdown js-exclude-dropdown">
+                                    <li><a href="../ugc/ugc_ps_finance.html">Finance Officer</a></li>
+                                    <li><a href="../ugc/ugc_ps_coe.html">Controller of Examination</a></li>
+                                    <li><a href="../ugc/ugc_ps_cvo.html">Chief Vigilance Officer</a></li>
+                                    <li><a href="../ugc/ugc_ps_ombudsperson.html">Ombudsperson</a></li>
+                                    <li><a href="../ugc/ugc_ps_bos.html">Executive Council</a></li>
+                                    <li><a href="../ugc/ugc_ps_academic_leadership.html">Academic Leadership (HoDs)</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Academic <i class="fas fa-angle-right"
+                                        style="float:right; margin-top:4px;"></i></a>
+                                <ul class="dropdown js-exclude-dropdown">
+                                    <li><a href="../ugc/ugc_ps_academic_programs.html">Academic Programs</a></li>
+                                    <li><a href="../ugc/ugc_ps_academic_calendar.html">Academic Calendars</a></li>
+                                    <li><a href="../ugc/ugc_ps_examinations.html">Examinations</a></li>
+                                    <li><a href="../departments.html">Department</a></li>
+                                    <li><a href="../ugc/ugc_ps_staff.html">Department Wise Faculty Details</a></li>
+                                    <li><a href="../iqac/iqac_about.html">Internal Quality Assurance Cell</a></li>
+                                    <li><a href="facilities_library.html">Library</a></li>
+                                    <li><a href="../ugc/ugc_ps_mou.html">Academic Collaborations</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Admissions <i class="fas fa-angle-right"
+                                        style="float:right; margin-top:4px;"></i></a>
+                                <ul class="dropdown js-exclude-dropdown">
+                                    <li><a href="../ugc/ugc_ps_prospectus.html">Prospectus</a></li>
+                                    <li><a href="../ugc/ugc_ps_feerefund.html">Fee Refund Policy</a></li>
+                                    <li><a href="../ugc/ugc_ps_admission_policy.html">Admission Process and Guidelines</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Research's <i class="fas fa-angle-right"
+                                        style="float:right; margin-top:4px;"></i></a>
+                                <ul class="dropdown js-exclude-dropdown">
+                                    <li><a href="../ugc/ugc_ps_rnd.html">Research and Development Cell</a></li>
+                                    <li><a href="../ugc/ugc_ps_incubation.html">Incubation Centre / Start-Ups / IIC</a></li>
+                                    <li><a href="../facilities.html">Central Facilities</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Student Life <i class="fas fa-angle-right"
+                                        style="float:right; margin-top:4px;"></i></a>
+                                <ul class="dropdown js-exclude-dropdown">
+                                    <li><a href="../ugc/ugc_ps_sports.html">Sports Facilities</a></li>
+                                    <li><a href="../ugc/ugc_ps_nss.html">NSS</a></li>
+                                    <li><a href="../ugc/ugc_ps_hostel.html">Hostel Details</a></li>
+                                    <li><a href="../placements/placement_pat.html">Placement Cell & Activities</a></li>
+                                    <li><a href="../ugc/ugc_ps_sl_sgrc.html">SGRC and Ombudsperson</a></li>
+                                    <li><a href="../ugc/ugc_ps_health.html">Health Facilities</a></li>
+                                    <li><a href="../ugc/ugc_ps_sl_icc.html">Internal Complaints Committee</a></li>
+                                    <li><a href="../ugc/ugc_ps_sl_antiragging.html">Anti Ragging Cell</a></li>
+                                    <li><a href="../ugc/ugc_ps_sl_equalopportunity.html">Equal Opportunity Cell</a></li>
+                                    <li><a href="../ugc/ugc_ps_sl_sedg.html">SEDG</a></li>
+                                    <li><a href="../ugc/ugc_ps_differentlyabled.html">Facilities for Differently Abled</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../ugc/ugc_ps_alumni.html">Alumni Association</a></li>
+                            <li class="has-dropdown">
+                                <a href="#">Information Corner <i class="fas fa-angle-right"
+                                        style="float:right; margin-top:4px;"></i></a>
+                                <ul class="dropdown js-exclude-dropdown">
+                                    <li><a href="../ugc/ugc_ps_rti.html">RTI</a></li>
+                                    <li><a href="../ugc/ugc_ps_circulars.html">Circulars and Notices</a></li>
+                                    <li><a href="../ugc/ugc_ps_announcements.html">Announcements</a></li>
+                                    <li><a href="../ugc/ugc_ps_newsletters.html">Newsletters</a></li>
+                                    <li><a href="../ugc/ugc_ps_events.html">News, Recent Events & Achievements</a></li>
+                                    <li><a href="../careers.html">Job Openings</a></li>
+                                    <li><a href="../ugc/ugc_ps_studyinindia.html">Admission for International Students</a></li>
+                                    <li><a href="../contact.html">Details and Location Map</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="library-main-container">
+
+        <!-- ============ OVERVIEW SECTION ============ -->
+        <section class="overview-section">
+            <div class="lib-particle-bg"></div>
+            <div class="container">
+                <div class="overview-inner">
+
+                    <!-- Left: Text + CTA -->
+                    <div class="overview-text-col" data-aos="fade-right">
+                        <span class="lib-eyebrow">Established 2008</span>
+                        <h2 class="overview-big-title">
+                            Where <span class="highlight">Innovation</span><br>Meets Knowledge
+                        </h2>
+                        <p class="overview-desc">
+                            The Kingston Engineering College Library stands as a beacon of intellectual growth, operating a state-of-the-art <b>Open Access System</b> and fully computerized <b>RFID Technology</b> that empowers students and researchers to explore a universe of technical information directly and effortlessly.
+                        </p>
+                        <div class="lib-cta-chips">
+                            <a href="#library-gallery" class="lib-chip lib-chip-primary"><i class="fa-solid fa-images"></i>&nbsp; View Gallery</a>
+                            <a href="#policy-section" class="lib-chip lib-chip-outline"><i class="fa-solid fa-book"></i>&nbsp; Library Rules</a>
+                        </div>
+                    </div>
+
+                    <!-- Right: Stats Grid -->
+                    <div class="stats-col">
+                        <div class="lib-stat-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="stat-icon-ring"><i class="fa-solid fa-book-open"></i></div>
+                            <span class="lib-stat-num">20K+</span>
+                            <span class="lib-stat-lbl">Books &amp; Journals</span>
+                        </div>
+                        <div class="lib-stat-card gold-accent" data-aos="fade-up" data-aos-delay="200">
+                            <div class="stat-icon-ring"><i class="fa-solid fa-microchip"></i></div>
+                            <span class="lib-stat-num">RFID</span>
+                            <span class="lib-stat-lbl">Smart Tracking Tech</span>
+                        </div>
+                        <div class="lib-stat-card gold-accent" data-aos="fade-up" data-aos-delay="300">
+                            <div class="stat-icon-ring"><i class="fa-solid fa-globe"></i></div>
+                            <span class="lib-stat-num">24/7</span>
+                            <span class="lib-stat-lbl">E-Journal Access</span>
+                        </div>
+                        <div class="lib-stat-card" data-aos="fade-up" data-aos-delay="400">
+                            <div class="stat-icon-ring"><i class="fa-solid fa-database"></i></div>
+                            <span class="lib-stat-num">OPAC</span>
+                            <span class="lib-stat-lbl">Online Catalogue</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ POLICY TABS SECTION ============ -->
+        <section class="policy-section" id="policy-section">
+            <div class="lib-particle-bg"></div>
+            <div class="container">
+                <div class="section-eyebrow" data-aos="fade-down">
+                    <div class="tag">Guidelines &amp; Governance</div>
+                    <h2>Library <em>Policies</em> &amp; Conduct</h2>
+                </div>
+
+                <!-- Tab Buttons -->
+                <div class="policy-tabs-nav" data-aos="fade-up" data-aos-delay="100">
+                    <button class="ptab-btn active" data-tab="borrowing"><i class="fa-solid fa-book-bookmark"></i> Borrowing &amp; Returns</button>
+                    <button class="ptab-btn" data-tab="conduct"><i class="fa-solid fa-shield-heart"></i> Conduct &amp; Care</button>
+                    <button class="ptab-btn" data-tab="loss"><i class="fa-solid fa-triangle-exclamation"></i> Loss &amp; Penalties</button>
+                </div>
+
+                <!-- Tab Panels -->
+                <div class="policy-panels">
+
+                    <div class="policy-panel active" id="tab-borrowing">
+                        <div class="policy-panel-inner">
+                            <div class="policy-rule-card"><span class="rule-num">01</span>
+                                <div class="rule-icon"><i class="fa-solid fa-id-card"></i></div>
+                                <div class="rule-title">Library Identity Card</div>
+                                <p class="rule-text">All standard books are issued via Library Identity Cards. <span class="highlight">Cards are strictly non-transferable.</span></p>
+                            </div>
+                            <div class="policy-rule-card"><span class="rule-num">02</span>
+                                <div class="rule-icon"><i class="fa-solid fa-rotate-right"></i></div>
+                                <div class="rule-title">Book Renewal Policy</div>
+                                <p class="rule-text">Borrowers may <span class="highlight">renew once</span> if no reservation is active on the requested title.</p>
+                            </div>
+                            <div class="policy-rule-card"><span class="rule-num">03</span>
+                                <div class="rule-icon"><i class="fa-solid fa-coins"></i></div>
+                                <div class="rule-title">Overdue Fine</div>
+                                <p class="rule-text">Overdue fine of <span class="highlight">Rs. 1/- per day</span> per book is levied consistently without exception.</p>
+                            </div>
+                            <div class="policy-rule-card"><span class="rule-num">04</span>
+                                <div class="rule-icon"><i class="fa-solid fa-newspaper"></i></div>
+                                <div class="rule-title">In-House Reference Only</div>
+                                <p class="rule-text">Journals, Magazines &amp; Project Reports are <span class="highlight">for in-library reference only</span> and cannot be issued.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="policy-panel" id="tab-conduct">
+                        <div class="policy-panel-inner">
+                            <div class="policy-rule-card"><span class="rule-num">01</span>
+                                <div class="rule-icon"><i class="fa-solid fa-volume-xmark"></i></div>
+                                <div class="rule-title">Strict Silence Zone</div>
+                                <p class="rule-text"><span class="highlight">Complete silence</span> must be maintained within all library premises at all times.</p>
+                            </div>
+                            <div class="policy-rule-card"><span class="rule-num">02</span>
+                                <div class="rule-icon"><i class="fa-solid fa-box-archive"></i></div>
+                                <div class="rule-title">Property Counter</div>
+                                <p class="rule-text">Personal bags, files, and books must be deposited at the secure <span class="highlight">Property Counter</span> before entry.</p>
+                            </div>
+                            <div class="policy-rule-card"><span class="rule-num">03</span>
+                                <div class="rule-icon"><i class="fa-solid fa-tag"></i></div>
+                                <div class="rule-title">RFID Tag Integrity</div>
+                                <p class="rule-text">Tampering or removing RFID tags will attract a penalty of <span class="highlight">Rs. 100/-</span> per occurrence.</p>
+                            </div>
+                            <div class="policy-rule-card"><span class="rule-num">04</span>
+                                <div class="rule-icon"><i class="fa-solid fa-ban"></i></div>
+                                <div class="rule-title">No Defacement</div>
+                                <p class="rule-text">Scribbling, underlining, or any defacing of books will attract <span class="highlight">strict disciplinary action.</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="policy-panel" id="tab-loss">
+                        <div class="policy-panel-inner">
+                            <div class="policy-rule-card"><span class="rule-num">01</span>
+                                <div class="rule-icon"><i class="fa-solid fa-bell"></i></div>
+                                <div class="rule-title">Immediate Reporting</div>
+                                <p class="rule-text">Loss must be <span class="highlight">reported immediately</span> to the Librarian to freeze accumulation of overdue fines.</p>
+                            </div>
+                            <div class="policy-rule-card"><span class="rule-num">02</span>
+                                <div class="rule-icon"><i class="fa-solid fa-book-open"></i></div>
+                                <div class="rule-title">Book Replacement</div>
+                                <p class="rule-text">The borrower must provide a <span class="highlight">new copy</span> of the same book or its latest edition as replacement.</p>
+                            </div>
+                            <div class="policy-rule-card"><span class="rule-num">03</span>
+                                <div class="rule-icon"><i class="fa-solid fa-percent"></i></div>
+                                <div class="rule-title">300% Financial Penalty</div>
+                                <p class="rule-text">A monetary fine of <span class="highlight">3× the current market price</span> of the lost book will be levied.</p>
+                            </div>
+                            <div class="policy-rule-card"><span class="rule-num">04</span>
+                                <div class="rule-icon"><i class="fa-solid fa-file-invoice"></i></div>
+                                <div class="rule-title">No-Dues Clearance</div>
+                                <p class="rule-text">All outstanding fines must be settled before semester <span class="highlight">No-Dues clearance</span> is issued.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Hours Banner -->
+                <div class="lib-hours-banner" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="lib-hours-cell">
+                        <div class="hour-label"><i class="fa-regular fa-clock"></i> Standard Working Days</div>
+                        <span class="hour-time">08:30 AM — 06:30 PM</span>
+                    </div>
+                    <div class="lib-hours-cell">
+                        <div class="hour-label"><i class="fa-solid fa-umbrella-beach"></i> Vacation / Holiday Hours</div>
+                        <span class="hour-time">09:00 AM — 05:30 PM</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ BENTO GALLERY SECTION ============ -->
+        <section class="library-gallery-section" id="library-gallery">
+            <div class="container">
+                <div class="gallery-header" data-aos="fade-down">
+                    <div class="tag">Gallery Tour</div>
+                    <h2>Inside Our <em>Knowledge Hub</em></h2>
+                </div>
+
+                <div class="lib-bento-grid">
+                    <div class="bento-item bento-wide" data-aos="fade-right" title="Digital Resource Center">
+                        <img src="../assets/images/library/01.jpeg" alt="Digital Resource Center" loading="lazy">
+                        <div class="bento-overlay">
+                            <span class="bento-tag">Modern</span>
+                            <div class="bento-title">Digital Resource Center</div>
+                            <div class="bento-desc">High-speed computing systems for digital research and global e-journal access.</div>
+                        </div>
+                    </div>
+                    <div class="bento-item bento-tall" data-aos="fade-left" title="Main Reading Hall">
+                        <img src="../assets/images/library/07.jpeg" alt="Main Reading Hall" loading="lazy">
+                        <div class="bento-overlay">
+                            <span class="bento-tag">Spacious</span>
+                            <div class="bento-title">Main Reading Hall</div>
+                            <div class="bento-desc">Well-lit, ventilated space for collaborative and individual study sessions.</div>
+                        </div>
+                    </div>
+
+                    <div class="bento-item bento-med" data-aos="fade-up" data-aos-delay="100" title="E-Library Portal">
+                        <img src="../assets/images/library/smart-library.png" alt="E-Library Portal" loading="lazy">
+                        <div class="bento-overlay">
+                            <span class="bento-tag">Innovation</span>
+                            <div class="bento-title">E-Library Portal</div>
+                            <div class="bento-desc">Next-gen digital gateway providing access to premium technical databases.</div>
+                        </div>
+                    </div>
+                    <div class="bento-item bento-sq" data-aos="fade-up" data-aos-delay="200" title="Back Volumes Section">
+                        <img src="../assets/images/library/06.jpeg" alt="Back Volumes Section" loading="lazy">
+                        <div class="bento-overlay">
+                            <span class="bento-tag">Periodicals</span>
+                            <div class="bento-title">Back Volumes</div>
+                            <div class="bento-desc">Archives of international journals and technical publications.</div>
+                        </div>
+                    </div>
+                    <div class="bento-item bento-sq" data-aos="fade-up" data-aos-delay="300" title="Quiet Study Zone">
+                        <img src="../assets/images/library/02.jpeg" alt="Quiet Study Zone" loading="lazy">
+                        <div class="bento-overlay">
+                            <span class="bento-tag">Peaceful</span>
+                            <div class="bento-title">Quiet Study Zone</div>
+                            <div class="bento-desc">Ergonomically optimised reading spaces for deep focus.</div>
+                        </div>
+                    </div>
+
+                    <div class="bento-item bento-band" data-aos="zoom-in" data-aos-delay="100" title="Information Tech Hub">
+                        <img src="../assets/images/library/smart-lib-2.png" alt="Information Tech Hub" loading="lazy">
+                        <div class="bento-overlay">
+                            <span class="bento-tag">Technology</span>
+                            <div class="bento-title">Information Tech Hub</div>
+                            <div class="bento-desc">High-end workstations for advanced computing and e-learning.</div>
+                        </div>
+                    </div>
+                    <div class="bento-item bento-land" data-aos="zoom-in" data-aos-delay="200" title="RFID Circulation Desk">
+                        <img src="../assets/images/library/04.jpeg" alt="RFID Circulation Desk" loading="lazy">
+                        <div class="bento-overlay">
+                            <span class="bento-tag">Systems</span>
+                            <div class="bento-title">RFID Circulation Desk</div>
+                            <div class="bento-desc">Automated issuance and return using advanced RFID technology.</div>
+                        </div>
+                    </div>
+
+                    <div class="bento-item bento-sq" data-aos="fade-up" title="Central Book Stacks">
+                        <img src="../assets/images/library/03.jpeg" alt="Central Book Stacks" loading="lazy">
+                        <div class="bento-overlay">
+                            <span class="bento-tag">Collection</span>
+                            <div class="bento-title">Central Book Stacks</div>
+                            <div class="bento-desc">Extensive collection spanning all branches of engineering.</div>
+                        </div>
+                    </div>
+                    <div class="bento-item bento-sq" data-aos="fade-up" data-aos-delay="100" title="Audio-Visual Hall">
+                        <img src="../assets/images/library/smart-library-1.png" alt="Audio-Visual Hall" loading="lazy">
+                        <div class="bento-overlay">
+                            <span class="bento-tag">Multimedia</span>
+                            <div class="bento-title">Audio-Visual Hall</div>
+                            <div class="bento-desc">Space for educational screenings and seminar presentations.</div>
+                        </div>
+                    </div>
+                    <div class="bento-item bento-med" data-aos="fade-left" data-aos-delay="150" title="Research Archives">
+                        <img src="../assets/images/library/08.jpeg" alt="Research Archives" loading="lazy">
+                        <div class="bento-overlay">
+                            <span class="bento-tag">Research</span>
+                            <div class="bento-title">Research Archives</div>
+                            <div class="bento-desc">Historical technical data and rare research reports.</div>
+                        </div>
+                    </div>
+
+                    <div class="bento-item bento-full" data-aos="zoom-in" title="Main Reference Stacks">
+                        <img src="../assets/images/library/09.png" alt="Main Reference Stacks" loading="lazy">
+                        <div class="bento-overlay">
+                            <span class="bento-tag">Archive</span>
+                            <div class="bento-title">Main Reference Stacks</div>
+                            <div class="bento-desc">A vast collection of departmental textbooks and rare engineering reference volumes spanning decades of knowledge.</div>
+                        </div>
+                    </div>
+
+                    <div class="bento-item bento-land" data-aos="fade-right" title="Productive Tech Zone">
+                        <img src="../assets/images/library/smart-lib-3.png" alt="Productive Tech Zone" loading="lazy">
+                        <div class="bento-overlay">
+                            <span class="bento-tag">Computing</span>
+                            <div class="bento-title">Productive Tech Zone</div>
+                            <div class="bento-desc">Dedicated terminals for academic projects.</div>
+                        </div>
+                    </div>
+                    <div class="bento-item bento-land" data-aos="fade-up" data-aos-delay="100" title="Interactive Zone">
+                        <img src="../assets/images/library/05.jpeg" alt="Interactive Zone" loading="lazy">
+                        <div class="bento-overlay">
+                            <span class="bento-tag">Environment</span>
+                            <div class="bento-title">Interactive Zone</div>
+                            <div class="bento-desc">Dynamic spaces for collaborative and academic discussions.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox -->
+        <div class="lib-lightbox" id="lib-lightbox">
+            <button class="lib-lightbox-close" id="lb-close">&times;</button>
+            <img src="" alt="Library Photo" id="lb-img">
+            <div class="lib-lightbox-cap" id="lb-cap"></div>
+        </div>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col about-col">
+                <h3 class="footer-college-name">KINGSTON ENGINEERING COLLEGE</h3>
+                <p>Approved by AICTE, Affiliated to Anna University, NAAC 'A' Grade. Committed to excellence in
+                    technical education since 2001.</p>
+                <ul class="contact-list">
+                    <li><i class="fa-solid fa-location-dot"></i> Vellore – Katpadi Road, Vellore, Tamil Nadu – 632 059
+                    </li>
+                    <li><i class="fa-solid fa-phone"></i> +91-416-2244777</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@kingston.ac.in</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>QUICK LINKS</h4>
+                <ul class="footer-links">
+                    <li><a href="../about.html">About Us</a></li>
+                    <li><a href="../admission.html">Admissions</a></li>
+                    <li><a href="../departments.html">Departments</a></li>
+                    <li><a href="../academics.html">Academics</a></li>
+                    <li><a href="../placements.html">Placements</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>PROGRAMMES</h4>
+                <ul class="footer-links">
+                    <li><a href="#">B.E. Computer Science</a></li>
+                    <li><a href="#">B.E. Electronics & Comm.</a></li>
+                    <li><a href="#">B.E. Electrical & Electronics</a></li>
+                    <li><a href="#">B.E. Mechanical</a></li>
+                    <li><a href="#">B.E. Civil Engineering</a></li>
+                    <li><a href="#">B.Tech. Information Technology</a></li>
+                    <li><a href="#">MBA</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>ACCREDITATIONS</h4>
+                <div class="accred-badges">
+                    <span class="badge red">AICTE Approved</span>
+                    <span class="badge red">NAAC 'A' Grade</span>
+                    <span class="badge red">ISO 9001:2015</span>
+                    <span class="badge red">Anna University</span>
+                    <span class="badge red">UGC 2(f) & 12(B)</span>
+                </div>
+
+                <h4 class="mt-6">FOLLOW US</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i> YouTube</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container flex justify-between align-center">
+                <p>&copy; 2026-27 Kingston Engineering College. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="../privacy_policy.html">Privacy Policy</a>
+                    <a href="../sitemap.html">Sitemap</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/ai-assistant.js" defer></script>
+    <script>
+        // AOS Init
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof AOS !== 'undefined') AOS.init({ duration: 850, easing: 'ease-out-cubic', once: true });
+
+            // Policy Tab Switcher
+            document.querySelectorAll('.ptab-btn').forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.ptab-btn').forEach(function(b) { b.classList.remove('active'); });
+                    document.querySelectorAll('.policy-panel').forEach(function(p) { p.classList.remove('active'); });
+                    btn.classList.add('active');
+                    var panel = document.getElementById('tab-' + btn.getAttribute('data-tab'));
+                    if (panel) panel.classList.add('active');
+                });
+            });
+
+            // Bento Gallery Lightbox
+            var lightbox = document.getElementById('lib-lightbox');
+            var lbImg    = document.getElementById('lb-img');
+            var lbCap    = document.getElementById('lb-cap');
+            if (lightbox) {
+                document.querySelectorAll('.bento-item').forEach(function(card) {
+                    card.addEventListener('click', function() {
+                        var img = card.querySelector('img');
+                        lbImg.src = img.src;
+                        lbCap.textContent = card.getAttribute('title') || '';
+                        lightbox.classList.add('open');
+                    });
+                });
+                document.getElementById('lb-close').addEventListener('click', function() {
+                    lightbox.classList.remove('open');
+                });
+                lightbox.addEventListener('click', function(e) {
+                    if (e.target === lightbox) lightbox.classList.remove('open');
+                });
+            }
+
+            // 3D Tilt Effect on Bento Cards
+            document.querySelectorAll('.bento-item').forEach(function(card) {
+                card.addEventListener('mousemove', function(e) {
+                    var rect = card.getBoundingClientRect();
+                    var x = e.clientX - rect.left;
+                    var y = e.clientY - rect.top;
+                    var cx = rect.width / 2, cy = rect.height / 2;
+                    var rotX = -((y - cy) / cy) * 5;
+                    var rotY =  ((x - cx) / cx) * 5;
+                    card.style.transform = 'perspective(900px) rotateX(' + rotX + 'deg) rotateY(' + rotY + 'deg) scale(1.04)';
+                });
+                card.addEventListener('mouseleave', function() {
+                    card.style.transform = '';
+                });
+            });
+        });
+    </script>
+    <div id="ai-widget-container">
+        <div class="ai-widget-box">
+            <div class="ai-widget-header">
+                <div class="ai-header-left">
+                    <div class="ai-header-avatar"><i class="fa-solid fa-robot"></i></div>
+                    <div class="ai-header-info">
+                        <span class="ai-header-name">Kingston AI Assistant</span>
+                        <span class="ai-header-status">
+                            <span class="ai-status-dot"></span> Online &bull; Ask me anything
+                        </span>
+                    </div>
+                </div>
+                <button class="ai-widget-close" id="ai-widget-close" title="Close">&times;</button>
+            </div>
+            <div class="ai-widget-content">
+                <div id="ai-messages" class="ai-messages"></div>
+                <div class="ai-chips-bar">
+                    <button class="ai-chip-btn"
+                        onclick="window.KingstonAI?.setInput('Tell me about admissions'); window.KingstonAI?.handleSendMessage('widget');">🎓
+                        Admissions</button>
+                    <button class="ai-chip-btn"
+                        onclick="window.KingstonAI?.setInput('What is the fee structure?'); window.KingstonAI?.handleSendMessage('widget');">💰
+                        Fees</button>
+                    <button class="ai-chip-btn"
+                        onclick="window.KingstonAI?.setInput('Tell me about placements'); window.KingstonAI?.handleSendMessage('widget');">📊
+                        Placements</button>
+                    <button class="ai-chip-btn"
+                        onclick="window.KingstonAI?.setInput('What courses are offered?'); window.KingstonAI?.handleSendMessage('widget');">📚
+                        Courses</button>
+                    <button class="ai-chip-btn"
+                        onclick="window.KingstonAI?.setInput('Tell me about hostel facilities'); window.KingstonAI?.handleSendMessage('widget');">🏠
+                        Hostel</button>
+                    <button class="ai-chip-btn"
+                        onclick="window.KingstonAI?.setInput('Tell me about scholarships'); window.KingstonAI?.handleSendMessage('widget');">🏆
+                        Scholarships</button>
+                </div>
+                <div class="ai-input-area">
+                    <input type="text" id="ai-input" class="ai-input" placeholder="Type your question...">
+                    <button id="ai-send-btn" class="ai-send-btn" title="Send"><i
+                            class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

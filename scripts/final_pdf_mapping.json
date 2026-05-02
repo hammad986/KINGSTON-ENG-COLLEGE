@@ -1,0 +1,51 @@
+{
+    "annual_accounts_statement.pdf": {
+        "references": [
+            "ugc\\ugc_ps_annual_accounts.html"
+        ],
+        "target_folder": "assets/pdfs/ugc"
+    },
+    "annual_reports_s.pdf": {
+        "references": [
+            "ugc\\ugc_ps_annual_reports.html"
+        ],
+        "target_folder": "assets/pdfs/ugc"
+    },
+    "research_and_development_cell_1.pdf": {
+        "references": [
+            "ugc\\ugc_ps_incubation.html",
+            "ugc\\ugc_ps_rnd.html"
+        ],
+        "target_folder": "assets/pdfs/ugc"
+    },
+    "the_tamil_nadu_societies_registration_act_1975_tam_1.pdf": {
+        "references": [
+            "ugc\\ugc_ps_incubation.html"
+        ],
+        "target_folder": "assets/pdfs/ugc"
+    },
+    "national_service_scheme.pdf": {
+        "references": [
+            "ugc\\ugc_ps_nss.html"
+        ],
+        "target_folder": "assets/pdfs/general"
+    },
+    "establishment_of_grievances_redressal_mechanism.pdf": {
+        "references": [
+            "ugc\\ugc_ps_sl_sgrc.html"
+        ],
+        "target_folder": "assets/pdfs/ugc"
+    },
+    "sponsoring_body_details.pdf": {
+        "references": [
+            "ugc\\ugc_ps_sponsoring_body.html"
+        ],
+        "target_folder": "assets/pdfs/ugc"
+    },
+    "department_faculty_details.pdf": {
+        "references": [
+            "ugc\\ugc_ps_staff.html"
+        ],
+        "target_folder": "assets/pdfs/ugc"
+    }
+}

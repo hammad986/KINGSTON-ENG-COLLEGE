@@ -1,0 +1,56 @@
+DEPARTMENTOFCOMPUTERSCIENCEANDENGINEERING
+S.NoNameoftheStaff Designation Qualification Specialization E-MailID
+1.
+Dr.PriyaTAssistantProfessorM.Tech.,P.hDCloudComputing,
+InternetofThingstpriya.engineering@kingston.ac.in
+2.
+Mrs.YashemaNAssistantProfessor M.EArtificialIntelligence,
+DataScienceYash.engineering@kingston.ac.in
+3.
+Mrs.ManjuAAssistantProfessor M.EMobileComputing,Image
+processingmanju.engineering@kingston.ac.in
+4.
+Mrs.SamundeeswariMAssistantProfessor M.EMachineLearning,
+NetworkSecuritysamudeeswaricse.engineering@kingston.ac.in
+5.
+Ms.ChinnimaCAssistantProfessor M.EDataScience&Machine
+LearningChinni16.engineering@kingston.ac.in
+6.
+Mrs.ManimalaVAssistantProfessor M.EComputerNetworks,
+ArtificialIntelligencemanimala.engineering@kingston.ac.in
+7.
+Mrs.ArchanaSAssistantProfessor M.ECloudComputing,
+DeepLearningarchanamba.enigneering@kingston.ac.in
+8.
+Mrs.GayathriKHAssistantProfessor M.EComputerNetworks,
+CyberSecuritygayathri.engineering@kingston.ac.in
+9.
+Mrs.VanithaVAssistantProfessor M.EDataScience&Machine
+Learningvanitha@kingston.ac.in
+10.
+Mrs.SharmilyDAssistantProfessor M.EArtificialIntelligence,
+DataAnalyticsharmily.engineering@kingston.ac.in
+11.
+Mrs.AnandhiAVAssistantProfessor M.ECyberSecurity,Artificial
+Intelligence ananthi.engineering@kingston.ac.in
+12.
+Mrs.PavithraMAssistantProfessor M.ENetworkSecurity,Image
+Processingpavithra.cse@kingston.ac.in
+13.
+Mrs.MohanaSudhaMAssistantProfessor M.ECloudComputing,
+IoTmohanasudha.engineering@kingston.ac.in
+14.
+Mr.KavinilavanBAssistantProfessorM.EComputerNetworks,
+ArtificialIntelligencekavinilavan.engineering@kingston.ac.in
+15.
+Mr.PradeepMAssistantProfessorM.EDataScience&Machine
+Learningpradeep.engineering@kingston.ac.in
+16.
+Mrs.HaripriyaSAssistantProfessorM.EDeepLearning,Network
+Securityharipriya.engineering@kingston.ac.in
+17.
+Mr.KumarGJAssistantProfessorM.EComputerNetworks,
+MobileComputinggjkumar.engineering@kingston.ac.in
+18.
+Mrs.MaliniRAssistantProfessorM.ECloudComputing,
+NetworkSecuritymalini.engineering@kingston.ac.in

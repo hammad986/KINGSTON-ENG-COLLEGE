@@ -1,0 +1,767 @@
+
+--- Page 1 ---
+CSE Department  News  Letter  2023 -2024   
+  
+ 
+ 
+Approved by AICTE, Affiliated  to Anna University  
+DEPARTMENT  OF COMPUTER  SCIENCE  AND  ENGINEERING  
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+TECH PULSE  
+Newsletter  
+ 
+ 
+ 
+ 
+ACADEMIC YEAR  
+2023 -2024  
+
+--- Page 2 ---
+CSE Department  News  Letter  2023 -2024   
+  
+DEPARTMENT  OF COMPUTER  SCIENCE  
+AND  ENGINEERING  
+VISION  OF THE  INSTITUTE  
+ 
+ 
+To be a pioneer in engineering and management education by providing amicable 
+ambience and being a centre for learning thereby perpetuating versatile professionals in 
+engineering and management suitable for industry, higher education and research.  
+ 
+MISSION  OF THE  INSTITUTE  
+ 
+Building infrastructure that earmarks the institution to be the most preferred educational 
+destination and provides the right ambience for creative and innovative teaching - 
+learning process.  Enabling learners to broaden their horizon a nd helping to meet global 
+challenges.  
+VISION  OF THE  DEPARTMENT  
+ 
+To build competent industry ready professionals to largely contribute the society, by 
+imparting the knowledge in the domain of Computer Science and Business Systems 
+with managerial skills, human and social values.  
+ 
+MISSION  OF THE  DEPARTMENT  
+ 
+ 
+1. Educating students with the background of fundamentals, stretching their imagination to 
+meet the challenges in the field of computer science and Engineering.  
+2. Transforming the Emerging technology to the  young minds by effective teaching learning 
+process.  
+3. Imparting the self -learning ability, leadership and managerial quality to the students  
+ 
+
+--- Page 3 ---
+CSE Department  News  Letter  2023 -2024   
+  
+PROGRAM  EDUCATIONAL  OBJECTIVES  (PEOS)  
+Graduates  of Computer  Science  and Engineering  Program  will 
+1. Achieve a successful profession with good knowledge in Computer Science and 
+Engineering to meet the demands of industry.  
+2. Become morally responsible engineers and contribute to the betterment of society.  
+3. Possess required skills and leadership qualities which will mak e them to be a 
+continuous learner.  
+ 
+PROGRAM  OUTCOMES  (POs)  
+ 
+Engineering  Graduates  will be able to: 
+ 
+1. Engineering  knowledge : Apply the knowledge of mathematics, science, 
+engineering fundamentals, and an engineering  specialization to the solution of 
+complex engineering problems.  
+ 
+2. Problem  analysis : Identify, formulate, review research literature, and analyze 
+complex engineering problems reaching substantiated conclusions using first 
+principles of mathematics, natural sciences, and engineering sciences.  
+ 
+3. Design/development  of solutions : Design solutions for complex engineering 
+problems and design system components or processes that meet the specified needs 
+with appropriate consideration for the public  health and safety, and the cultural, 
+societal, and environmental considerations.  
+ 
+4. Conduct  investigations  of complex  problems : Use research -based knowledge 
+and research methods including design of experiments, analysis and interpretation 
+of data, and synthesis of the information to provide valid conclusions.  
+ 
+5. Modern  tool usage : Create, select, and apply appropriate techniques, resources, 
+and modern engineering and IT tools including prediction and modeling to 
+complex engineering activities with an unde rstanding of the limitations.  
+--- Page 4 ---
+CSE Department  News  Letter  2023 -2024   
+  
+6. The engineer  and society : Apply reasoning informed by the contextual knowledge 
+to assess societal, health, safety, legal and cultural issues and the consequent 
+responsibilities relevant to the professional engineering practice.  
+ 
+7. Environment  and sustainability : Understand the impact of the professional 
+engineering solutions in societal and environmental contexts, and demonstrate the 
+knowledge of, and need for sustainable development.  
+ 
+8. Ethics : Apply ethical principles and commit to professional ethics and 
+responsibilities and norms of the engineering practice.  
+ 
+9. Individual  and team  work : Function effectively as an individual, and as a member 
+or leader in diverse teams, and in multidisciplinary settings.  
+10. Communication : Communicate effectively on complex engineering activities 
+with the engineering community and with society at large, such as, being able to 
+comprehend and write effective reports and design documentation, make effective 
+presentation s, and give and receive clear instructions.  
+11. Project  management  and finance : Demonstrate knowledge and understanding of 
+the engineering and management principles and apply these to one’s own work, as 
+a member and leader in a team, to manage projects and in multidisciplinary 
+environments.  
+ 
+12. Life-long learning : Recognize the need for, and have the preparation and ability 
+to engage independent and life -long learning in the broadest context of 
+technological change
+--- Page 5 ---
+CSE Department  News  Letter  2023 -2024   
+  
+ 
+ 
+      The two -day w orkshop on AWS Cloud, which took place on the 11th and 12th of August 2023, 
+proved to be a comprehensive and engaging learning experience. The workshop was expertly led by 
+Mr. Muhammad Mubashir T, an experienced AWS Cloud Engineer from APPIN Technologies P vt. 
+Limited, Bangalore. Participants gained in -depth knowledge of AWS services, best practices, and 
+hands -on experience in cloud computing .  
+ 
+ 
+ 
+ 
+ 
+
+--- Page 6 ---
+CSE Department  News  Letter  2023 -2024   
+  
+ 
+ 
+The value -added course  on advanced techniques in semi -immersive reality and immersive 
+multimedia, held from March 4th to March 9th, 2024, was led by Dr. B. Ezhilavan , the esteemed 
+Founder and CEO of VEI Technologies Private Limited, Chennai. Dr. Ezhilavan brought a wealth 
+of ex perience to the course, combining deep academic knowledge with hands -on industry expertise. 
+Participants had the unique opportunity to learn cutting -edge techniques directly from a leading 
+figure in the industry, exploring both the theoretical foundations and practical applications of 
+immersive technologies. This intensive course was designed to equip attendees with the skills 
+necessary to innovate and excel in the rapidly evolving domains of semi -immersive reality and 
+immersive multimedia.  
+ 
+
+--- Page 7 ---
+CSE Department  News  Letter  2023 -2024   
+  
+ 
+Dr. M.G.R. Educational and Re search Institute was proud to present this Certificate of Appreciation 
+to Mr. Pulluru Bhavith from the Department of Computer Science Engineering. His outstanding 
+performance in the Project -Expo event at KALAM'22 - DIGITRA, held on the 19th and 20th of 
+September 2022, earned him the prestigious First Place award. This achievement reflected his 
+innovative thinking, technical expertise, and dedication to excellence. His success brought great 
+honor to the Department of Computer Science Engineering and served a s an inspiration to his peers. 
+The Department of Electronics and Communication Engineering congratulated Mr. Bhavith on this 
+remarkable accomplishment and wished him continued success in his future endeavors.  
+
+--- Page 8 ---
+CSE Department  News  Letter  2023-202 4    
+  
+ 
+ 
+An industrial visit for the II-year CSE (B Sec) students to the National Atmospheric Research 
+Laboratory (NARL) at the SVU Campus in Panapakkam , Tirupati, Andhra Pradesh, took place on 
+06-10-2023. The visit provided a hands -on learning experience, allowing the students to explore 
+advanced technologies used in atmospheric data collection and analysis. They also had the 
+opportunity to interact with  researchers, gaining a deeper understanding of the real -world 
+applications of their classroom knowledge, particularly in areas such as climate monitoring, weather 
+prediction, and environmental science.  
+ 
+ 
+ 
+ 
+
+--- Page 9 ---
+CSE Department  News  Letter  2023-202 4    
+  
+ 
+Industrial visit for II year CSE (A Sec) students at National Atmospheric Research Laboratory 
+(NARL),SVU Campus , Panapakkam,Tirupati, Andhra Pradesh Visited on 02 -10-2023.The visit 
+offered a hands -on learning experience, allowing the students to explore advanced technologies 
+used in atmospheric data collection and analysis. They also had the chance to interact with 
+researchers, gaining a deeper understanding of the real -world applica tions of their classroom 
+knowledge, especially in areas like climate monitoring, weather prediction, and environmental 
+science.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- Page 10 ---
+CSE Department  News  Letter  2023-202 4    
+  
+ 
+Industrial visit for III year CSE (B Sec) students at Incresco  Technology Solutions Private Limited 
+Bengaluru Visited on 15 -03-2024.The visit offered us a comprehensive overview of their diverse 
+operations, from software development and IT consulting to advanced solutions in artificial 
+intelligence and machine learni ng.The experienced professionals at Incresco provided detailed 
+explanations of their processes, showcasing real -world applications of the technologies and also 
+inspired us to pursue excellence in our future careers.  
+ 
+ 
+ 
+ 
+
+--- Page 11 ---
+CSE Department  News  Letter  2023-202 4  
+  
+ 
+ 
+● Certificate of Merit - Anna University Sports Board.  
+1. First Place Awarded to Mr. Pugazhvendhan. M from the CSE branch of Kingston 
+Engineering College.Recognized as a team member of Athletics event 4x100 for the 
+Zonal Tournaments.  
+2. First Place Awar ded to Mr. Pugazhvendhan. M from the CSE branch of Kingston 
+Engineering College in the Athletics event 200mts.  
+3. Third Place Awarded to Tejaswini.A from the CSE branch of Kingston Engineering 
+College in the Athletics event 400mts…etc,  
+● Certificate of Appercia tion - Mrs. Pavithra. K from the CSE branch of Kingston  
+Engineering College has secured 2nd Place with CGPA of 9.0 and for the successful   
+completion of Network Essential course under Naan Mudhalavan Scheme.  
+ 
+ 
+
+--- Page 12 ---
+CSE Department  News  Letter  2023-202 4  
+ 
+
+--- Page 13 ---
+CSE Department  News  Letter  2023-202 4  
+ S.No  Name of the 
+Author  Title of the Paper  Name of 
+the 
+journal  Vol 
+No/  
+Issue 
+No Page 
+No Mon
+th Year of 
+publication  
+2023 -2024  
+1 B. Sujai Mathew  A Holistic 
+Approach on 
+Airfare Price 
+Prediction using 
+Machine Learning 
+Techniques  IRJAET  9/6  1-14 Dec  2023  
+2 M Sugavanam  Joint 
+Communication 
+and Sensing 
+toward 6G Models 
+and potential of 
+using MIMO  IRJAET  9/6  15-24 Dec  2023  
+3 V Vishal  A Novel Machine 
+Learning  
+Approach for 
+Android Malware 
+Detection based 
+on the Coexistence 
+of Features  IRJAET  9/6  25-34 Dec  2023  
+4 V Vishal  Feature 
+Engineering 
+Techniques for 
+effective Heart 
+Disease Prediction 
+using Block Chain  IJIRMET  9/3  286 -
+289  Apr  2024  
+--- Page 14 ---
+CSE Department  News  Letter  2023-202 4  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 5 M Sugavanm  SDN Enabled 
+Employee’s Novel 
+security survival 
+with quantum key 
+distribution  IJIRMET  9/3  280 -
+285  Apr  2024  
+6 B Sujai Mathew  Machine Learning 
+based Learning 
+Effect Prediction 
+for improving 
+student 
+information 
+Literacy  IJIRMET  9/3  290 -
+294  Apr  2024  
+--- Page 15 ---
+CSE Department  News  Letter  2023-202 4  
+  
+FACULTY  FDP ATTENDED  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- Page 16 ---
+CSE Department  News  Letter  2023-202 4  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+
+--- Page 17 ---
+CSE Department  News  Letter  2023-202 4  
+  
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+   
+ 
+  
+  
+
+--- Page 18 ---
+CSE Department  News  Letter  2023-202 4  
+  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+
+--- Page 19 ---
+CSE Department  News  Letter  2023-202 4  
+  
+ 
+NPTEL COURSES COMPLETED  
+Sl.No  Academic 
+Year  
+Name of the Student  Curricular/Extra Curricular 
+Activity  Participation/Winning 
+Details  
+1 2023 -24 YUVAN PRAKASH P  NPTEL -PROGRAMMING IN 
+JAVA  Successfully completed  
+2 2023 -24 PRAVEEN KUMAR S  NPTEL -PROGRAMMING IN 
+JAVA  Successfully completed  
+3 2023 -24 SNEHA B  NPTEL -PROGRAMMING IN 
+JAVA  Successfully completed  
+4 2023 -24 RANJITHA S  NPTEL -PROGRAMMING IN 
+JAVA  Successfully completed  
+5 2023 -24 YUVARANJANI R  NPTEL -PROGRAMMING IN 
+JAVA  Successfully completed  
+6 2023 -24 JANANI A  NPTEL -PROGRAMMING IN 
+JAVA  Successfully completed  
+7 2023 -24 LEKHA 
+PRIYADARSHINI KP  NPTEL -DISTRIBUTED 
+SYSTEMS  Successfully completed  
+8 2023 -24 DAYANA S  NPTEL -DISTRIBUTED 
+SYSTEMS  Successfully completed  
+9 2023 -24 SANJAY P  NPTEL -MACHINE LEARNING   Successfully completed  
+10 2023 -24 SOWMIYA H  NPTEL -MACHINE LEARNING   Successfully completed  
+11 2023 -24 MONIKA R  NPTEL -CLOUD COMPUTING   Successfully completed  
+ 
+ 

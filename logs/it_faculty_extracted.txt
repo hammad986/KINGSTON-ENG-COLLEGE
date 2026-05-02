@@ -1,0 +1,30 @@
+DEPARTMENTOFINFORMATIONANDTECHNOLOGY
+S.NoNameoftheStaff Designation Qualification Specialization E-MailID
+1.
+Mrs.MenakaMAssistantProfessor M.EArtificialIntelligence,
+DataSciencemenaka@kingston.ac.in
+2.
+Mrs.SarahSAssistantProfessor M.EDeepLearning,Network
+Securitysarah@kingston.ac.in
+3.
+Mrs.DeepaUAssistantProfessor M.TechMobileComputing,Image
+processingdeepa.engineering@kingston.ac.in
+4.
+Dr.VasumathyMAssociateProfessorM.S(SE).,P.hDDataScience&Machine
+Learningvasumathy.engineering@kingston.ac.in
+5.
+Mr.GajendiranKSAssistantProfessor M.TechDataScience&Machine
+Learninggajendiran@kingston.ac.in
+6.
+Ms.NathiyaSAssistantProfessor M.EArtificialIntelligence,
+DataAnalyticnathiya.engineering@kingston.ac.in
+7.
+Ms.VishnupriyaRAssistantProfessorM.EComputerNetworks,
+ArtificialIntelligencevishnupriya.engineering@kingston.ac.in
+8.
+Mrs.PriyadharshiniBSAssistantProfessorM.ENetworkSecurity,Image
+Processingpriyaadarshini.engineering@kingston.ac.in
+9.
+AssistantProfessorM.EDeepLearning,Network
+Securitybharathi2528@gmail.com
+Mrs.BharathiM

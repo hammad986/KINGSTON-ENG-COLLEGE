@@ -1,0 +1,48 @@
+ 
+DEPARTMENT OF ARTIFICIAL INTELLIGENCE AND DATA SCIENCE  
+S. No  Name of the Staff  Designation  Qualification  Specialization  E-Mail ID  
+1. 
+ 
+Dr. Priya S  Assistant Professor  M.E., Ph.D  Artificial Intelligence, 
+Machine Learning  priya.engineering@kingston.ac.in  
+ 
+2. 
+ 
+Dr. Kannammal N  Professor  M.Tech., Ph.D  Artificial Intelligence, 
+Machine Learning  kannammal.engineering@kingston.ac.in  
+ 
+3. 
+  
+ 
+Mr. Ka rthik N  Assistant Professor  M.Tech  Cloud Computing 
+Mobile Computing  karthik.engineering@kingston.ac.in  
+ 
+4. 
+ 
+Mrs. Sugashini S  Assistant Professor  M.E  Artificial Intelligence, 
+Mobile Computing  sugashini.engineering@kingston.ac.in  
+ 
+5. 
+ 
+Mrs. Poongodi K  Assistant Professor  M.Tech  Artificial Intelligence, 
+Data Analytic  poongodi.enginee ring@kingston.ac.in  
+ 
+6. 
+ 
+Mrs.Kalaiselvi V  Assistant Professor  M.E Machine Learning  
+Network Security  vkalaiselvi.engineering@kingston.ac.in  
+ 
+7. 
+ 
+Mrs. Geetha N  Assistant Professor  MCA, M.Tech  Artificial Intelligence, 
+Machine Learning, 
+Deep Learning  ngeetha.engineering@kingston.ac.in  
+ 
+8.  
+ 
+Mrs. Mohana D  
+  
+Assistant Professor  M.E Deep Learning & Cloud 
+Computing  mohana.engineering@kingston.ac.in  
+ 
+ 

@@ -1,0 +1,315 @@
+Page | 1   
+ 
+ 
+For Private  Circulation  only  
+DEPARTMENT  OF INFORMATION  TECHNOLOGY 
+NEWS LETTER JULY 20 23 - JUNE 20 24 
+Page | 2  CONTENTS  
+❖ Mission  
+❖ Vision  
+❖ PEO’S  
+❖ About  the Department  
+❖ Symposium,  Workshops  & Guest  Lecture  organized  by the Department.  
+❖ FDP/Workshop  attended  by the Faculty  
+❖ Conferences  attended  by the Faculty  
+❖ FDP/Workshop/Paper  Presentation  attended  by the Students  
+ 
+EDITORIAL  COMMITTEE  
+Name  of Editor:  
+Mrs. M. Menaka  
+Head  of the Department/IT  
+Mrs.  S. Sarah  
+Asst.Professor Dept of IT  
+Mrs. M. Bharathi  
+Asst.Professor Dept of IT  
+Student  members : Shammi Kumar.T (IV / IT) 
+Rohan Samuel.J  (III / IT) 
+Durgesh Kumar.R (II / IT) 
+Publisher:  Department  of Information  Technol ogy 
+Page | 3  MISSION  OF THE INSTITUTION  
+• Developing innovative, competent computer engineers through planning, in -depth 
+analysis, and hands -on problem solving in the quest for the students to work with 
+emerging technologies.  
+• Inculcating a learning environment and upgrade the knowledge of students through 
+value -based  education and promotes the academic excellence.  
+• Providing a leadership and ethical values for effective deliberate and tactical 
+planning to cater the needs of the Society and to Prepare students for professional 
+career and higher studies and promoting innovative research and education 
+programs in the IT  field.  
+VISION  OF THE INSTITUTION  
+ 
+To provide quality education to the students and impart IT excellence by building 
+strong academic environment and to enable the essential skills in the innovators and 
+entrepreneurs making them as proficient professionals for industrial consultancy.  
+PROGRAMME  EDUCATIONAL  OBJECTIVES  (PEOS)  
+• PEO 1(Fundamental Knowledge):  To ensure graduates will be proficient in 
+utilizing the fundamental knowledge of basic sciences, mathematics and Information 
+Technology for the applications relevant to various streams of Engineering and 
+Technology.  
+• PEO 2(Core Competencies):  To enrich graduates with the core competencies 
+necessary for applying knowledge of computers and telecommunications equipment 
+to store, retrieve, transmit, manipulate and analyze data in the context of business 
+enterprise.  
+• PEO  3(Life -Long Learning):  To enable graduates  to think  logically,  pursue  lifelong 
+learning and will have the capacity to understand technical issues related to 
+computing systems and to design optimal solutions.  
+• PEO 4(Professional Career):  To enable graduates to develop hardware and 
+software systems by understanding the importance of social, business and 
+environmental needs in the human context.  
+• PEO 5(Multifaceted Aspects):  To enable graduates to gain employment in 
+organizations and establish themselves as professionals by applying their  technical 
+skills to solve real world problems and meet the diversified needs of industry, 
+academia and research . 
+ 
+Page | 4  ABOUT  THE  DEPARTMENT  
+The Department of Information Technology was established in the year 2008 
+with the intake of 60. Our vision and mission focus towards academic excellence along 
+with emerging technologies. We also pave way towards higher studies and research 
+activities  through curricular, co -curricular, and extra -curricular events.  We adhere to 
+the Anna University curriculum as an affiliated institution. The department provides 
+an environment towards collaborative research by guiding students in developing 
+solutions to meet industry or society needs. The department has  been achieving 
+consistently good placement and academic records.  
+The main objective is to motivate the students to excel in basic engineering skills 
+and mould them as good technocrats through futuristic plans. We also provide 
+continuous exposure on current trends and tools through practical hours and 
+workshops in which the collaboration from industry people is in place. We also 
+provide individual attention to each student that would in turn inculcate entrepreneur 
+skills with ethical and social values. We create opportunities for students through 
+various activities in building  their interpersonal and intrapersonal skills.  
+ 
+ 
+  Lab Configurations:  
+ 
+Data Structures Lab:  
+Processor: AMD Ryzen3 / 3.60 GHz, 8 GB RAM, 480 GB SSD  
+ 
+Object Oriented Analysis & Design Lab:  
+Processor: AMD Ryzen3 / 3.60 GHz, 8 GB RAM, 480 GB SSD  
+ 
+   Web Technology Lab:  
+   Processor: Intel i3 10 th Gen / 3.70 GHz, 8 GB RAM, 480 GB SSD  
+ 
+ 
+ 
+Page | 5  FACULTY PARTICIPATIONS  
+ 
+1. Mrs. Menaka M  
+❖ Role:  Resource Person  
+❖ Event:  Robo Talento Competition at FIITJEE Global Public School  
+❖ Date:  August 2023  
+2. Mrs. Sarah S  
+Roles and Events:  
+❖ Reviewer  at the International Conference on Computational Sciences and Sustainable 
+Technologies (ICCSST -2023), Christ University (May 2023)  
+❖ Jury member  for the Student Innovation and Development Programme for Vellore and 
+Ranipet District Level Bootcamp for School Students Projects organized by 
+Entrepreneurship Development and Innovation Institute, Government of Tamil Nadu 
+(February 2024)  
+❖ Resource Person  for delivering a guest lecture on Basic Computer Skills at Worth 
+Trust, Vellore (February 2024)  
+❖ Niral Thiruvizha Project Mentor , received a fund of 10,000 for the project titled 
+"Gamified App for Learning by PwDs" (March 2024) . 
+FACULTY PUBLICATION DETAILS  
+ 
+1. Mrs. Menaka M  
+❖ "A Combination of Cloud Radio Accessing Networks and Mobile Cloud Computing for 
+Remote Cloud Computing Services ": Published in July 2023 in the IEEE Conference Issue. 
+[DOI: 10.1109/ICESC57686.2023.10193219]  
+❖ "Forecasting Naturally Occurring Forest Fires using AI and Machine Learning in Wireless 
+Sensor Networks ": Published in August 2023 in the IEEE Conference Issue. [DOI: 
+10.1109/ICIRCA57980.2023.10220860]  
+❖ "Blockchain Technology Based Privacy Protection Scheme for Large -Scale Distributed 
+Systems ": Published in August 2023 in the IEEE Conference Issue. [DOI: 
+10.1109/ICIRCA57980.2023.10220586]  
+ 
+ 
+ 
+Page | 6  2. Mrs. Sarah S  
+❖ "Predictive Analysis of Hybrid Grasshopper with FireFly Optimization Algorithm for 
+Feature Selection using HCC Data ": Presented at the 7th International Conference on 
+Intelligent Computing (ICONIC 2K24) held in March 2024 at Panimalar Engineering College, 
+Chennai.  
+❖ "Predictive Policing: Harnessing Machine Learning for Crime Forecasting and 
+Prevention":  Presented at the International Conference on Intelligent Computing Advanced 
+Communication and Materials (IC2ACM -2023) in December 2023.  
+PATENTS  
+1. Mrs. Menaka M  
+✓ Patent Name: Design and Implementation of the Inventory Management System  
+• Published Date: 16 -06-2023  
+• Details: 2nd Author, Patent Application Number: 202341034506  
+✓ Patent Name: QR Code Controlled Clever Cookies/Beverages Vending Machine and 
+Auto Payable Option Using UPI Payments Application  
+• Published Date: 05 -05-2023  
+• Details: 2nd Author, Patent Application Number: 202341027064  
+2. Mrs. Sarah S  
+• Patent Name: Cancer Cell Detection Device  
+• Published Date: 18-08-2023  
+• Details: 4th Position, Design Number: 387009 -001, Journal No: 33/2023  
+DEPARTMENT EVENTS   
+1. On September 14, 2023 , industrial visit to MSC Technology in Chennai  for III Year IT and IV Year 
+IT students.  
+2. On September 2, 2023  a Placement Awareness event titled " Synergy Connect’23 " held for the 
+parents of II Year and III Year students (B21 & B22) from the CSE and IT departments . 
+3. From October 25 , 2023 to October 30, 2023  a value -added course on " Cloud Computing: A 
+Comprehensive Introduction " was organized . 
+Page | 7  4. From January 30, 2024 to February 3, 2024  value -added course conducted on " Art of 
+Generative AI Algorithms and Applications ." 
+5. On March 4, 2024 , an Industrial visit  to the Visvesvaraya Industrial and Technological Park  
+in Bengaluru  for III Year IT student s. 
+6. On February 8, 2024  a Cybercrime Awareness event titled " Cyber Resilience Navigation " held 
+for students from the CSE, IT, AI&DS, and CSBS departments . The event include d judges as HOD 
+of Mechanical Engineering and the HOD of Electronics and Communication Engineering, along with 
+a drawing competition on cybercrime awareness.  
+7. From March 21, 2024 to March 25, 2024  a Faculty Development Program (FDP)  called 
+"Exploring Frontiers of AI Computing & Technologies (EFACT’24) " was  organized. This 
+program guests are from MSC Tech, NIT -Puducherry, ATE -Machine Vision Systems, ATOS, and 
+BGENT , which would benefit  both internal and external faculty members.  
+8. On April 18, 2024 , a virtual workshop titled " TechXperience with REST APIs  for Application 
+Development " was  conducted by our Alumni Mr. Dhanush Ram, a Senior Software Engineer at CRUX 
+Digital in Bangalore.  
+GENERAL EVENTS  
+1. On November 20 and 21, 2023 , a Faculty Development Program (FDP)  titled " Cambridge 
+English " was held  featuring Ms. Scharada Dubey, an author and communication consultant from 
+Bengaluru  as part of Naan Mudhalvan Initiative . 
+2. On February 15, 2024 , an Engineering Awareness event called " Engineering Horizons: Igniting 
+Young Minds " was organized  with all Heads of Departments  presenting the current technology and 
+Career  scope  for the Government Boys Higher Secondary School , Katpadi . 
+3. From February 26 to February 28, 2024  a placement training program titled " Employability 
+Skills: Career Competent Engineer " was  conducted by Naandi Foundation for all final year students . 
+4. On May 29, 2024  a State Level Job fair named " Naan Mudhalvan State -wide Placement Drive " was  
+organized, where 106 job offers  made by 19 different participated companies . 
+ 
+ 
+ 
+Page | 8  Workshop /Symposium /Paper  Presentation  attended  by the Students  
+ 
+1. Rajeshwari S (II Year, Reg. No. 511322205701)  
+➢ Tongue Twister : First Prize at Global Cognizance'23, Global Institute of Engineering & 
+Technology on July 28, 2023.  
+➢ Paper Demonstration : Winner at Tech Spark'23, Global Institute of Engineering & Technology 
+on October 26, 2023.  
+➢ Badminton : Runner -Up at Annual Sports Meet'23, Global Institute of Engineering & Technology 
+from February 8 to 11, 2023.  
+2. Nithyasree G (III Year, Reg. No. 511321205020)  
+➢ Web Crafting : Runner -Up at Tech Spark'23, Global Institute of Engineering & Technology on 
+October 26, 2023.  
+➢ Script Debugging : Winner at Tech Spark'23, Global Institute of Engineering & Technology on 
+October 26, 2023.  
+➢ Visual Vision - 2K24 : Third Place at TPGIT - ALGOTRON V3.0 Symposium on February 28, 
+2024.  
+➢ Code Dilemma : First Prize at TPGIT - ALGOTRON V3.0 Symposium on February 28, 2024.  
+➢ Web Design : Second Place at INFOGRAM'23, C. Abdul Hakeem College of Engineering and 
+Technology.  
+3. Gayathri S (III Year, Reg. No. 511321205007)  
+➢ Script Debugging : Runner -Up at Tech Spark'23, Global Institute of Engineering & Technology 
+on October 26, 2023.  
+➢ Tamil Typewriting : First Class in August 2023.  
+4. Pon  Lavanya S (III Year, Reg. No. 511321205021)  
+➢ SDG Quiz : First Place at MGR IGEN ENSAV CLUB on April 5, 2024.  
+5. Shree Varshenee K (III Year, Reg. No. 511321205035)  
+➢ Bharathanatyam (Grade -II Exam) : First Class with Distinction on November 10, 2023, at Sri 
+Natarajar Natiyalaya.  
+➢ Bharathanatyam (Grade -I Exam) : First Class on November 10, 2023, at Sri Natarajar 
+Natiyalaya.  
+➢ Seerkazhi Nattiya Thiruvizha'23 : Nattiya Mangai Award on May 23, 2023.  
+➢ Treasure Hunt : Second Place at Zenithrive / AMCET Symposium on October 5, 2023.  
+➢ Dance Performance : Achieved a World Record in classical dance.  
+➢ Performing Dance Form in Nalvar Saiva Thirumuraigal : Participated in a world record event 
+at Arunachaleswarar temple, Thiruvannamalai, recognized by the Raaba World Records.  
+ 
+ 
+Page | 9  6. Janani A (III Year, Reg. No. 511321205012)  
+➢ Script Debugging : Runner -Up at Tech Spark'23, Global Institute of Engineering & Technology 
+on October 26, 2023.  
+7. Rohan Samuel J (III Year, Reg. No. 511321205025)  
+➢ Code -athon : First Prize at a symposium at Dhanish Ahmed College of Engineering on May 2, 
+2024.  
+➢ Connexion : First Prize at a symposium at Dhanish Ahmed College of Engineering on May 2, 
+2024.  
+➢ Script Debugging : Winner at Tech Spark'23, Global Institute of Engineering & Technology on 
+October 26, 2023.  
+➢ Byte Grable : First Place at Kongu Engineering College on March 2, 2024.  
+➢ Coding & Debugging : First Prize at NEXUS'2K24 at Kongu Engineering College on March 13, 
+2024.  
+➢ Triumph Journey : First Prize at NEXUS'2K24 at Kongu Engineering College on March 13, 2024.  
+➢ Fortune Quest : First Prize at Kongu Engineering College on March 2, 2024.  
+➢ Code Crafters Summit : First Prize at Electrofocus'24, MIT, Anna University from March 23 to 
+24, 2024.  
+➢ Fault Fix Fiesta : First Prize at Electrofocus'24, MIT, Anna University from March 23 to 24, 2024.  
+➢ Code Blitz : First Prize at Muthayammal Engineering College on April 24, 2024.  
+➢ Coding Debugging : First Prize at PTLee Engineering College on April 28, 2024.  
+➢ Code Crusade : First Prize at SNS College of Technology on May 24, 2024.  
+➢ Mix N Mingle : First Prize at SNS College of Technology on May 24, 2024.  
+➢ Coding Debugging : First Prize at Shree Venkateshwara Hi -Tech Engineering College on April 
+22, 2024.  
+➢ CODING CONQUERER - 2K24 : First Prize at TPGIT - ALGOTRON V3.0 Symposium on February 
+28, 2024.  
+➢ Code Dilemma : First Prize at TPGIT - ALGOTRON V3.0 Symposium on February 28, 2024.  
+➢ Web Designing : First Prize at Shree Venkateshwara Hi -Tech Engineering College on April 22, 
+2024.  
+➢ Coding : First Prize at Zenithrive / AMCET Symposium on October 5, 2023.  
+➢ Cipherex - Coding & Debugging : Second Prize at ELOQUENCE'23, C. Abdul Hakeem College of 
+Engineering and Technology on October 7, 2023.  
+➢ Coding Debugging : Second Prize at Manakula Vinayagar Institute of Technology on April 16, 
+2024.  
+➢ Code Class with Python : Second Prize at Manakula Vinayagar Institute of Technology on April 
+16, 2024.  
+➢ Web Design : Second Place at INFOGRAM'23, C. Abdul Hakeem College of Engineering and 
+Technology.  
+Page | 10  ➢ Web Crafting : Runner -Up at Tech Spark'23, Global Institute of Engineering & Technology on 
+October 26, 2023.  
+➢ Project Expo : Third Place at TPGIT - EPULZ'2K24 Symposium on February 28, 2024.  
+➢ Code Carnival : Third Place at VTECH SPARK'2K24 at VelTech, Avadi on March 27, 2024.  
+➢ Connexion : First Place at Zenithrive / AMCET Symposium on October 5, 2023.  
+ 
+TOPPERS  LIST  
+ANNA  UNIVERSITY  EXAMINATIONS  
+ 
+S.NO  DEPARTMENT  RANK  REGISTRATION 
+NUMBER  STUDENT NAME  SEM  
+1 
+II IT  1 511321205007  BARATH M  3 
+2 2 511321205044  RITHICK R  3 
+3 3 511321205029  LOKESH A  3 
+4 
+III IT  1 511321205016  MALAIYARASI M  5 
+5 2 511321205038  SOWMIYA G  5 
+6 3 511321205032  SARAVANAN C  5 
+7 
+IV IT  1 511320205028  SUDHARSHAN R C  7 
+8 2 511320205019  NISHA V  7 
+9 3 511320205007  DEVIPRIYA M  7 
+ 
+ 
+DEPARTMENT - BEST OUTGOING STUDENT FOR NOV/DEC 2023  
+     
+S.NO  DEPARTMENT  GENDER  REGISTRATION NUMBER  STUDENT NAME  
+1 IT MALE  511320205033  YESWANTH M  
+2 FEMALE  511320205019  NISHA V  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Page | 11  STUDENTS ACHIEVEMENTS  
+ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+Page | 12  GLIMPSE – DEPARTMENT EVENTS
+ 
+ 
+ 
+ 
+  
+ 
+ 
+
+Page | 13   
+ 
+ 
+ 
+

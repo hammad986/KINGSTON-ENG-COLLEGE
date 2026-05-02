@@ -1,0 +1,113 @@
+------- Computer Science and Engineering -------
+Department Introduction The Department of Computer Science and Engineering was established in the year 2008. The department is committed to provide the state-of-art technical education to the tomorrow's technocrats and software professionals through dedicated quality teaching. The department is well equipped with excellent computing facilities, and has highly qualified faculty specialized in areas like Cloud Computing, Artificial Intelligence, Data Analytics, Networking, Data Mining etc.
+
+------- Department Introduction -------
+The Department of Computer Science and Engineering was established in the year 2008. The department is committed to provide the state-of-art technical education to the tomorrow's technocrats and software professionals through dedicated quality teaching.
+The department is well equipped with excellent computing facilities, and has highly qualified faculty specialized in areas like Cloud Computing, Artificial Intelligence, Data Analytics, Networking, Data Mining etc.
+
+------- Vision Of The Department -------
+
+------- Mission Of The Department -------
+
+------- B.E. Computer Science And Engineering -------
+PROGRAM EDUCATIONAL OBJECTIVES (PEOs) Graduates can: Apply their technical competence in computer science to solve real world problems, with technical and people leadership. Conduct cutting edge research and develop solutions on problems of social relevance. Work in a business environment, exhibiting team skills, work ethics, adaptability and lifelong learning. PROGRAM OUTCOMES (POs) Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems. Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences. Design/development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations. Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions. Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations. The engineer and society: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice. Environment and sustainability: Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development. Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice. Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings. Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions. Project management and finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments. Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change. PROGRAM SPECIFIC OUTCOMES (PSOs) The Students will be able to: Exhibit design and programming skills to build and automate business solutions using cutting edge technologies. Strong theoretical foundation leading to excellence and excitement towards research, to provide elegant solutions to complex problems. Ability to work effectively with various engineering fields as a team to design, build and develop system applications.
+
+------- PROGRAM EDUCATIONAL OBJECTIVES (PEOs) -------
+Graduates can: Apply their technical competence in computer science to solve real world problems, with technical and people leadership. Conduct cutting edge research and develop solutions on problems of social relevance. Work in a business environment, exhibiting team skills, work ethics, adaptability and lifelong learning.
+
+------- Graduates can: -------
+Apply their technical competence in computer science to solve real world problems, with technical and people leadership. Conduct cutting edge research and develop solutions on problems of social relevance. Work in a business environment, exhibiting team skills, work ethics, adaptability and lifelong learning.
+
+------- PROGRAM OUTCOMES (POs) -------
+Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems. Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences. Design/development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations. Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions. Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations. The engineer and society: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice. Environment and sustainability: Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development. Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice. Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings. Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions. Project management and finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments. Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
+
+------- PROGRAM SPECIFIC OUTCOMES (PSOs) -------
+The Students will be able to: Exhibit design and programming skills to build and automate business solutions using cutting edge technologies. Strong theoretical foundation leading to excellence and excitement towards research, to provide elegant solutions to complex problems. Ability to work effectively with various engineering fields as a team to design, build and develop system applications.
+
+------- The Students will be able to: -------
+Exhibit design and programming skills to build and automate business solutions using cutting edge technologies. Strong theoretical foundation leading to excellence and excitement towards research, to provide elegant solutions to complex problems. Ability to work effectively with various engineering fields as a team to design, build and develop system applications.
+
+------- M.E. Computer Science And Engineering -------
+PROGRAM EDUCATIONAL OBJECTIVES (PEOs) Graduates can: Develop proficiency as a computer science engineer with an ability to solve a wide range of computational problems and have sustainable development in industry or any other work environment. Analyze and adapt quickly to new environments and technologies, gather new information, and work on emerging technologies to solve multidisciplinary engineering problems. Possess the ability to think analytically and logically to understand technical problems with computational systems for a lifelong learning which leads to pursuing research. Adopt ethical practices to collaborate with team members and team leaders to build technology with cutting-edge technical solutions for computing systems Strongly focus on design thinking and critical analysis to create innovative products and become entrepreneurs. PROGRAM OUTCOMES (POs) An ability to independently carry out research / investigation and development work to solve practical problems. An ability to write and present a substantial technical report/document. Students should be able to demonstrate a degree of mastery over the area of Computer Science and Engineering. Efficiently design, build and develop system application software for distributed and centralized computing environments in varying domains and platforms. Understand the working of current Industry trends, the new hardware architectures, the software components and design solutions for real world problems by Communicating and effectively working with professionals in various engineering fields and pursue research orientation for a lifelong professional development in computer and automation arenas. Model a computer based automation system and design algorithms that explore the understanding of the tradeoffs involved in digital transformation.
+
+------- PROGRAM EDUCATIONAL OBJECTIVES (PEOs) -------
+Graduates can: Develop proficiency as a computer science engineer with an ability to solve a wide range of computational problems and have sustainable development in industry or any other work environment. Analyze and adapt quickly to new environments and technologies, gather new information, and work on emerging technologies to solve multidisciplinary engineering problems. Possess the ability to think analytically and logically to understand technical problems with computational systems for a lifelong learning which leads to pursuing research. Adopt ethical practices to collaborate with team members and team leaders to build technology with cutting-edge technical solutions for computing systems Strongly focus on design thinking and critical analysis to create innovative products and become entrepreneurs.
+
+------- Graduates can: -------
+Develop proficiency as a computer science engineer with an ability to solve a wide range of computational problems and have sustainable development in industry or any other work environment. Analyze and adapt quickly to new environments and technologies, gather new information, and work on emerging technologies to solve multidisciplinary engineering problems. Possess the ability to think analytically and logically to understand technical problems with computational systems for a lifelong learning which leads to pursuing research. Adopt ethical practices to collaborate with team members and team leaders to build technology with cutting-edge technical solutions for computing systems Strongly focus on design thinking and critical analysis to create innovative products and become entrepreneurs.
+
+------- PROGRAM OUTCOMES (POs) -------
+An ability to independently carry out research / investigation and development work to solve practical problems. An ability to write and present a substantial technical report/document. Students should be able to demonstrate a degree of mastery over the area of Computer Science and Engineering. Efficiently design, build and develop system application software for distributed and centralized computing environments in varying domains and platforms. Understand the working of current Industry trends, the new hardware architectures, the software components and design solutions for real world problems by Communicating and effectively working with professionals in various engineering fields and pursue research orientation for a lifelong professional development in computer and automation arenas. Model a computer based automation system and design algorithms that explore the understanding of the tradeoffs involved in digital transformation.
+
+------- Academic -------
+
+------- Curriculum and Syllabus Calendar -------
+R2013-B.E-CSE
+R2013-M.E-CSE
+R2017-B.E-CSE
+R2017-M.E-CSE
+R2021-B.E-CSE
+R2021-M.E-CSE
+
+------- Laboratories -------
+
+------- Research -------
+
+------- Patents -------
+S.No Patent Name Faculty Name Number Status 1 STRANGELY DETECT AND CONTROL CYBERCRIME DEVICE Dr. Rajarajeswari. P 201941018711 Published
+
+------- ACADEMIC YEAR 2018-2019 (Consultancy Projects) -------
+S.No Name of the Faculty Project Title Funding Agency Status 1 Dr.Rajeswari.Perepi, Mrs.M.Menaka, Mr.M.Tamil Thendral, Ms.S.Sarah, Ms.S.Sivasankari Innovative Teaching Practices and Methods For Developing Educational Projects In Schools Based on 3D Printing Technology Kingston Matric Higher Secondary School Applied
+
+------- Sponsored Projects -------
+Download Pdf
+
+------- Book Published -------
+Download Pdf
+
+------- List of MoU's -------
+S.No Title 1 MoU with Airtel, Chennai –Internship for Students, Training for Faculty members.
+
+------- Achievements -------
+
+------- University Rank Holders - UG -------
+Batch 2009-2013 S.No Register Number University Rank Holder Name Rank 1 52409104004 BHUVANESHWARI.J 4
+
+------- Batch 2009-2013 -------
+S.No Register Number University Rank Holder Name Rank 1 52409104004 BHUVANESHWARI.J 4
+
+------- Co-Curricular Activities -------
+
+------- Student Participation -------
+Student Participation for academic year : 2019-2020
+
+------- Admission Open for 2024-25 -------
+Enquire Now
+
+------- Academics -------
+Admission Rules and Regulation Salient features Achievements
+
+------- Infrastructure -------
+Infrastructure Facilities Event Gallery
+
+------- Quick Links -------
+Help Desk Careers @ KINGSTON Contact Alumni Feedback Link Alumni Registration Link Anti-Ragging Committee Grievance Redressal Committee Internal Compliance Committee Alumni Feedback Form Parents Feedback on Curriculum Employer Feedback Form Students Feedback on Curriculum Students Feedback on Facilities Hostellers feedback on Facilities Parents Feedback on Facilities
+
+------- © 2026.All Rights Reserved. -------
+
+------- Quick Links -------
+
+------- About -------
+About Us Chairman Message Principal Message
+
+------- Academics -------
+Admission Counselling Rules and Regulation Salient Features Incubation Cell
+
+------- Departments -------
+Computer Science Engineering Computer Science Engineering
+
+------- Infrastructures -------
+Infrastructure Facilities Event Gallery
+
+------- © 2023.All Rights Reserved. -------
+

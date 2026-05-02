@@ -1,0 +1,2357 @@
+{
+  "updated": [],
+  "skipped": [
+    {
+      "file": "academics.html",
+      "link": "assets/pdfs/research/the_patent_office_journal_no_422019_dated_18_10201.pdf"
+    },
+    {
+      "file": "academics.html",
+      "link": "assets/pdfs/research/the_patent_office_journal_no_382019_dated_20092019.pdf"
+    },
+    {
+      "file": "admission.html",
+      "link": "assets/pdfs/admission/scholarship_policy.pdf"
+    },
+    {
+      "file": "admission.html",
+      "link": "assets/pdfs/admission/OnlineProcedure.pdf"
+    },
+    {
+      "file": "admission.html",
+      "link": "assets/pdfs/admission/Eligibility.pdf"
+    },
+    {
+      "file": "grievance_helpdesk.html",
+      "link": "assets/pdfs/ugc_mandatory_committee/irncsrontilgllr8rth0_c0ttege_1.pdf"
+    },
+    {
+      "file": "grievance_helpdesk_raw.html",
+      "link": "assets/pdfs/ugc_mandatory_committee/irncsrontilgllr8rth0_c0ttege_1.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/Feedback_Policy.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/value_added.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/student.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/sports.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/scholarship_policy_1.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/research.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/purchase.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/placement.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/policy.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/library.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/internal.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/infrastructure.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/informa_tion.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/resources.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/finance_1.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/e_waste.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/environmental.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/e_governance_policy.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/code_of_ethics_and_conduct.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/academic.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/alumni.pdf"
+    },
+    {
+      "file": "about/about_governing.html",
+      "link": "../assets/pdfs/governing-council/governing_council.pdf"
+    },
+    {
+      "file": "alumni/alumni_cell_members.html",
+      "link": "../assets/pdfs/alumni/Alumni_Cell_Member_List.pdf"
+    },
+    {
+      "file": "alumni/alumni_cell_members.html",
+      "link": "../assets/pdfs/alumni/Alumni_Cell_Member_List.pdf"
+    },
+    {
+      "file": "alumni/alumni_registration.html",
+      "link": "../assets/pdfs/alumni/Alumni_Association_Registration_Certificate.pdf"
+    },
+    {
+      "file": "alumni/alumni_registration.html",
+      "link": "../assets/pdfs/alumni/Alumni_Association_Registration_Certificate.pdf"
+    },
+    {
+      "file": "departments/aids/aids_curriculum.html",
+      "link": "../../assets/pdfs/departments/aids/departments_aids_ai_ds.pdf"
+    },
+    {
+      "file": "departments/aids/aids_curriculum.html",
+      "link": "../../assets/pdfs/departments/aids/departments_aids_ai_ds.pdf"
+    },
+    {
+      "file": "departments/aids/aids_newsletter.html",
+      "link": "../../assets/pdfs/departments/aids/departments_aids_aids.pdf"
+    },
+    {
+      "file": "departments/aids/aids_newsletter.html",
+      "link": "../../assets/pdfs/departments/aids/departments_aids_aids.pdf"
+    },
+    {
+      "file": "departments/aids/aids_placement.html",
+      "link": "../../assets/pdfs/placements/placements_placement_report_22_23.pdf"
+    },
+    {
+      "file": "departments/csbs/csbs_board_of_studies.html",
+      "link": "../../assets/pdfs/departments/csbs/departments_csbs_bos_csbs.pdf"
+    },
+    {
+      "file": "departments/csbs/csbs_board_of_studies.html",
+      "link": "../../assets/pdfs/departments/csbs/departments_csbs_bos_csbs.pdf"
+    },
+    {
+      "file": "departments/csbs/csbs_newsletter.html",
+      "link": "../../assets/pdfs/departments/csbs/departments_csbs_csbs.pdf"
+    },
+    {
+      "file": "departments/csbs/csbs_timetable.html",
+      "link": "../../assets/pdfs/departments/csbs/departments_csbs_iv_csbs_vii_sem_tt.pdf"
+    },
+    {
+      "file": "departments/csbs/csbs_timetable.html",
+      "link": "../../assets/pdfs/departments/csbs/departments_csbs_csbs_2025_26_even_semester_time_table.pdf"
+    },
+    {
+      "file": "departments/csbs/csbs_timetable.html",
+      "link": "../../assets/pdfs/departments/csbs/departments_csbs_csbs_2025_26_even_semester_time_table.pdf"
+    },
+    {
+      "file": "departments/csbs/csbs_timetable.html",
+      "link": "../../assets/pdfs/departments/csbs/departments_csbs_csbs_2025_26_even_semester_time_table.pdf"
+    },
+    {
+      "file": "departments/csbs/csbs_timetable.html",
+      "link": "../../assets/pdfs/departments/csbs/departments_csbs_csbs_2025_26_even_semester_time_table.pdf"
+    },
+    {
+      "file": "departments/cse/cse_board_of_studies.html",
+      "link": "../../assets/pdfs/departments/cse/departments_cse_bos_cse.pdf"
+    },
+    {
+      "file": "departments/cse/cse_curriculum.html",
+      "link": "../../assets/pdfs/departments/cse/departments_cse_r2013_m_e_cse.pdf"
+    },
+    {
+      "file": "departments/cse/cse_curriculum.html",
+      "link": "../../assets/pdfs/departments/cse/departments_cse_r2013_b_e_cse.pdf"
+    },
+    {
+      "file": "departments/cse/cse_curriculum.html",
+      "link": "../../assets/pdfs/departments/cse/departments_cse_r2017_m_e_cse.pdf"
+    },
+    {
+      "file": "departments/cse/cse_curriculum.html",
+      "link": "../../assets/pdfs/departments/cse/departments_cse_r2017_b_e_cse.pdf"
+    },
+    {
+      "file": "departments/cse/cse_curriculum.html",
+      "link": "../../assets/pdfs/departments/cse/departments_cse_r2021_m_e_cse.pdf"
+    },
+    {
+      "file": "departments/cse/cse_curriculum.html",
+      "link": "../../assets/pdfs/departments/cse/departments_cse_r2021_b_e_cse.pdf"
+    },
+    {
+      "file": "departments/cse/cse_newsletter_magazines.html",
+      "link": "../../assets/pdfs/departments/cse/departments_cse_cse.pdf"
+    },
+    {
+      "file": "departments/cse/cse_newsletter_magazines.html",
+      "link": "../../assets/pdfs/departments/cse/departments_cse_cse.pdf"
+    },
+    {
+      "file": "departments/ece/ece_faculty.html",
+      "link": "../../assets/pdfs/ugc/ugc_ece_staff_details.pdf"
+    },
+    {
+      "file": "departments/ece/ece_newsletter.html",
+      "link": "../../assets/pdfs/departments/ece/departments_ece_ece.pdf"
+    },
+    {
+      "file": "departments/ece/ece_newsletter.html",
+      "link": "../../assets/pdfs/departments/ece/departments_ece_ece.pdf"
+    },
+    {
+      "file": "departments/it/it_curriculum.html",
+      "link": "../../assets/pdfs/departments/it/departments_it_r2021_b_tech_it.pdf"
+    },
+    {
+      "file": "departments/it/it_newsletter.html",
+      "link": "../../assets/pdfs/departments/it/departments_it_it.pdf"
+    },
+    {
+      "file": "departments/it/it_newsletter.html",
+      "link": "../../assets/pdfs/departments/it/departments_it_it.pdf"
+    },
+    {
+      "file": "departments/it/it_placement.html",
+      "link": "../../assets/pdfs/departments/it/departments_it_campus_hiring.pdf"
+    },
+    {
+      "file": "departments/mech/mech_board_of_studies.html",
+      "link": "../../assets/pdfs/departments/mech/departments_mech_bos_mech.pdf"
+    },
+    {
+      "file": "departments/mech/mech_board_of_studies.html",
+      "link": "../../assets/pdfs/departments/mech/departments_mech_bos_mech.pdf"
+    },
+    {
+      "file": "departments/mech/mech_curriculum.html",
+      "link": "../../assets/pdfs/departments/mech/departments_mech_r2021_m_e_mech.pdf"
+    },
+    {
+      "file": "departments/mech/mech_curriculum.html",
+      "link": "../../assets/pdfs/departments/mech/departments_mech_r2021_b_e_mech.pdf"
+    },
+    {
+      "file": "departments/mech/mech_newsletter.html",
+      "link": "../../assets/pdfs/departments/mech/departments_mech_mech.pdf"
+    },
+    {
+      "file": "departments/mech/mech_newsletter.html",
+      "link": "../../assets/pdfs/departments/mech/departments_mech_mech.pdf"
+    },
+    {
+      "file": "iqac/iqac_academic_audit.html",
+      "link": "../assets/pdfs/iqac/2018_2019.pdf"
+    },
+    {
+      "file": "iqac/iqac_academic_audit.html",
+      "link": "../assets/pdfs/iqac/2019_2020.pdf"
+    },
+    {
+      "file": "iqac/iqac_academic_audit.html",
+      "link": "../assets/pdfs/iqac/2020_2021.pdf"
+    },
+    {
+      "file": "iqac/iqac_academic_audit.html",
+      "link": "../assets/pdfs/iqac/2021_2022.pdf"
+    },
+    {
+      "file": "iqac/iqac_academic_audit.html",
+      "link": "../assets/pdfs/iqac/2022_2023.pdf"
+    },
+    {
+      "file": "iqac/iqac_feedback.html",
+      "link": "../assets/pdfs/iqac/action_taken_report_on_feedback_analysis.pdf"
+    },
+    {
+      "file": "iqac/iqac_feedback.html",
+      "link": "../assets/pdfs/iqac/action_taken_report_on_feedback_analysis_1.pdf"
+    },
+    {
+      "file": "iqac/iqac_feedback.html",
+      "link": "../assets/pdfs/iqac/action_taken_report_on_feedback_analysis_2.pdf"
+    },
+    {
+      "file": "iqac/iqac_feedback.html",
+      "link": "../assets/pdfs/iqac/action_taken_report_on_feedback_analysis_3.pdf"
+    },
+    {
+      "file": "iqac/iqac_feedback.html",
+      "link": "../assets/pdfs/iqac/action_taken_report_on_feedback_analysis_4.pdf"
+    },
+    {
+      "file": "iqac/iqac_feedback.html",
+      "link": "../assets/pdfs/iqac/engineering_resources_iqac_feedback_analysis_repor.pdf"
+    },
+    {
+      "file": "iqac/iqac_feedback.html",
+      "link": "../assets/pdfs/iqac/engineering_resources_iqac_feedback_analysis_repor_1.pdf"
+    },
+    {
+      "file": "iqac/iqac_feedback.html",
+      "link": "../assets/pdfs/iqac/alumni_feedback_analysis_report_on_curriculum.pdf"
+    },
+    {
+      "file": "iqac/iqac_feedback.html",
+      "link": "../assets/pdfs/iqac/alumni_feedback_analysis_report_on_curriculum_1.pdf"
+    },
+    {
+      "file": "iqac/iqac_feedback.html",
+      "link": "../assets/pdfs/iqac/alumni_feedback_analysis_report_on_curriculum_2.pdf"
+    },
+    {
+      "file": "iqac/iqac_mom.html",
+      "link": "../assets/pdfs/iqac/620mom20_202023_24.pdf"
+    },
+    {
+      "file": "iqac/iqac_mom.html",
+      "link": "../assets/pdfs/iqac/520mom20_202022_23.pdf"
+    },
+    {
+      "file": "iqac/iqac_mom.html",
+      "link": "../assets/pdfs/iqac/420mom20_202022_23.pdf"
+    },
+    {
+      "file": "iqac/iqac_mom.html",
+      "link": "../assets/pdfs/iqac/320mom20_202022_23.pdf"
+    },
+    {
+      "file": "iqac/iqac_mom.html",
+      "link": "../assets/pdfs/iqac/220mom20_202021_22.pdf"
+    },
+    {
+      "file": "iqac/iqac_mom.html",
+      "link": "../assets/pdfs/iqac/120mom20_202021_22.pdf"
+    },
+    {
+      "file": "naac/naac_curricular_aspects.html",
+      "link": "../assets/pdfs/naac/the_supporting_documents_for_this_metric_exceed_th_2.pdf"
+    },
+    {
+      "file": "naac/naac_curricular_aspects.html",
+      "link": "../assets/pdfs/naac/132_percentage_of_students_undertaking_project_wor.pdf"
+    },
+    {
+      "file": "naac/naac_curricular_aspects.html",
+      "link": "../assets/pdfs/naac/the_supporting_documents_for_this_metric_exceed_th_1.pdf"
+    },
+    {
+      "file": "naac/naac_curricular_aspects.html",
+      "link": "../assets/pdfs/naac/122_percentage_of_students_enrolled_in_certificate.pdf"
+    },
+    {
+      "file": "naac/naac_curricular_aspects.html",
+      "link": "../assets/pdfs/naac/121_number_of_add_on_certificatevalue_added_progra.pdf"
+    },
+    {
+      "file": "naac/naac_curricular_aspects.html",
+      "link": "../assets/pdfs/naac/the_supporting_documents_for_this_metric_exceed_th.pdf"
+    },
+    {
+      "file": "naac/naac_extended_profile.html",
+      "link": "../assets/pdfs/naac/the_supporting_documents_for_this_metric_exceed_th_6.pdf"
+    },
+    {
+      "file": "naac/naac_extended_profile.html",
+      "link": "../assets/pdfs/naac/the_supporting_documents_for_this_metric_exceed_th_5.pdf"
+    },
+    {
+      "file": "naac/naac_extended_profile.html",
+      "link": "../assets/pdfs/naac/the_supporting_documents_for_this_metric_exceed_th_4.pdf"
+    },
+    {
+      "file": "naac/naac_extended_profile.html",
+      "link": "../assets/pdfs/naac/the_supporting_documents_for_this_metric_exceed_th_3.pdf"
+    },
+    {
+      "file": "naac/naac_governance.html",
+      "link": "../assets/pdfs/naac/652_quality_assurance_initiatives_of_the_instituti.pdf"
+    },
+    {
+      "file": "naac/naac_governance.html",
+      "link": "../assets/pdfs/naac/651_internal_quality_assurance_cell_iqac_has_contr.pdf"
+    },
+    {
+      "file": "naac/naac_governance.html",
+      "link": "../assets/pdfs/naac/641_institution_has_strategies_for_mobilization_an.pdf"
+    },
+    {
+      "file": "naac/naac_governance.html",
+      "link": "../assets/pdfs/naac/the_supporting_documents_for_this_metric_exceed_th_7.pdf"
+    },
+    {
+      "file": "naac/naac_governance.html",
+      "link": "../assets/pdfs/naac/632_percentage_of_teachers_provided_with_financial.pdf"
+    },
+    {
+      "file": "naac/naac_governance.html",
+      "link": "../assets/pdfs/naac/631_the_institution_has_performance_appraisal_syst.pdf"
+    },
+    {
+      "file": "naac/naac_governance.html",
+      "link": "../assets/pdfs/naac/622_institution_implements_e_governance_in_its_ope.pdf"
+    },
+    {
+      "file": "naac/naac_governance.html",
+      "link": "../assets/pdfs/naac/621_the_institutional_perspective_plan_is_effectiv.pdf"
+    },
+    {
+      "file": "naac/naac_governance.html",
+      "link": "../assets/pdfs/naac/611_the_institutional_governance_and_leadership_ar.pdf"
+    },
+    {
+      "file": "naac/naac_infrastructure.html",
+      "link": "../assets/pdfs/naac/441_percentage_expenditure_incurred_on_maintenance.pdf"
+    },
+    {
+      "file": "naac/naac_infrastructure.html",
+      "link": "../assets/pdfs/naac/432_student_computer_ratio_data_for_the_latest_com.pdf"
+    },
+    {
+      "file": "naac/naac_infrastructure.html",
+      "link": "../assets/pdfs/naac/431_institution_frequently_updates_its_it_faciliti.pdf"
+    },
+    {
+      "file": "naac/naac_infrastructure.html",
+      "link": "../assets/pdfs/naac/421_library_is_automated_with_digital_facilities_u.pdf"
+    },
+    {
+      "file": "naac/naac_infrastructure.html",
+      "link": "../assets/pdfs/naac/412percentage_of_expenditure_for_infrastructure_de.pdf"
+    },
+    {
+      "file": "naac/naac_infrastructure.html",
+      "link": "../assets/pdfs/naac/411_the_institution_has_adequate_infrastructure_an.pdf"
+    },
+    {
+      "file": "naac/naac_institutional_values.html",
+      "link": "../assets/pdfs/naac/731_portray_the_performance_of_the_institution_in.pdf"
+    },
+    {
+      "file": "naac/naac_institutional_values.html",
+      "link": "../assets/pdfs/naac/721_describe_two_best_practices_successfully_imple.pdf"
+    },
+    {
+      "file": "naac/naac_institutional_values.html",
+      "link": "../assets/pdfs/naac/714_describe_the_institutional_effortsinitiatives.pdf"
+    },
+    {
+      "file": "naac/naac_institutional_values.html",
+      "link": "../assets/pdfs/naac/713_quality_audits_on_environment_and_energy_regul.pdf"
+    },
+    {
+      "file": "naac/naac_institutional_values.html",
+      "link": "../assets/pdfs/naac/712_the_institution_has_facilities_and_initiatives.pdf"
+    },
+    {
+      "file": "naac/naac_institutional_values.html",
+      "link": "../assets/pdfs/naac/711_institution_has_initiated_the_gender_audit_and.pdf"
+    },
+    {
+      "file": "naac/naac_research_innovation.html",
+      "link": "../assets/pdfs/naac/351_number_of_functional_mouslinkages_with_institu.pdf"
+    },
+    {
+      "file": "naac/naac_research_innovation.html",
+      "link": "../assets/pdfs/naac/343_number_of_extension_and_outreach_programs_cond.pdf"
+    },
+    {
+      "file": "naac/naac_research_innovation.html",
+      "link": "../assets/pdfs/naac/342_awards_and_recognitions_received_for_extension.pdf"
+    },
+    {
+      "file": "naac/naac_research_innovation.html",
+      "link": "../assets/pdfs/naac/341_outcomes_of_extension_activities_in_the_neighb.pdf"
+    },
+    {
+      "file": "naac/naac_research_innovation.html",
+      "link": "../assets/pdfs/naac/332_number_of_books_and_chapters_in_edited_volumes_3.pdf"
+    },
+    {
+      "file": "naac/naac_research_innovation.html",
+      "link": "../assets/pdfs/naac/331_number_of_research_papers_published_per_teache.pdf"
+    },
+    {
+      "file": "naac/naac_research_innovation.html",
+      "link": "../assets/pdfs/naac/322_number_of_workshopsseminarsconferenc_es_includ.pdf"
+    },
+    {
+      "file": "naac/naac_research_innovation.html",
+      "link": "../assets/pdfs/naac/321_institution_has_created_an_ecosystem_for_innov.pdf"
+    },
+    {
+      "file": "naac/naac_research_innovation.html",
+      "link": "../assets/pdfs/naac/311_grants_received_from_government_and_non_govern.pdf"
+    },
+    {
+      "file": "naac/naac_student_support.html",
+      "link": "../assets/pdfs/naac/541_the_alumni_associationchapters_registered_and.pdf"
+    },
+    {
+      "file": "naac/naac_student_support.html",
+      "link": "../assets/pdfs/naac/532_average_number_of_sports_and_cultural_programs.pdf"
+    },
+    {
+      "file": "naac/naac_student_support.html",
+      "link": "../assets/pdfs/naac/the_supporting_documents_for_this_metric_exceed_th_12.pdf"
+    },
+    {
+      "file": "naac/naac_student_support.html",
+      "link": "../assets/pdfs/naac/the_supporting_documents_for_this_metric_exceed_th_11.pdf"
+    },
+    {
+      "file": "naac/naac_student_support.html",
+      "link": "../assets/pdfs/naac/the_supporting_documents_for_this_metric_exceed_th_10.pdf"
+    },
+    {
+      "file": "naac/naac_student_support.html",
+      "link": "../assets/pdfs/naac/the_supporting_documents_for_this_metric_exceed_th_9.pdf"
+    },
+    {
+      "file": "naac/naac_student_support.html",
+      "link": "../assets/pdfs/naac/513_percentage_of_stude_nts_benefitted_by_guidance.pdf"
+    },
+    {
+      "file": "naac/naac_student_support.html",
+      "link": "../assets/pdfs/naac/512_capacity_building_and_skills_enhancement_initi.pdf"
+    },
+    {
+      "file": "naac/naac_student_support.html",
+      "link": "../assets/pdfs/naac/the_supporting_documents_for_this_metric_exceed_th_8.pdf"
+    },
+    {
+      "file": "naac/naac_teaching_learning.html",
+      "link": "../assets/pdfs/naac/teaching_learning_271_student_survey.pdf"
+    },
+    {
+      "file": "naac/naac_teaching_learning.html",
+      "link": "../assets/pdfs/naac/263_pass_percentage_of_students_during_last_five_y.pdf"
+    },
+    {
+      "file": "naac/naac_teaching_learning.html",
+      "link": "../assets/pdfs/naac/262_attainment_of_pos_and_cos_are_evaluated.pdf"
+    },
+    {
+      "file": "naac/naac_teaching_learning.html",
+      "link": "../assets/pdfs/naac/261_programme_outcomes_pos_and_course_outcomes_cos.pdf"
+    },
+    {
+      "file": "naac/naac_teaching_learning.html",
+      "link": "../assets/pdfs/naac/251_mechanism_of_internal_external_assessment_is_t.pdf"
+    },
+    {
+      "file": "naac/naac_teaching_learning.html",
+      "link": "../assets/pdfs/naac/241_percentage_of_full_time_teachers_with_netsetsl.pdf"
+    },
+    {
+      "file": "naac/naac_teaching_learning.html",
+      "link": "../assets/pdfs/naac/241_percentage_of_full_time_teachers_against_sanct.pdf"
+    },
+    {
+      "file": "naac/naac_teaching_learning.html",
+      "link": "../assets/pdfs/naac/231_student_centric_methods_such_as_experiential_l.pdf"
+    },
+    {
+      "file": "naac/naac_teaching_learning.html",
+      "link": "../assets/pdfs/naac/221_student_full_time_teacher_ratio_data_for_the_l.pdf"
+    },
+    {
+      "file": "naac/naac_teaching_learning.html",
+      "link": "../assets/pdfs/naac/212_percentage_of_seats_filled_against_reserved_ca.pdf"
+    },
+    {
+      "file": "naac/naac_teaching_learning.html",
+      "link": "../assets/pdfs/naac/211_enrollment_percentage.pdf"
+    },
+    {
+      "file": "ugc/ugc_mandatory.html",
+      "link": "../assets/pdfs/ugc/druv_arivazhagu_mephd.pdf"
+    },
+    {
+      "file": "ugc/ugc_mandatory.html",
+      "link": "../assets/pdfs/ugc/mandatory_disclosure_ugc_undertaking_letter_by_hoi.pdf"
+    },
+    {
+      "file": "ugc/ugc_mandatory.html",
+      "link": "../assets/pdfs/ugc/prevention_of_sexual_harassment_posh_cell.pdf"
+    },
+    {
+      "file": "ugc/ugc_mandatory.html",
+      "link": "../assets/pdfs/ugc/irncsrontilgllr8rth0_c0ttege.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_posh.html",
+      "link": "../assets/pdfs/ugc_mandatory_committee/prevention_of_sexual_harassment_posh_cell_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_posh.html",
+      "link": "../assets/pdfs/ugc_mandatory_committee/prevention_of_sexual_harassment_posh_cell_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_sgrc.html",
+      "link": "../assets/pdfs/ugc_mandatory_committee/irncsrontilgllr8rth0_c0ttege_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_sgrc.html",
+      "link": "../assets/pdfs/ugc_mandatory_committee/irncsrontilgllr8rth0_c0ttege_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_sgrc.html",
+      "link": "../assets/pdfs/ugc_mandatory_committee/irncsrontilgllr8rth0_c0ttege_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_accreditation.html",
+      "link": "../assets/pdfs/naac/accredited_by_cycle_grade_year_link_for_details (1).pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_accreditation.html",
+      "link": "../assets/pdfs/naac/accredited_by_cycle_grade_year_link_for_details (1).pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_act_statutes.html",
+      "link": "../assets/pdfs/ugc/act_and_statutes (1).pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_accounts.html",
+      "link": "../assets/pdfs/ugc/annual_accounts_statement.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_accounts.html",
+      "link": "../assets/pdfs/ugc/annual_accounts_statement.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_reports.html",
+      "link": "../assets/pdfs/ugc/annual_reports_s.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_reports.html",
+      "link": "../assets/pdfs/ugc/annual_reports_s.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_incubation.html",
+      "link": "../assets/pdfs/ugc/research_and_development_cell_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "../assets/pdfs/UGC Mandatory Disclosure/nss.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "../assets/pdfs/UGC Mandatory Disclosure/nss.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "../assets/pdfs/UGC Mandatory Disclosure/nss.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "../assets/pdfs/ugc/research_and_development_cell_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "../assets/pdfs/ugc/research_and_development_cell_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "../assets/pdfs/research/the_patent_office_journal_no_242019_dated_14062019.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "../assets/pdfs/research/the_patent_office_journal_no_062022_dated_11022022.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "../assets/pdfs/research/the_patent_office_journal_no_082020_dated_21022020.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "../assets/pdfs/research/the_patent_office_journal_no_422019_dated_18_10201.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "../assets/pdfs/research/the_patent_office_journal_no_382019_dated_20092019.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "../assets/pdfs/ugc/research_and_development_cell_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "../assets/pdfs/ugc/research_and_development_cell_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "../assets/pdfs/ugc/research_and_development_cell_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_sgrc.html",
+      "link": "../assets/pdfs/ugc/establishment_of_grievances_redressal_mechanism.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_sgrc.html",
+      "link": "../assets/pdfs/ugc/establishment_of_grievances_redressal_mechanism.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_sgrc.html",
+      "link": "../assets/pdfs/ugc/establishment_of_grievances_redressal_mechanism.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sponsoring_body.html",
+      "link": "../assets/pdfs/ugc/sponsoring_body_details.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sponsoring_body.html",
+      "link": "../assets/pdfs/ugc/sponsoring_body_details.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "../assets/pdfs/ugc/department_faculty_details.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "../assets/pdfs/ugc/department_faculty_details.pdf"
+    },
+    {
+      "file": "ugc/ugc_ul_1.html",
+      "link": "../assets/pdfs/ugc_undertaking/mandatory_disclosure_ugc_undertaking_letter_by_hoi_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ul_1.html",
+      "link": "../assets/pdfs/ugc_undertaking/mandatory_disclosure_ugc_undertaking_letter_by_hoi_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ul_2.html",
+      "link": "../assets/pdfs/ugc_undertaking/druv_arivazhagu_mephd_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ul_2.html",
+      "link": "../assets/pdfs/ugc_undertaking/druv_arivazhagu_mephd_1.pdf"
+    }
+  ],
+  "ambiguous": [],
+  "missing": [
+    {
+      "file": "academics.html",
+      "link": "assets/docs/research/Book Chapter Impact of ... .pdf"
+    },
+    {
+      "file": "academics.html",
+      "link": "assets/pdfs/research/Patent 1 Journal.pdf"
+    },
+    {
+      "file": "academics.html",
+      "link": "assets/pdfs/autonomous/KEC_ACADEMIC_CALENDAR_2024_2025.pdf"
+    },
+    {
+      "file": "academics.html",
+      "link": "assets/pdfs/autonomous/Autonomous_Regulation_2026.pdf"
+    },
+    {
+      "file": "academics.html",
+      "link": "assets/pdfs/autonomous/Autonomous_Regulation_2023.pdf"
+    },
+    {
+      "file": "admission.html",
+      "link": "assets/pdfs/admission/NRI_Admission_Procedure.pdf"
+    },
+    {
+      "file": "facilities.html",
+      "link": "assets/pdfs/academics-pdf/Sports_2021_22.pdf"
+    },
+    {
+      "file": "facilities.html",
+      "link": "assets/pdfs/academics-pdf/Sports_2021_22.pdf"
+    },
+    {
+      "file": "facilities.html",
+      "link": "assets/pdfs/academics-pdf/Sports_2020_21.pdf"
+    },
+    {
+      "file": "facilities.html",
+      "link": "assets/pdfs/academics-pdf/Sports_2020_21.pdf"
+    },
+    {
+      "file": "facilities.html",
+      "link": "assets/pdfs/academics-pdf/Sports_2019_20.pdf"
+    },
+    {
+      "file": "facilities.html",
+      "link": "assets/pdfs/academics-pdf/Sports_2019_20.pdf"
+    },
+    {
+      "file": "facilities.html",
+      "link": "assets/pdfs/academics-pdf/Sports_2018_19.pdf"
+    },
+    {
+      "file": "facilities.html",
+      "link": "assets/pdfs/academics-pdf/Sports_2018_19.pdf"
+    },
+    {
+      "file": "facilities.html",
+      "link": "assets/pdfs/academics-pdf/Sports_2017_18.pdf"
+    },
+    {
+      "file": "facilities.html",
+      "link": "assets/pdfs/academics-pdf/Sports_2017_18.pdf"
+    },
+    {
+      "file": "facilities.html",
+      "link": "assets/pdfs/academics-pdf/Sports_2016_17.pdf"
+    },
+    {
+      "file": "facilities.html",
+      "link": "assets/pdfs/academics-pdf/Sports_2016_17.pdf"
+    },
+    {
+      "file": "policies.html",
+      "link": "assets/pdfs/policies/admission_1.pdf"
+    },
+    {
+      "file": "public_self_disclosure.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "public_self_disclosure.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "public_self_disclosure.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "public_self_disclosure.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "departments/aids/aids_academic_calendar.html",
+      "link": "assets/aids/academic_calendar.pdf"
+    },
+    {
+      "file": "departments/aids/aids_academic_calendar.html",
+      "link": "assets/aids/academic_calendar.pdf"
+    },
+    {
+      "file": "departments/aids/aids_faculty.html",
+      "link": "college-detail/Autonomous/UGC Mandatory Disclosure/3. Academics/4. Dept Faculty Details/AIDS Staff Details.pdf"
+    },
+    {
+      "file": "departments/csbs/csbs_academic_calendar.html",
+      "link": "assets/csbs/academic_calendar.pdf"
+    },
+    {
+      "file": "departments/csbs/csbs_curriculum.html",
+      "link": "https://cac.annauniv.edu/aidetails/afug_2025_fu/CSIE/B.E.%20CSBS%20.pdf"
+    },
+    {
+      "file": "departments/csbs/csbs_curriculum.html",
+      "link": "https://cac.annauniv.edu/aidetails/afug_2021_fu/Revised/IandC/B.Tech.CSBS.pdf"
+    },
+    {
+      "file": "departments/csbs/csbs_faculty.html",
+      "link": "assets/csbs/CSBS staff details.pdf"
+    },
+    {
+      "file": "departments/cse/cse_academic_calendar.html",
+      "link": "assets/cse/academic_calendar.pdf"
+    },
+    {
+      "file": "departments/cse/cse_faculty.html",
+      "link": "college-detail/Autonomous/UGC Mandatory Disclosure/3. Academics/4. Dept Faculty Details/CSE staff details.pdf"
+    },
+    {
+      "file": "departments/cse/cse_placement.html",
+      "link": "assets/pdf/placement-report/campus-hiring.pdf"
+    },
+    {
+      "file": "departments/ece/ece_curriculum.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/ece/R2013-M.E-ECE.pdf"
+    },
+    {
+      "file": "departments/ece/ece_curriculum.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/ece/R2013-B.E-ECE.pdf"
+    },
+    {
+      "file": "departments/ece/ece_curriculum.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/ece/R2017-M.E-ECE.pdf"
+    },
+    {
+      "file": "departments/ece/ece_curriculum.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/ece/R2017-B.E-ECE.pdf"
+    },
+    {
+      "file": "departments/ece/ece_curriculum.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/ece/R2021-B.E-ECE.pdf"
+    },
+    {
+      "file": "departments/ece/ece_timetable.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/ece/ECE-2024-25-EVEN-TT.pdf"
+    },
+    {
+      "file": "departments/ece/ece_timetable.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/ece/ECE-2024-25-EVEN-TT.pdf"
+    },
+    {
+      "file": "departments/ece/ece_timetable.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/ece/ECE-2024-25-EVEN-TT.pdf"
+    },
+    {
+      "file": "departments/ece/ece_timetable.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/ece/ECE-2024-25-EVEN-TT.pdf"
+    },
+    {
+      "file": "departments/it/it_academic_calendar.html",
+      "link": "assets/it/academic_calendar.pdf"
+    },
+    {
+      "file": "departments/it/it_academic_calendar.html",
+      "link": "assets/it/academic_calendar.pdf"
+    },
+    {
+      "file": "departments/it/it_faculty.html",
+      "link": "college-detail/Autonomous/UGC Mandatory Disclosure/3. Academics/4. Dept Faculty Details/IT Staff Details.pdf"
+    },
+    {
+      "file": "departments/mba/mba_achievements.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/mba/R2021-MBA.pdf"
+    },
+    {
+      "file": "departments/mba/mba_achievements.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/mba/R2017-MBA.pdf"
+    },
+    {
+      "file": "departments/mba/mba_achievements.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/mba/R2013-MBA.pdf"
+    },
+    {
+      "file": "departments/mba/mba_feedback.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/mba/R2021-MBA.pdf"
+    },
+    {
+      "file": "departments/mba/mba_feedback.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/mba/R2017-MBA.pdf"
+    },
+    {
+      "file": "departments/mba/mba_feedback.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/mba/R2013-MBA.pdf"
+    },
+    {
+      "file": "departments/mba/mba_mous.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/mba/R2021-MBA.pdf"
+    },
+    {
+      "file": "departments/mba/mba_mous.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/mba/R2017-MBA.pdf"
+    },
+    {
+      "file": "departments/mba/mba_mous.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/mba/R2013-MBA.pdf"
+    },
+    {
+      "file": "departments/mba/mba_toppers.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/mba/R2021-MBA.pdf"
+    },
+    {
+      "file": "departments/mba/mba_toppers.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/mba/R2017-MBA.pdf"
+    },
+    {
+      "file": "departments/mba/mba_toppers.html",
+      "link": "https://engineering.kingston.ac.in/assets/pdf/departments/mba/R2013-MBA.pdf"
+    },
+    {
+      "file": "departments/mech/mech_academic_calendar.html",
+      "link": "assets/mech/academic_calendar.pdf"
+    },
+    {
+      "file": "departments/mech/mech_academic_calendar.html",
+      "link": "assets/mech/academic_calendar.pdf"
+    },
+    {
+      "file": "departments/mech/mech_faculty.html",
+      "link": "college-detail/Autonomous/UGC Mandatory Disclosure/3. Academics/4. Dept Faculty Details/Mech Staff Details.pdf"
+    },
+    {
+      "file": "facilities/facilities_infrastructure.html",
+      "link": "assets/pdfs/academics-pdf/RouteDetails.pdf"
+    },
+    {
+      "file": "facilities/facilities_infrastructure.html",
+      "link": "assets/pdfs/academics-pdf/RouteDetails.pdf"
+    },
+    {
+      "file": "facilities/facilities_infrastructure.html",
+      "link": "assets/pdfs/academics-pdf/RouteDetails.pdf"
+    },
+    {
+      "file": "iqac/iqac_annual_reports.html",
+      "link": "assets/pdfs/iqac/annual_report.pdf"
+    },
+    {
+      "file": "iqac/iqac_annual_reports.html",
+      "link": "assets/pdfs/iqac/annual_report_1.pdf"
+    },
+    {
+      "file": "iqac/iqac_annual_reports.html",
+      "link": "assets/pdfs/iqac/annual_report_2.pdf"
+    },
+    {
+      "file": "iqac/iqac_annual_reports.html",
+      "link": "assets/pdfs/iqac/annual_report_3.pdf"
+    },
+    {
+      "file": "iqac/iqac_annual_reports.html",
+      "link": "assets/pdfs/iqac/annual_report_4.pdf"
+    },
+    {
+      "file": "iqac/iqac_strategic_plan.html",
+      "link": "assets/pdfs/iqac/assets_pdf_strategic-plan-2024.pdf"
+    },
+    {
+      "file": "naac/naac_dvv.html",
+      "link": "assets/pdfs/naac/engineering-resources_dvv_DVV-001_dvv-clarifications-link.pdf"
+    },
+    {
+      "file": "naac/naac_iiqa.html",
+      "link": "assets/pdfs/naac/assets_pdf_naac_IIQA.pdf"
+    },
+    {
+      "file": "naac/naac_rti.html",
+      "link": "assets/pdfs/naac/engineering-resources_naac_rti.pdf"
+    },
+    {
+      "file": "naac/naac_ssr.html",
+      "link": "assets/pdfs/naac/assets_pdf_naac_ssr-new.pdf"
+    },
+    {
+      "file": "placements/placement_campus_hiring.html",
+      "link": "assets/pdfs/placement/campus-hiring.pdf"
+    },
+    {
+      "file": "placements/placement_capacity_dev.html",
+      "link": "assets/pdfs/placement/capacity-development.pdf"
+    },
+    {
+      "file": "placements/placement_value_added.html",
+      "link": "assets/pdfs/placement/value-added-training-course.pdf"
+    },
+    {
+      "file": "ugc/ugc_mandatory.html",
+      "link": "assets/pdfs/ugc/mandatory_disclosure_ugc_mandatory_committee_eqc.pdf"
+    },
+    {
+      "file": "ugc/ugc_mandatory.html",
+      "link": "assets/pdfs/ugc/mandatory_disclosure_ugc_mandatory_committee_arc.pdf"
+    },
+    {
+      "file": "ugc/ugc_mandatory.html",
+      "link": "assets/pdfs/ugc/mandatory_disclosure_ugc_mandatory_committee_sedg.pdf"
+    },
+    {
+      "file": "ugc/ugc_mandatory.html",
+      "link": "assets/pdfs/ugc/mandatory_disclosure_ugc_mandatory_committee_icc.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_arc.html",
+      "link": "assets/pdfs/ugc_mandatory_committee/mandatory_disclosure_ugc_mandatory_committee_arc_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_arc.html",
+      "link": "assets/pdfs/ugc_mandatory_committee/mandatory_disclosure_ugc_mandatory_committee_arc_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_eqc.html",
+      "link": "assets/pdfs/ugc_mandatory_committee/mandatory_disclosure_ugc_mandatory_committee_eqc_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_eqc.html",
+      "link": "assets/pdfs/ugc_mandatory_committee/mandatory_disclosure_ugc_mandatory_committee_eqc_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_icc.html",
+      "link": "assets/pdfs/ugc_mandatory_committee/mandatory_disclosure_ugc_mandatory_committee_icc_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_icc.html",
+      "link": "assets/pdfs/ugc_mandatory_committee/mandatory_disclosure_ugc_mandatory_committee_icc_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_sedg.html",
+      "link": "assets/pdfs/ugc_mandatory_committee/mandatory_disclosure_ugc_mandatory_committee_sedg_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_sedg.html",
+      "link": "assets/pdfs/ugc_mandatory_committee/mandatory_disclosure_ugc_mandatory_committee_sedg_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_sgrc.html",
+      "link": "assets/pdfs/autonomous/grc/grc_minutes_2018_09_20.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_sgrc.html",
+      "link": "assets/pdfs/autonomous/grc/grc_minutes_2019_02_20.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_sgrc.html",
+      "link": "assets/pdfs/autonomous/grc/grc_minutes_2020_02_20.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_sgrc.html",
+      "link": "assets/pdfs/autonomous/grc/grc_minutes_2021_11_24.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_sgrc.html",
+      "link": "assets/pdfs/autonomous/grc/grc_minutes_2022_02_23.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_sgrc.html",
+      "link": "assets/pdfs/autonomous/grc/grc_minutes_2022_07_28.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_sgrc.html",
+      "link": "assets/pdfs/autonomous/grc/grc_minutes_2023_02_17.pdf"
+    },
+    {
+      "file": "ugc/ugc_mc_sgrc.html",
+      "link": "assets/pdfs/autonomous/grc/grc_minutes_2023_10_31.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_aboutus.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_aboutus.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_aboutus.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_aboutus.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_aboutus.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_calendar.html",
+      "link": "assets/pdfs/public_self_disclosure/academic_calendar_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_calendar.html",
+      "link": "assets/pdfs/public_self_disclosure/academic_calendar_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_calendar.html",
+      "link": "assets/pdfs/public_self_disclosure/academic_calendar_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_calendar.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_calendar.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_leadership.html",
+      "link": "assets/pdfs/public_self_disclosure/academic_leadership_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_leadership.html",
+      "link": "assets/pdfs/public_self_disclosure/academic_leadership_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_leadership.html",
+      "link": "assets/pdfs/public_self_disclosure/academic_leadership_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_leadership.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_leadership.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_programs.html",
+      "link": "assets/pdfs/public_self_disclosure/name_of_the_degree.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_programs.html",
+      "link": "assets/pdfs/public_self_disclosure/name_of_the_degree.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_programs.html",
+      "link": "assets/pdfs/public_self_disclosure/name_of_the_degree.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_programs.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_academic_programs.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_accreditation.html",
+      "link": "assets/pdfs/public_self_disclosure/nba_II.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_accreditation.html",
+      "link": "assets/pdfs/public_self_disclosure/nba_I.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_accreditation.html",
+      "link": "assets/pdfs/public_self_disclosure/naac.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_accreditation.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_accreditation.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_act_statutes.html",
+      "link": "assets/pdfs/public_self_disclosure/anna_univ_act.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_act_statutes.html",
+      "link": "assets/pdfs/public_self_disclosure/aicte_act.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_act_statutes.html",
+      "link": "assets/pdfs/public_self_disclosure/ugc_act.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_act_statutes.html",
+      "link": "assets/pdfs/public_self_disclosure/act_statutes.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_act_statutes.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_act_statutes.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_admission_policy.html",
+      "link": "assets/pdfs/public_self_disclosure/admission_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_admission_policy.html",
+      "link": "assets/pdfs/public_self_disclosure/admission_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_admission_policy.html",
+      "link": "assets/pdfs/public_self_disclosure/admission_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_admission_policy.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_admission_policy.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_affiliating.html",
+      "link": "assets/pdfs/public_self_disclosure/details_of_the_affiliating_university.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_affiliating.html",
+      "link": "assets/pdfs/public_self_disclosure/details_of_the_affiliating_university.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_affiliating.html",
+      "link": "assets/pdfs/public_self_disclosure/details_of_the_affiliating_university.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_affiliating.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_affiliating.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_aicte.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_aicte.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_aicte.html",
+      "link": "assets/pdfs/public_self_disclosure/aicte.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_aicte.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_aicte.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_alumni.html",
+      "link": "assets/pdfs/public_self_disclosure/alumni-meet/MEET 24-25.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_alumni.html",
+      "link": "assets/pdfs/public_self_disclosure/alumni-meet/MEET 23-24.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_alumni.html",
+      "link": "assets/pdfs/public_self_disclosure/alumni-meet/3. alumni events 23-24.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_alumni.html",
+      "link": "assets/pdfs/public_self_disclosure/alumni-meet/2. alumni events 23-24.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_alumni.html",
+      "link": "assets/pdfs/public_self_disclosure/alumni-meet/1. alumni events 23-24.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_alumni.html",
+      "link": "assets/pdfs/autonomous/the_tamil_nadu_societies_registration_act_1975_tam.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_alumni.html",
+      "link": "assets/pdfs/autonomous/the_tamil_nadu_societies_registration_act_1975_tam.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_alumni.html",
+      "link": "assets/pdfs/autonomous/the_tamil_nadu_societies_registration_act_1975_tam.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_alumni.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_alumni.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_announcements.html",
+      "link": "assets/pdfs/public_self_disclosure/announcement.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_announcements.html",
+      "link": "assets/pdfs/public_self_disclosure/announcement.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_announcements.html",
+      "link": "assets/pdfs/public_self_disclosure/announcement.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_announcements.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_announcements.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_accounts.html",
+      "link": "assets/pdfs/public_self_disclosure/8. Annual Accounts Statement/2018-2019.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_accounts.html",
+      "link": "assets/pdfs/public_self_disclosure/8. Annual Accounts Statement/2019-2020.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_accounts.html",
+      "link": "assets/pdfs/public_self_disclosure/8. Annual Accounts Statement/2020-2021.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_accounts.html",
+      "link": "assets/pdfs/public_self_disclosure/8. Annual Accounts Statement/2021-2022.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_accounts.html",
+      "link": "assets/pdfs/public_self_disclosure/8. Annual Accounts Statement/2022-2023.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_accounts.html",
+      "link": "assets/pdfs/public_self_disclosure/8. Annual Accounts Statement/2023-2024.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_accounts.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_accounts.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_reports.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Annual Report/AR-2018-2019.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_reports.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Annual Report/AR-2019-2020.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_reports.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Annual Report/AR-2020-2021.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_reports.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Annual Report/AR-2021-2022.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_reports.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Annual Report/AR-2022-2023.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_reports.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Annual Report/AR 2023-2024.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_reports.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_annual_reports.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_bos.html",
+      "link": "assets/pdfs/public_self_disclosure/governing_council_me_mbers.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_bos.html",
+      "link": "assets/pdfs/public_self_disclosure/governing_council_me_mbers.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_bos.html",
+      "link": "assets/pdfs/public_self_disclosure/governing_council_me_mbers.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_bos.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_bos.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_circulars.html",
+      "link": "assets/pdfs/public_self_disclosure/circular_0001.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_circulars.html",
+      "link": "assets/pdfs/public_self_disclosure/circular_0001.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_circulars.html",
+      "link": "assets/pdfs/public_self_disclosure/circular_0001.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_circulars.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_circulars.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_coe.html",
+      "link": "assets/pdfs/public_self_disclosure/coe_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_coe.html",
+      "link": "assets/pdfs/public_self_disclosure/coe_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_coe.html",
+      "link": "assets/pdfs/public_self_disclosure/coe_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_coe.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_coe.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_cvo.html",
+      "link": "assets/pdfs/public_self_disclosure/cvo_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_cvo.html",
+      "link": "assets/pdfs/public_self_disclosure/cvo_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_cvo.html",
+      "link": "assets/pdfs/public_self_disclosure/cvo_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_cvo.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_cvo.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_differentlyabled.html",
+      "link": "assets/pdfs/public_self_disclosure/disabled_friendly_barrier_free_environment_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_differentlyabled.html",
+      "link": "assets/pdfs/public_self_disclosure/disabled_friendly_barrier_free_environment_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_differentlyabled.html",
+      "link": "assets/pdfs/public_self_disclosure/disabled_friendly_barrier_free_environment_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_differentlyabled.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_differentlyabled.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_events.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_events.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_events.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_events.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_events.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_examinations.html",
+      "link": "assets/pdfs/public_self_disclosure/statutesordinances_pertaining_to_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_examinations.html",
+      "link": "assets/pdfs/public_self_disclosure/academic-examination/examinationpolicy.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_examinations.html",
+      "link": "assets/pdfs/public_self_disclosure/academic-examination/mba_2021.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_examinations.html",
+      "link": "assets/pdfs/public_self_disclosure/academic-examination/pg_regulation_2021.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_examinations.html",
+      "link": "assets/pdfs/public_self_disclosure/academic-examination/ug_r_2021.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_examinations.html",
+      "link": "assets/pdfs/public_self_disclosure/statutesordinances_pertaining_to_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_examinations.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_examinations.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_feerefund.html",
+      "link": "assets/pdfs/public_self_disclosure/fee_refund_policy_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_feerefund.html",
+      "link": "assets/pdfs/public_self_disclosure/fee_refund_policy_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_feerefund.html",
+      "link": "assets/pdfs/public_self_disclosure/fee_refund_policy_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_feerefund.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_feerefund.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_finance.html",
+      "link": "assets/pdfs/public_self_disclosure/finance_officer_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_finance.html",
+      "link": "assets/pdfs/public_self_disclosure/finance_officer_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_finance.html",
+      "link": "assets/pdfs/public_self_disclosure/finance_officer_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_finance.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_finance.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_health.html",
+      "link": "assets/pdfs/public_self_disclosure/health_care_facilities_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_health.html",
+      "link": "assets/pdfs/public_self_disclosure/health_care_facilities_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_health.html",
+      "link": "assets/pdfs/public_self_disclosure/health_care_facilities_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_health.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_health.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_hostel.html",
+      "link": "assets/pdfs/public_self_disclosure/hostel_facility_at_k_ington_engineering_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_hostel.html",
+      "link": "assets/pdfs/public_self_disclosure/hostel_facility_at_k_ington_engineering_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_hostel.html",
+      "link": "assets/pdfs/public_self_disclosure/hostel_facility_at_k_ington_engineering_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_hostel.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_hostel.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_idp.html",
+      "link": "assets/pdfs/public_self_disclosure/2025_2030.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_idp.html",
+      "link": "assets/pdfs/public_self_disclosure/2025_2030.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_idp.html",
+      "link": "assets/pdfs/public_self_disclosure/2025_2030.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_idp.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_idp.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_incubation.html",
+      "link": "assets/pdfs/public_self_disclosure/conviction_and_deep_commitment_of_the_institute_to_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_incubation.html",
+      "link": "assets/pdfs/public_self_disclosure/incubation/5.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_incubation.html",
+      "link": "assets/pdfs/public_self_disclosure/incubation/4.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_incubation.html",
+      "link": "assets/pdfs/public_self_disclosure/incubation/3.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_incubation.html",
+      "link": "assets/pdfs/public_self_disclosure/incubation/2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_incubation.html",
+      "link": "assets/pdfs/public_self_disclosure/conviction_and_deep_commitment_of_the_institute_to_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_incubation.html",
+      "link": "assets/pdfs/public_self_disclosure/conviction_and_deep_commitment_of_the_institute_to_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_incubation.html",
+      "link": "assets/pdfs/autonomous/MSME_Support_Policy.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_incubation.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_incubation.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mission_vision.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mission_vision.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mission_vision.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mission_vision.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mission_vision.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_VIS EDUCATION.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_TOP FRESHERS.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_TECHFULLY.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_SHREE ABIRAMI.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_SHIASH.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_SELVI SOFTWARE.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_RELEVANTZ.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_PRIMETEC.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_PLASTIC OMNIUM AUTO INERGY INDIA PVT LTD_0001.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_MILKYWAY CELL TECH.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_METRO COMPOSITES.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_KRIYA_0001.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_IMS LEARNING.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_ICE STEEL.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_FOCUS LOGIC IT SERVICES_0001.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_FACT ENTRY.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_FACE PREP_0001.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_EVR.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_DIGIDOC.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_DATAFLAIR WEB SERVICES_0001.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_CRUD.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_CODOID.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_CAPARO.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_AXLES INDIA LTD_0001.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_AVEON.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_AIRTAS ENVIRONICS PVT LTD_0001.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_AIR MEDIA.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU_2023_KAASHIV.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU 2023_INFOGRO.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/7. Academic Collaborations Link-MOU/MOU 2021_FOCUS LOGIC.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/academic_collaborations.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/academic_collaborations.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/academic_collaborations.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_mou.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_newsletters.html",
+      "link": "assets/pdfs/public_self_disclosure/newsletter.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_newsletters.html",
+      "link": "assets/pdfs/public_self_disclosure/newsletter.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_newsletters.html",
+      "link": "assets/pdfs/public_self_disclosure/newsletter.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_newsletters.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_newsletters.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/nss/7_07.10.2024.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/nss/6_30.08.2023.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/nss/6_29.11.2024.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/nss/5_22.01.2025.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/nss/5_03.11.2023.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/nss/4_23.01.2025 (1).pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/nss/4_23.01.2025.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/nss/3_23.01.2025.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/nss/3_19.01.2024.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/nss/2_03.02.2024 (1).pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/nss/2_03.02.2024.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/nss/1_24.01.2025.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/nss/1_21.02.2024.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_nss.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_ombudsperson.html",
+      "link": "assets/pdfs/public_self_disclosure/ombudsperson_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_ombudsperson.html",
+      "link": "assets/pdfs/public_self_disclosure/ombudsperson_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_ombudsperson.html",
+      "link": "assets/pdfs/public_self_disclosure/ombudsperson_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_ombudsperson.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_ombudsperson.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_prospectus.html",
+      "link": "assets/pdfs/public_self_disclosure/prospectus_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_prospectus.html",
+      "link": "assets/pdfs/public_self_disclosure/prospectus_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_prospectus.html",
+      "link": "assets/pdfs/public_self_disclosure/prospectus_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_prospectus.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_prospectus.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_recognition.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_recognition.html",
+      "link": "assets/pdfs/public_self_disclosure/permanent_affiliation.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_recognition.html",
+      "link": "assets/pdfs/public_self_disclosure/affiliation_2023-2024.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_recognition.html",
+      "link": "assets/pdfs/public_self_disclosure/EOA_2024-2025.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_recognition.html",
+      "link": "assets/pdfs/public_self_disclosure/2f.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_recognition.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_recognition.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_recognition.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "assets/pdfs/research/List_of_Journals_3_3_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "assets/docs/research/Book Chapter Impact of ... .pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "assets/pdfs/research/Patent 1 Journal.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "assets/pdfs/public_self_disclosure/rnd/book_chapters.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "assets/pdfs/public_self_disclosure/rnd/conference_papers.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "assets/pdfs/public_self_disclosure/rnd/patent.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "assets/pdfs/public_self_disclosure/rnd/journal_publications.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rnd.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rti.html",
+      "link": "assets/pdfs/public_self_disclosure/rti_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rti.html",
+      "link": "assets/pdfs/public_self_disclosure/rti_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rti.html",
+      "link": "assets/pdfs/public_self_disclosure/rti_2.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rti.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_rti.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_antiragging.html",
+      "link": "assets/pdfs/public_self_disclosure/antiragging.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_antiragging.html",
+      "link": "assets/pdfs/public_self_disclosure/antiragging.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_antiragging.html",
+      "link": "assets/pdfs/public_self_disclosure/antiragging.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_antiragging.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_antiragging.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_equalopportunity.html",
+      "link": "assets/pdfs/public_self_disclosure/equalopportunity.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_equalopportunity.html",
+      "link": "assets/pdfs/public_self_disclosure/equalopportunity.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_equalopportunity.html",
+      "link": "assets/pdfs/public_self_disclosure/equalopportunity.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_equalopportunity.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_equalopportunity.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_icc.html",
+      "link": "assets/pdfs/public_self_disclosure/icc_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_icc.html",
+      "link": "assets/pdfs/public_self_disclosure/icc_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_icc.html",
+      "link": "assets/pdfs/public_self_disclosure/icc_1.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_icc.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_icc.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_sedg.html",
+      "link": "assets/pdfs/public_self_disclosure/sedg.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_sedg.html",
+      "link": "assets/pdfs/public_self_disclosure/sedg.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_sedg.html",
+      "link": "assets/pdfs/public_self_disclosure/sedg.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_sedg.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_sedg.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_sgrc.html",
+      "link": "assets/pdfs/autonomous/grc/grc_minutes_2022_02_23.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_sgrc.html",
+      "link": "assets/pdfs/autonomous/grc/grc_minutes_2022_07_28.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_sgrc.html",
+      "link": "assets/pdfs/autonomous/grc/grc_minutes_2023_02_17.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_sgrc.html",
+      "link": "assets/pdfs/autonomous/grc/grc_minutes_2023_10_31.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_sgrc.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sl_sgrc.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sponsoring_body.html",
+      "link": "assets/pdfs/public_self_disclosure/9. Sponsering Body Details/Msc technology.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sponsoring_body.html",
+      "link": "assets/pdfs/public_self_disclosure/9. Sponsering Body Details/Tata Motors.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sponsoring_body.html",
+      "link": "assets/pdfs/public_self_disclosure/9. Sponsering Body Details/Renault Nissan Pvt. Ltd.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sponsoring_body.html",
+      "link": "assets/pdfs/public_self_disclosure/9. Sponsering Body Details/Hyundai Motor India Limited.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sponsoring_body.html",
+      "link": "assets/pdfs/public_self_disclosure/9. Sponsering Body Details/Ford India Pvt.Ltd.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sponsoring_body.html",
+      "link": "assets/pdfs/public_self_disclosure/9. Sponsering Body Details/Aqua Sub Engineering.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sponsoring_body.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sponsoring_body.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sports.html",
+      "link": "assets/pdfs/public_self_disclosure/department_of_physical_education.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sports.html",
+      "link": "assets/pdfs/public_self_disclosure/department_of_physical_education.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sports.html",
+      "link": "assets/pdfs/public_self_disclosure/department_of_physical_education.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sports.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_sports.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/department-faculty/meps.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/department-faculty/meed.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/department-faculty/mecse.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/department-faculty/meae.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/department-faculty/mba.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/department-faculty/sh.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/department-faculty/mech.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/department-faculty/it.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/department-faculty/ece.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/department-faculty/cse.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/department-faculty/csbs.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/department-faculty/civil.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/department-faculty/aids (1).pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_staff.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_studyinindia.html",
+      "link": "assets/pdfs/public_self_disclosure/for_international_students.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_studyinindia.html",
+      "link": "assets/pdfs/public_self_disclosure/for_international_students.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_studyinindia.html",
+      "link": "assets/pdfs/public_self_disclosure/for_international_students.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_studyinindia.html",
+      "link": "assets/pdfs/public_self_disclosure/recognition_approval.pdf"
+    },
+    {
+      "file": "ugc/ugc_ps_studyinindia.html",
+      "link": "assets/pdfs/public_self_disclosure/about_the_college.pdf"
+    }
+  ],
+  "errors": []
+}

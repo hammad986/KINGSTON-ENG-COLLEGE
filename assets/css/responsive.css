@@ -1,0 +1,229 @@
+/* ==========================================================================
+   RESPONSIVE MEDIA QUERIES
+   ========================================================================== */
+
+/* Tablet & Mobile Layouts */
+@media (max-width: 1024px) {
+    html { font-size: 15px; } /* Proportional shrink */
+    .hidden-mobile { display: none !important; }
+    
+    /* Header adjustments */
+    .top-bar-inner { justify-content: space-between; }
+    .main-logo { height: 45px; }
+    .logo-text h1 { font-size: 1.15rem; }
+    .logo-text h2 { font-size: 0.75rem; }
+    .notice-bar { height: 28px; }
+    .notice-label { font-size: 0.65rem; padding: 0 10px; }
+    
+    /* Footer adjustments */
+    .footer-area { padding: 30px 0; }
+    .footer-title { font-size: 0.95rem; }
+    .footer-address p, .footer-links li a { font-size: 0.75rem; }
+    
+    /* Logo Bar - Convert to Marquee on Tablet/Mobile */
+    .logo-bar-inner {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .accreditations-area {
+        width: 100%;
+        overflow: hidden;
+        display: block !important; /* Ensure it shows if hidden-mobile was used incorrectly */
+        background: #f8f9fa;
+        padding: 5px 0;
+    }
+    .accred-logos {
+        display: flex;
+        width: max-content;
+        animation: logo-scroll 20s linear infinite;
+        gap: 30px;
+    }
+    .accred-logos img {
+        height: 50px;
+        flex-shrink: 0;
+    }
+
+    @keyframes logo-scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }
+    
+    /* Hero adjustments */
+    .hero-content h2 { font-size: 1.2rem; }
+    .nirf-heading { font-size: 1.8rem; }
+    .hero-content {
+        left: 5%;
+        width: 90%;
+    }
+    
+    /* Grids to Columns */
+    .explore-grid { grid-template-columns: repeat(3, 1fr); gap: 15px; }
+    
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 768px) {
+    html { font-size: 13px; } /* Aggressively downsize everything */
+
+    /* Mobile Header Optimization */
+    .top-bar { display: none !important; }
+    .logo-bar { padding: 4px 0 !important; }
+    .main-logo { height: 30px !important; width: auto !important; }
+    .logo-text h1 { font-size: 0.85rem !important; }
+    .logo-text h2 { font-size: 0.5rem !important; }
+    .logo-area { gap: 4px !important; }
+    .notice-bar { font-size: 0.55rem !important; padding: 0 !important; height: 22px !important; }
+    .notice-label { font-size: 0.55rem !important; padding: 0 6px !important; }
+
+    /* Mobile Menu Toggle */
+    .mobile-menu-toggle { 
+        display: block; 
+        width: 100%;
+        text-align: left;
+        padding: 6px 12px !important;
+        background: var(--brand-blue);
+        color: white;
+        font-size: 0.75rem !important;
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: var(--white);
+        position: absolute;
+        top: 100%; left: 0; z-index: 1000;
+    }
+    .nav-links > li > a {
+        padding: 8px 12px !important;
+        font-size: 0.75rem !important;
+    }
+    .nav-links.active {
+        display: flex;
+        max-height: calc(100vh - 150px);
+        overflow-y: auto;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+    .nav-links > li {
+        width: 100%;
+        border-bottom: 1px solid var(--border-color);
+    }
+    .dropdown {
+        position: static;
+        box-shadow: none;
+        border: none;
+        display: none;
+        background: var(--brand-light);
+        opacity: 1;
+        transform: none;
+    }
+    .dropdown a {
+        padding: 6px 15px !important;
+        font-size: 0.7rem !important;
+    }
+    .dropdown-columns { column-count: 1; min-width: 100%; }
+    /* Accordion behavior injected via JS class 'open' */
+    .nav-links > li.open > .dropdown { display: block; }
+    
+    /* Hide Floating Side Tabs on Mobile */
+    .floating-side-buttons { display: none !important; }
+
+    /* Sticky Bottom CTA Bar */
+    .mobile-sticky-cta {
+        display: flex !important;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        background: white;
+        z-index: 1001;
+        box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    }
+    .mobile-sticky-cta a {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 800;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        color: #000;
+    }
+    .mobile-sticky-cta .btn-enquiry {
+        background: #f5c518;
+    }
+    .mobile-sticky-cta .btn-apply {
+        background: #0b223c;
+        color: #fff;
+    }
+
+    /* Hero */
+    .hero-section { min-height: 500px; height: auto; padding: 100px 0; }
+    .hero-slides-wrap {
+        position: relative;
+        top: auto;
+        right: auto;
+        transform: none;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 100px;
+        padding: 0 15px;
+    }
+    
+    .nirf-badges { flex-direction: column; gap: 15px; }
+
+    /* News */
+    .news-container { flex-direction: column; }
+    .news-left { flex: none; align-items: center; text-align: center; margin-bottom: 20px;}
+    
+    /* Explore */
+    .explore-grid { grid-template-columns: repeat(2, 1fr); }
+    
+    /* Footer */
+    .footer-area { padding: 20px 0 !important; }
+    .footer-grid { 
+        grid-template-columns: 1fr; 
+        text-align: center;
+    }
+    .footer-col {
+        margin-bottom: 20px;
+    }
+    .footer-title {
+        font-size: 0.85rem !important;
+        margin-bottom: 8px !important;
+    }
+    .footer-address p, .footer-links li a { font-size: 0.7rem !important; }
+    .social-links {
+        justify-content: center;
+    }
+    .footer-bottom .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-bottom p { font-size: 0.65rem !important; }
+}
+
+@media (max-width: 480px) {
+    .logo-text h1 { font-size: 1.1rem; }
+    .logo-text h2 { font-size: 0.7rem; }
+    .logo-address { display: none; }
+    
+    .explore-grid { grid-template-columns: 1fr; }
+    
+    /* Touch target spacing */
+    .nav-links > li > a {
+        padding: 15px 20px;
+    }
+    .footer-links li {
+        margin-bottom: 12px;
+    }
+}
+
+/* Default hidden state for mobile elements */
+.mobile-sticky-cta { display: none; }
+
+@media (min-width: 1025px) {
+    .mobile-only-logo { display: none !important; }
+}

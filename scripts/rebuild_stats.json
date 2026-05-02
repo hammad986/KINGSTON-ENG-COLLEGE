@@ -1,0 +1,18 @@
+{
+  "total_links": 449,
+  "fixed_links": 167,
+  "moved_from_legacy": 0,
+  "missing_links": 282,
+  "samples": [
+    "academics.html: assets/pdfs/research/the_patent_office_journal_no_382019_dated_20092019.pdf -> assets/pdfs/research/the_patent_office_journal_no_382019_dated_20092019.pdf",
+    "academics.html: assets/pdfs/research/the_patent_office_journal_no_422019_dated_18_10201.pdf -> assets/pdfs/research/the_patent_office_journal_no_422019_dated_18_10201.pdf",
+    "admission.html: assets/pdfs/admission/Eligibility.pdf -> assets/pdfs/admission/Eligibility.pdf",
+    "admission.html: assets/pdfs/admission/OnlineProcedure.pdf -> assets/pdfs/admission/OnlineProcedure.pdf",
+    "admission.html: assets/pdfs/admission/scholarship_policy.pdf -> assets/pdfs/admission/scholarship_policy.pdf",
+    "grievance_helpdesk.html: assets/pdfs/ugc_mandatory_committee/irncsrontilgllr8rth0_c0ttege_1.pdf -> assets/pdfs/ugc_mandatory_committee/irncsrontilgllr8rth0_c0ttege_1.pdf",
+    "grievance_helpdesk_raw.html: assets/pdfs/ugc_mandatory_committee/irncsrontilgllr8rth0_c0ttege_1.pdf -> assets/pdfs/ugc_mandatory_committee/irncsrontilgllr8rth0_c0ttege_1.pdf",
+    "policies.html: assets/pdfs/policies/alumni.pdf -> assets/pdfs/policies/alumni.pdf",
+    "policies.html: assets/pdfs/policies/academic.pdf -> assets/pdfs/policies/academic.pdf",
+    "policies.html: assets/pdfs/policies/code_of_ethics_and_conduct.pdf -> assets/pdfs/policies/code_of_ethics_and_conduct.pdf"
+  ]
+}

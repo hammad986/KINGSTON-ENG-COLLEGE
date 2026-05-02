@@ -1,0 +1,263 @@
+=== index.html ===
+
+🔴 A. Critical Issues (Must fix immediately - breaks functionality)
+
+1. Line 47-49 (hero-slide-card img onerror)  
+   Exact Problem: `onerror=this src='assets/images/icons/003-All_India_Council_for_Technical_Education_logo.png'` - Malformed JavaScript syntax.  
+   Why it is wrong: Invalid `onerror` attribute breaks image fallback, causes JS error in console.  
+Exact Code Fix:
+```
+admission@kingston.ac.in
+```
+
+🟠 B. Major Issues (Logic errors, bad UI overlaps)
+
+1. Lines ~300-310 (Departments dropdown)  
+   Exact Problem: Most dept links href="departments.html".  
+   Why it is
+   onerror="this.src='assets/images/icons/003-All_India_Council_for_Technical_Education_logo.png'"
+```
+
+2. Line 614 (logo img onerror)  
+   Exact Problem: `onerror=this src='assets/images/icons/001-web_logo_banner_2026.png'` - Same malformed syntax.  
+   Why it is wrong: Logo fails to load with fallback, critical branding issue.  
+   Exact Code Fix:
+```
+   onerror="this.src='assets/images/icons/001-web_logo_banner_2026.png'"
+```
+
+3. Line 1045-1046 (Swiper script)  
+   Exact Problem: Inline Swiper init runs before DOM ready, hero slider may not initialize.  
+   Why it is wrong: Script executes immediately, `#hero-main-swiper` may not exist yet.  
+   Exact Code Fix:
+```
+   <script>
+   document.addEventListener('DOMContentLoaded', function() {
+       new Swiper('#hero-main-swiper', {
+           loop: true,
+           speed: 900,
+           autoplay: { delay: 4500, disableOnInteraction: false },
+           pagination: { el: '.hero-swiper-pagination', clickable: true },
+           effect: 'fade',
+           fadeEffect: { crossFade: true },
+       });
+   });
+   </script>
+```
+
+🟠 B. Major Issues (Logic errors, bad UI overlaps)
+
+1. Lines 289-291 (AI widget toggle)  
+   Exact Problem: `<a href="ai-assistant.html" class="circle-btn bg-brand-blue ai-widget-toggle">` has both `href` and toggle class.  
+   Why it is wrong: Clicking toggles widget AND navigates away - broken UX.  
+   Exact Code Fix:
+```
+   <a href="#" class="circle-btn bg-brand-blue ai-widget-toggle" title="AI Assistant" onclick="event.preventDefault(); toggleAIWidget();"><i class="fa-solid fa-robot"></i></a>
+```
+
+2. Lines 406-412 (Departments dropdown)  
+   Exact Problem: All dept links point to `departments.html` instead of specific pages.  
+   Why it is wrong: Broken navigation - users can't reach specific department pages.  
+   Exact Code Fix (first few examples):
+```
+   <li><a href="dept_cse.html">Computer Science and Engineering</a></li>
+   <li><a href="dept_civil.html">Bachelor of Architecture</a></li>
+   <li><a href="dept_AI&ML.html">Computer Science Engineering with Artificial Intelligence & Machine Learning</a></li>
+```
+
+3. Line 878 (video source)  
+   Exact Problem: `src="assets/videos/video1.mp4"` but root has `video.mp4`.  
+   Why it is wrong: Video likely fails to load if filename mismatch.  
+   Exact Code Fix:
+```
+   <source src="video.mp4" type="video/mp4">
+```
+
+🟡 C. Minor Issues (Readability, spacing, small CSS tweaks)
+
+1. Line 21 (title)  
+   Exact Problem: "Kingston Engineering College" vs "Kingston College of Engineering" in body.  
+   Why it is wrong: Inconsistent branding across page.  
+   Exact Code Fix:
+```
+   <title>Kingston College of Engineering - Autonomous</title>
+```
+
+2. Lines 320-325 (top-bar-middle links)  
+   Exact Problem: Multiple `#` hrefs and "Coming Soon" titles on live links.  
+   Why it is wrong: Confusing UX - users see "Coming Soon" on clickable links.  
+   Exact Code Fix:
+```
+   <a href="coe.html">COE</a>
+   <a href="alumni.html">Alumni</a>
+   <a href="grievance.html">Grievance & Help Desk</a>
+```
+
+3. Line 1085 (footer copyright)  
+   Exact Problem: `&copy; 2026-27` - Future year range confusing.  
+   Why it is wrong: Should reflect current year or academic session.  
+   Exact Code Fix:
+```
+   <p>&copy; 2024-25 Kingston Engineering College. All Rights Reserved.</p>
+```
+
+🟢 D. Suggestions (Best practice enhancements)
+
+1. Lines 8-9 (meta viewport)  
+   Suggestion: Add `user-scalable=no` for better mobile experience on educational sites.  
+   Exact Code Fix:
+```
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+```
+
+2. Line 15 (Google Fonts)  
+   Suggestion: Add `display=swap` for better font loading performance.  
+   Exact Code Fix:
+```
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+```
+
+3. Lines 1000+ (Empty JS placeholders)  
+   Suggestion: Add loading states/fallbacks for dynamic content.  
+   Exact Code Fix (add before </body>):
+```
+   <script>
+   document.addEventListener('DOMContentLoaded', () => {
+       ['#programs-new-wrapper', '#news-wrapper', '#testimonials-wrapper'].forEach(id => {
+           const el = document.querySelector(id);
+           if (!el.children.length) el.innerHTML = '<div class="loading">Loading...</div>';
+       });
+   });
+   </script>
+```
+
+--- End of index.html audit ---
+
+=== about.html ===
+
+🔴 A. Critical Issues (Must fix immediately - breaks functionality)
+
+1. Line 126 (logo img attributes)  
+   Exact Problem: `src="assets/images/icons/001-web_logo_banner_2026.png" , width="450px" , height="150px"` - Invalid commas in attributes.  
+   Why it is wrong: Malformed HTML attributes cause parsing errors, logo won't display properly.  
+   Exact Code Fix:
+```
+src="assets/images/icons/001-web_logo_banner_2026.png" width="450" height="150"
+```
+
+2. Line 126 (logo onerror)  
+   Exact Problem: `onerror=this src='assets/images/icons/001-web_logo_banner_2026.png'` - Malformed JS syntax.  
+   Why it is wrong: Image fallback broken, JS console error.  
+   Exact Code Fix:
+```
+onerror="this.src='assets/images/icons/001-web_logo_banner_2026.png'"
+```
+
+3. Lines 449-455 (achievements img attributes)  
+   Exact Problem: Multiple `, width="100px" , height="100px"` with commas throughout marquee imgs.  
+   Why it is wrong: All accreditation images broken due to syntax errors.  
+   Exact Code Fix (example for first):
+```
+<img src="assets/images/icons/002-UGC_India_Logo.png" width="100" height="100" alt="UGC">
+```
+
+🟠 B. Major Issues (Logic errors, bad UI overlaps)
+
+1. Lines 406-415 (Departments dropdown)  
+   Exact Problem: Most dept links href="departments.html" instead of specific files.  
+   Why it is wrong: Broken navigation to department pages.  
+   Exact Code Fix:
+```
+<li><a href="dept_cse.html">Computer Science and Engineering</a></li>
+<li><a href="dept_BA.html">Bachelor of Architecture</a></li>
+<li><a href="dept_AI&ML.html">Computer Science Engineering with Artificial Intelligence & Machine Learning</a></li>
+```
+
+2. Lines 878+ (No AOS/Swiper init scripts)  
+   Exact Problem: AOS/Swiper CSS loaded but no JS init calls.  
+   Why it is wrong: Animations/marquee non-functional.  
+   Exact Code Fix (add before </body>):
+```
+<script>
+AOS.init({duration: 1000});
+</script>
+```
+
+3. Line 878 (video source)  
+   Exact Problem: `src="assets/videos/video1.mp4"` may not exist (root has video.mp4).  
+   Why it is wrong: Hero video fails to load.  
+   Exact Code Fix:
+```
+<source src="video.mp4" type="video/mp4">
+```
+
+🟡 C. Minor Issues (Readability, spacing, small CSS tweaks)
+
+1. Line 21 (title mismatch)  
+   Exact Problem: Title "Kingston Engineering College" but body uses "Kingston College of Engineering".  
+   Why it is wrong: Branding inconsistency.  
+   Exact Code Fix:
+```
+<title>Kingston College of Engineering - Autonomous</title>
+```
+
+2. Line 1089 (footer copyright)  
+   Exact Problem: `&copy; 2026-27` future year.  
+   Why it is wrong: Confusing timeline.  
+   Exact Code Fix:
+```
+<p>&copy; 2024-25 Kingston Engineering College. All Rights Reserved.</p>
+```
+
+3. Line 94 (email href)  
+   Exact Problem: `admission@kinston.ac.in` - Typo "kinston" vs "kingston".  
+   Why it is wrong: Broken email link.  
+   Exact Code Fix:
+```
+admission@kingston.ac.in
+```
+
+🟢 D. Suggestions (Best practice enhancements)
+
+1. Lines 8-9 (viewport)  
+   Suggestion: Add user-scalable=no.  
+   Exact Code Fix:
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+```
+
+2. Line 320+ (top-bar links)  
+   Suggestion: Fix placeholder href="#".  
+   Exact Code Fix:
+```
+<a href="coe.html">COE</a>
+```
+
+3. Line 15 (Google Fonts)  
+   Suggestion: Add display=swap.  
+   Exact Code Fix:
+```
+...&display=swap" rel="stylesheet">
+```
+
+
+
+=== academics.html ===
+
+🔴 A. Critical Issues (Must fix immediately - breaks functionality)
+
+1. Line 1 (BOM character)  
+   Exact Problem: `﻿<!DOCTYPE html>` - UTF-8 BOM present.  
+   Why it is wrong: Causes display issues in some browsers/editors.  
+   Exact Code Fix: Remove BOM (save as UTF-8 without BOM).
+
+
+   Why it is wrong: Email links broken.  
+   Exact Code Fix:
+```
+admission@kingston.ac.in
+```
+
+
+   Exact Code Fix:
+```

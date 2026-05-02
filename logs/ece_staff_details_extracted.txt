@@ -1,0 +1,29 @@
+DEPARTMENTOFELECTRONICSANDCOMMUNICATIONENGINEERING
+S.NoNameoftheStaff Designation Qualification Specialization E-MailID
+1.
+Mr.PaulRichardson
+GnanarajJAssistantProfessor M.E VLSIDesign paulrichardson@kingston.ac.in
+2.
+Dr.VenkatesanAAssistantProfessorM.E.,P.hDVLSIDesign,
+Wireless
+Communicationvenkatesan@kingston.ac.in
+3.
+Mr.RajaSAssistantProfessor M.TechEmbeddedSystem
+TechnologyRajaece.engineering@kingston.ac.in
+4.
+Mr.ThiyagarajanVAssistantProfessor M.Tech VLSIDesignthiyagarajan.engineering@kingston.ac.in
+5.
+Mr.SathishkumarGAssistantProfessor M.E VLSIDesignSathishkumar.engineering@kingston.ac.in
+6.
+Mrs.ThulasiBruntha
+BAssistantProfessor M.E PowerElectronics thulashibrindha@kingston.ac.in
+7.
+Mr.HariramSAssistantProfessor M.E VLSIDesignhariram.engineering@kingston.ac.in
+8.
+Mrs.GracyKavitha
+NAssistantProfessor M.E AppliedElectronicsgracykavitha.engineering@kingston.ac.in
+9.
+ AssistantProfessor M.Tech AppliedElectronicsvanitha@kingston.ac.in
+Mrs.VanithaN
+10.
+Mrs.SuganyaSAssistantProfessor M.E AppliedElectronicssuganyas.engineering@kingston.ac.in

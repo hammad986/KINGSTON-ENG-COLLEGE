@@ -1,0 +1,30 @@
+{
+    "assets\\pdfs\\departments/csbs\\departments_csbs_bos_csbs.pdf": [
+        "assets\\csbs\\BOS-CSBS.pdf",
+        "college-detail\\Autonomous\\Board of Studies\\BOS-CSBS.pdf"
+    ],
+    "assets\\pdfs\\departments/csbs\\departments_csbs_csbs.pdf": [
+        "assets\\csbs\\CSBS.pdf",
+        "college-detail\\Autonomous\\News Letter\\CSBS.pdf"
+    ],
+    "assets\\pdfs\\departments/cse\\departments_cse_bos_cse.pdf": [
+        "assets\\cse\\BOS-CSE.pdf",
+        "college-detail\\Autonomous\\Board of Studies\\BOS-CSE.pdf"
+    ],
+    "assets\\pdfs\\departments/ece\\departments_ece_bos_ece.pdf": [
+        "assets\\ece\\BOS-ECE.pdf",
+        "college-detail\\Autonomous\\Board of Studies\\BOS-ECE.pdf"
+    ],
+    "assets\\pdfs\\departments/mba\\departments_mba_bos_mba.pdf": [
+        "assets\\mba\\BOS - MBA.pdf",
+        "college-detail\\Autonomous\\Board of Studies\\BOS - MBA.pdf"
+    ],
+    "assets\\pdfs\\departments/mech\\departments_mech_bos_mech.pdf": [
+        "assets\\mech\\BOS-MECH.pdf",
+        "college-detail\\Autonomous\\Board of Studies\\BOS-MECH.pdf"
+    ],
+    "assets\\pdfs\\general\\general_book_chapter_impact_of_emulsified.pdf": [
+        "college-detail\\Books, Patents & Conferrences\\Book Chapter Impact of Emulsified.pdf",
+        "college-detail\\Books, Patents & Conferrences\\Books\\Book Chapter Impact of Emulsified.pdf"
+    ]
+}

@@ -1,0 +1,112 @@
+{
+  "pdfs": [
+    {
+      "text": "Governing Council",
+      "link": "/assets/pdf/governing-council/governing-council.pdf"
+    },
+    {
+      "text": "Campus Hiring",
+      "link": "/assets/pdf/placement-report/campus-hiring.pdf"
+    },
+    {
+      "text": "Value added Courses Training",
+      "link": "/assets/pdf/value-added-training-course.pdf"
+    },
+    {
+      "text": "Capacity Development and Skill Development",
+      "link": "/assets/pdf/capacity-development.pdf"
+    },
+    {
+      "text": "Strategic Plan 2024",
+      "link": "/assets/pdf/strategic-plan-2024.pdf"
+    },
+    {
+      "text": "IIQA",
+      "link": "/assets/pdf/naac/IIQA.pdf"
+    },
+    {
+      "text": "SSR",
+      "link": "/assets/pdf/naac/ssr-new.pdf"
+    },
+    {
+      "text": "DVV Clarification",
+      "link": "https://kingston.ac.in/engineering-resources/dvv/DVV-001/dvv-clarifications-link.pdf"
+    },
+    {
+      "text": "RTI",
+      "link": "https://kingston.ac.in/engineering-resources/naac/rti.pdf"
+    },
+    {
+      "text": "Teaching Faculty",
+      "link": "/assets/pdf/faculty/teaching_Faculty.pdf"
+    },
+    {
+      "text": "Non Teaching Faculty",
+      "link": "/assets/pdf/faculty/non_teaching_Faculty.pdf"
+    },
+    {
+      "text": "Internal Complaint Committee",
+      "link": "https://kingston.ac.in/engineering-resources/ugc_mandatory_disclosure/UGC_Mandatory_Committee/icc.pdf"
+    },
+    {
+      "text": "Students Grievance Redressal Commiittee",
+      "link": "https://kingston.ac.in/engineering-resources/ugc_mandatory_disclosure/UGC_Mandatory_Committee/sgrc.pdf"
+    },
+    {
+      "text": "POSH Cell",
+      "link": "https://kingston.ac.in/engineering-resources/ugc_mandatory_disclosure/UGC_Mandatory_Committee/posh.pdf"
+    },
+    {
+      "text": "Socio-Economically Disadvantaged Group",
+      "link": "https://kingston.ac.in/engineering-resources/ugc_mandatory_disclosure/UGC_Mandatory_Committee/sedg.pdf"
+    },
+    {
+      "text": "Anti Ragging Committee",
+      "link": "https://kingston.ac.in/engineering-resources/ugc_mandatory_disclosure/UGC_Mandatory_Committee/arc.pdf"
+    },
+    {
+      "text": "Equal Opportunity Cell",
+      "link": "https://kingston.ac.in/engineering-resources/ugc_mandatory_disclosure/UGC_Mandatory_Committee/eqc.pdf"
+    },
+    {
+      "text": "UGC Undertaking Letter by HOI - II",
+      "link": "https://kingston.ac.in/engineering-resources/ugc_mandatory_disclosure/UGC_Undertaking_Letter_by_HOI/UGC_HOI_II.pdf"
+    },
+    {
+      "text": "UGC Undertaking Letter by HOI - I",
+      "link": "https://kingston.ac.in/engineering-resources/ugc_mandatory_disclosure/UGC_Undertaking_Letter_by_HOI/UGC_HOI_I.pdf"
+    },
+    {
+      "text": "Alumni Association",
+      "link": "https://kingston.ac.in/engineering-resources/ugc_mandatory_disclosure/alumni/alumni.pdf"
+    },
+    {
+      "text": "R2013-B.E-CSE",
+      "link": "/assets/pdf/departments/cse/R2013-B.E-CSE.pdf"
+    },
+    {
+      "text": "R2013-M.E-CSE",
+      "link": "/assets/pdf/departments/cse/R2013-M.E-CSE.pdf"
+    },
+    {
+      "text": "R2017-B.E-CSE",
+      "link": "/assets/pdf/departments/cse/R2017-B.E-CSE.pdf"
+    },
+    {
+      "text": "R2017-M.E-CSE",
+      "link": "/assets/pdf/departments/cse/R2017-M.E-CSE.pdf"
+    },
+    {
+      "text": "R2021-B.E-CSE",
+      "link": "/assets/pdf/departments/cse/R2021-B.E-CSE.pdf"
+    },
+    {
+      "text": "R2021-M.E-CSE",
+      "link": "/assets/pdf/departments/cse/R2021-M.E-CSE.pdf"
+    }
+  ],
+  "tabs": {
+    "basic-navbar-nav": "ABOUT\nADMISSION\nDEPARTMENTS\nACADEMICS\nFACILITIES\nPLACEMENT\nPOLICIES\nALUMNI\nIQAC\nNAAC\nCLUBS & COMMITTEE\nFACULTY\nUGC Mandatory Committee\nUGC Undertaking Letter by HoI\nPublic Self-Disclosure",
+    "unknown": "Infrastructure\nFacilities\nEvent Gallery"
+  }
+}

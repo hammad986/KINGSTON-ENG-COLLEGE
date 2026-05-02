@@ -1,0 +1,253 @@
+document.addEventListener('DOMContentLoaded', () => {
+
+    /* ==========================================
+       1. INITIALIZE AOS (Animate On Scroll)
+       ========================================== */
+    AOS.init({
+        once: true,
+        offset: 100,
+        duration: 800,
+        easing: 'ease-out-cubic',
+    });
+
+    /* ==========================================
+       2. POPULATE NAVIGATION DROPDOWNS
+       ========================================== */
+    const navItems = {
+        'About Us': 8,
+        'Departments': 15,
+        'Academics': 3,
+        'Facilities': 7,
+        'Placements': 8,
+        'IQAC': 7,
+        'NAAC': 12,
+        'UGC Mandatory Committee': 6,
+        'UGC Undertaking Letter By HOI': 2,
+        'Public Self Disclosure': 10
+    };
+
+    const navLinksList = document.querySelectorAll('.nav-links > li > a');
+    navLinksList.forEach(link => {
+        const text = link.textContent.trim();
+        if (navItems[text]) {
+            // Append icon
+            link.innerHTML = `${text} <i class="fa-solid fa-caret-down text-xs ml-1"></i>`;
+            const dropdown = link.nextElementSibling;
+            if (dropdown && dropdown.classList.contains('dropdown')) {
+                // Skip generation if it specifically has real HTML inside
+                if (!dropdown.classList.contains('js-exclude-dropdown')) {
+                    let html = '';
+                    for(let i=1; i<=navItems[text]; i++) {
+                        html += `<li><a href="#">${text} Submenu ${i}</a></li>`;
+                    }
+                    dropdown.innerHTML = html;
+                }
+            }
+        }
+    });
+
+    // --- Hero Side Box Slider (Removed) ---
+
+    // --- Programs Image Cards Slider ---
+    const programsNewWrapper = document.getElementById('programs-new-wrapper');
+    if (programsNewWrapper) {
+        const events = [
+             { img: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&q=75', title: 'Cultural Program | 24-Oct-2019' },
+             { img: 'https://images.unsplash.com/photo-1551818255-e6e10975bc17?w=400&q=75', title: 'Integrated innovative lab by PADMA SHRI Dr.Mylswamy... | 15-Oct-2019' },
+             { img: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=400&q=75', title: 'Induction day 2019 | 23-Sep-2019' },
+             { img: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&q=75', title: 'Tech Symposium | 10-Nov-2019' },
+             { img: 'https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?w=400&q=75', title: 'Graduation Day | 12-Dec-2019' }
+        ];
+        let pHTML = '';
+        events.forEach(e => {
+            pHTML += `<div class="swiper-slide">
+                <div class="program-card-new">
+                    <img src="${e.img}" alt="Program Update">
+                    <div class="program-card-caption">${e.title}</div>
+                </div>
+            </div>`;
+        });
+        programsNewWrapper.innerHTML = pHTML;
+        new Swiper('#programs-new-slider', {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            autoplay: { delay: 3500, disableOnInteraction: false },
+            breakpoints: {
+                640: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 }
+            }
+        });
+    }
+
+    /* ==========================================
+       4. INITIALIZE SWIPER SLIDERS
+       ========================================== */
+
+    // --- Hero Background Slider (Removed) ---
+
+    // --- News Slider — populated by assets/js/news.js ---
+
+    // --- In Focus Slider ---
+    const infocusWrapper = document.getElementById('infocus-wrapper');
+    if(infocusWrapper) {
+        let fHTML = '';
+        for(let i=1; i<=10; i++) {
+            fHTML += `
+            <div class="swiper-slide">
+                <div class="infocus-card">
+                    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&q=75" class="infocus-img" alt="Focus Event">
+                    <div class="infocus-body">
+                        <p class="infocus-text">The Centre for Clean Environment (CCE) at VIT Vellore...</p>
+                        <a href="#" class="btn-view-more">View More</a>
+                    </div>
+                </div>
+            </div>`;
+        }
+        infocusWrapper.innerHTML = fHTML;
+
+        new Swiper('#infocus-slider', {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: true, // Pauses on click/tap
+            },
+            breakpoints: {
+                640: { slidesPerView: 2 },
+                1024: { slidesPerView: 4 }
+            }
+        });
+    }
+
+    // --- Testimonials Slider — loaded from data/testimonials.json ---
+    const testWrapper = document.getElementById('testimonials-wrapper');
+    if (testWrapper) {
+        const CLG_LOGO = 'assets/images/testimonials/clg-logo.png';
+        const FALLBACK_PHOTO = 'assets/images/testimonials/noname.jpeg';
+        const FALLBACK_LOGO = 'assets/images/icons/logo.png';
+
+        function buildTestiCard(t) {
+            return `
+            <div class="swiper-slide">
+                <div class="testi-card">
+                    <div class="testi-logos-row">
+                        <img src="${CLG_LOGO}" class="testi-clg-logo" alt="Kingston Engineering College Logo" loading="lazy"
+                             onerror="this.style.visibility='hidden'">
+                        <img src="${t.company_logo_path}" class="testi-comp-logo" alt="${t.company} Logo" loading="lazy"
+                             onerror="this.src='${FALLBACK_LOGO}'">
+                    </div>
+                    <div class="testi-photo-wrap">
+                        <img src="${t.photo_path}" alt="Photo of ${t.name}" loading="lazy"
+                             onerror="this.src='${FALLBACK_PHOTO}'">
+                    </div>
+                    <div class="testi-name">${t.name}</div>
+                    <div class="testi-meta">${t.department_full} &bull; ${t.company}</div>
+                    <p class="testi-quote">${t.quote}</p>
+                </div>
+            </div>`;
+        }
+
+        fetch('data/testimonials.json')
+            .then(function(r) {
+                if (!r.ok) throw new Error('Failed to load testimonials');
+                return r.json();
+            })
+            .then(function(data) {
+                testWrapper.innerHTML = data.map(buildTestiCard).join('');
+
+                const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                new Swiper('#testimonials-slider', {
+                    slidesPerView: 1,
+                    spaceBetween: 24,
+                    loop: true,
+                    pauseOnMouseEnter: true,
+                    autoplay: {
+                        delay: prefersReducedMotion ? 0 : 3500,
+                        disableOnInteraction: false,
+                        pauseOnMouseEnter: true,
+                    },
+                    speed: prefersReducedMotion ? 0 : 600,
+                    breakpoints: {
+                        640:  { slidesPerView: 2 },
+                        1024: { slidesPerView: 4 }
+                    }
+                });
+            })
+            .catch(function(e) {
+                console.warn('testimonials: fetch failed', e);
+                testWrapper.innerHTML = '<div class="swiper-slide"><p style="padding:20px;color:#666;">Testimonials temporarily unavailable.</p></div>';
+            });
+    }
+
+
+    /* ==========================================
+       5. MOBILE MENU ACCORDION LOGIC
+       ========================================== */
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const navLinks = document.getElementById('nav-links');
+    
+    if (menuBtn) {
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    }
+
+    // Toggle dropdowns on mobile click
+    document.querySelectorAll('.has-dropdown > a').forEach(link => {
+        link.addEventListener('click', (e) => {
+            if (window.innerWidth <= 768) {
+                e.preventDefault();
+                link.parentElement.classList.toggle('open');
+            }
+        });
+    });
+
+    // --- Achievements Marquee Setup ---
+    const achieveMarquee = document.getElementById('achievements-marquee');
+    if (achieveMarquee) {
+        // Clone the content twice to ensure seamless infinite scrolling loop
+        const originalContent = achieveMarquee.innerHTML;
+        achieveMarquee.innerHTML = originalContent + originalContent + originalContent;
+    }
+
+    /* ==========================================
+       6. NUMERICAL COUNTER ANIMATION
+       ========================================== */
+    const counters = document.querySelectorAll('.counter-value');
+    if (counters.length > 0) {
+        const observerOptions = { threshold: 0.5 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counter = entry.target;
+                    const target = +counter.getAttribute('data-target');
+                    let count = 0;
+                    const speed = 100; // lower is faster
+                    const inc = target / speed;
+
+                    const updateCount = () => {
+                        count += inc;
+                        if (count < target) {
+                            counter.innerText = Math.ceil(count);
+                            requestAnimationFrame(updateCount);
+                        } else {
+                            counter.innerText = target;
+                        }
+                    };
+                    updateCount();
+                    observer.unobserve(counter);
+                }
+            });
+        }, observerOptions);
+        counters.forEach(counter => observer.observe(counter));
+    }
+
+});
+
+/* ── Load Site-Wide Search ───────────────────────────────────── */
+(function () {
+    var s = document.createElement('script');
+    s.src = 'assets/js/search.js';
+    s.defer = true;
+    document.head.appendChild(s);
+})();
