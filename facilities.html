@@ -370,15 +370,74 @@
             padding-left: 18px;
         }
 
-        .sports-achieve-grid {
+        /* Dual-column infinite vertical marquee */
+        .sports-marquee-outer {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 22px;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            height: 740px;
+            overflow: hidden;
+            position: relative;
         }
 
-        @media (max-width: 1100px) { .sports-achieve-grid { grid-template-columns: repeat(3, 1fr); } }
-        @media (max-width: 720px)  { .sports-achieve-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; } }
-        @media (max-width: 480px)  { .sports-achieve-grid { grid-template-columns: 1fr; } }
+        .sports-marquee-outer::before,
+        .sports-marquee-outer::after {
+            content: '';
+            position: absolute;
+            left: 0; right: 0;
+            height: 80px;
+            z-index: 2;
+            pointer-events: none;
+        }
+        .sports-marquee-outer::before {
+            top: 0;
+            background: linear-gradient(to bottom, rgba(13,27,42,1) 0%, transparent 100%);
+        }
+        .sports-marquee-outer::after {
+            bottom: 0;
+            background: linear-gradient(to top, rgba(13,27,42,1) 0%, transparent 100%);
+        }
+
+        .sports-marquee-col {
+            overflow: hidden;
+        }
+
+        .sports-marquee-track {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        .sports-marquee-track-up {
+            animation-name: kecMarqueeUp;
+            animation-duration: 38s;
+        }
+
+        .sports-marquee-track-down {
+            animation-name: kecMarqueeDown;
+            animation-duration: 44s;
+        }
+
+        .sports-marquee-outer:hover .sports-marquee-track {
+            animation-play-state: paused;
+        }
+
+        @keyframes kecMarqueeUp {
+            0%   { transform: translateY(0); }
+            100% { transform: translateY(-50%); }
+        }
+
+        @keyframes kecMarqueeDown {
+            0%   { transform: translateY(-50%); }
+            100% { transform: translateY(0); }
+        }
+
+        @media (max-width: 720px) {
+            .sports-marquee-outer { grid-template-columns: 1fr; height: 560px; }
+            .sports-marquee-col:last-child { display: none; }
+        }
 
         .sports-achieve-card {
             background: rgba(255,255,255,0.05);
@@ -1044,13 +1103,15 @@
                 <p class="sports-achieve-subtext">Our athletes have proudly represented Kingston Engineering College at state, university &amp; national levels across 20+ sports disciplines.</p>
             </div>
 
-            <div class="sports-achieve-grid">
+                        <div class="sports-marquee-outer" data-aos="fade-up">
 
-                <!-- Card 1: Basketball -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="0">
+                <!-- Left column — scrolls UP continuously -->
+                <div class="sports-marquee-col">
+                    <div class="sports-marquee-track sports-marquee-track-up">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual basketball achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_bball/400/280" alt="Basketball State Champions">
+                        <!-- Replace src below with actual Basketball achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_bball/400/280" alt="Basketball — State Champions" loading="lazy">
                         <span class="sports-achieve-badge">🥇 State</span>
                     </div>
                     <div class="sports-achieve-body">
@@ -1059,12 +1120,10 @@
                         <div class="sports-achieve-desc">Anna University Zone IV State Champions 2023–24, defeating 14 colleges in the knockout rounds.</div>
                     </div>
                 </div>
-
-                <!-- Card 2: Cricket -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="60">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual cricket achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_cricket/400/280" alt="Cricket University Champions">
+                        <!-- Replace src below with actual Cricket achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_cricket/400/280" alt="Cricket — University Champions" loading="lazy">
                         <span class="sports-achieve-badge">🏆 University</span>
                     </div>
                     <div class="sports-achieve-body">
@@ -1073,26 +1132,22 @@
                         <div class="sports-achieve-desc">Anna University Inter-Collegiate Cricket Champions 2022–23, unbeaten through all league matches.</div>
                     </div>
                 </div>
-
-                <!-- Card 3: Chess -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="120">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual chess achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_chess/400/280" alt="Chess National Champions">
+                        <!-- Replace src below with actual Chess achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_chess/400/280" alt="Chess — National Champions" loading="lazy">
                         <span class="sports-achieve-badge">🥇 National</span>
                     </div>
                     <div class="sports-achieve-body">
                         <span class="sports-achieve-icon">♟️</span>
                         <div class="sports-achieve-title">Chess — National Champions</div>
-                        <div class="sports-achieve-desc">All-India Inter-University Chess Tournament Champions 2023, clinching gold in both individual and team events.</div>
+                        <div class="sports-achieve-desc">All-India Inter-University Chess Tournament Champions 2023, gold in both individual &amp; team events.</div>
                     </div>
                 </div>
-
-                <!-- Card 4: Kabaddi -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="180">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual kabaddi achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_kabaddi/400/280" alt="Kabaddi Zone Champions">
+                        <!-- Replace src below with actual Kabaddi achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_kabaddi/400/280" alt="Kabaddi — Zone Champions" loading="lazy">
                         <span class="sports-achieve-badge">🥇 Zone</span>
                     </div>
                     <div class="sports-achieve-body">
@@ -1101,26 +1156,22 @@
                         <div class="sports-achieve-desc">Zone IV Kabaddi Champions 2023–24, represented Tamil Nadu in the South Regional rounds.</div>
                     </div>
                 </div>
-
-                <!-- Card 5: Table Tennis -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual table tennis achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_tt/400/280" alt="Table Tennis State Champions">
+                        <!-- Replace src below with actual Table Tennis achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_tt/400/280" alt="Table Tennis — State Champions" loading="lazy">
                         <span class="sports-achieve-badge">🥇 State</span>
                     </div>
                     <div class="sports-achieve-body">
                         <span class="sports-achieve-icon">🏓</span>
                         <div class="sports-achieve-title">Table Tennis — State Champions</div>
-                        <div class="sports-achieve-desc">State-level Table Tennis Champions (Men's Team) 2023, with three individual gold medals.</div>
+                        <div class="sports-achieve-desc">State-level Table Tennis Champions (Men&apos;s Team) 2023, with three individual gold medals.</div>
                     </div>
                 </div>
-
-                <!-- Card 6: Football -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="60">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual football achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_football/400/280" alt="Football Inter-College Winners">
+                        <!-- Replace src below with actual Football achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_football/400/280" alt="Football — Inter-College Winners" loading="lazy">
                         <span class="sports-achieve-badge">🏆 Inter-College</span>
                     </div>
                     <div class="sports-achieve-body">
@@ -1129,68 +1180,184 @@
                         <div class="sports-achieve-desc">Vellore District Inter-College Football Tournament Winners 2022–23, scoring 18 goals in 5 matches.</div>
                     </div>
                 </div>
-
-                <!-- Card 7: Athletics -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="120">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual athletics achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_athletics/400/280" alt="Athletics State Gold">
+                        <!-- Replace src below with actual Athletics achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_athletics/400/280" alt="Athletics — State Gold Medalist" loading="lazy">
                         <span class="sports-achieve-badge">🥇 State Gold</span>
                     </div>
                     <div class="sports-achieve-body">
                         <span class="sports-achieve-icon">🏃</span>
                         <div class="sports-achieve-title">Athletics — State Gold Medalist</div>
-                        <div class="sports-achieve-desc">State-level 100m &amp; 200m Gold Medalist 2023 — student represented Tamil Nadu at the National Games.</div>
+                        <div class="sports-achieve-desc">State-level 100m &amp; 200m Gold Medalist 2023, student represented Tamil Nadu at the National Games.</div>
                     </div>
                 </div>
-
-                <!-- Card 8: Badminton -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="180">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual badminton achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_badminton/400/280" alt="Badminton University Champions">
+                        <!-- Replace src below with actual Badminton achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_badminton/400/280" alt="Badminton — University Champions" loading="lazy">
                         <span class="sports-achieve-badge">🏆 University</span>
                     </div>
                     <div class="sports-achieve-body">
                         <span class="sports-achieve-icon">🏸</span>
                         <div class="sports-achieve-title">Badminton — University Champions</div>
-                        <div class="sports-achieve-desc">Anna University Badminton Champions (Mixed Doubles &amp; Men's Singles) 2023–24.</div>
+                        <div class="sports-achieve-desc">Anna University Badminton Champions (Mixed Doubles &amp; Men&apos;s Singles) 2023–24.</div>
                     </div>
                 </div>
-
-                <!-- Card 9: Volleyball -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual volleyball achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_volleyball/400/280" alt="Volleyball Zone Champions">
+                        <!-- Replace src below with actual Volleyball achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_volleyball/400/280" alt="Volleyball — Zone Champions" loading="lazy">
                         <span class="sports-achieve-badge">🥇 Zone</span>
                     </div>
                     <div class="sports-achieve-body">
                         <span class="sports-achieve-icon">🏐</span>
                         <div class="sports-achieve-title">Volleyball — Zone Champions</div>
-                        <div class="sports-achieve-desc">Zone IV Volleyball Champions 2022–23, with two players selected for university squad.</div>
+                        <div class="sports-achieve-desc">Zone IV Volleyball Champions 2022–23, two players selected for the university squad.</div>
                     </div>
                 </div>
-
-                <!-- Card 10: Kho-Kho -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="60">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual kho-kho achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_khokho/400/280" alt="Kho-Kho State Champions">
+                        <!-- Replace src below with actual Kho-Kho achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_khokho/400/280" alt="Kho-Kho — State Champions" loading="lazy">
                         <span class="sports-achieve-badge">🥇 State</span>
                     </div>
                     <div class="sports-achieve-body">
                         <span class="sports-achieve-icon">🏅</span>
                         <div class="sports-achieve-title">Kho-Kho — State Champions</div>
-                        <div class="sports-achieve-desc">Tamil Nadu State Kho-Kho Champions (Women's Team) 2023, representing the state at South Zonals.</div>
+                        <div class="sports-achieve-desc">Tamil Nadu State Kho-Kho Champions (Women&apos;s Team) 2023, represented state at South Zonals.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Basketball achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_bball/400/280" alt="Basketball — State Champions" loading="lazy">
+                        <span class="sports-achieve-badge">🥇 State</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🏀</span>
+                        <div class="sports-achieve-title">Basketball — State Champions</div>
+                        <div class="sports-achieve-desc">Anna University Zone IV State Champions 2023–24, defeating 14 colleges in the knockout rounds.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Cricket achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_cricket/400/280" alt="Cricket — University Champions" loading="lazy">
+                        <span class="sports-achieve-badge">🏆 University</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🏏</span>
+                        <div class="sports-achieve-title">Cricket — University Champions</div>
+                        <div class="sports-achieve-desc">Anna University Inter-Collegiate Cricket Champions 2022–23, unbeaten through all league matches.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Chess achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_chess/400/280" alt="Chess — National Champions" loading="lazy">
+                        <span class="sports-achieve-badge">🥇 National</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">♟️</span>
+                        <div class="sports-achieve-title">Chess — National Champions</div>
+                        <div class="sports-achieve-desc">All-India Inter-University Chess Tournament Champions 2023, gold in both individual &amp; team events.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Kabaddi achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_kabaddi/400/280" alt="Kabaddi — Zone Champions" loading="lazy">
+                        <span class="sports-achieve-badge">🥇 Zone</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🤼</span>
+                        <div class="sports-achieve-title">Kabaddi — Zone Champions</div>
+                        <div class="sports-achieve-desc">Zone IV Kabaddi Champions 2023–24, represented Tamil Nadu in the South Regional rounds.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Table Tennis achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_tt/400/280" alt="Table Tennis — State Champions" loading="lazy">
+                        <span class="sports-achieve-badge">🥇 State</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🏓</span>
+                        <div class="sports-achieve-title">Table Tennis — State Champions</div>
+                        <div class="sports-achieve-desc">State-level Table Tennis Champions (Men&apos;s Team) 2023, with three individual gold medals.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Football achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_football/400/280" alt="Football — Inter-College Winners" loading="lazy">
+                        <span class="sports-achieve-badge">🏆 Inter-College</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">⚽</span>
+                        <div class="sports-achieve-title">Football — Inter-College Winners</div>
+                        <div class="sports-achieve-desc">Vellore District Inter-College Football Tournament Winners 2022–23, scoring 18 goals in 5 matches.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Athletics achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_athletics/400/280" alt="Athletics — State Gold Medalist" loading="lazy">
+                        <span class="sports-achieve-badge">🥇 State Gold</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🏃</span>
+                        <div class="sports-achieve-title">Athletics — State Gold Medalist</div>
+                        <div class="sports-achieve-desc">State-level 100m &amp; 200m Gold Medalist 2023, student represented Tamil Nadu at the National Games.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Badminton achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_badminton/400/280" alt="Badminton — University Champions" loading="lazy">
+                        <span class="sports-achieve-badge">🏆 University</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🏸</span>
+                        <div class="sports-achieve-title">Badminton — University Champions</div>
+                        <div class="sports-achieve-desc">Anna University Badminton Champions (Mixed Doubles &amp; Men&apos;s Singles) 2023–24.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Volleyball achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_volleyball/400/280" alt="Volleyball — Zone Champions" loading="lazy">
+                        <span class="sports-achieve-badge">🥇 Zone</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🏐</span>
+                        <div class="sports-achieve-title">Volleyball — Zone Champions</div>
+                        <div class="sports-achieve-desc">Zone IV Volleyball Champions 2022–23, two players selected for the university squad.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Kho-Kho achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_khokho/400/280" alt="Kho-Kho — State Champions" loading="lazy">
+                        <span class="sports-achieve-badge">🥇 State</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🏅</span>
+                        <div class="sports-achieve-title">Kho-Kho — State Champions</div>
+                        <div class="sports-achieve-desc">Tamil Nadu State Kho-Kho Champions (Women&apos;s Team) 2023, represented state at South Zonals.</div>
+                    </div>
+                </div>
                     </div>
                 </div>
 
-                <!-- Card 11: Swimming -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="120">
+                <!-- Right column — scrolls DOWN continuously -->
+                <div class="sports-marquee-col">
+                    <div class="sports-marquee-track sports-marquee-track-down">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual swimming achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_swimming/400/280" alt="Swimming National Bronze">
+                        <!-- Replace src below with actual Swimming achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_swimming/400/280" alt="Swimming — National Bronze" loading="lazy">
                         <span class="sports-achieve-badge">🥉 National</span>
                     </div>
                     <div class="sports-achieve-body">
@@ -1199,68 +1366,58 @@
                         <div class="sports-achieve-desc">All-India Inter-University Swimming National Bronze Medal (100m Freestyle) 2023–24.</div>
                     </div>
                 </div>
-
-                <!-- Card 12: Carrom -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="180">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual carrom achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_carrom/400/280" alt="Carrom State Champions">
+                        <!-- Replace src below with actual Carrom achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_carrom/400/280" alt="Carrom — State Champions" loading="lazy">
                         <span class="sports-achieve-badge">🥇 State</span>
                     </div>
                     <div class="sports-achieve-body">
                         <span class="sports-achieve-icon">🎯</span>
                         <div class="sports-achieve-title">Carrom — State Champions</div>
-                        <div class="sports-achieve-desc">Tamil Nadu State Carrom Champions 2022–23 (Men's Doubles &amp; Women's Singles categories).</div>
+                        <div class="sports-achieve-desc">Tamil Nadu State Carrom Champions 2022–23 (Men&apos;s Doubles &amp; Women&apos;s Singles categories).</div>
                     </div>
                 </div>
-
-                <!-- Card 13: Boxing -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual boxing achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_boxing/400/280" alt="Boxing University Gold">
+                        <!-- Replace src below with actual Boxing achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_boxing/400/280" alt="Boxing — University Gold" loading="lazy">
                         <span class="sports-achieve-badge">🥇 University</span>
                     </div>
                     <div class="sports-achieve-body">
                         <span class="sports-achieve-icon">🥊</span>
                         <div class="sports-achieve-title">Boxing — University Gold</div>
-                        <div class="sports-achieve-desc">Anna University Boxing Gold Medal (60kg &amp; 75kg categories) 2023–24, advancing to South Regionals.</div>
+                        <div class="sports-achieve-desc">Anna University Boxing Gold Medal (60kg &amp; 75kg categories) 2023–24, advanced to South Regionals.</div>
                     </div>
                 </div>
-
-                <!-- Card 14: Wrestling -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="60">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual wrestling achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_wrestling/400/280" alt="Wrestling State Champions">
+                        <!-- Replace src below with actual Wrestling achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_wrestling/400/280" alt="Wrestling — State Champions" loading="lazy">
                         <span class="sports-achieve-badge">🥇 State</span>
                     </div>
                     <div class="sports-achieve-body">
                         <span class="sports-achieve-icon">🤼</span>
                         <div class="sports-achieve-title">Wrestling — State Champions</div>
-                        <div class="sports-achieve-desc">Tamil Nadu State Wrestling Champions (Men's Freestyle 65kg) 2023 with back-to-back gold wins.</div>
+                        <div class="sports-achieve-desc">Tamil Nadu State Wrestling Champions (Men&apos;s Freestyle 65kg) 2023, back-to-back gold wins.</div>
                     </div>
                 </div>
-
-                <!-- Card 15: Tennis -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="120">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual tennis achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_tennis/400/280" alt="Tennis Inter-College Champions">
+                        <!-- Replace src below with actual Tennis achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_tennis/400/280" alt="Tennis — Inter-College Champions" loading="lazy">
                         <span class="sports-achieve-badge">🏆 Inter-College</span>
                     </div>
                     <div class="sports-achieve-body">
                         <span class="sports-achieve-icon">🎾</span>
                         <div class="sports-achieve-title">Tennis — Inter-College Champions</div>
-                        <div class="sports-achieve-desc">Vellore Inter-College Tennis Champions 2022–23 (Men's &amp; Women's singles and doubles).</div>
+                        <div class="sports-achieve-desc">Vellore Inter-College Tennis Champions 2022–23 (Men&apos;s &amp; Women&apos;s singles and doubles).</div>
                     </div>
                 </div>
-
-                <!-- Card 16: Hockey -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="180">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual hockey achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_hockey/400/280" alt="Hockey Zone Champions">
+                        <!-- Replace src below with actual Hockey achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_hockey/400/280" alt="Hockey — Zone Champions" loading="lazy">
                         <span class="sports-achieve-badge">🥇 Zone</span>
                     </div>
                     <div class="sports-achieve-body">
@@ -1269,60 +1426,174 @@
                         <div class="sports-achieve-desc">Zone IV Hockey Champions 2023–24 with four players called up to the Anna University squad.</div>
                     </div>
                 </div>
-
-                <!-- Card 17: Handball -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual handball achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_handball/400/280" alt="Handball State Champions">
+                        <!-- Replace src below with actual Handball achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_handball/400/280" alt="Handball — State Champions" loading="lazy">
                         <span class="sports-achieve-badge">🥇 State</span>
                     </div>
                     <div class="sports-achieve-body">
                         <span class="sports-achieve-icon">🤾</span>
                         <div class="sports-achieve-title">Handball — State Champions</div>
-                        <div class="sports-achieve-desc">Tamil Nadu State Handball Champions (Women's Team) 2023, remaining unbeaten throughout the tournament.</div>
+                        <div class="sports-achieve-desc">Tamil Nadu State Handball Champions (Women&apos;s Team) 2023, unbeaten throughout the tournament.</div>
                     </div>
                 </div>
-
-                <!-- Card 18: Cycling -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="60">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual cycling achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_cycling/400/280" alt="Cycling National Participant">
+                        <!-- Replace src below with actual Cycling achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_cycling/400/280" alt="Cycling — National Participant" loading="lazy">
                         <span class="sports-achieve-badge">🌐 National</span>
                     </div>
                     <div class="sports-achieve-body">
                         <span class="sports-achieve-icon">🚴</span>
                         <div class="sports-achieve-title">Cycling — National Participant</div>
-                        <div class="sports-achieve-desc">National-level Inter-University Road Cycling Participant 2023 — represented Tamil Nadu in 50km time trial.</div>
+                        <div class="sports-achieve-desc">National-level Inter-University Road Cycling Participant 2023 — represented Tamil Nadu in 50km TT.</div>
                     </div>
                 </div>
-
-                <!-- Card 19: Yoga -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="120">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual yoga achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_yoga/400/280" alt="Yoga State Champions">
+                        <!-- Replace src below with actual Yoga achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_yoga/400/280" alt="Yoga — State Champions" loading="lazy">
                         <span class="sports-achieve-badge">🥇 State</span>
                     </div>
                     <div class="sports-achieve-body">
                         <span class="sports-achieve-icon">🧘</span>
                         <div class="sports-achieve-title">Yoga — State Champions</div>
-                        <div class="sports-achieve-desc">Tamil Nadu State Yoga Competition Champions 2023–24 — gold in artistic &amp; rhythmic yoga categories.</div>
+                        <div class="sports-achieve-desc">Tamil Nadu State Yoga Competition Champions 2023–24 — gold in artistic &amp; rhythmic yoga.</div>
                     </div>
                 </div>
-
-                <!-- Card 20: Weight Lifting -->
-                <div class="sports-achieve-card" data-aos="fade-up" data-aos-delay="180">
+                <div class="sports-achieve-card">
                     <div class="sports-achieve-img-wrap">
-                        <!-- Replace src below with actual weight lifting achievement photo -->
-                        <img src="https://picsum.photos/seed/kec_weightlift/400/280" alt="Weight Lifting University Champions">
+                        <!-- Replace src below with actual Weight Lifting achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_weightlift/400/280" alt="Weight Lifting — University Champs" loading="lazy">
                         <span class="sports-achieve-badge">🏆 University</span>
                     </div>
                     <div class="sports-achieve-body">
                         <span class="sports-achieve-icon">🏋️</span>
-                        <div class="sports-achieve-title">Weight Lifting — University Champions</div>
-                        <div class="sports-achieve-desc">Anna University Weight Lifting Champions (56kg &amp; 69kg categories) 2023 — two new university records set.</div>
+                        <div class="sports-achieve-title">Weight Lifting — University Champs</div>
+                        <div class="sports-achieve-desc">Anna University Weight Lifting Champions (56kg &amp; 69kg) 2023 — two new university records set.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Swimming achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_swimming/400/280" alt="Swimming — National Bronze" loading="lazy">
+                        <span class="sports-achieve-badge">🥉 National</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🏊</span>
+                        <div class="sports-achieve-title">Swimming — National Bronze</div>
+                        <div class="sports-achieve-desc">All-India Inter-University Swimming National Bronze Medal (100m Freestyle) 2023–24.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Carrom achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_carrom/400/280" alt="Carrom — State Champions" loading="lazy">
+                        <span class="sports-achieve-badge">🥇 State</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🎯</span>
+                        <div class="sports-achieve-title">Carrom — State Champions</div>
+                        <div class="sports-achieve-desc">Tamil Nadu State Carrom Champions 2022–23 (Men&apos;s Doubles &amp; Women&apos;s Singles categories).</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Boxing achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_boxing/400/280" alt="Boxing — University Gold" loading="lazy">
+                        <span class="sports-achieve-badge">🥇 University</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🥊</span>
+                        <div class="sports-achieve-title">Boxing — University Gold</div>
+                        <div class="sports-achieve-desc">Anna University Boxing Gold Medal (60kg &amp; 75kg categories) 2023–24, advanced to South Regionals.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Wrestling achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_wrestling/400/280" alt="Wrestling — State Champions" loading="lazy">
+                        <span class="sports-achieve-badge">🥇 State</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🤼</span>
+                        <div class="sports-achieve-title">Wrestling — State Champions</div>
+                        <div class="sports-achieve-desc">Tamil Nadu State Wrestling Champions (Men&apos;s Freestyle 65kg) 2023, back-to-back gold wins.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Tennis achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_tennis/400/280" alt="Tennis — Inter-College Champions" loading="lazy">
+                        <span class="sports-achieve-badge">🏆 Inter-College</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🎾</span>
+                        <div class="sports-achieve-title">Tennis — Inter-College Champions</div>
+                        <div class="sports-achieve-desc">Vellore Inter-College Tennis Champions 2022–23 (Men&apos;s &amp; Women&apos;s singles and doubles).</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Hockey achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_hockey/400/280" alt="Hockey — Zone Champions" loading="lazy">
+                        <span class="sports-achieve-badge">🥇 Zone</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🏑</span>
+                        <div class="sports-achieve-title">Hockey — Zone Champions</div>
+                        <div class="sports-achieve-desc">Zone IV Hockey Champions 2023–24 with four players called up to the Anna University squad.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Handball achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_handball/400/280" alt="Handball — State Champions" loading="lazy">
+                        <span class="sports-achieve-badge">🥇 State</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🤾</span>
+                        <div class="sports-achieve-title">Handball — State Champions</div>
+                        <div class="sports-achieve-desc">Tamil Nadu State Handball Champions (Women&apos;s Team) 2023, unbeaten throughout the tournament.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Cycling achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_cycling/400/280" alt="Cycling — National Participant" loading="lazy">
+                        <span class="sports-achieve-badge">🌐 National</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🚴</span>
+                        <div class="sports-achieve-title">Cycling — National Participant</div>
+                        <div class="sports-achieve-desc">National-level Inter-University Road Cycling Participant 2023 — represented Tamil Nadu in 50km TT.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Yoga achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_yoga/400/280" alt="Yoga — State Champions" loading="lazy">
+                        <span class="sports-achieve-badge">🥇 State</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🧘</span>
+                        <div class="sports-achieve-title">Yoga — State Champions</div>
+                        <div class="sports-achieve-desc">Tamil Nadu State Yoga Competition Champions 2023–24 — gold in artistic &amp; rhythmic yoga.</div>
+                    </div>
+                </div>
+                <div class="sports-achieve-card">
+                    <div class="sports-achieve-img-wrap">
+                        <!-- Replace src below with actual Weight Lifting achievement photo -->
+                        <img src="https://picsum.photos/seed/kec_weightlift/400/280" alt="Weight Lifting — University Champs" loading="lazy">
+                        <span class="sports-achieve-badge">🏆 University</span>
+                    </div>
+                    <div class="sports-achieve-body">
+                        <span class="sports-achieve-icon">🏋️</span>
+                        <div class="sports-achieve-title">Weight Lifting — University Champs</div>
+                        <div class="sports-achieve-desc">Anna University Weight Lifting Champions (56kg &amp; 69kg) 2023 — two new university records set.</div>
+                    </div>
+                </div>
                     </div>
                 </div>
 
