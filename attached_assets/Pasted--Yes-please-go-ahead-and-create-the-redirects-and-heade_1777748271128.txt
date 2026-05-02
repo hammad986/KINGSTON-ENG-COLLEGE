@@ -1,0 +1,34 @@
+"Yes, please go ahead and create the _redirects and _headers files for Cloudflare deployment. That is a great step.
+
+However, there are still some major functional UI bugs and missing features that you need to fix IMMEDIATELY. Execute the following tasks in parallel:
+
+1. NAAC PDFs Are STILL NOT VIEWING (CRITICAL):
+You said you fixed the PDF links, but the PDFs are still not loading or viewing on ANY of the NAAC pages in the browser.
+
+Do a deep dive: Are the physical PDF files actually missing from the assets/pdfs/ folder? Are the paths still incorrect? Or is the HTML <iframe> / <embed> or <a> tag structured wrongly?
+
+Fix this so every NAAC PDF opens flawlessly.
+
+2. Enforce Left Carousels on ALL Department Sub-pages:
+I noticed that some department sub-pages do NOT have the left carousel.
+
+Run a strict audit across EVERY SINGLE sub-page inside the departments/ folder.
+
+If any sub-page is missing the left carousel, inject it immediately so the layout is 100% consistent across all departments.
+
+3. Fix Placement Report & Extract Data (/placements/placement_report.html):
+
+The PDF is missing on this page. Locate the placement PDF in the assets and link it properly.
+
+Smart Work: Do NOT just link the PDF. Read the contents of that PDF and dynamically generate highly interactive, glass-like UI stat cards (e.g., Highest Package, Top Recruiters) directly on the HTML page based on the PDF's data.
+
+4. Generate Missing 'Video Gallery' Page:
+
+index.html references a 'Video Gallery', but the page doesn't exist.
+
+Do smart work: Analyze the design system and create a visually stunning, animated, responsive Video Gallery page. Use placeholder YouTube/video links for now, but style it with the lightweight glass aesthetic.
+
+5. Final Gap Report:
+After completing all the above, do one absolute final scan. Tell me explicitly: What OTHER pages, sections, images, or specific PDF assets are still completely missing from the entire repository? Do not say 'everything is fine' if there are still empty # links or missing assets.
+
+Execute these and give me the report!"

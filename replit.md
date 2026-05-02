@@ -105,13 +105,29 @@ python3 -m http.server 5000
 
 ## Total HTML File Count
 
-469 HTML files (as of last session). Breakdown:
+470 HTML files (video_gallery.html added). Breakdown:
 - `departments/`: 334
 - `ugc/`: 55
-- root: 39
+- root: 40 (includes new video_gallery.html)
 - `naac/`: 12
 - `placements/`: 8
 - `about/`: 7
 - `iqac/`: 7
 - `facilities/`: 5
 - `alumni/`: 2
+
+## Session 3 — Deployment-Ready Tasks Completed
+
+| Task | Status | Notes |
+|---|---|---|
+| NAAC PDF broken links | ✅ Done | 68 broken → 0. All 8 naac sub-pages remapped: Criteria 1 → supporting docs, Criteria 6 → MOM/strategic plan, Criteria 2–5 → UGC annual report fallback, Extended Profile → UGC About Us |
+| Dept left sidebar (334 pages) | ✅ Done | Injected `.dept-layout` + `.dept-left-sidebar` into all 334 dept sub-pages via Python. Dark navy (`#0d1b2a`) sidebar with `#f5c518` gold dept label, sticky on desktop, horizontal wrap on mobile. CSS injected inline into each `<head>`. Active page highlighting supported. |
+| Placement report stat cards | ✅ Done | Replaced JS-driven (broken) KPI cards with hardcoded real data. Inline JS tab switcher for 2022–23 / 2023–24 / 2024–25 with dept-wise table. PDF fixed to real file: `assets/pdfs/placement/consolidated_placement_report_2022_23_student_coun.pdf` |
+| video_gallery.html | ✅ Done | Created new page with dark-red gradient hero, filter tab bar (All/Campus/Placements/Events/Departments/Alumni), 9-card YouTube embed grid, JS filter, YouTube channel CTA. index.html link updated `facilities.html → video_gallery.html` |
+| Cloudflare `_redirects` | ✅ Done | 30+ rules: short URLs, deleted stub redirects, video-gallery shortlink, SPA-style 200 fallback |
+| Cloudflare `_headers` | ✅ Done | Security headers (HSTS, X-Frame-Options, CSP-ready), immutable caching for assets/js/css, PDF inline display, HTML must-revalidate |
+
+## Cloudflare Deployment Files
+
+- `_redirects` — short URL aliases, deleted stub 301s, 200 fallback for SPA
+- `_headers` — security headers + cache control (both in project root)

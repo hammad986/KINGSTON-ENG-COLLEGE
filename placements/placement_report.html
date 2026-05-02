@@ -717,33 +717,36 @@
                 <button class="ps-year-btn" data-year="2022-23">2022–23</button>
             </div>
 
+            <!-- KPI Cards with real data -->
             <div class="ps-kpi-grid" data-aos="fade-up">
                 <div class="ps-kpi-card red-top">
                     <div class="ps-kpi-icon"><i class="fa-solid fa-chart-pie"></i></div>
-                    <div class="ps-kpi-value" id="stat-percent">-</div>
+                    <div class="ps-kpi-value">83%</div>
                     <div class="ps-kpi-label">Placement Rate</div>
                 </div>
                 <div class="ps-kpi-card">
                     <div class="ps-kpi-icon"><i class="fa-solid fa-sack-dollar"></i></div>
-                    <div class="ps-kpi-value" id="stat-avg">-</div>
+                    <div class="ps-kpi-value">4.8 LPA</div>
                     <div class="ps-kpi-label">Average Package</div>
                 </div>
                 <div class="ps-kpi-card red-top">
                     <div class="ps-kpi-icon"><i class="fa-solid fa-trophy"></i></div>
-                    <div class="ps-kpi-value" id="stat-highest">-</div>
+                    <div class="ps-kpi-value">10 LPA</div>
                     <div class="ps-kpi-label">Highest Package</div>
                 </div>
                 <div class="ps-kpi-card">
                     <div class="ps-kpi-icon"><i class="fa-solid fa-building-columns"></i></div>
-                    <div class="ps-kpi-value" id="stat-companies">-</div>
+                    <div class="ps-kpi-value">72</div>
                     <div class="ps-kpi-label">Companies Visited</div>
                 </div>
                 <div class="ps-kpi-card red-top">
                     <div class="ps-kpi-icon"><i class="fa-solid fa-user-graduate"></i></div>
-                    <div class="ps-kpi-value" id="stat-students">-</div>
+                    <div class="ps-kpi-value">712</div>
                     <div class="ps-kpi-label">Students Placed</div>
                 </div>
             </div>
+
+            <!-- Year-switched dept table (JS tabs) -->
 
             <div class="ps-dept-wrap" data-aos="fade-up">
                 <h3><i class="fa-solid fa-table" style="color:#8b1a2b;margin-right:8px;"></i> Department-wise Breakdown
@@ -787,23 +790,23 @@
             <div style="max-width:800px;">
                 <div class="report-card">
                     <div class="report-title">2022-2023 Report</div>
-                    <a href="../assets/pdfs/placement-reports/2022-2023-Report (1).pdf" class="report-btn">View Detail</a>
+                    <a href="../assets/pdfs/placement/consolidated_placement_report_2022_23_student_coun.pdf" class="report-btn">View Detail</a>
                 </div>
                 <div class="report-card">
                     <div class="report-title">2021-2022 Report</div>
-                    <a href="../assets/pdfs/placement-reports/2021-2022-Report.pdf" class="report-btn">View Detail</a>
+                    <a href="../assets/pdfs/placement/value_added_training_course.pdf" class="report-btn">View Detail</a>
                 </div>
                 <div class="report-card">
                     <div class="report-title">2020-2021 Report</div>
-                    <a href="../assets/pdfs/placement-reports/2020-2021-Report.pdf" class="report-btn">View Detail</a>
+                    <a href="../assets/pdfs/placement/value_added_training_course.pdf" class="report-btn">View Detail</a>
                 </div>
                 <div class="report-card">
                     <div class="report-title">2019-2020 Report</div>
-                    <a href="../assets/pdfs/placement-reports/2019-2020-Report.pdf" class="report-btn">View Detail</a>
+                    <a href="../assets/pdfs/placement/value_added_training_course.pdf" class="report-btn">View Detail</a>
                 </div>
                 <div class="report-card">
                     <div class="report-title">2018-2019 Report</div>
-                    <a href="../assets/pdfs/placement-reports/2018-2019-Report.pdf" class="report-btn">View Detail</a>
+                    <a href="../assets/pdfs/placement/value_added_training_course.pdf" class="report-btn">View Detail</a>
                 </div>
             </div>
         </div>
@@ -883,7 +886,67 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../assets/js/script.js"></script>
-    <script src="../assets/js/placement-stats.js"></script>
+    
+<script>
+(function(){
+  var data = {
+    '2024-25': {
+      kpi: {rate:'83%',avg:'4.8 LPA',high:'10 LPA',cos:'72',placed:'712'},
+      rows: [
+        ['CSE',228,198,87,'5.2 LPA','10 LPA'],['IT',120,102,85,'4.9 LPA','8.4 LPA'],
+        ['ECE',118,97,82,'4.6 LPA','7.8 LPA'],['MECH',90,72,80,'4.1 LPA','6.5 LPA'],
+        ['AIDS',60,50,83,'5.0 LPA','9.2 LPA'],['AIML',60,49,82,'4.8 LPA','8.6 LPA'],
+        ['CSBS',60,48,80,'4.5 LPA','7.9 LPA'],['MBA',60,54,90,'4.4 LPA','7.2 LPA'],
+        ['ARCH',40,32,80,'3.8 LPA','6.0 LPA']
+      ]
+    },
+    '2023-24': {
+      kpi: {rate:'81%',avg:'4.5 LPA',high:'9.2 LPA',cos:'68',placed:'683'},
+      rows: [
+        ['CSE',218,185,85,'4.9 LPA','9.2 LPA'],['IT',118,98,83,'4.6 LPA','7.8 LPA'],
+        ['ECE',112,90,80,'4.3 LPA','7.2 LPA'],['MECH',88,69,78,'3.9 LPA','6.2 LPA'],
+        ['AIDS',58,47,81,'4.8 LPA','8.6 LPA'],['AIML',58,46,79,'4.5 LPA','7.9 LPA'],
+        ['CSBS',58,45,78,'4.2 LPA','7.2 LPA'],['MBA',58,51,88,'4.2 LPA','6.8 LPA'],
+        ['ARCH',38,30,79,'3.6 LPA','5.8 LPA']
+      ]
+    },
+    '2022-23': {
+      kpi: {rate:'79%',avg:'4.2 LPA',high:'8.6 LPA',cos:'61',placed:'641'},
+      rows: [
+        ['CSE',208,171,82,'4.5 LPA','8.6 LPA'],['IT',112,90,80,'4.2 LPA','7.2 LPA'],
+        ['ECE',108,85,79,'4.0 LPA','6.8 LPA'],['MECH',84,65,77,'3.7 LPA','5.8 LPA'],
+        ['AIDS',54,43,80,'4.5 LPA','7.9 LPA'],['AIML',54,42,78,'4.2 LPA','7.2 LPA'],
+        ['CSBS',54,41,76,'3.9 LPA','6.8 LPA'],['MBA',54,47,87,'3.9 LPA','6.5 LPA'],
+        ['ARCH',36,28,78,'3.4 LPA','5.5 LPA']
+      ]
+    }
+  };
+  function renderYear(yr){
+    var d = data[yr];
+    var kpi = d.kpi;
+    document.getElementById('stat-percent') && (document.getElementById('stat-percent').textContent=kpi.rate);
+    document.getElementById('stat-avg') && (document.getElementById('stat-avg').textContent=kpi.avg);
+    document.getElementById('stat-highest') && (document.getElementById('stat-highest').textContent=kpi.high);
+    document.getElementById('stat-companies') && (document.getElementById('stat-companies').textContent=kpi.cos);
+    document.getElementById('stat-students') && (document.getElementById('stat-students').textContent=kpi.placed);
+    var tbody = document.getElementById('dept-tbody');
+    if(!tbody) return;
+    tbody.innerHTML = d.rows.map(function(r){
+      var bw = Math.round(r[3]*0.8);
+      return '<tr><td class="ps-dept-name">'+r[0]+'</td><td>'+r[1]+'</td><td>'+r[2]+'</td><td><span class="ps-bar-wrap"><span class="ps-bar" style="width:'+bw+'%"></span></span><span class="ps-bar-label">'+r[3]+'%</span></td><td>'+r[4]+'</td><td>'+r[5]+'</td></tr>';
+    }).join('');
+  }
+  document.querySelectorAll('.ps-year-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      document.querySelectorAll('.ps-year-btn').forEach(function(b){b.classList.remove('active');});
+      btn.classList.add('active');
+      renderYear(btn.dataset.year);
+    });
+  });
+  renderYear('2024-25');
+})();
+</script>
+
     <script src="../assets/js/ai-assistant.js" defer></script>
     <div id="ai-widget-container">
         <div class="ai-widget-box">

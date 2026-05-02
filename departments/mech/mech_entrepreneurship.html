@@ -18,6 +18,30 @@
     <link rel="stylesheet" href="../../assets/css/animations.css">
     <link rel="stylesheet" href="../../assets/css/responsive.css">
     <link rel="stylesheet" href="../../assets/css/ai-assistant.css">
+
+<style>
+/* ---- DEPT LAYOUT WITH SIDEBAR ---- */
+.dept-layout{display:flex;align-items:flex-start;gap:0;min-height:60vh;}
+.dept-left-sidebar{width:240px;min-width:220px;flex-shrink:0;background:#0d1b2a;position:sticky;top:0;height:100vh;overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.15) transparent;}
+.dept-left-sidebar::-webkit-scrollbar{width:4px;}
+.dept-left-sidebar::-webkit-scrollbar-thumb{background:rgba(255,255,255,.15);border-radius:2px;}
+.dls-header{padding:20px 18px 14px;border-bottom:1px solid rgba(255,255,255,.08);}
+.dls-dept-name{font-size:.72rem;font-weight:800;color:#f5c518;text-transform:uppercase;letter-spacing:1.2px;line-height:1.4;display:block;}
+.dls-nav{list-style:none;padding:10px 0;margin:0;}
+.dls-nav li a{display:flex;align-items:center;gap:10px;padding:9px 18px;font-size:.78rem;font-weight:600;color:rgba(255,255,255,.75);text-decoration:none;transition:all .2s;border-left:3px solid transparent;line-height:1.3;}
+.dls-nav li a:hover{background:rgba(255,255,255,.06);color:#fff;border-left-color:#f5c518;}
+.dls-nav li a.active{background:rgba(245,197,24,.12);color:#f5c518;border-left-color:#f5c518;}
+.dls-nav li a i{width:14px;text-align:center;font-size:.72rem;flex-shrink:0;opacity:.8;}
+.dept-right-content{flex:1;min-width:0;}
+.dept-sidebar-toggle{display:none;}
+@media(max-width:900px){
+.dept-layout{flex-direction:column;}
+.dept-left-sidebar{width:100%;height:auto;position:static;max-height:none;overflow:visible;}
+.dls-nav{display:flex;flex-wrap:wrap;gap:4px;padding:10px 12px;}
+.dls-nav li a{padding:6px 12px;font-size:.72rem;border-radius:4px;border-left:none;border-bottom:2px solid transparent;}
+.dls-nav li a.active,.dls-nav li a:hover{border-bottom-color:#f5c518;border-left:none;}
+}
+</style>
 </head>
 
 <body>
@@ -560,6 +584,46 @@
         </div>
     </section>
 
+    <!-- DEPT LEFT SIDEBAR (injected) -->
+    <div class="dept-layout">
+      <aside class="dept-left-sidebar">
+        <div class="dls-header">
+          <i class="fa-solid fa-gears" style="color:#f5c518;font-size:1.2rem;margin-bottom:8px;display:block;"></i>
+          <span class="dls-dept-name">Mechanical Engineering</span>
+        </div>
+        <ul class="dls-nav">
+<li><a href="mech_about.html" class=""><i class="fa-solid fa-house"></i> About the Department</a></li>
+<li><a href="mech_vision_mission.html" class=""><i class="fa-solid fa-bullseye"></i> Vision & Mission</a></li>
+<li><a href="mech_peos.html" class=""><i class="fa-solid fa-file-lines"></i> PEOs, POs & PSOs</a></li>
+<li><a href="mech_faculty.html" class=""><i class="fa-solid fa-user-tie"></i> Faculty</a></li>
+<li><a href="mech_non_teaching_faculty.html" class=""><i class="fa-solid fa-users"></i> Non-Teaching Faculty</a></li>
+<li><a href="mech_board_of_studies.html" class=""><i class="fa-solid fa-graduation-cap"></i> Board of Studies</a></li>
+<li><a href="mech_curriculum.html" class=""><i class="fa-solid fa-book-open"></i> Curriculum</a></li>
+<li><a href="mech_academic_calendar.html" class=""><i class="fa-solid fa-calendar-days"></i> Academic Calendar</a></li>
+<li><a href="mech_timetable.html" class=""><i class="fa-solid fa-table-cells"></i> Time Table</a></li>
+<li><a href="mech_coe.html" class=""><i class="fa-solid fa-trophy"></i> Centre of Excellence</a></li>
+<li><a href="mech_research.html" class=""><i class="fa-solid fa-microscope"></i> Research</a></li>
+<li><a href="mech_research_publications.html" class=""><i class="fa-solid fa-bookmark"></i> Research Publications</a></li>
+<li><a href="mech_research_projects.html" class=""><i class="fa-solid fa-flask"></i> Research Projects</a></li>
+<li><a href="mech_faculty_achievements.html" class=""><i class="fa-solid fa-medal"></i> Faculty Achievements</a></li>
+<li><a href="mech_faculty_upskilling.html" class=""><i class="fa-solid fa-arrow-trend-up"></i> Faculty Upskilling</a></li>
+<li><a href="mech_events.html" class=""><i class="fa-solid fa-calendar-check"></i> Events</a></li>
+<li><a href="mech_placement.html" class=""><i class="fa-solid fa-briefcase"></i> Placement</a></li>
+<li><a href="mech_higher_education.html" class=""><i class="fa-solid fa-school"></i> Higher Education</a></li>
+<li><a href="mech_entrepreneurship.html" class="active"><i class="fa-solid fa-lightbulb"></i> Entrepreneurship</a></li>
+<li><a href="mech_distinguished_alumni.html" class=""><i class="fa-solid fa-star"></i> Distinguished Alumni</a></li>
+<li><a href="mech_professional_societies.html" class=""><i class="fa-solid fa-people-group"></i> Professional Societies</a></li>
+<li><a href="mech_clubs.html" class=""><i class="fa-solid fa-puzzle-piece"></i> Club Activities</a></li>
+<li><a href="mech_association.html" class=""><i class="fa-solid fa-handshake"></i> Association Activities</a></li>
+<li><a href="mech_guest_lectures.html" class=""><i class="fa-solid fa-chalkboard-user"></i> Guest Lectures</a></li>
+<li><a href="mech_student_publications.html" class=""><i class="fa-solid fa-newspaper"></i> Student Publications</a></li>
+<li><a href="mech_online_courses.html" class=""><i class="fa-solid fa-laptop"></i> Online Courses</a></li>
+<li><a href="mech_newsletter.html" class=""><i class="fa-solid fa-newspaper"></i> Newsletter</a></li>
+<li><a href="mech_contact.html" class=""><i class="fa-solid fa-envelope"></i> Contact Us</a></li>
+        </ul>
+      </aside>
+      <div class="dept-right-content">
+
 
     <section class="dept-section" data-aos="fade-up">
         <h3>ACHIEVEMENTS</h3>
@@ -577,6 +641,10 @@
     <!-- Footer -->
 
     <!-- Footer -->
+    
+      </div>
+    </div><!-- /dept-layout -->
+
     <footer class="main-footer">
         <div class="container footer-grid">
             <div class="footer-col about-col">
