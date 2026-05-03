@@ -478,6 +478,95 @@
         </div>
     </section>
 
+
+    <!-- UGC Mandatory Disclosure Sub-Navigation -->
+    <style>
+        .ugc-subnav { background:#0f172a; position:sticky; top:0; z-index:900; border-bottom:3px solid #ffd700; }
+        .ugc-subnav-inner { display:flex; align-items:center; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+        .ugc-subnav-inner::-webkit-scrollbar { display:none; }
+        .ugc-cat-label { display:inline-flex; align-items:center; gap:5px; padding:10px 10px; color:#ffd700; font-family:'Poppins',sans-serif; font-size:0.67rem; font-weight:700; text-transform:uppercase; letter-spacing:1px; white-space:nowrap; background:rgba(255,215,0,0.07); border-right:1px solid rgba(255,255,255,0.08); flex-shrink:0; }
+        .ugc-cat-label i { font-size:0.75rem; }
+        .ugc-subnav-inner a { display:inline-flex; align-items:center; padding:11px 11px; font-family:'Poppins',sans-serif; font-size:0.74rem; font-weight:600; color:rgba(255,255,255,0.62); text-decoration:none; white-space:nowrap; border-bottom:3px solid transparent; margin-bottom:-3px; transition:all 0.25s; border-right:1px solid rgba(255,255,255,0.04); }
+        .ugc-subnav-inner a:hover, .ugc-subnav-inner a.active { color:#fff; border-bottom-color:#ffd700; background:rgba(255,215,0,0.09); }
+    </style>
+    <div class="ugc-subnav">
+        <div class="ugc-subnav-inner">
+            <span class="ugc-cat-label"><i class="fa-solid fa-university"></i> About HEI</span>
+            <a href="ugc_ps_aboutus.html">About HEI</a>
+            <a href="ugc_ps_mission_vision.html">Mission &amp; Vision</a>
+            <a href="ugc_ps_act_statutes.html">ACT &amp; Statutes</a>
+            <a href="ugc_ps_affiliating.html">Affiliating Univ.</a>
+            <a href="ugc_ps_accreditation.html">Accreditation</a>
+            <a href="ugc_ps_recognition.html" class="active">Recognition</a>
+            <a href="ugc_ps_annual_reports.html">Annual Reports</a>
+            <a href="ugc_ps_annual_accounts.html">Annual Accounts</a>
+            <a href="ugc_ps_sponsoring_body.html">Sponsoring Body</a>
+            <span class="ugc-cat-label"><i class="fa-solid fa-users-gear"></i> Administration</span>
+            <a href="ugc_ps_academic_leadership.html">Leadership</a>
+            <a href="ugc_ps_coe.html">COE</a>
+            <a href="ugc_ps_cvo.html">CVO</a>
+            <a href="ugc_ps_ombudsperson.html">Ombudsperson</a>
+            <a href="ugc_ps_bos.html">Governing Body</a>
+            <a href="ugc_ps_finance.html">Finance</a>
+            <span class="ugc-cat-label"><i class="fa-solid fa-graduation-cap"></i> Academics</span>
+            <a href="ugc_ps_academic_programs.html">Programmes</a>
+            <a href="ugc_ps_academic_calendar.html">Calendar</a>
+            <a href="ugc_ps_examinations.html">Examinations</a>
+            <a href="ugc_ps_staff.html">Faculty &amp; Staff</a>
+            <a href="ugc_ps_aicte.html">AICTE</a>
+            <a href="ugc_ps_mou.html">MOU &amp; Collabs</a>
+            <span class="ugc-cat-label"><i class="fa-solid fa-file-alt"></i> Admissions</span>
+            <a href="ugc_ps_admission_policy.html">Admission Policy</a>
+            <a href="ugc_ps_feerefund.html">Fee &amp; Refund</a>
+            <a href="ugc_ps_prospectus.html">Prospectus</a>
+            <a href="ugc_ps_studyinindia.html">Study in India</a>
+            <span class="ugc-cat-label"><i class="fa-solid fa-flask"></i> Research</span>
+            <a href="ugc_ps_rnd.html">R&amp;D</a>
+            <a href="ugc_ps_incubation.html">Incubation</a>
+            <a href="ugc_ps_idp.html">Dev. Plan</a>
+            <span class="ugc-cat-label"><i class="fa-solid fa-users"></i> Student Life</span>
+            <a href="ugc_ps_sports.html">Sports</a>
+            <a href="ugc_ps_nss.html">NSS</a>
+            <a href="ugc_ps_hostel.html">Hostel</a>
+            <a href="ugc_ps_health.html">Health</a>
+            <a href="ugc_ps_differentlyabled.html">Differently Abled</a>
+            <a href="ugc_ps_alumni.html">Alumni</a>
+            <a href="ugc_ps_sl_antiragging.html">Anti-Ragging</a>
+            <a href="ugc_ps_sl_equalopportunity.html">Equal Opportunity</a>
+            <a href="ugc_ps_sl_icc.html">ICC</a>
+            <a href="ugc_ps_sl_sedg.html">SEDG</a>
+            <a href="ugc_ps_sl_sgrc.html">SGRC</a>
+            <span class="ugc-cat-label"><i class="fa-solid fa-gavel"></i> Committees</span>
+            <a href="ugc_mandatory_committee.html">Overview</a>
+            <a href="ugc_mc_arc.html">ARC</a>
+            <a href="ugc_mc_eqc.html">EQC</a>
+            <a href="ugc_mc_icc.html">ICC</a>
+            <a href="ugc_mc_posh.html">POSH</a>
+            <a href="ugc_mc_sedg.html">SEDG</a>
+            <a href="ugc_mc_sgrc.html">SGRC</a>
+            <span class="ugc-cat-label"><i class="fa-solid fa-newspaper"></i> Info Corner</span>
+            <a href="ugc_ps_rti.html">RTI</a>
+            <a href="ugc_ps_circulars.html">Circulars</a>
+            <a href="ugc_ps_announcements.html">Announcements</a>
+            <a href="ugc_ps_newsletters.html">Newsletters</a>
+            <a href="ugc_ps_events.html">Events</a>
+            <span class="ugc-cat-label"><i class="fa-solid fa-stamp"></i> Undertaking</span>
+            <a href="ugc_mandatory.html">UGC Overview</a>
+            <a href="ugc_undertaking.html">Undertaking</a>
+            <a href="ugc_ul_1.html">Letter I</a>
+            <a href="ugc_ul_2.html">Letter II</a>
+        </div>
+    </div>
+
+    <!-- Section Intro -->
+    <section style="padding:50px 0 28px;background:#fff;">
+        <div class="container" data-aos="fade-up">
+            <h2 style="font-family:'Poppins',sans-serif;font-size:1.9rem;font-weight:800;color:#8b1a2b;margin-bottom:10px;">Statutory Recognition</h2>
+            <div style="width:55px;height:3px;background:#ffd700;margin-bottom:20px;border-radius:2px;"></div>
+            <p style="font-size:1.02rem;color:#444;line-height:1.85;max-width:860px;margin-bottom:14px;">Kingston Engineering College holds statutory recognition from all relevant regulatory bodies. It is approved by the All India Council for Technical Education (AICTE), affiliated to Anna University, and recognized by the University Grants Commission (UGC) under Sections 2(f) and 12(B) of the UGC Act, 1956.</p>
+            <p style="font-size:0.97rem;color:#555;line-height:1.82;max-width:860px;margin-bottom:0;">The recognition documents — including the latest Extension of Approval (EoA) from AICTE and the UGC recognition certificate — are disclosed below as part of mandatory transparency obligations. These documents confirm KEC's eligibility to offer approved programmes and access government grants.</p>
+        </div>
+    </section>
     <section class="page-section" style="padding: 100px 0; background:linear-gradient(to bottom, #ffffff, #f4fbf4);">
         <div class="container" style="max-width: 1300px;">
             <div style="display:grid; grid-template-columns: 1fr 350px; gap:40px; align-items: start;">

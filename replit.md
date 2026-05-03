@@ -116,6 +116,24 @@ python3 -m http.server 5000
 - `facilities/`: 5
 - `alumni/`: 2
 
+## Session 6 — UGC Mandatory Disclosure Complete Build (55 pages)
+
+| Task | Status | Notes |
+|---|---|---|
+| UGC subnav (all 55 pages) | ✅ Done | Sticky, horizontally scrollable, gold-accented (#ffd700) grouped subnav injected into ALL 55 ugc/*.html. 9 category groups: About HEI, Administration, Academics, Admissions, Research, Student Life, Committees, Info Corner, Undertaking. Active page highlighted. |
+| Section intro content | ✅ Done | Substantive 2-paragraph intro injected into 51 pages (skipped 4 rich pages: ugc_mandatory, ugc_mandatory_committee, ugc_undertaking, ugc_ps_differentlyabled). All pages now ≥750 words. |
+| Missing PDF fallbacks (6 pages) | ✅ Done | Broken iframes for 6 missing PDFs replaced with "Document Available on Request" glass card. Pages: ugc_ps_examinations, ugc_ps_nss, ugc_ps_rti, ugc_ps_circulars, ugc_ul_1, ugc_ul_2 |
+| Div balance — all 55 pages | ✅ All OK | Fixed 6 imbalanced pages: 5 missing closing divs (auto-added before footer), 1 extra closing div (ugc_ps_health — manually removed orphan between </section> tags) |
+| Relative path integrity | ✅ OK | All 55 pages are depth-1 (flat ugc/ folder). All asset refs use ../assets/. No paths broken. |
+| Missing PDFs confirmed | ℹ️ Missing | 3. Examination.pdf, 2. NSS.pdf, 1. RTI.pdf, 2. Circulars and Notices.pdf, ugc_ul_1.pdf, ugc_ul_2.pdf — all replaced gracefully |
+
+### UGC Subnav Design Spec
+- Background: `#0f172a` (dark navy — distinct from NAAC `#1a1a2e` subnav)
+- Accent: `#ffd700` (gold — distinct from NAAC red `#8b1a2b`)
+- Category labels: gold inline-flex spans with Font Awesome icons; `background: rgba(255,215,0,0.07)`
+- Active link: `border-bottom: 3px solid #ffd700; background: rgba(255,215,0,0.09); color: #fff`
+- Mobile: `overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch`
+
 ## Session 5 — NAAC Section Complete Build
 
 | Task | Status | Notes |
