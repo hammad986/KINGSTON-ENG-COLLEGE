@@ -155,6 +155,24 @@ python3 -m http.server 5000
 | Div balance all 12 pages | ✅ All OK | All 12 pages: divs open == divs close. Word counts 949–1618 |
 | NAACS folder | ℹ️ Missing | `assets/pdfs/NAACS/` does not exist — SSR/IIQA PDFs need to be placed there to enable iframes |
 
+## Session 7 — NAAC Critical Fixes
+
+| Task | Status | Notes |
+|---|---|---|
+| `naac_extended_profile.html` nested `<a>` bug | ✅ Fixed | All 4 `.metric-card` outer `<a href="#">` wrappers converted to `<div>` — invalid nested-anchor HTML eliminated. PDF buttons (`evidence-link`) now sit correctly inside their cards. Python regex used to handle Unicode right-apostrophe in text. |
+| `naac_iiqa.html` PDF viewer restored | ✅ Done | Removed "IIQA Document — Available on Request" text card. Full iframe viewer added: title bar + "Open Fullscreen" button + 880px iframe + path hint. Dummy src: `../assets/pdfs/NAACS/IIQA.pdf` |
+| `naac_ssr.html` PDF viewer restored | ✅ Done | Removed "SSR Document — Available on Request" text card. Full iframe viewer added. Dummy src: `../assets/pdfs/NAACS/ssr-new.pdf` |
+| `naac_dvv.html` PDF viewer added | ✅ Done | Viewer section inserted before footer (existing portal-info content preserved above). Dummy src: `../assets/pdfs/NAACS/dvv_clarification.pdf` |
+| `naac_rti.html` PDF viewer added | ✅ Done | Viewer section inserted before footer (PIO contact card preserved above). Dummy src: `../assets/pdfs/NAACS/rti_disclosure.pdf` |
+| All 5 files integrity check | ✅ Pass | Python verification: no absent checks failed, all iframe/button strings present, zero nested `<a class="metric-card">` remaining. |
+
+**PDF placeholder filenames needed in `assets/pdfs/NAACS/`:**
+- `IIQA.pdf` — IIQA submission document
+- `ssr-new.pdf` — Self Study Report
+- `dvv_clarification.pdf` — DVV clarification bundle
+- `rti_disclosure.pdf` — RTI proactive disclosure
+- `ep_students.pdf`, `ep_teachers_2_1.pdf`, `ep_teachers_2_2.pdf`, `ep_expenditure.pdf` — Extended Profile front sheets
+
 ## Session 4 — Placement Pages Content Build
 
 | Task | Status | Notes |
