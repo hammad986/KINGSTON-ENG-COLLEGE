@@ -594,7 +594,7 @@
         <!-- Absolute Top Bar for College Info & TNEA inside Hero -->
         <div class="hero-top-panel container" data-aos="fade-down">
             <div class="hero-college-brand">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/A_Greek_Temple_Icon.svg"
+                <img src="../../assets/images/icons/001-web_logo_banner_2026.png"
                     class="hero-logo-medium" onerror="this.style.display='none'" alt="Kingston Engineering College">
             </div>
         </div>
@@ -772,37 +772,396 @@
         </aside>
         <main class="dept-main-content">
 
+    <style>
+        /* ── IT Infrastructure glassmorphism-lite styles ── */
+        .it-hero-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 16px;
+            margin: 28px 0 36px;
+        }
+        .it-stat-card {
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.10);
+            border-radius: 16px;
+            padding: 22px 14px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .it-stat-card::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(0,51,102,0.12) 0%, rgba(245,197,24,0.04) 100%);
+            border-radius: inherit;
+        }
+        .it-stat-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 40px rgba(0,51,102,0.18);
+            border-color: rgba(245,197,24,0.30);
+        }
+        .it-stat-icon { font-size: 1.9rem; color: #f5c518; margin-bottom: 10px; display: block; position: relative; }
+        .it-stat-val { font-size: 1.5rem; font-weight: 900; color: #fff; display: block; position: relative; }
+        .it-stat-lbl { font-size: 0.68rem; color: #9aabb8; font-weight: 700; text-transform: uppercase; letter-spacing: 0.7px; position: relative; }
 
+        .it-info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 20px 0 30px;
+        }
+        .it-info-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.09);
+            border-radius: 16px;
+            padding: 26px 24px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .it-info-card::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #003366, #f5c518);
+            border-radius: 16px 16px 0 0;
+        }
+        .it-info-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(245,197,24,0.25);
+        }
+        .it-info-icon {
+            width: 48px; height: 48px;
+            background: rgba(0,51,102,0.35);
+            border-radius: 12px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.35rem; color: #f5c518;
+            margin-bottom: 14px;
+            border: 1px solid rgba(245,197,24,0.15);
+        }
+        .it-info-card h4 {
+            font-size: 0.96rem; font-weight: 800; color: #fff;
+            margin: 0 0 10px; text-transform: uppercase; letter-spacing: 0.4px;
+        }
+        .it-info-card p {
+            font-size: 0.84rem; color: #9aabb8; line-height: 1.75; margin: 0;
+        }
 
+        /* AICTE PDF Download Card */
+        .aicte-pdf-banner {
+            background: linear-gradient(135deg, #001a33 0%, #003366 60%, #004080 100%);
+            border: 1px solid rgba(245,197,24,0.38);
+            border-radius: 20px;
+            padding: 30px 34px;
+            display: flex;
+            align-items: center;
+            gap: 26px;
+            margin: 32px 0;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.38);
+            flex-wrap: wrap;
+        }
+        .aicte-pdf-banner::before {
+            content: "";
+            position: absolute;
+            top: -60px; right: -60px;
+            width: 200px; height: 200px;
+            background: radial-gradient(circle, rgba(245,197,24,0.14) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+        .aicte-pdf-icon-wrap {
+            flex-shrink: 0;
+            width: 68px; height: 68px;
+            background: rgba(220,38,38,0.18);
+            border: 2px solid rgba(220,38,38,0.38);
+            border-radius: 16px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.9rem; color: #ef4444;
+        }
+        .aicte-pdf-text { flex: 1; min-width: 200px; }
+        .aicte-pdf-badge {
+            display: inline-block;
+            background: #f5c518; color: #000;
+            font-size: 0.67rem; font-weight: 800;
+            padding: 3px 10px; border-radius: 20px;
+            text-transform: uppercase; letter-spacing: 0.8px;
+            margin-bottom: 8px;
+        }
+        .aicte-pdf-text h3 { font-size: 1.15rem; font-weight: 900; color: #fff; margin: 0 0 6px; }
+        .aicte-pdf-text p { font-size: 0.82rem; color: #9aabb8; margin: 0; line-height: 1.6; }
+        .aicte-pdf-btn {
+            flex-shrink: 0;
+            display: inline-flex; align-items: center; gap: 9px;
+            background: #f5c518; color: #000;
+            padding: 13px 22px;
+            border-radius: 12px;
+            font-weight: 800; font-size: 0.87rem;
+            text-decoration: none;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            box-shadow: 0 4px 18px rgba(245,197,24,0.35);
+            white-space: nowrap;
+        }
+        .aicte-pdf-btn:hover {
+            transform: translateY(-3px) scale(1.03);
+            box-shadow: 0 8px 28px rgba(245,197,24,0.52);
+            background: #ffd700;
+        }
+        .it-section-heading {
+            font-size: 0.68rem; font-weight: 800; color: #f5c518;
+            text-transform: uppercase; letter-spacing: 2px;
+            margin-bottom: 6px; display: block;
+        }
+        .it-section-title {
+            font-size: 1.4rem; font-weight: 900; color: #fff;
+            margin: 0 0 6px; line-height: 1.2;
+        }
+        .it-divider {
+            width: 48px; height: 3px;
+            background: linear-gradient(90deg, #f5c518, transparent);
+            border-radius: 2px; margin-bottom: 20px;
+        }
+        .it-tag {
+            display: inline-flex; align-items: center; gap: 5px;
+            background: rgba(40,167,69,0.15);
+            border: 1px solid rgba(40,167,69,0.28);
+            color: #4ade80; font-size: 0.72rem; font-weight: 700;
+            padding: 4px 11px; border-radius: 20px; margin: 4px 3px 0 0;
+        }
+        .it-tag-red {
+            background: rgba(220,38,38,0.12);
+            border-color: rgba(220,38,38,0.24);
+            color: #f87171;
+        }
+        .it-full-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.09);
+            border-radius: 16px;
+            padding: 26px 24px;
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+            transition: border-color 0.3s ease;
+        }
+        .it-full-card::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #003366, #f5c518);
+            border-radius: 16px 16px 0 0;
+        }
+    </style>
 
-
-    <section class="dept-section" data-aos="fade-up">
-        <h3>SPECIALIZED LABORATORIES</h3>
-        <div class="grid-2">
-            <div class="visit-card" data-aos="fade-right">
-                <div class="visit-header"><span>FOSS Lab</span> <i class="fa-brands fa-linux"></i></div>
-                <div class="visit-body">Dedicated to <strong>Free and Open Source Software</strong>, featuring fully
-                    integrated Linux environments and open-stack technologies.</div>
+    <!-- ── 1. Stats Dashboard ── -->
+    <section class="dept-section" style="background:rgba(0,0,0,0.15);border-radius:20px;padding:26px 24px;margin-bottom:28px;" data-aos="fade-up">
+        <span class="it-section-heading">Kingston Engineering College</span>
+        <h2 class="it-section-title">IT Infrastructure at a Glance</h2>
+        <div class="it-divider"></div>
+        <div class="it-hero-stats">
+            <div class="it-stat-card" data-aos="zoom-in" data-aos-delay="0">
+                <span class="it-stat-icon"><i class="fa-solid fa-wifi"></i></span>
+                <span class="it-stat-val">1155 Mbps</span>
+                <span class="it-stat-lbl">Dedicated Leased Line</span>
             </div>
-            <div class="visit-card" data-aos="fade-left">
-                <div class="visit-header"><span>Enterprise Networking</span> <i class="fa-solid fa-network-wired"></i>
-                </div>
-                <div class="visit-body">Equipped with Cisco Managed Switches and 24x7 Wi-Fi controllers for hands-on
-                    network administration training.</div>
+            <div class="it-stat-card" data-aos="zoom-in" data-aos-delay="60">
+                <span class="it-stat-icon"><i class="fa-solid fa-desktop"></i></span>
+                <span class="it-stat-val">2000+</span>
+                <span class="it-stat-lbl">Desktop PCs &amp; Laptops</span>
+            </div>
+            <div class="it-stat-card" data-aos="zoom-in" data-aos-delay="120">
+                <span class="it-stat-icon"><i class="fa-solid fa-server"></i></span>
+                <span class="it-stat-val">900 sq.ft</span>
+                <span class="it-stat-lbl">Data Centre Area</span>
+            </div>
+            <div class="it-stat-card" data-aos="zoom-in" data-aos-delay="180">
+                <span class="it-stat-icon"><i class="fa-solid fa-hard-drive"></i></span>
+                <span class="it-stat-val">4 TB NAS</span>
+                <span class="it-stat-lbl">Backup Storage</span>
+            </div>
+            <div class="it-stat-card" data-aos="zoom-in" data-aos-delay="240">
+                <span class="it-stat-icon"><i class="fa-solid fa-clock"></i></span>
+                <span class="it-stat-val">24 × 7</span>
+                <span class="it-stat-lbl">Internet &amp; Wi-Fi Access</span>
+            </div>
+            <div class="it-stat-card" data-aos="zoom-in" data-aos-delay="300">
+                <span class="it-stat-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                <span class="it-stat-val">Cyberoam</span>
+                <span class="it-stat-lbl">300ING Firewall</span>
             </div>
         </div>
     </section>
-    </main>
+
+    <!-- ── 2. AICTE Commercial Software PDF ── -->
+    <div data-aos="fade-up">
+        <div class="aicte-pdf-banner">
+            <div class="aicte-pdf-icon-wrap">
+                <i class="fa-solid fa-file-pdf"></i>
+            </div>
+            <div class="aicte-pdf-text">
+                <span class="aicte-pdf-badge">Official AICTE Document</span>
+                <h3>AICTE Approved Commercial Software List</h3>
+                <p>AICTE's official list of commercial software approved for technical institutions. Kingston Engineering College maintains licensed software in strict compliance with this directive.</p>
+            </div>
+            <a href="https://www.aicte.gov.in/downloads/Commercial%20Software.pdf" target="_blank" rel="noopener" class="aicte-pdf-btn">
+                <i class="fa-solid fa-download"></i>&nbsp; Download PDF
+            </a>
+        </div>
     </div>
 
-    <!-- Footer -->
+    <!-- ── 3. Internet & Intranet ── -->
+    <section class="dept-section" data-aos="fade-up">
+        <span class="it-section-heading">Network Infrastructure</span>
+        <h2 class="it-section-title">Internet, Intranet &amp; Computing</h2>
+        <div class="it-divider"></div>
+        <div class="it-info-grid">
+            <div class="it-info-card" data-aos="fade-right">
+                <div class="it-info-icon"><i class="fa-solid fa-globe"></i></div>
+                <h4>Internet &amp; Intranet</h4>
+                <p>A dedicated internet lab operates <strong style="color:#fff;">24 hours a day, 7 days a week</strong>, providing free internet access to all students. The campus enjoys <strong style="color:#fff;">1155 Mbps 1:1 dedicated leased line</strong> connectivity — 1 Gbps from Tata and 155 Mbps from Vodafone Idea. Internet is accessible from all 2000+ computers across every department.</p>
+                <div style="margin-top:14px;">
+                    <span class="it-tag"><i class="fa-solid fa-check"></i> Tata 1 Gbps</span>
+                    <span class="it-tag"><i class="fa-solid fa-check"></i> Vodafone Idea 155 Mbps</span>
+                    <span class="it-tag"><i class="fa-solid fa-check"></i> Fibre Optic Backbone</span>
+                    <span class="it-tag"><i class="fa-solid fa-check"></i> 1:1 Dedicated Line</span>
+                </div>
+            </div>
+            <div class="it-info-card" data-aos="fade-left">
+                <div class="it-info-icon"><i class="fa-solid fa-laptop"></i></div>
+                <h4>PCs &amp; Laptops</h4>
+                <p>The college maintains <strong style="color:#fff;">more than 2000 Desktop PCs / Laptops</strong> across various academic blocks, all interconnected through a fibre optic backbone. Full internet access is provided to every computer. All academic laboratories are equipped to support lab classes, research, training, and certification programs.</p>
+                <div style="margin-top:14px;">
+                    <span class="it-tag"><i class="fa-solid fa-check"></i> All Departments</span>
+                    <span class="it-tag"><i class="fa-solid fa-check"></i> Fibre Optic Network</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Footer -->
-    
+    <!-- ── 4. Software & FOSS ── -->
+    <section class="dept-section" data-aos="fade-up">
+        <span class="it-section-heading">Software Policy</span>
+        <h2 class="it-section-title">Licensed &amp; Open-Source Software</h2>
+        <div class="it-divider"></div>
+        <div class="it-info-grid">
+            <div class="it-info-card" data-aos="zoom-in" data-aos-delay="0">
+                <div class="it-info-icon" style="background:rgba(40,167,69,0.2);border-color:rgba(40,167,69,0.3);color:#4ade80;"><i class="fa-brands fa-linux"></i></div>
+                <h4>Free &amp; Open-Source (FOSS)</h4>
+                <p>Kingston Engineering College has been migrating to <strong style="color:#fff;">Free and Open-Source Software (FOSS) for over 10 years</strong>. Most computers now run exclusively on open-source technologies. FOSS is deployed wherever it is a viable replacement for commercial alternatives, promoting digital sovereignty in education.</p>
+                <div style="margin-top:14px;">
+                    <span class="it-tag"><i class="fa-brands fa-linux"></i> 10+ Years FOSS Journey</span>
+                    <span class="it-tag"><i class="fa-solid fa-code"></i> Open-Stack Technologies</span>
+                </div>
+            </div>
+            <div class="it-info-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="it-info-icon" style="background:rgba(220,38,38,0.15);border-color:rgba(220,38,38,0.25);color:#f87171;"><i class="fa-solid fa-certificate"></i></div>
+                <h4>Licensed Proprietary Software</h4>
+                <p>Adequate licenses are maintained for proprietary software aligned with the curriculum. All labs are deployed with licensed software to support curriculum requirements, research, training, and certification programs. Proprietary tools are installed selectively to expose students to the latest industry technologies.</p>
+                <div style="margin-top:14px;">
+                    <span class="it-tag it-tag-red"><i class="fa-solid fa-shield-halved"></i> AICTE Compliant</span>
+                    <span class="it-tag it-tag-red"><i class="fa-solid fa-key"></i> Fully Licensed</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    
-        </main>
-    </div><!-- /dept-details-wrapper -->
+    <!-- ── 5. Wi-Fi ── -->
+    <section class="dept-section" data-aos="fade-up">
+        <span class="it-section-heading">Wireless Connectivity</span>
+        <h2 class="it-section-title">24×7 Campus-Wide Wi-Fi</h2>
+        <div class="it-divider"></div>
+        <div class="it-full-card" data-aos="zoom-in">
+            <div class="it-info-icon"><i class="fa-solid fa-wifi"></i></div>
+            <h4>Free Wi-Fi Across the Entire Campus</h4>
+            <p style="font-size:0.84rem;color:#9aabb8;line-height:1.75;">A free 24×7 Wi-Fi facility covers the <strong style="color:#fff;">entire campus</strong> including hostels, cafeteria, seminar halls, and the auditorium. Students and faculty can access the internet from anywhere within the campus. The campus intranet carries Test Schedules, Time Tables, Examination Schedules, Campus News, and a wealth of institutional information.</p>
+            <div style="margin-top:14px;">
+                <span class="it-tag"><i class="fa-solid fa-check"></i> Hostels</span>
+                <span class="it-tag"><i class="fa-solid fa-check"></i> Cafeteria</span>
+                <span class="it-tag"><i class="fa-solid fa-check"></i> Seminar Halls</span>
+                <span class="it-tag"><i class="fa-solid fa-check"></i> Auditorium</span>
+                <span class="it-tag"><i class="fa-solid fa-check"></i> All Academic Blocks</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── 6. Data Centre & Firewall ── -->
+    <section class="dept-section" data-aos="fade-up">
+        <span class="it-section-heading">Core Infrastructure</span>
+        <h2 class="it-section-title">Data Centre &amp; Network Security</h2>
+        <div class="it-divider"></div>
+        <div class="it-info-grid">
+            <div class="it-info-card" data-aos="fade-right">
+                <div class="it-info-icon"><i class="fa-solid fa-database"></i></div>
+                <h4>Data Centre</h4>
+                <p>A dedicated Data Centre spanning <strong style="color:#fff;">900 sq.ft</strong> hosts all rack and blade servers with uninterrupted power supply (UPS), managed by the Centre for Technical Support. A <strong style="color:#fff;">4 TB NAS storage</strong> system provides reliable data backup for all institutional operations.</p>
+                <div style="margin-top:14px;">
+                    <span class="it-tag"><i class="fa-solid fa-check"></i> 900 sq.ft Facility</span>
+                    <span class="it-tag"><i class="fa-solid fa-check"></i> Rack &amp; Blade Servers</span>
+                    <span class="it-tag"><i class="fa-solid fa-check"></i> 4 TB NAS Backup</span>
+                    <span class="it-tag"><i class="fa-solid fa-check"></i> UPS Protected</span>
+                </div>
+            </div>
+            <div class="it-info-card" data-aos="fade-left">
+                <div class="it-info-icon" style="background:rgba(220,38,38,0.15);border-color:rgba(220,38,38,0.25);color:#f87171;"><i class="fa-solid fa-shield-halved"></i></div>
+                <h4>Cyberoam 300ING Firewall</h4>
+                <p>The <strong style="color:#fff;">Cyberoam 300ING Firewall</strong> handles enhanced network and application loads for both academic and administrative processes, providing a secure campus environment with deep packet inspection, content filtering, and threat management capabilities.</p>
+                <div style="margin-top:14px;">
+                    <span class="it-tag it-tag-red"><i class="fa-solid fa-check"></i> Deep Packet Inspection</span>
+                    <span class="it-tag it-tag-red"><i class="fa-solid fa-check"></i> Content Filtering</span>
+                    <span class="it-tag it-tag-red"><i class="fa-solid fa-check"></i> Threat Management</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── 7. ICT + Biometric + CTS ── -->
+    <section class="dept-section" data-aos="fade-up">
+        <span class="it-section-heading">Smart Campus Systems</span>
+        <h2 class="it-section-title">ICT, Biometrics &amp; Technical Support</h2>
+        <div class="it-divider"></div>
+        <div class="it-info-grid">
+            <div class="it-info-card" data-aos="zoom-in" data-aos-delay="0">
+                <div class="it-info-icon"><i class="fa-solid fa-chalkboard"></i></div>
+                <h4>ICT-Enabled Classrooms</h4>
+                <p>Classrooms and seminar halls are equipped with <strong style="color:#fff;">interactive panels, smartboards, and lecture capturing systems</strong>, as well as LCD projectors for rich multimedia delivery of all academic sessions.</p>
+            </div>
+            <div class="it-info-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="it-info-icon"><i class="fa-solid fa-fingerprint"></i></div>
+                <h4>Biometric &amp; Barcode Systems</h4>
+                <p><strong style="color:#fff;">Biometric attendance systems</strong> are implemented campus-wide for all staff. Barcode scanners in the Library manage book issue/return and track entry/exit movement of students and faculty.</p>
+            </div>
+            <div class="it-info-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="it-info-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                <h4>Centre for Technical Support (CTS)</h4>
+                <p>All IT-related activities — <strong style="color:#fff;">network, hardware, software, interactive panels, projectors, UPS</strong> and general IT maintenance — are centrally managed by the dedicated CTS team.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── 8. Specialized Labs ── -->
+    <section class="dept-section" data-aos="fade-up">
+        <span class="it-section-heading">Laboratory Facilities</span>
+        <h2 class="it-section-title">Specialized Laboratories</h2>
+        <div class="it-divider"></div>
+        <div class="it-info-grid">
+            <div class="it-info-card" data-aos="fade-right">
+                <div class="it-info-icon" style="background:rgba(40,167,69,0.2);border-color:rgba(40,167,69,0.3);color:#4ade80;"><i class="fa-brands fa-linux"></i></div>
+                <h4>FOSS Lab</h4>
+                <p>Dedicated to <strong style="color:#fff;">Free and Open Source Software</strong>, featuring fully integrated Linux environments and open-stack technologies. Promotes academic freedom and digital sovereignty in technical education.</p>
+            </div>
+            <div class="it-info-card" data-aos="fade-left">
+                <div class="it-info-icon"><i class="fa-solid fa-network-wired"></i></div>
+                <h4>Enterprise Networking Lab</h4>
+                <p>Equipped with <strong style="color:#fff;">Cisco Managed Switches and 24×7 Wi-Fi controllers</strong> for hands-on network administration training. Students gain real-world experience configuring enterprise-grade hardware.</p>
+            </div>
+        </div>
+    </section>
+
+    </main>
+    </div></div><!-- /dept-details-wrapper -->
 
     <footer class="main-footer">
             <div class="container footer-grid">
