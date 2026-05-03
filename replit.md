@@ -116,6 +116,27 @@ python3 -m http.server 5000
 - `facilities/`: 5
 - `alumni/`: 2
 
+## Session 5 — NAAC Section Complete Build
+
+| Task | Status | Notes |
+|---|---|---|
+| NAAC subnav (all 12 pages) | ✅ Done | Sticky 12-link horizontal scrollable subnav injected into ALL 12 naac/*.html pages. Dark navy bg (#1a1a2e), active-page highlight, Font Awesome icons, overflow-x scroll on mobile |
+| naac_governance.html div fix | ✅ Done | Missing `</div>` for KI 6.1 ki-card inserted. Was 96o/95c → now 98o/98c (balanced, +2 from subnav) |
+| naac_governance.html | ✅ Done | Subnav added. Existing accordion (KI 6.1–6.5) with real PDFs (Strategic Plan, MOM, NBA audit) preserved |
+| naac_institutional_values.html | ✅ Done | Subnav added before values-ticker-strip. Existing KI 7.1–7.3 cards preserved |
+| naac_curricular_aspects.html | ✅ Done | Subnav + C1 intro paragraph (OBE, Board of Studies, electives) injected before metric cards |
+| naac_extended_profile.html | ✅ Done | Subnav + EP intro paragraph (4 QnM baseline metrics) injected before metric cards |
+| naac_infrastructure.html | ✅ Done | Subnav + C4 intro paragraph (labs, ICT, library, hostel) injected before metric cards |
+| naac_teaching_learning.html | ✅ Done | Subnav + C2 intro paragraph (blended learning, CIA, OBE) injected before metric cards |
+| naac_student_support.html | ✅ Done | Subnav + C5 intro injected; **video path fixed** (`../video.mp4` → `../assets/videos/video1.mp4`) |
+| naac_research_innovation.html | ✅ Done | Subnav + C3 intro injected; **video path fixed** (`../video.mp4` → `../assets/videos/video1.mp4`) |
+| naac_dvv.html | ✅ Done | Subnav + DVV explanation content; **broken xlsx iframe removed** (replaced with 3-card process grid + NAAC portal note) |
+| naac_rti.html | ✅ Done | Subnav + RTI compliance framework; **wrong energy PDF iframe removed** (replaced with 4-card RTI structure + PIO contact card) |
+| naac_ssr.html | ✅ Done | Subnav + SSR intro + "available on request" card (NAACS folder confirmed missing — no fake iframe) |
+| naac_iiqa.html | ✅ Done | Subnav + IIQA intro + "available on request" card (NAACS folder confirmed missing — no fake iframe) |
+| Div balance all 12 pages | ✅ All OK | All 12 pages: divs open == divs close. Word counts 949–1618 |
+| NAACS folder | ℹ️ Missing | `assets/pdfs/NAACS/` does not exist — SSR/IIQA PDFs need to be placed there to enable iframes |
+
 ## Session 4 — Placement Pages Content Build
 
 | Task | Status | Notes |

@@ -742,6 +742,35 @@
     </section>
     <!-- ╚══════════════════════════════════════════════════╝ -->
 
+
+    <!-- NAAC Sub-navigation -->
+    <style>
+        .naac-subnav { background:#1a1a2e; position:sticky; top:0; z-index:900; border-bottom:3px solid #8b1a2b; }
+        .naac-subnav-inner { display:flex; align-items:center; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; padding:0; }
+        .naac-subnav-inner::-webkit-scrollbar { display:none; }
+        .naac-subnav-inner a { display:inline-flex; align-items:center; gap:7px; padding:13px 16px; font-family:'Poppins',sans-serif; font-size:0.78rem; font-weight:600; color:rgba(255,255,255,0.7); text-decoration:none; white-space:nowrap; border-bottom:3px solid transparent; margin-bottom:-3px; transition:all 0.3s; letter-spacing:.3px; }
+        .naac-subnav-inner a:hover, .naac-subnav-inner a.active { color:#fff; border-bottom-color:#8b1a2b; background:rgba(139,26,43,0.12); }
+        .naac-subnav-inner a i { font-size:0.8rem; opacity:0.85; }
+    </style>
+    <div class="naac-subnav">
+        <div class="container">
+            <nav class="naac-subnav-inner">
+                <a href="naac_ssr.html"><i class="fa-solid fa-book"></i> SSR</a>
+                <a href="naac_iiqa.html"><i class="fa-solid fa-file-pen"></i> IIQA</a>
+                <a href="naac_extended_profile.html"><i class="fa-solid fa-layer-group"></i> Extended Profile</a>
+                <a href="naac_dvv.html"><i class="fa-solid fa-magnifying-glass-chart"></i> DVV Clarification</a>
+                <a href="naac_curricular_aspects.html"><i class="fa-solid fa-book-open"></i> C1: Curricular</a>
+                <a href="naac_teaching_learning.html"><i class="fa-solid fa-chalkboard-user"></i> C2: Teaching</a>
+                <a href="naac_research_innovation.html"><i class="fa-solid fa-flask"></i> C3: Research</a>
+                <a href="naac_infrastructure.html"><i class="fa-solid fa-building"></i> C4: Infrastructure</a>
+                <a href="naac_student_support.html"><i class="fa-solid fa-users"></i> C5: Student Support</a>
+                <a href="naac_governance.html"><i class="fa-solid fa-landmark"></i> C6: Governance</a>
+                <a href="naac_institutional_values.html" class="active"><i class="fa-solid fa-leaf"></i> C7: Values</a>
+                <a href="naac_rti.html"><i class="fa-solid fa-file-contract"></i> RTI</a>
+            </nav>
+        </div>
+    </div>
+
     <!-- ╔═ VALUES TICKER STRIP ═══════════════════════════╗ -->
     <div class="values-strip" data-aos="fade-in">
         <div class="values-ticker">

@@ -357,7 +357,7 @@
         <div class="hero-video-wrapper">
             <!-- Utilizing video1.mp4 as requested for background -->
             <video autoplay muted loop playsinline class="hero-video">
-                <source src="../video.mp4" type="video/mp4">
+                <source src="../assets/videos/video1.mp4" type="video/mp4">
             </video>
             <div class="hero-overlay" style="background:rgba(0,0,0,0.65);"></div>
             <div
@@ -373,6 +373,45 @@
                     style="width:120px; height:5px; background:linear-gradient(90deg, #fff, transparent); margin-top:20px; border-radius:3px;">
                 </div>
             </div>
+        </div>
+    </section>
+
+
+    <!-- NAAC Sub-navigation -->
+    <style>
+        .naac-subnav { background:#1a1a2e; position:sticky; top:0; z-index:900; border-bottom:3px solid #8b1a2b; }
+        .naac-subnav-inner { display:flex; align-items:center; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; padding:0; }
+        .naac-subnav-inner::-webkit-scrollbar { display:none; }
+        .naac-subnav-inner a { display:inline-flex; align-items:center; gap:7px; padding:13px 16px; font-family:'Poppins',sans-serif; font-size:0.78rem; font-weight:600; color:rgba(255,255,255,0.7); text-decoration:none; white-space:nowrap; border-bottom:3px solid transparent; margin-bottom:-3px; transition:all 0.3s; letter-spacing:.3px; }
+        .naac-subnav-inner a:hover, .naac-subnav-inner a.active { color:#fff; border-bottom-color:#8b1a2b; background:rgba(139,26,43,0.12); }
+        .naac-subnav-inner a i { font-size:0.8rem; opacity:0.85; }
+    </style>
+    <div class="naac-subnav">
+        <div class="container">
+            <nav class="naac-subnav-inner">
+                <a href="naac_ssr.html"><i class="fa-solid fa-book"></i> SSR</a>
+                <a href="naac_iiqa.html"><i class="fa-solid fa-file-pen"></i> IIQA</a>
+                <a href="naac_extended_profile.html"><i class="fa-solid fa-layer-group"></i> Extended Profile</a>
+                <a href="naac_dvv.html"><i class="fa-solid fa-magnifying-glass-chart"></i> DVV Clarification</a>
+                <a href="naac_curricular_aspects.html"><i class="fa-solid fa-book-open"></i> C1: Curricular</a>
+                <a href="naac_teaching_learning.html"><i class="fa-solid fa-chalkboard-user"></i> C2: Teaching</a>
+                <a href="naac_research_innovation.html" class="active"><i class="fa-solid fa-flask"></i> C3: Research</a>
+                <a href="naac_infrastructure.html"><i class="fa-solid fa-building"></i> C4: Infrastructure</a>
+                <a href="naac_student_support.html"><i class="fa-solid fa-users"></i> C5: Student Support</a>
+                <a href="naac_governance.html"><i class="fa-solid fa-landmark"></i> C6: Governance</a>
+                <a href="naac_institutional_values.html"><i class="fa-solid fa-leaf"></i> C7: Values</a>
+                <a href="naac_rti.html"><i class="fa-solid fa-file-contract"></i> RTI</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Criterion 3 Intro -->
+    <section class="page-section" style="padding:60px 0 20px;background:#fff;">
+        <div class="container" data-aos="fade-up">
+            <h2 style="font-family:'Poppins',sans-serif;font-size:2.2rem;font-weight:800;color:#8b1a2b;margin-bottom:10px;">Criterion 3: Research, Innovation &amp; Extension</h2>
+            <div style="width:70px;height:3px;background:#8b1a2b;margin-bottom:26px;"></div>
+            <p style="font-size:1.05rem;color:#444;line-height:1.85;max-width:870px;margin-bottom:16px;">Research, Innovation, and Extension at KEC is driven by a vibrant culture of academic inquiry, collaborative R&amp;D, and community engagement. Faculty and students regularly contribute to Scopus/SCI-indexed journals, file patents, participate in externally funded projects, and present at national and international conferences. The R&amp;D Cell facilitates productive industry-academic research partnerships and supports grant applications to funding agencies including DST, AICTE, and TNSCST.</p>
+            <p style="font-size:1.0rem;color:#555;line-height:1.8;max-width:870px;">The Innovation and Entrepreneurship Cell nurtures student startup ideas and connects innovators with mentors and incubators. Extension activities through NSS, NCC, and community outreach programmes embed social responsibility into the institutional fabric. Evidence documents below capture KEC's measurable research output, patents, funded projects, consultancy, and community service activities.</p>
         </div>
     </section>
 
