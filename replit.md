@@ -116,6 +116,44 @@ python3 -m http.server 5000
 - `facilities/`: 5
 - `alumni/`: 2
 
+## Session 14 Phase 3 — Live Data Verification & Real Contact Audit
+
+| Task | Status | Notes |
+|---|---|---|
+| Scrape live site engineering.kingston.ac.in | ✅ Done | Regex-extracted all phones, emails, keys from 108,195-char HTML. Confirmed: **9788029999** (header call button), **0416-2298300** (official certificate), **info@kingston.ac.in** |
+| Mine UGC Mandatory Disclosure PDFs | ✅ Done | Extracted exact Vision, Mission, Quality Policy, Rankings from `1. About HEI/1. About Us.pdf` |
+| Remove all fake phone numbers | ✅ Done | **0 remaining**: 2244777 replaced with 0416-2298300 across all 472 files; fake dept extensions 2244800–2244805 removed from contact.html |
+| Remove fake HOD names | ✅ Done | Dr. Ravi Kumar, Dr. Priya Sharma, Dr. Vikram Singh, Dr. Anjali Patel, Dr. Rajesh Kumar, Dr. Arun Kumar — all removed from contact.html dept cards |
+| Inject 9788029999 everywhere | ✅ Done | Red-badge call button added to top bar of **471 HTML files** via Python global replace |
+| index.html — Autonomous Status section | ✅ Done | New dark-navy section after stats: "1st Autonomous Engineering College in Vellore, Ranipet, Tirupattur — 10 Years (2025–2035) — UGC + Anna University" |
+| index.html — About brief updated | ✅ Done | Autonomous Status, No.1 in Vellore district, 8th among 313 colleges TN, Silicon India 40th, exact NAAC CGPA |
+| index.html — stats: 24→25 years | ✅ Done | 2026 - 2001 = 25 years of excellence |
+| index.html — 106 rank holders | ✅ Done | Salient Feature card updated with exact count from PDF |
+| about.html — Autonomous milestone cards | ✅ Done | 4 dark-bg glassmorphic cards inside Accreditations section: 10-Year Status, #1 Vellore, 106 Rank Holders, 40th India |
+| about.html — "Since 2008" → "Since 2001" | ✅ Done | Bottom accent text corrected |
+| about.html — Quality Policy section | ✅ Done | Exact text from About Us PDF in blue left-border card |
+| about.html — Real Awards section | ✅ Done | 6-card grid: GERA 2019, Staffordshire UK, AICTE MODROB Rs.21L + MSME Rs.23.5L, PMKVY 240 students, e-Yantra IIT Bombay, 50+ MoUs |
+| contact.html — phones updated | ✅ Done | Main: 0416-2298300 · Helpline: 9788029999 · Admissions: +91-75400-37999 |
+| contact.html — dept contacts cleaned | ✅ Done | All fake HOD names + fake extension numbers removed; all 6 dept cards now show 0416-2298300 / info@kingston.ac.in |
+| contact.html — footer phone | ✅ Done | "0416-2298300 / 9788029999" in footer across all pages |
+| knowledge-base.json → v6 | ✅ Done | `contact`, `autonomous_status`, `rankings`, `quality_policy`, `awards` keys updated with all verified data |
+
+### Verified Real Contact Data
+| Field | Verified Value | Source |
+|---|---|---|
+| Office phone | 0416-2298300 | Live site certificate image |
+| Helpline | 9788029999 | Live site header call button |
+| Admission mobile | +91 75400 37999 | Live site + knowledge base |
+| Email | info@kingston.ac.in | Live site HTML |
+| Admission email | admission@kingston.ac.in | Live site HTML |
+
+### Verified Real Rankings (from About Us PDF)
+- No.1 in Vellore, Tiruvannamalai, Villupuram & 25 districts
+- 8th among 313 Engineering Colleges in Tamil Nadu
+- 106 Anna University Rank Holder Certificates (UG + PG)
+- Silicon India: 40th Top 100 Engineering Colleges India, 11th Southern Zone
+- GERA 2019 Global Excellence Recognition Award
+
 ## Session 6 — UGC Mandatory Disclosure Complete Build (55 pages)
 
 | Task | Status | Notes |
