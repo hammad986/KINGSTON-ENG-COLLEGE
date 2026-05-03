@@ -197,7 +197,7 @@
             <div class="container logo-bar-inner">
                 <div class="logo-area">
                     <img src="../assets/images/icons/001-web_logo_banner_2026.png" width="450" height="150" alt="Logo"
-                        class="main-logo" onerror="this.src=" ../assets/images/icons/001-web_logo_banner_2026.png"">
+                        class="main-logo" onerror=\"this.src='../assets/images/icons/001-web_logo_banner_2026.png'\"">
                 </div>
                 <div class="accreditations-area">
                     <div class="accred-logos">
@@ -288,7 +288,7 @@
                     </li>
                     <li><a href="../policies.html">Policies</a></li>
                     <li class="has-dropdown">
-                        <a href="placements/placement_pat.html">Placements</a>
+                        <a href="../placements/placement_pat.html">Placements</a>
                         <ul class="dropdown js-exclude-dropdown">
                             <li><a href="../placements/placement_pat.html">Placement & Training Cell</a></li>
                             <li><a href="../placements/placement_vision_mission.html">Vision & Mission, Objectives</a>
@@ -478,6 +478,54 @@
             </div>
         </div>
     </section>
+    <!-- IQAC Sub-Navigation -->
+    <style>
+        .about-subnav-strip {
+            background: #fff;
+            border-bottom: 2px solid #eee;
+            position: sticky;
+            top: 0;
+            z-index: 200;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+        }
+        .about-subnav-inner {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+        .about-subnav-inner::-webkit-scrollbar { display: none; }
+        .about-subnav-inner a {
+            display: flex; align-items: center; gap: 6px;
+            padding: 14px 18px; color: #555; text-decoration: none;
+            font-weight: 600; font-size: 0.85rem; white-space: nowrap;
+            border-bottom: 3px solid transparent; transition: all 0.2s ease; letter-spacing: 0.2px;
+        }
+        .about-subnav-inner a:hover {
+            color: #003366; background: rgba(0,51,102,0.04); border-bottom-color: #f5c518;
+        }
+        .about-subnav-inner a.active {
+            color: #003366; font-weight: 800; border-bottom-color: #003366; background: rgba(0,51,102,0.03);
+        }
+        .about-subnav-inner a i { font-size: 0.8rem; opacity: 0.7; }
+        @media (max-width: 768px) { .about-subnav-inner a { padding: 12px 13px; font-size: 0.8rem; } }
+    </style>
+    <div class="about-subnav-strip">
+        <div class="container">
+            <nav class="about-subnav-inner">
+                <a href="iqac_about.html" class="active"><i class="fa-solid fa-circle-info"></i> IQAC</a>
+                <a href="iqac_mom.html"><i class="fa-solid fa-file-lines"></i> Minutes of Meeting</a>
+                <a href="iqac_quality_initiatives.html"><i class="fa-solid fa-star"></i> Quality Initiatives</a>
+                <a href="iqac_annual_reports.html"><i class="fa-solid fa-chart-bar"></i> Annual Reports</a>
+                <a href="iqac_academic_audit.html"><i class="fa-solid fa-magnifying-glass"></i> Academic Audit</a>
+                <a href="iqac_feedback.html"><i class="fa-solid fa-comments"></i> Feedback</a>
+                <a href="iqac_strategic_plan.html"><i class="fa-solid fa-bullseye"></i> Strategic Plan 2024</a>
+            </nav>
+        </div>
+    </div>
+
 
     <style>
         .iqac-card {
