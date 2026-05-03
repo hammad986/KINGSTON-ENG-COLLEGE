@@ -90,20 +90,28 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- In Focus Slider ---
     const infocusWrapper = document.getElementById('infocus-wrapper');
     if(infocusWrapper) {
-        let fHTML = '';
-        for(let i=1; i<=10; i++) {
-            fHTML += `
+        const infocusItems = [
+            { img: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&q=75', text: 'Kingston Engineering College achieves NAAC \'A\' Grade with CGPA 3.07 — a landmark in institutional excellence.', link: 'naac.html' },
+            { img: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&q=75', text: 'E-Yantra Robotics Lab established in collaboration with IIT-Bombay — advancing robotics and automation research.', link: 'facilities/facilities_it.html' },
+            { img: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&q=75', text: '3499+ Dream & Super Dream placement offers secured — students placed in TCS, Infosys, Zoho, Cognizant & more.', link: 'placements/placement_report.html' },
+            { img: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=400&q=75', text: '150+ patents filed and 500+ Scopus-indexed research publications — Kingston leads in research and innovation.', link: 'naac/naac_research_innovation.html' },
+            { img: 'https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=400&q=75', text: 'MSME Incubation Cell provides up to ₹30 lakhs financial support for student start-ups and innovations.', link: 'facilities.html' },
+            { img: 'https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=400&q=75', text: 'Kingston named among Top Engineering Colleges in Vellore — consistent university rank holders every year.', link: 'about/about_awards.html' },
+            { img: 'https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?w=400&q=75', text: 'Annual Cultural & Technical Fest Spectrum draws participation from colleges across Tamil Nadu.', link: 'events.html' },
+            { img: 'https://images.unsplash.com/photo-1503676382389-4809596d5290?w=400&q=75', text: 'Digital Library with 18,924+ volumes and NPTEL Local Chapter — knowledge at every student\'s fingertips.', link: 'facilities/facilities_library.html' },
+            { img: 'https://images.unsplash.com/photo-1584697964358-3e14ca57658b?w=400&q=75', text: 'ISO 21001:2018 certified institution — TUV India validated for educational management system excellence.', link: 'naac/naac_ssr.html' },
+            { img: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&q=75', text: 'En Kanavu En Ethirkaalam — Tamil Nadu Govt. initiative participation empowering student futures.', link: 'events.html' },
+        ];
+        infocusWrapper.innerHTML = infocusItems.map(item => `
             <div class="swiper-slide">
                 <div class="infocus-card">
-                    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&q=75" class="infocus-img" alt="Focus Event">
+                    <img src="${item.img}" class="infocus-img" alt="Kingston Focus">
                     <div class="infocus-body">
-                        <p class="infocus-text">The Centre for Clean Environment (CCE) at VIT Vellore...</p>
-                        <a href="#" class="btn-view-more">View More</a>
+                        <p class="infocus-text">${item.text}</p>
+                        <a href="${item.link}" class="btn-view-more">View More</a>
                     </div>
                 </div>
-            </div>`;
-        }
-        infocusWrapper.innerHTML = fHTML;
+            </div>`).join('');
 
         new Swiper('#infocus-slider', {
             slidesPerView: 1,
