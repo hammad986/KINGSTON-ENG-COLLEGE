@@ -29,9 +29,11 @@
 body {
     font-family: var(--font-primary);
     color: var(--text-color);
-    line-height: 1.6;
+    line-height: 1.7;
     background-color: var(--white);
     overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -71,6 +73,132 @@ h1, h2, h3, h4, h5, h6 {
 .section-subtitle {
     font-size: 1.125rem;
     margin-bottom: 2rem;
+}
+
+/* Typography System */
+.content-text-wrapper {
+    width: min(100%, 900px);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: clamp(0px, 1vw, 18px);
+    padding-right: clamp(0px, 1vw, 18px);
+}
+
+.content-text-wrapper h1,
+.content-text-wrapper h2,
+.content-text-wrapper h3,
+.content-text-wrapper h4,
+.content-text-wrapper h5,
+.content-text-wrapper h6 {
+    color: #111827;
+    letter-spacing: -0.02em;
+    margin-top: 0;
+}
+
+.content-text-wrapper h1 {
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    font-weight: 900;
+    line-height: 1.08;
+    margin-bottom: 1rem;
+}
+
+.content-text-wrapper h2 {
+    font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+    font-weight: 800;
+    line-height: 1.18;
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.6rem;
+    position: relative;
+}
+
+.content-text-wrapper h2::after,
+.content-text-wrapper h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 72px;
+    height: 3px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--brand-red), var(--brand-yellow));
+}
+
+.content-text-wrapper h3 {
+    font-size: clamp(1.12rem, 1.9vw, 1.45rem);
+    font-weight: 800;
+    line-height: 1.22;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.55rem;
+    position: relative;
+}
+
+.content-text-wrapper h4,
+.content-text-wrapper h5,
+.content-text-wrapper h6 {
+    line-height: 1.28;
+    margin-bottom: 0.7rem;
+}
+
+.content-text-wrapper p,
+.content-text-wrapper li {
+    font-size: 1rem;
+    line-height: 1.78;
+    text-align: left;
+    text-wrap: pretty;
+    hyphens: auto;
+}
+
+.content-text-wrapper p {
+    color: #404040;
+    margin-bottom: 1rem;
+}
+
+.content-text-wrapper ul,
+.content-text-wrapper ol {
+    margin-bottom: 1rem;
+}
+
+.content-text-wrapper li {
+    margin-bottom: 0.65rem;
+}
+
+.content-text-wrapper > :last-child {
+    margin-bottom: 0;
+}
+
+/* Department Breadcrumb */
+.dept-breadcrumb-section {
+    margin-bottom: 10px;
+}
+
+.pch-breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #6b7280;
+}
+
+.pch-breadcrumb a {
+    color: var(--brand-red);
+}
+
+.pch-breadcrumb a:hover {
+    color: var(--brand-blue);
+}
+
+.pch-breadcrumb span {
+    color: #b0b7c5;
+}
+
+.pch-breadcrumb-current {
+    color: #111827;
+    font-weight: 800;
 }
 
 .text-white { color: var(--white); }
