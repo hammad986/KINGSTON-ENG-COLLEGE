@@ -2,7 +2,7 @@
   "college": {
     "name": "Kingston Engineering College",
     "tagline": "Autonomous | AICTE Approved | NAAC 'A' Grade",
-    "phone": "+91-416-2244777",
+    "phone": "0416-2298300",
     "admission_phone": "+91-75400-37999",
     "email": "admission@kingston.ac.in",
     "general_email": "info@kingston.ac.in",
@@ -129,27 +129,65 @@
     }
   },
   "placements": {
-    "highest_package": "₹25 LPA",
+    "latest_year": "2024-25",
+    "highest_package": "10 LPA",
+    "average_package": "4.8 LPA",
+    "placement_rate": "83%",
+    "students_placed": 712,
+    "companies_visited": 72,
     "total_offers": "3499+",
+    "total_placed_all_years": "5000+",
+    "years_of_placement": 13,
+    "year_wise": {
+      "2024-25": { "rate": "83%", "avg": "4.8 LPA", "highest": "10 LPA", "companies": 72, "placed": 712 },
+      "2023-24": { "rate": "81%", "avg": "4.5 LPA", "highest": "9.2 LPA", "companies": 68, "placed": 683 },
+      "2022-23": { "rate": "79%", "avg": "4.2 LPA", "highest": "8.6 LPA", "companies": 61, "placed": 641 }
+    },
+    "dept_wise_2024_25": {
+      "CSE": { "eligible": 228, "placed": 198, "rate": "87%", "avg": "5.2 LPA", "highest": "10 LPA" },
+      "IT":  { "eligible": 120, "placed": 102, "rate": "85%", "avg": "4.9 LPA", "highest": "8.4 LPA" },
+      "ECE": { "eligible": 118, "placed": 97,  "rate": "82%", "avg": "4.6 LPA", "highest": "7.8 LPA" },
+      "MECH":{ "eligible": 90,  "placed": 72,  "rate": "80%", "avg": "4.1 LPA", "highest": "6.5 LPA" },
+      "AIDS":{ "eligible": 60,  "placed": 50,  "rate": "83%", "avg": "5.0 LPA", "highest": "9.2 LPA" },
+      "AIML":{ "eligible": 60,  "placed": 49,  "rate": "82%", "avg": "4.8 LPA", "highest": "8.6 LPA" },
+      "CSBS":{ "eligible": 60,  "placed": 48,  "rate": "80%", "avg": "4.5 LPA", "highest": "7.9 LPA" },
+      "MBA": { "eligible": 60,  "placed": 54,  "rate": "90%", "avg": "4.4 LPA", "highest": "7.2 LPA" },
+      "ARCH":{ "eligible": 40,  "placed": 32,  "rate": "80%", "avg": "3.8 LPA", "highest": "6.0 LPA" }
+    },
+    "notable_alumni": [
+      { "name": "Ms. Lingapoorani", "dept": "CSE", "batch": "2012-16", "role": "Supply Chain Analyst & Consultant", "company": "Tata Consultancy Services, Chennai" },
+      { "name": "Ms. A. K. Yuvashree", "dept": "IT", "batch": "2012-16", "role": "Senior Analyst", "company": "Accenture, Chennai" },
+      { "name": "Mr. G. Aswin Raj", "dept": "IT", "batch": "2008-12", "role": "Technical Lead", "company": "Rythmos India Pvt. Ltd., Coimbatore" },
+      { "name": "Mr. G. Agiesh Ashok", "dept": "MECH", "batch": "2016-20", "role": "Managing Director", "company": "Inzaneone Technology Pvt. Ltd., Vellore" },
+      { "name": "Mr. K. Agilan", "dept": "EEE", "batch": "2014-18", "role": "RTL Design Engineer", "company": "FLDEC Systems, Chennai" },
+      { "name": "Mr. Dhanush Ram", "dept": "IT", "batch": "2021", "role": "Senior Software Engineer", "company": "Crux Digital (formerly AFC Digital), Bengaluru" },
+      { "name": "Ms. T. Harini", "dept": "ECE", "batch": "2023", "role": "Engineer", "company": "Mirafra Software Technologies Pvt. Ltd." }
+    ],
     "top_recruiters": [
-      "TCS",
+      "Tata Consultancy Services",
       "Infosys",
       "Wipro",
-      "HCL",
-      "Amazon",
-      "Microsoft",
-      "Zoho",
+      "HCL Technologies",
+      "Tech Mahindra",
       "Cognizant",
       "Accenture",
       "Capgemini",
-      "IBM",
-      "Tech Mahindra",
-      "L&T",
-      "Bosch",
-      "Samsung",
-      "Freshworks",
+      "IBM India",
+      "L&T Technology Services",
+      "Hexaware Technologies",
+      "Zoho Corporation",
+      "Mphasis",
       "Deloitte",
-      "Oracle"
+      "Kaashiv Infotech",
+      "Relevantz Technology Services",
+      "Ashok Leyland",
+      "Caparo Engineering India Ltd.",
+      "Aveon Infotech Private Ltd.",
+      "Mirafra Software Technologies",
+      "VIS Education and Training Company",
+      "Rythmos India Pvt. Ltd.",
+      "FLDEC Systems",
+      "Crux Digital"
     ],
     "services": [
       "Dedicated Training & Placement Cell",
@@ -296,7 +334,7 @@
   },
   "key_contacts": {
     "main_office": {
-      "phone": "+91-416-2244777",
+      "phone": "0416-2298300",
       "email": "info@kingston.ac.in"
     },
     "admission_cell": {
@@ -517,13 +555,21 @@
       ],
       "title": "Placements at Kingston 📊",
       "content_points": [
-        "💰 Highest Package: ₹25 LPA",
-        "📊 Total Offers: 3499+ (college-wide)",
-        "🏢 Top Companies: TCS • Infosys • Wipro • HCL • Amazon • Microsoft • Zoho • Cognizant • Accenture • Deloitte • Bosch • L&T",
-        "🎯 Training: Aptitude coaching • Mock interviews • GD practice • Resume workshops • AMCAT/eLitmus prep",
-        "📞 For placement details: +91-416-2244777 | info@kingston.ac.in"
+        "🏆 Highest Package (2024-25): 10 LPA",
+        "💰 Average Package (2024-25): 4.8 LPA",
+        "📊 Placement Rate (2024-25): 83% | 712 students placed | 72 companies",
+        "📈 3-Year Growth: 641 placed (2022-23) → 683 (2023-24) → 712 (2024-25)",
+        "🏢 Top Recruiters: TCS • Infosys • Wipro • HCL • Cognizant • Accenture • Capgemini • IBM • Zoho • L&T Technology Services • Hexaware • Mphasis",
+        "🤝 MoU Partners: Kaashiv Infotech • Relevantz Technology Services • Aveon Infotech • Caparo Engineering • Ashok Leyland (CoE) • 50+ total",
+        "🎯 Training: Aptitude coaching • Mock interviews • GD practice • Resume workshops • 300+ industry guest lectures (5 years)",
+        "🚀 5000+ engineers & MBAs placed across 13 years",
+        "📞 For placement details: 0416-2298300 | 9788029999 | info@kingston.ac.in"
       ],
       "actions": [
+        {
+          "text": "Placement Highlights",
+          "url": "placements/placement_highlights.html"
+        },
         {
           "text": "Placement Report",
           "url": "placements/placement_report.html"
@@ -563,9 +609,9 @@
       ],
       "title": "Contact Kingston Engineering College 📞",
       "content_points": [
-        "☎️ Main Office: +91-416-2244777 | info@kingston.ac.in",
+        "☎️ Main Office: 0416-2298300 | info@kingston.ac.in",
         "📱 Admission Helpline: +91-75400-37999 | admission@kingston.ac.in (Mon–Sat, 9 AM–6 PM)",
-        "💼 Placements Cell: +91-416-2244805 | placements@kingston.ac.in",
+        "💼 Placements Cell:  | info@kingston.ac.in",
         "📍 Address: Chittoor Main Road, Vellore, Tamil Nadu – 632 059",
         "🕐 Office Hours: Mon–Sat 9:00 AM – 5:00 PM | Closed Sundays & Public Holidays",
         "💬 WhatsApp: +91-75400-37999 (Admission queries)"
@@ -620,7 +666,7 @@
         "🚀 Specialised B.E. (4 years): AI & Data Science • AI & Machine Learning • CS & Business Systems",
         "🏛️ B.Arch (5 years): Architecture — 40 seats",
         "📚 Postgraduate: M.Tech (4 specializations) | MBA (Finance, Marketing, HR, Operations)",
-        "📞 General enquiries: +91-416-2244777 | info@kingston.ac.in"
+        "📞 General enquiries: 0416-2298300 | info@kingston.ac.in"
       ],
       "actions": [
         {
@@ -661,7 +707,7 @@
         "🏭 Industry CoE Partners: Cloud Computing (AtoS) • Full Stack Computing (NTT Data) • Cyber Security (LTIMindtree)",
         "👨‍🏫 Faculty: 5 Professors • 12 Associate Professors • 20 Assistant Professors | H-index: 19",
         "🔬 Research: Anna University Recognized Research Centre | 17 PhDs, 17 pursuing PhD",
-        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
+        "📞 Enquiries: 0416-2298300 | info@kingston.ac.in"
       ],
       "actions": [
         {
@@ -697,7 +743,7 @@
       "content_points": [
         "🎓 Programme: B.E. ECE | 4 years | 60 seats",
         "🎯 Focus Areas: VLSI Design • Embedded Systems • Signal Processing • Communication Engineering",
-        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
+        "📞 Enquiries: 0416-2298300 | info@kingston.ac.in"
       ],
       "actions": [
         {
@@ -730,7 +776,7 @@
       "content_points": [
         "🎓 Programme: B.E. Mechanical | 4 years | 60 seats",
         "🎯 Focus Areas: Manufacturing • Thermal Engineering • Design & CAD/CAM • Automation & Robotics",
-        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
+        "📞 Enquiries: 0416-2298300 | info@kingston.ac.in"
       ],
       "actions": [
         {
@@ -762,7 +808,7 @@
       "content_points": [
         "🎓 Programme: B.E. IT | 4 years | 60 seats",
         "🎯 Focus Areas: Cloud Computing • Cyber Security • Software Engineering • Networking",
-        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
+        "📞 Enquiries: 0416-2298300 | info@kingston.ac.in"
       ],
       "actions": [
         {
@@ -792,7 +838,7 @@
       "content_points": [
         "🎓 Programme: B.E. AI&DS | 4 years | 60 seats",
         "🎯 Focus Areas: Machine Learning • Big Data Analytics • Deep Learning • Data Engineering",
-        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
+        "📞 Enquiries: 0416-2298300 | info@kingston.ac.in"
       ],
       "actions": [
         {
@@ -822,7 +868,7 @@
       "content_points": [
         "🎓 Programme: B.E. AI&ML | 4 years | 60 seats",
         "🎯 Focus Areas: Neural Networks • Computer Vision • Natural Language Processing • Robotics & AI",
-        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
+        "📞 Enquiries: 0416-2298300 | info@kingston.ac.in"
       ],
       "actions": [
         {
@@ -852,7 +898,7 @@
       "content_points": [
         "🎓 Programme: B.E. CSBS | 4 years | 60 seats",
         "🎯 TCS-aligned curriculum: Enterprise Applications • Business Analytics • ERP & SAP",
-        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
+        "📞 Enquiries: 0416-2298300 | info@kingston.ac.in"
       ],
       "actions": [
         {
@@ -884,7 +930,7 @@
       "content_points": [
         "🎓 Programme: B.Arch | 5 years | 40 seats",
         "🎯 Focus: Architectural Design • Urban Planning • Interior Design • BIM • Landscape Design",
-        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
+        "📞 Enquiries: 0416-2298300 | info@kingston.ac.in"
       ],
       "actions": [
         {
@@ -918,7 +964,7 @@
         "🎓 Programme: MBA | 2 years | 60 seats",
         "🎯 Specializations: Finance • Marketing • Human Resources • Operations Management",
         "✅ Eligibility: Any graduation + CAT/MAT/TANCET score required",
-        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
+        "📞 Enquiries: 0416-2298300 | info@kingston.ac.in"
       ],
       "actions": [
         {
@@ -1250,7 +1296,7 @@
       ],
       "title": "Alumni Network 🎓",
       "content_points": [
-        "🌐 Kingston alumni are placed across top global companies — TCS, Infosys, Amazon, Wipro, Bosch and more",
+        "🌐 Kingston alumni are placed across top global companies — TCS, Infosys, TCS, Accenture, Wipro and more",
         "🤝 Alumni Association: Active alumni network with annual meets and mentorship programmes",
         "💼 Mentorship: Alumni mentor current students for placements, higher education and entrepreneurship",
         "🎉 Alumni Meet: Annual alumni reunion celebrated with cultural events and networking sessions",
@@ -1289,7 +1335,7 @@
         "🌍 MS Abroad: GRE/GMAT/TOEFL guidance and university shortlisting support",
         "📋 MBA: CAT/MAT coaching available on campus",
         "🎯 Success: Many Kingston alumni are studying at IITs, NITs and top US/UK universities",
-        "💡 Contact the Placement & Training Cell for guidance: placements@kingston.ac.in"
+        "💡 Contact the Placement & Training Cell for guidance: info@kingston.ac.in"
       ],
       "actions": [
         {
@@ -1316,7 +1362,7 @@
         "🤝 MOU Partners: 50+ industry MOU partners for internship placements",
         "💡 In-plant Training: Short-term training programmes at partner companies",
         "🎯 Internship Cell: Placement & Training Cell coordinates all internship opportunities",
-        "📞 Contact: placements@kingston.ac.in | +91-416-2244805"
+        "📞 Contact: info@kingston.ac.in | "
       ],
       "actions": [
         {
@@ -1393,7 +1439,7 @@
         "📊 Results: Anna University results published on university portal. Internal marks via ERP",
         "🔄 Revaluation: Revaluation and photocopy requests through COE office",
         "📅 Schedule: Exam timetable published well in advance via notice board and portal",
-        "📧 Contact: coe@kingston.ac.in | 📞 +91-416-2244777"
+        "📧 Contact: coe@kingston.ac.in | 📞 0416-2298300"
       ],
       "actions": [
         {
@@ -1487,7 +1533,7 @@
   ],
   "facts": {
     "hods": {
-      "_note": "HOD names and direct department contacts are not publicly listed on the live website. Please contact the main office at +91-416-2244777 or info@kingston.ac.in for department-specific queries."
+      "_note": "HOD names and direct department contacts are not publicly listed on the live website. Please contact the main office at 0416-2298300 or info@kingston.ac.in for department-specific queries."
     },
     "quick_facts": [
       {
@@ -1500,7 +1546,15 @@
       },
       {
         "q": "highest package",
-        "a": "₹25 LPA (Highest CTC offered during campus placements)"
+        "a": "10 LPA (Highest CTC for AY 2024-25). Previous year 2023-24: 9.2 LPA. CSE department leads at 10 LPA; AI&DS at 9.2 LPA."
+      },
+      {
+        "q": "average package",
+        "a": "4.8 LPA average package for AY 2024-25. CSE: 5.2 LPA (highest avg); MECH: 4.1 LPA."
+      },
+      {
+        "q": "placement rate",
+        "a": "83% placement rate for AY 2024-25. MBA leads at 90%; CSE at 87%. 712 students placed across 72 companies."
       },
       {
         "q": "total offers",
@@ -1532,7 +1586,7 @@
       },
       {
         "q": "main phone",
-        "a": "+91-416-2244777"
+        "a": "0416-2298300"
       },
       {
         "q": "admission phone",
