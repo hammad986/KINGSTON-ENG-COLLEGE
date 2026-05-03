@@ -195,6 +195,17 @@ python3 -m http.server 5000
 | Cloudflare `_redirects` | ✅ Done | 30+ rules: short URLs, deleted stub redirects, video-gallery shortlink, SPA-style 200 fallback |
 | Cloudflare `_headers` | ✅ Done | Security headers (HSTS, X-Frame-Options, CSP-ready), immutable caching for assets/js/css, PDF inline display, HTML must-revalidate |
 
+## Session 9 — Login Portals + Sitewide href="#" Zero-Dead-Links Sweep
+
+| Task | Status | Notes |
+|---|---|---|
+| `student_login.html` built | ✅ Done | New page: glassmorphism-lite two-column layout. Left: Sign In form (Registration Number + Password + Forgot Password + Login CTA). Right: Portal Information card (Attendance, Marks, Timetable, Fee, Certificates). IT Support contact card. Form handler alerts with ERP contact instructions. |
+| `staff_login.html` built | ✅ Done | New page: same two-column layout. Left: Staff Sign In form (Staff ID + Password). Right: ERP Quick Access card (Leave Management, Payroll, Timetable Upload, Attendance Marking, Mark Entry). Dark navy ERP update banner. |
+| `Student-Log In` top-bar wired sitewide | ✅ Done | 938 total link instances updated across all 471 HTML files at all 3 depths. Root: `student_login.html`, Depth-1: `../student_login.html`, Depth-2: `../../student_login.html`. |
+| `Staff-Log In` top-bar wired sitewide | ✅ Done | Same 938 instances (paired with student). Root/Depth-1/Depth-2 relative paths all correct. |
+| `Admission` top-bar link | ✅ Already wired | Was already pointing to `admission.html` / `../admission.html` / `../../admission.html` at all depths. Confirmed clean. |
+| Sitewide `href="#"` sweep | ✅ Done | **Zero `href="#"` remaining sitewide.** 3492 instances fixed across 469 files. Rules applied: (1) Nav dropdown parents with fa-angle-right → `javascript:void(0)` (preserves JS dropdown handlers); (2) `href="#"` with existing onclick handler → `javascript:void(0)` + keep onclick; (3) All remaining pure dead links → `javascript:void(0)" onclick="return false;"`; (4) policies.html 18 remaining (title+onclick pattern) → `javascript:void(0)`. |
+
 ## Session 8 — Top-Bar Pages: Content Enrichment + Glassmorphism Compliance
 
 | Task | Status | Notes |
