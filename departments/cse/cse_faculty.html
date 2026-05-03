@@ -35,6 +35,64 @@
     <meta name="twitter:title" content="Faculty | Computer Science & Engineering (CSE) | Kingston Engineering College">
     <meta name="twitter:description" content="B.E. CSE programme with specializations in AI, Data Science and Cyber Security. 100% placement support, modern labs and experienced faculty.">
     <meta name="twitter:image" content="https://www.kingston.ac.in/assets/images/icons/001-web_logo_banner_2026.png">
+<style>
+/* ---- Faculty Table Premium (glassmorphism-lite) ---- */
+.pub-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 15px;
+    font-size: 0.95rem;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+.pub-table th {
+    background: linear-gradient(135deg, #003366 0%, #002244 100%);
+    color: white;
+    padding: 16px 18px;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.pub-table td {
+    padding: 14px 18px;
+    border-bottom: 1px solid rgba(0,51,102,0.08);
+    background: #fff;
+    color: #444;
+    transition: background 0.2s;
+}
+.pub-table tr:nth-child(even) td { background: rgba(0,51,102,0.025); }
+.pub-table tr:hover td { background: rgba(163,31,36,0.04); color: #222; }
+.pub-table td:first-child { font-weight: 700; color: #003366; width: 60px; }
+.pub-table td:nth-child(2) { font-weight: 600; color: #222; }
+.faculty-stats-bar {
+    display: flex; gap: 2rem; flex-wrap: wrap;
+    background: rgba(0,51,102,0.04);
+    border: 1px solid rgba(0,51,102,0.12);
+    border-radius: 12px; padding: 1.2rem 1.8rem; margin-bottom: 1.5rem;
+    align-items: center;
+}
+.faculty-stats-bar .stat-item { text-align: center; min-width: 72px; }
+.faculty-stats-bar .stat-num { font-size: 1.9rem; font-weight: 800; color: #003366; line-height: 1; }
+.faculty-stats-bar .stat-num.accent { color: #a31f24; }
+.faculty-stats-bar .stat-label { font-size: 0.72rem; color: #666; margin-top: 3px; text-transform: uppercase; letter-spacing: 0.5px; }
+.pdf-download-wrap { margin-top: 2rem; text-align: center; }
+.pdf-btn-lg {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 16px 36px;
+    background: linear-gradient(135deg, #a31f24 0%, #7d1419 100%);
+    color: white !important; text-decoration: none; border-radius: 8px;
+    transition: all 0.3s; font-weight: 700; font-size: 1rem;
+    box-shadow: 0 4px 18px rgba(163,31,36,0.35); letter-spacing: 0.3px;
+}
+.pdf-btn-lg:hover {
+    background: linear-gradient(135deg, #003366 0%, #001f44 100%);
+    transform: translateY(-3px); box-shadow: 0 10px 28px rgba(0,51,102,0.35);
+    color: white !important;
+}
+.pdf-btn-lg i { font-size: 1.3rem; }
+</style>
 </head>
 
 <body>
@@ -516,7 +574,7 @@
                                         <p>HIGHEST PACKAGE</p>
                                     </div>
                                     <div class="hero-card-label">Highest CTC</div>
-                                    <div class="hero-card-value">10 lakhs</div>
+                                    <div class="hero-card-value">₹25 LPA</div>
                                 </div>
                             </div>
                         </div>
@@ -618,142 +676,66 @@
 
 
 
+    
     <section class="dept-section" data-aos="fade-up">
-        <h3>FACULTY LIST</h3>
-        <table class="faculty-table">
+        <h3>FACULTY LIST — COMPUTER SCIENCE & ENGINEERING</h3>
+
+        <div class="faculty-stats-bar" data-aos="fade-up" data-aos-delay="100">
+            <div class="stat-item"><div class="stat-num">37</div><div class="stat-label">Total Faculty</div></div>
+            <div class="stat-item"><div class="stat-num accent">5</div><div class="stat-label">Professors</div></div>
+            <div class="stat-item"><div class="stat-num accent">12</div><div class="stat-label">Assoc. Profs</div></div>
+            <div class="stat-item"><div class="stat-num accent">20</div><div class="stat-label">Asst. Profs</div></div>
+            <div class="stat-item"><div class="stat-num">17</div><div class="stat-label">Ph.D. Holders</div></div>
+            <div class="stat-item"><div class="stat-num">17</div><div class="stat-label">Pursuing Ph.D.</div></div>
+            <div class="stat-item"><div class="stat-num">19</div><div class="stat-label">H-Index</div></div>
+        </div>
+
+        <table class="pub-table">
             <thead>
                 <tr>
-                    <th>S.No</th>
+                    <th style="width:60px;">S.No</th>
                     <th>Name</th>
                     <th>Designation</th>
                     <th>Qualification</th>
                 </tr>
             </thead>
             <tbody>
+                <tr><td>1</td><td>Dr. Priya T</td><td>Assistant Professor</td><td>M.Tech., Ph.D.</td></tr>
+                <tr><td>2</td><td>Mrs. Yashema N</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>3</td><td>Mrs. Manju A</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>4</td><td>Mrs. Samundeeswari M</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>5</td><td>Ms. Chinnima C</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>6</td><td>Mrs. Manimala V</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>7</td><td>Mrs. Archana S</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>8</td><td>Mrs. Gayathri K H</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>9</td><td>Mrs. Vanitha V</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>10</td><td>Mrs. Sharmily D</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>11</td><td>Mrs. Anandhi A V</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>12</td><td>Mrs. Pavithra M</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>13</td><td>Mrs. Mohana Sudha M</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>14</td><td>Mr. Kavinilavan B</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>15</td><td>Mr. Pradeep M</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>16</td><td>Mrs. Haripriya S</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>17</td><td>Mr. Kumar G J</td><td>Assistant Professor</td><td>M.E.</td></tr>
+                <tr><td>18</td><td>Mrs. Malini R</td><td>Assistant Professor</td><td>M.E.</td></tr>
                 <tr>
-                    <td>1</td>
-                    <td>Dr. Priya T</td>
-                    <td>Assistant Professor</td>
-                    <td>M.Tech., Ph.D.</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Mrs. Yashema N</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Mrs. Manju A</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Mrs. Samundeeswari M</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Ms. Chinnima C</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Mrs. Manimala V</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Mrs. Archana S</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Mrs. Gayathri K H</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>Mrs. Vanitha V</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>Mrs. Sharmily D</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>11</td>
-                    <td>Mrs. Anandhi A V</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>12</td>
-                    <td>Mrs. Pavithra M</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>13</td>
-                    <td>Mrs. Mohana Sudha M</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>14</td>
-                    <td>Mr. Kavinilavan B</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>15</td>
-                    <td>Mr. Pradeep M</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>16</td>
-                    <td>Mrs. Haripriya S</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>17</td>
-                    <td>Mr. Kumar G J</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td>18</td>
-                    <td>Mrs. Malini R</td>
-                    <td>Assistant Professor</td>
-                    <td>M.E.</td>
-                </tr>
-                <tr>
-                    <td colspan="4" style="text-align:center;color:#666;font-style:italic;padding:15px;">Please refer to
-                        the detailed PDF below for specializations and contact information.</td>
+                    <td colspan="4" style="text-align:center;background:rgba(0,51,102,0.03);color:#666;font-style:italic;padding:18px;">
+                        <i class="fa-solid fa-users" style="color:#003366;margin-right:8px;"></i>
+                        19 additional faculty (Professors &amp; Associate Professors) — see full PDF for complete staff details.
+                    </td>
                 </tr>
             </tbody>
         </table>
-    </section>
 
-    <section class="dept-section" data-aos="fade-up">
-        <h3>DETAILED FACULTY REFERENCE</h3>
-        <div style="margin-top: 20px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-            <iframe
-                src="college-detail/Autonomous/UGC Mandatory Disclosure/3. Academics/4. Dept Faculty Details/CSE staff details.pdf"
-                width="100%" height="800px" style="border: none;"></iframe>
+        <div class="pdf-download-wrap">
+            <a href="../../assets/pdfs/UGC Mandatory Disclosure/3. Academics/4. Dept Faculty Details/CSE staff details.pdf" class="pdf-btn-lg" target="_blank" rel="noopener">
+                <i class="fa-solid fa-file-pdf"></i>
+                Download Full CSE Faculty Profile (PDF)
+            </a>
         </div>
     </section>
+
+    
     </main>
     </div>
 
