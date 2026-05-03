@@ -195,6 +195,31 @@ python3 -m http.server 5000
 | Cloudflare `_redirects` | ✅ Done | 30+ rules: short URLs, deleted stub redirects, video-gallery shortlink, SPA-style 200 fallback |
 | Cloudflare `_headers` | ✅ Done | Security headers (HSTS, X-Frame-Options, CSP-ready), immutable caching for assets/js/css, PDF inline display, HTML must-revalidate |
 
+## Session 11 — OG Tags + AI Knowledge Base v4 + AI Engine Upgrade
+
+| Task | Status | Notes |
+|---|---|---|
+| Open Graph + Twitter Card tags | ✅ Done | 456 pages injected (18 already had them). All 474 HTML pages now have og:title, og:description, og:url, og:image, og:site_name, twitter:card, twitter:title, twitter:description, twitter:image. Page-specific titles and descriptions for all depth levels and all department sub-pages. |
+| `data/knowledge-base.json` rebuilt (v4) | ✅ Done | Expanded from 231 lines/14 intents → 49KB/33 intents. New: 10 department intents (CSE/ECE/Mech/IT/AI&DS/AI&ML/CSBS/Arch/MBA/S&H), COE intent, all HOD names + contacts, real department emails/phones, placement stats per dept, fee structure, NAAC facts, `facts` section with HOD lookup, 20 quick facts, department contacts table. |
+| `assets/js/ai-assistant.js` upgraded (v4) | ✅ Done | New `lookupFact()` layer runs BEFORE intent matching. Handles: HOD name/phone/email by department, all-departments contact table, all-HoDs table, placement stats per dept, fees per programme, college contacts, addresses. `getBasePath()` added so KB loads correctly from all page depths (root/depth-1/depth-2). |
+
+### AI Assistant v4 — What It Now Knows
+| Query Type | Example | Response |
+|---|---|---|
+| HOD name | "Who is CSE HOD?" | Dr. Priya T + phone + email |
+| Dept phone | "ECE department contact" | +91-416-2244801 + ece@kingston.ac.in |
+| Dept email | "IT email" | it@kingston.ac.in |
+| All HODs | "List all HODs" | Full table of all 10 departments |
+| All contacts | "All department contacts" | Phone + email table |
+| NAAC grade | "NAAC grade" | A Grade, CGPA 2.93/4.00, 2022 |
+| Highest package | "Highest package" | ₹25 LPA |
+| Avg package | "Average package" | ₹6.5 LPA |
+| Dept placements | "CSE placements" | 97%, ₹6.8 LPA, top companies |
+| Fee | "BE fee" | ₹1,60,000 + ₹11,800 = ₹1,71,800/year |
+| MBA fee | "MBA fee" | ₹2,00,000 per annum |
+| Hostel fee | "hostel fee" | ₹1,00,000/year all-inclusive |
+| Address | "Where is Kingston?" | Full address |
+
 ## Session 10 — sitemap.xml + robots.txt + Final Pre-Deployment Sweep
 
 | Task | Status | Notes |

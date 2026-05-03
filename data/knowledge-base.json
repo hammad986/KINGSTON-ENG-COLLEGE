@@ -3,95 +3,380 @@
     "name": "Kingston Engineering College",
     "tagline": "Autonomous | AICTE Approved | NAAC 'A' Grade",
     "phone": "+91-416-2244777",
+    "admission_phone": "+91-75400-37999",
     "email": "admission@kingston.ac.in",
+    "general_email": "info@kingston.ac.in",
     "address": "Chittoor Main Road, Vellore, Tamil Nadu – 632 059",
-    "about": "Kingston Engineering College is an autonomous institution approved by AICTE and affiliated to Anna University. We have achieved NAAC 'A' grade and are committed to providing world-class education in engineering and technology."
+    "website": "https://www.kingston.ac.in",
+    "whatsapp": "+91-75400-37999",
+    "about": "Kingston Engineering College is an autonomous institution approved by AICTE and affiliated to Anna University. Established with a vision to provide quality technical education, KEC has achieved NAAC 'A' grade accreditation and NBA accreditation for several programmes.",
+    "founded": "2009",
+    "affiliation": "Anna University, Chennai",
+    "approved_by": "AICTE, New Delhi",
+    "naac_grade": "A",
+    "naac_cgpa": "2.93",
+    "naac_cycle": "2nd Cycle (2022)",
+    "nba_accredited": true,
+    "total_students": "5000+",
+    "total_faculty": "300+",
+    "total_departments": 10
+  },
+  "departments": {
+    "cse": {
+      "name": "Computer Science & Engineering",
+      "short": "CSE",
+      "hod": "Dr. Priya T",
+      "phone": "+91-416-2244800",
+      "email": "cse@kingston.ac.in",
+      "intake": 120,
+      "degree": "B.E.",
+      "url": "dept_cse.html",
+      "specializations": ["AI & Data Science", "Cyber Security", "Full Stack Development"],
+      "labs": ["Data Structures Lab", "Networks Lab", "AI & ML Lab", "Programming Lab", "Project Lab"],
+      "placement_rate": "97%",
+      "avg_package": "₹6.8 LPA",
+      "top_recruiters": ["TCS", "Infosys", "Wipro", "Zoho", "HCL", "Amazon", "Microsoft"],
+      "about": "The CSE department is the flagship department at Kingston Engineering College with 120 seats. Known for high placement rates and industry-aligned curriculum."
+    },
+    "ece": {
+      "name": "Electronics & Communication Engineering",
+      "short": "ECE",
+      "hod": "Dr. Ramesh Kumar",
+      "phone": "+91-416-2244801",
+      "email": "ece@kingston.ac.in",
+      "intake": 60,
+      "degree": "B.E.",
+      "url": "dept_ece.html",
+      "specializations": ["VLSI Design", "Embedded Systems", "Signal Processing", "Communication Engineering"],
+      "labs": ["VLSI Lab", "Embedded Systems Lab", "Communication Lab", "Signal Processing Lab"],
+      "placement_rate": "93%",
+      "avg_package": "₹5.8 LPA",
+      "top_recruiters": ["Bosch", "BSNL", "Intel", "Samsung", "Texas Instruments", "Qualcomm"],
+      "about": "ECE department offers a rigorous curriculum in electronics, communication systems, VLSI and embedded systems with modern labs."
+    },
+    "mech": {
+      "name": "Mechanical Engineering",
+      "short": "Mech",
+      "hod": "Dr. Suresh Babu",
+      "phone": "+91-416-2244802",
+      "email": "mech@kingston.ac.in",
+      "intake": 60,
+      "degree": "B.E.",
+      "url": "dept_mech.html",
+      "specializations": ["Manufacturing", "Thermal Engineering", "Design & CAD/CAM", "Automation & Robotics"],
+      "labs": ["Workshop", "CAD/CAM Lab", "Thermal Lab", "Fluid Mechanics Lab", "Strength of Materials Lab"],
+      "placement_rate": "90%",
+      "avg_package": "₹5.2 LPA",
+      "top_recruiters": ["L&T", "Ashok Leyland", "TVS", "BHEL", "Hyundai", "Bosch"],
+      "about": "Mechanical Engineering department with well-equipped workshops and labs covering design, manufacturing, thermal and production engineering."
+    },
+    "it": {
+      "name": "Information Technology",
+      "short": "IT",
+      "hod": "Dr. Kavitha Devi",
+      "phone": "+91-416-2244804",
+      "email": "it@kingston.ac.in",
+      "intake": 60,
+      "degree": "B.E.",
+      "url": "dept_IT.html",
+      "specializations": ["Cloud Computing", "Cyber Security", "Software Engineering", "Networking"],
+      "labs": ["Software Lab", "Networking Lab", "Cloud Computing Lab", "Cyber Security Lab"],
+      "placement_rate": "95%",
+      "avg_package": "₹6.2 LPA",
+      "top_recruiters": ["TCS", "Wipro", "Infosys", "Cognizant", "IBM", "Capgemini"],
+      "about": "IT department focuses on software development, networking, cloud computing and cyber security with industry-standard infrastructure."
+    },
+    "aids": {
+      "name": "Artificial Intelligence & Data Science",
+      "short": "AI&DS",
+      "hod": "Dr. Anand Raj",
+      "phone": "+91-416-2244806",
+      "email": "aids@kingston.ac.in",
+      "intake": 60,
+      "degree": "B.E.",
+      "url": "dept_aids.html",
+      "specializations": ["Machine Learning", "Big Data Analytics", "Deep Learning", "Data Engineering"],
+      "labs": ["AI Lab", "Data Science Lab", "Python & ML Lab", "Big Data Lab"],
+      "placement_rate": "96%",
+      "avg_package": "₹7.2 LPA",
+      "top_recruiters": ["Amazon", "Google", "Zoho", "Freshworks", "Analytics companies"],
+      "about": "AI & Data Science is one of the newest and most sought-after programmes at Kingston, with Python, ML, deep learning and big data analytics as core focus areas."
+    },
+    "aiml": {
+      "name": "Artificial Intelligence & Machine Learning",
+      "short": "AI&ML",
+      "hod": "Dr. Meena Kumari",
+      "phone": "+91-416-2244807",
+      "email": "aiml@kingston.ac.in",
+      "intake": 60,
+      "degree": "B.E.",
+      "url": "dept_AI&ML.html",
+      "specializations": ["Neural Networks", "Computer Vision", "Natural Language Processing", "Robotics & AI"],
+      "labs": ["ML Lab", "Computer Vision Lab", "NLP Lab", "Robotics Lab"],
+      "placement_rate": "96%",
+      "avg_package": "₹7.5 LPA",
+      "top_recruiters": ["NVIDIA", "Google", "Microsoft", "OpenAI partners", "Product-based companies"],
+      "about": "AI & ML department is at the forefront of intelligent systems, covering computer vision, NLP, deep learning and autonomous systems."
+    },
+    "csbs": {
+      "name": "Computer Science & Business Systems",
+      "short": "CSBS",
+      "hod": "Dr. Vijayalakshmi",
+      "phone": "+91-416-2244808",
+      "email": "csbs@kingston.ac.in",
+      "intake": 60,
+      "degree": "B.E.",
+      "url": "dept_csbs.html",
+      "specializations": ["Enterprise Applications", "Business Analytics", "ERP & SAP", "Software Project Management"],
+      "labs": ["ERP Lab", "Business Analytics Lab", "Programming Lab"],
+      "placement_rate": "97%",
+      "avg_package": "₹7.0 LPA",
+      "top_recruiters": ["TCS", "SAP", "Oracle", "Deloitte", "Accenture", "IBM"],
+      "about": "CSBS is a TCS curriculum-aligned programme combining computer science with business systems, ERP, analytics and management skills."
+    },
+    "arch": {
+      "name": "Architecture",
+      "short": "Arch",
+      "hod": "Ar. Soundarya Rajan",
+      "phone": "+91-416-2244809",
+      "email": "arch@kingston.ac.in",
+      "intake": 40,
+      "degree": "B.Arch",
+      "url": "dept_BA.html",
+      "duration": "5 years",
+      "specializations": ["Architectural Design", "Urban Planning", "Interior Design", "Landscape Design", "BIM"],
+      "labs": ["Studio", "Model Making Lab", "CAD Lab", "BIM Lab", "Material Lab"],
+      "placement_rate": "88%",
+      "avg_package": "₹4.5 LPA",
+      "about": "B.Arch is a 5-year programme emphasizing design thinking, sustainability, CAD/BIM and studio culture with regular design studios and jury evaluations."
+    },
+    "mba": {
+      "name": "Master of Business Administration",
+      "short": "MBA",
+      "hod": "Dr. Rajkumar G",
+      "phone": "+91-416-2244810",
+      "email": "mba@kingston.ac.in",
+      "intake": 60,
+      "degree": "MBA",
+      "duration": "2 years",
+      "url": "dept_MBA.html",
+      "specializations": ["Finance", "Marketing", "Human Resources", "Operations Management"],
+      "placement_rate": "92%",
+      "avg_package": "₹5.5 LPA",
+      "top_recruiters": ["HDFC Bank", "Axis Bank", "Deloitte", "KPMG", "Amazon", "FMCG companies"],
+      "about": "MBA programme at Kingston offers specializations in Finance, Marketing, HR and Operations with case-study methodology, live projects and industry mentorship."
+    },
+    "sh": {
+      "name": "Science & Humanities",
+      "short": "S&H",
+      "hod": "Dr. Lalitha Devi",
+      "phone": "+91-416-2244811",
+      "email": "sh@kingston.ac.in",
+      "url": "dept_S&H.html",
+      "about": "The S&H department provides foundation courses in Mathematics, Physics, Chemistry, English Communication and Management for all engineering programmes."
+    }
+  },
+  "placements": {
+    "overall_rate": "95%+",
+    "highest_package": "₹25 LPA",
+    "average_package": "₹6.5 LPA",
+    "students_placed": "500+",
+    "companies_visited": "200+",
+    "offers_per_student": "3–4 average",
+    "placement_cell_phone": "+91-416-2244805",
+    "placement_cell_email": "placements@kingston.ac.in",
+    "top_recruiters": [
+      "TCS", "Infosys", "Wipro", "HCL", "Amazon", "Microsoft", "Zoho",
+      "Cognizant", "Accenture", "Capgemini", "IBM", "Tech Mahindra",
+      "L&T", "Bosch", "Samsung", "Freshworks", "Deloitte", "Oracle"
+    ],
+    "services": [
+      "Dedicated Training & Placement Cell",
+      "Aptitude & Reasoning coaching",
+      "Mock Interviews & Group Discussions",
+      "Resume building & LinkedIn workshops",
+      "On-campus recruitment drives",
+      "Industry internships (6-month)",
+      "AMCAT, eLitmus, CoCubes certification prep",
+      "Higher education guidance (GATE, GRE, GMAT)"
+    ]
+  },
+  "fees": {
+    "be_btech": {
+      "program": "B.E. / B.Tech",
+      "tuition_per_year": "₹1,60,000",
+      "university_fee": "₹11,800",
+      "total_approx": "₹1,71,800 per annum"
+    },
+    "barch": {
+      "program": "B.Arch",
+      "tuition_per_year": "₹1,80,000",
+      "total_approx": "₹1,91,800 per annum"
+    },
+    "mtech": {
+      "program": "M.Tech",
+      "tuition_per_year": "₹1,50,000",
+      "total_approx": "₹1,61,800 per annum"
+    },
+    "mba": {
+      "program": "MBA",
+      "tuition_per_year": "₹2,00,000",
+      "total_approx": "₹2,11,800 per annum"
+    },
+    "hostel": {
+      "per_year": "₹1,00,000",
+      "includes": "Accommodation, mess (3 meals/day), electricity, water, WiFi"
+    },
+    "transport": {
+      "range": "₹50,000 – ₹1,00,000 per annum",
+      "note": "Varies by distance from college"
+    },
+    "scholarships": {
+      "govt_tnsc": "Full fee reimbursement for SC/ST/MBC (income < ₹2.5 lakh/year) via scholarship.tn.gov.in",
+      "sports_quota": "Fee concession for state/national-level sports achievers",
+      "merit": "Top 10% students eligible for merit scholarship",
+      "girls": "First girl child concession under Tamil Nadu government scheme",
+      "msme_startup": "Up to ₹30 lakhs for student startup ideas via MSME Incubation Cell"
+    }
+  },
+  "naac_iqac": {
+    "naac_grade": "A",
+    "naac_cgpa": "2.93 out of 4",
+    "naac_cycle": "2nd Cycle – 2022",
+    "nba_status": "NBA Accredited (Multiple Programmes)",
+    "iqac_email": "iqac@kingston.ac.in",
+    "iqac_about": "IQAC at Kingston Engineering College drives continuous quality improvement, academic audits, faculty development and student feedback systems.",
+    "key_documents": ["IIQA", "SSR (Self Study Report)", "DVV Clarifications", "AQAR", "Action Plan", "Best Practices", "Institutional Distinctiveness"]
+  },
+  "facilities_data": {
+    "library": {
+      "books": "50,000+",
+      "journals": "200+",
+      "ebooks": "Online databases via N-LIST, Shodhganga",
+      "hours": "Mon–Sat 8 AM – 8 PM | Sun 10 AM – 4 PM",
+      "features": ["Quiet reading zones", "Study lounge", "OPAC catalog", "Digital resources", "Research support"]
+    },
+    "hostel": {
+      "type": "Separate boys and girls hostels",
+      "rooms": "2–3 bed rooms with attached washrooms",
+      "amenities": ["24/7 WiFi", "Hot & cold water", "CCTV", "Mess", "TV lounge", "Gym", "Medical support"],
+      "fee": "₹1,00,000 per annum (all inclusive)"
+    },
+    "sports": {
+      "facilities": ["Cricket ground", "Basketball court", "Volleyball court", "Badminton hall", "Kabaddi", "Chess room", "Gymnasium"],
+      "achievements": "State and national level achievers regularly produced"
+    },
+    "labs": "100+ labs across all departments with latest equipment",
+    "canteen": "Multi-cuisine canteen with hygienic food preparation",
+    "medical": "On-campus medical clinic with doctor on call",
+    "wifi": "24/7 high-speed WiFi across campus",
+    "auditorium": "2000-seat auditorium for events and convocation"
+  },
+  "admission_process": {
+    "be_btech": {
+      "eligibility": "12th pass with Physics, Chemistry & Mathematics (PCM)",
+      "mode": "TNEA Counselling (Anna University) or Direct Admission",
+      "documents": ["12th mark sheet & certificate", "Transfer Certificate", "Community Certificate", "Aadhar Card", "Passport photo"]
+    },
+    "barch": {
+      "eligibility": "12th pass with Mathematics, min 50% aggregate + NATA score",
+      "mode": "Direct Admission through TNEA/NATA counselling"
+    },
+    "mtech": {
+      "eligibility": "B.E./B.Tech in relevant discipline",
+      "duration": "2 years"
+    },
+    "mba": {
+      "eligibility": "Any graduation with valid CAT/MAT/TANCET score",
+      "duration": "2 years",
+      "contact": "mba@kingston.ac.in"
+    },
+    "lateral_entry": {
+      "eligibility": "Diploma holders directly to 2nd year B.E./B.Tech",
+      "mode": "TNEA Lateral Entry Counselling"
+    },
+    "nri_management": "Special quota available for NRI and management seats. Contact admission office."
+  },
+  "key_contacts": {
+    "main_office": { "phone": "+91-416-2244777", "email": "info@kingston.ac.in" },
+    "admission_cell": { "phone": "+91-75400-37999", "email": "admission@kingston.ac.in", "hours": "Mon–Sat, 9 AM–6 PM" },
+    "placements": { "phone": "+91-416-2244805", "email": "placements@kingston.ac.in" },
+    "iqac": { "email": "iqac@kingston.ac.in" },
+    "principal_office": { "phone": "+91-416-2244777", "email": "principal@kingston.ac.in" },
+    "coe": { "email": "coe@kingston.ac.in" },
+    "cse_dept": { "phone": "+91-416-2244800", "email": "cse@kingston.ac.in" },
+    "ece_dept": { "phone": "+91-416-2244801", "email": "ece@kingston.ac.in" },
+    "mech_dept": { "phone": "+91-416-2244802", "email": "mech@kingston.ac.in" },
+    "civil_dept": { "phone": "+91-416-2244803", "email": "civil@kingston.ac.in" },
+    "it_dept": { "phone": "+91-416-2244804", "email": "it@kingston.ac.in" }
   },
   "intents": [
     {
       "id": "greeting",
-      "keywords": ["hi", "hello", "hey", "greetings", "good morning", "good afternoon", "good evening", "namaste", "hii", "helo", "vanakkam", "namaskar"],
+      "keywords": ["hi", "hello", "hey", "greetings", "good morning", "good afternoon", "good evening", "namaste", "hii", "helo", "vanakkam", "namaskar", "start", "help me"],
       "title": "Hello! Welcome to Kingston 👋",
       "content_points": [
-        "I'm your Kingston Engineering College assistant, available 24/7!",
-        "I can help with: Admissions • Fees • Placements • Departments • Facilities • Scholarships • Hostel • Academics",
-        "Just ask me anything about Kingston! What would you like to know?"
+        "I'm your Kingston Engineering College AI Assistant, available 24/7!",
+        "I can answer questions about: Admissions • Fees • Placements • Departments • HOD Contacts • Facilities • Scholarships • NAAC",
+        "Try asking: 'What is the CSE HOD contact?' or 'What is the fee for B.E.?' — I know it all!"
       ],
       "actions": [
         {"text": "📋 Admission Info", "query": "Tell me about admissions"},
         {"text": "💰 Fee Structure", "query": "What is the fee structure?"},
         {"text": "📊 Placements", "query": "Tell me about placements"},
-        {"text": "🏫 Departments", "query": "What departments are available?"}
+        {"text": "📞 Department Contacts", "query": "What are the department contact numbers?"}
       ]
     },
     {
       "id": "admission",
-      "keywords": ["admission", "apply", "enroll", "join", "how to apply", "apply now", "enrollment", "application", "counselling", "tnea", "seat", "apply karna", "admission kaise", "register", "entry", "intake"],
-      "title": "Admission at Kingston 🎓",
+      "keywords": ["admission", "apply", "enroll", "join", "how to apply", "apply now", "enrollment", "application", "counselling", "tnea", "seat", "apply karna", "admission kaise", "register", "entry", "intake", "lateral entry", "direct admission", "nri quota", "management quota"],
+      "title": "Admissions at Kingston 🎓",
       "content_points": [
-        "📌 B.E. / B.Tech: 12th pass with Physics, Chemistry & Mathematics",
-        "📌 B.Arch: 12th pass with 50% aggregate + Maths",
-        "📌 M.Tech: B.E./B.Tech degree in relevant branch (2 years)",
-        "📌 MBA: Any graduation + valid CAT/MAT score (2 years)",
-        "✅ B.E. admissions: Through TNEA counselling (Anna University)",
-        "✅ Direct Admission: Available for NRI, management quota & international students",
-        "💡 Pro Tip: Apply early! Seats fill quickly. Contact admission cell for guidance."
+        "📌 B.E. / B.Tech: 12th pass (PCM). Through TNEA counselling or Direct Admission",
+        "📌 B.Arch: 12th + Mathematics + NATA score. 5-year programme, 40 seats",
+        "📌 M.Tech: B.E./B.Tech in relevant branch. 2-year programme",
+        "📌 MBA: Any graduation + CAT/MAT/TANCET score. 2-year programme",
+        "📌 Lateral Entry: Diploma holders directly to 2nd year B.E./B.Tech",
+        "✅ Admissions: Via TNEA, Direct Quota, NRI/Management Quota",
+        "📞 Admission Helpline: +91-75400-37999 | admission@kingston.ac.in"
       ],
       "actions": [
         {"text": "Apply Online", "url": "apply_now.html"},
         {"text": "Admission Enquiry", "url": "admission_enquiry.html"},
-        {"text": "Contact Admission", "url": "contact.html"}
+        {"text": "Contact Admission Cell", "url": "contact.html"}
       ]
     },
     {
       "id": "fees",
-      "keywords": ["fee", "fees", "fee structure", "cost", "charges", "tuition", "payment", "kitna", "fee kitna", "how much", "amount", "scholarship", "fee kya hai", "hostel fee", "refund", "installment"],
-      "title": "Fee Structure 💰",
+      "keywords": ["fee", "fees", "fee structure", "cost", "charges", "tuition", "payment", "kitna", "fee kitna", "how much", "amount", "hostel fee", "refund", "installment", "annual fee", "total fee", "course fee", "per year"],
+      "title": "Fee Structure 2026–27 💰",
       "content_points": [
-        "📍 B.E. / B.Tech: ₹1,60,000 per annum",
-        "📍 B.Arch: ₹1,80,000 per annum",
+        "📍 B.E. / B.Tech: ₹1,60,000 tuition + ₹11,800 university fee = ~₹1,71,800 per annum",
+        "📍 B.Arch: ₹1,80,000 tuition + university fee = ~₹1,91,800 per annum",
         "📍 M.Tech: ₹1,50,000 per annum",
         "📍 MBA: ₹2,00,000 per annum",
-        "🏠 Hostel (Boys & Girls): ₹1,00,000 per annum (optional, all facilities included)",
-        "🚌 Transportation: ₹50,000–₹1,00,000 per annum (varies by distance)",
-        "💡 Financial Support: Scholarships for SC/ST/BC/MBC • Merit-based support • Educational loans • Fee refund policy available"
+        "🏠 Hostel: ₹1,00,000/year (accommodation + mess + WiFi all included)",
+        "🚌 Transport: ₹50,000 – ₹1,00,000/year (depends on distance)",
+        "💡 Scholarships: SC/ST/MBC full reimbursement • Sports quota • Merit scholarships • Girl child concession"
       ],
       "actions": [
         {"text": "Admission Enquiry", "url": "admission_enquiry.html"},
         {"text": "Scholarship Info", "query": "Tell me about scholarships"},
-        {"text": "Pay Online", "url": "pay_online.html"}
-      ]
-    },
-    {
-      "id": "placement",
-      "keywords": ["placement", "package", "company", "recruiters", "job", "salary", "hiring", "lpa", "offer", "placed", "recruit", "campus", "career", "naukri", "jobs", "placement rate", "salary package"],
-      "title": "Placements at Kingston 📊",
-      "content_points": [
-        "✨ Placement Rate: 95%+ consistently across all batches",
-        "💰 Highest Package: ₹25 LPA",
-        "📈 Average Package: ₹6.5 LPA",
-        "🏢 Top Recruiters: TCS • Infosys • Wipro • HCL • Amazon • Microsoft • Zoho • Cognizant • Accenture • Capgemini",
-        "🎯 What We Offer: Dedicated Placement & Training Cell • On-campus recruitment drives • Mock interviews • Aptitude coaching • Industry internships • Higher education guidance",
-        "💼 Latest: 500+ students placed in last batch • Average 3-4 offers per student"
-      ],
-      "actions": [
-        {"text": "Placement Report", "url": "placement_report.html"},
-        {"text": "Placement Cell", "url": "placement_pat.html"},
-        {"text": "Top Recruiters", "url": "placement_recruiters.html"}
+        {"text": "View Admission Page", "url": "admission.html"}
       ]
     },
     {
       "id": "scholarship",
-      "keywords": ["scholarship", "scholarships", "grant", "financial aid", "financial support", "merit", "sc", "st", "obc", "bc", "mbc", "bpl", "nri", "scholarship apply", "scholarship kitna"],
+      "keywords": ["scholarship", "scholarships", "grant", "financial aid", "financial support", "merit", "sc", "st", "obc", "bc", "mbc", "bpl", "nri", "scholarship apply", "scholarship kitna", "fee concession", "fee waiver", "reimbursement"],
       "title": "Scholarships & Financial Aid 🏆",
       "content_points": [
-        "🎓 Merit Scholarships: Top 10% students get partial/full tuition waiver",
-        "📋 Reservation Category: SC/ST/BC/MBC students eligible for govt scholarships",
-        "💰 BPL Students: Special financial support & fee concessions available",
-        "🌍 NRI/International: Special rates & payment plans available",
-        "🏥 Special Schemes: Sports scholars • Differently-abled students • Girl child education",
-        "📚 Higher Education: Scholarship support for postgraduate studies",
-        "⚡ How to Apply: Contact admission office for details. Scholarships awarded during admission."
+        "🎓 TN Govt. SC/ST/MBC: Full tuition reimbursement for families with income < ₹2.5 lakh/year (via scholarship.tn.gov.in)",
+        "🌟 Merit Scholarship: Top 10% of students — partial to full tuition waiver",
+        "⚽ Sports Quota: Fee concession for state/national-level sports achievers",
+        "👧 First Girl Child: Special fee concession under Tamil Nadu government scheme",
+        "💡 MSME Startup Support: Up to ₹30 lakhs for student startup ideas via Incubation Cell",
+        "🌍 NRI/International: Special fee structures and payment plans available",
+        "📋 Apply: Contact admission office. Scholarships awarded at the time of admission."
       ],
       "actions": [
         {"text": "Admission Enquiry", "url": "admission_enquiry.html"},
@@ -99,133 +384,534 @@
       ]
     },
     {
-      "id": "contact",
-      "keywords": ["contact", "phone", "email", "address", "location", "call", "reach", "map", "where", "helpline", "number", "contact us", "sampark", "pata", "phone number"],
-      "title": "Contact Kingston 📞",
+      "id": "placement",
+      "keywords": ["placement", "package", "company", "recruiters", "job", "salary", "hiring", "lpa", "offer", "placed", "recruit", "campus", "career", "naukri", "jobs", "placement rate", "salary package", "highest package", "average package", "placement cell"],
+      "title": "Placements at Kingston 📊",
       "content_points": [
-        "📧 Email: admission@kingston.ac.in | info@kingston.ac.in",
-        "☎️ Main Office: +91-416-2244777",
-        "📱 Admission Helpline: +91-75400-37999 (Available 9 AM – 6 PM IST, Mon–Sat)",
-        "📍 Address: Chittoor Main Road, Vellore, Tamil Nadu – 632 059",
-        "🕐 Office Hours: Monday–Saturday, 9:00 AM – 5:00 PM IST | Closed Sundays & Public Holidays",
-        "💻 Visit Us: www.kingston.ac.in | Social: Facebook, LinkedIn, Instagram"
+        "✨ Placement Rate: 95%+ consistently across all departments",
+        "💰 Highest Package: ₹25 LPA",
+        "📈 Average Package: ₹6.5 LPA",
+        "🏢 Top Companies: TCS • Infosys • Wipro • HCL • Amazon • Microsoft • Zoho • Cognizant • Accenture • Deloitte • Bosch • L&T",
+        "📊 Last Batch: 500+ students placed | Average 3–4 offers per student | 200+ companies visited",
+        "🎯 Training: Aptitude coaching • Mock interviews • GD practice • Resume workshops • AMCAT/eLitmus prep",
+        "📞 Placement Cell: +91-416-2244805 | placements@kingston.ac.in"
       ],
       "actions": [
-        {"text": "Contact Us Page", "url": "contact.html"},
-        {"text": "Admission Enquiry", "url": "admission_enquiry.html"},
-        {"text": "Campus Tour", "url": "campus_tour.html"}
+        {"text": "Placement Report", "url": "placements/placement_report.html"},
+        {"text": "Placement Cell", "url": "placements/placement_pat.html"},
+        {"text": "Top Recruiters", "url": "placements/placement_recruiters.html"}
+      ]
+    },
+    {
+      "id": "contact",
+      "keywords": ["contact", "phone", "email", "address", "location", "call", "reach", "map", "where", "helpline", "number", "contact us", "sampark", "pata", "phone number", "office number", "admission number", "how to contact", "reach kingston"],
+      "title": "Contact Kingston Engineering College 📞",
+      "content_points": [
+        "☎️ Main Office: +91-416-2244777 | info@kingston.ac.in",
+        "📱 Admission Helpline: +91-75400-37999 | admission@kingston.ac.in (Mon–Sat, 9 AM–6 PM)",
+        "💼 Placements Cell: +91-416-2244805 | placements@kingston.ac.in",
+        "📍 Address: Chittoor Main Road, Vellore, Tamil Nadu – 632 059",
+        "🕐 Office Hours: Mon–Sat 9:00 AM – 5:00 PM | Closed Sundays & Public Holidays",
+        "💬 WhatsApp: +91-75400-37999 (Admission queries)"
+      ],
+      "actions": [
+        {"text": "Contact Page", "url": "contact.html"},
+        {"text": "WhatsApp Us", "url": "https://wa.me/917540037999"},
+        {"text": "Admission Enquiry", "url": "admission_enquiry.html"}
       ]
     },
     {
       "id": "departments",
-      "keywords": ["department", "departments", "courses", "engineering", "cse", "ece", "mechanical", "it", "civil", "ai", "branch", "stream", "programme", "program", "which course", "available courses", "ba", "mba", "mtech"],
-      "title": "Our Departments & Programs 🏫",
+      "keywords": ["department", "departments", "courses", "engineering", "cse", "ece", "mechanical", "it", "civil", "ai", "branch", "stream", "programme", "program", "which course", "available courses", "ba", "mba", "mtech", "aids", "aiml", "csbs", "arch", "architecture", "all departments"],
+      "title": "Departments & Programmes 🏫",
       "content_points": [
-        "🎓 Undergraduate Programs:",
-        "  • B.E. Computer Science & Engineering (CSE)",
-        "  • B.E. Information Technology (IT)",
-        "  • B.E. Electronics & Communication (ECE)",
-        "  • B.E. Mechanical Engineering",
-        "  • B.E. Civil Engineering",
-        "  • B.Arch Architecture (5 years)",
-        "🚀 Specialized UG Programs: AI & ML • AI & Data Science • Computer Science & Business Systems",
-        "📚 Postgraduate: M.Tech (4 specializations) • MBA"
+        "🎓 B.E. Programmes (4 years): CSE • ECE • Mechanical • IT • Civil",
+        "🚀 Specialised B.E. (4 years): AI & Data Science • AI & Machine Learning • CS & Business Systems",
+        "🏛️ B.Arch (5 years): Architecture — 40 seats",
+        "📚 Postgraduate: M.Tech (4 specializations) | MBA (Finance, Marketing, HR, Operations)",
+        "💻 For CSE: +91-416-2244800 | cse@kingston.ac.in",
+        "📡 For ECE: +91-416-2244801 | ece@kingston.ac.in",
+        "⚙️ For Mech: +91-416-2244802 | mech@kingston.ac.in"
       ],
       "actions": [
-        {"text": "View All Departments", "url": "departments.html"},
-        {"text": "CSE Details", "url": "dept_cse.html"},
+        {"text": "All Departments", "url": "departments.html"},
+        {"text": "CSE Department", "url": "dept_cse.html"},
         {"text": "Admission Info", "query": "Tell me about admissions"}
       ]
     },
     {
-      "id": "facilities",
-      "keywords": ["facility", "facilities", "infrastructure", "lab", "library", "hostel", "canteen", "sports", "gym", "medical", "wifi", "internet", "campus", "amenities", "grounds"],
-      "title": "Campus Facilities & Amenities 🏢",
+      "id": "cse",
+      "keywords": ["cse", "computer science", "cs department", "cse department", "computer science engineering", "cse hod", "cse contact", "cse email", "cse phone", "cse faculty", "cse placements", "cse labs", "cse syllabus"],
+      "title": "Computer Science & Engineering (CSE) 💻",
       "content_points": [
-        "🏫 Academic: State-of-the-art labs • Modern classrooms • Digital library • 24/7 WiFi • Auditorium with 2000 capacity",
-        "🏠 Hostel: Boys & Girls hostels • Spacious rooms • Common areas • Recreational facilities • Mess with nutritious meals",
-        "📚 Library: 50,000+ books • Online databases • Quiet study zones • Student lounge",
-        "⚽ Sports: Basketball & volleyball courts • Cricket ground • Badminton hall • Gym with modern equipment",
-        "🍽️ Dining: Multi-cuisine canteen • Hygienic food preparation • Dietary preferences respected",
-        "🏥 Health: On-campus medical clinic • Doctor on call • Emergency services available"
+        "🎓 Programme: B.E. CSE | 4 years | 120 seats",
+        "👤 HoD: Dr. Priya T",
+        "📞 Dept Phone: +91-416-2244800",
+        "📧 Dept Email: cse@kingston.ac.in",
+        "🎯 Specializations: AI & Data Science • Cyber Security • Full Stack Development",
+        "📊 Placement Rate: 97% | Avg Package: ₹6.8 LPA | Top recruiters: TCS, Amazon, Zoho, Microsoft, Wipro",
+        "🔬 Labs: AI & ML Lab • Networking Lab • Data Structures Lab • Programming Lab • Project Lab"
       ],
       "actions": [
-        {"text": "Facilities Details", "url": "facilities.html"},
-        {"text": "Virtual Tour", "url": "campus_tour.html"}
+        {"text": "CSE Department", "url": "dept_cse.html"},
+        {"text": "CSE Faculty", "url": "departments/cse/cse_faculty.html"},
+        {"text": "CSE Placements", "url": "departments/cse/cse_placement.html"}
+      ]
+    },
+    {
+      "id": "ece",
+      "keywords": ["ece", "electronics", "communication", "ece department", "ece hod", "ece contact", "ece email", "ece phone", "electronics engineering", "vlsi", "embedded"],
+      "title": "Electronics & Communication Engineering (ECE) 📡",
+      "content_points": [
+        "🎓 Programme: B.E. ECE | 4 years | 60 seats",
+        "👤 HoD: Dr. Ramesh Kumar",
+        "📞 Dept Phone: +91-416-2244801",
+        "📧 Dept Email: ece@kingston.ac.in",
+        "🎯 Specializations: VLSI Design • Embedded Systems • Signal Processing • Communication",
+        "📊 Placement Rate: 93% | Avg Package: ₹5.8 LPA | Top recruiters: Bosch, Samsung, Intel",
+        "🔬 Labs: VLSI Lab • Embedded Systems Lab • Communication Lab • Signal Processing Lab"
+      ],
+      "actions": [
+        {"text": "ECE Department", "url": "dept_ece.html"},
+        {"text": "ECE Faculty", "url": "departments/ece/ece_faculty.html"}
+      ]
+    },
+    {
+      "id": "mech",
+      "keywords": ["mech", "mechanical", "mechanical engineering", "mech department", "mech hod", "mech contact", "mech email", "manufacturing", "thermal", "cad cam", "automobile", "production"],
+      "title": "Mechanical Engineering ⚙️",
+      "content_points": [
+        "🎓 Programme: B.E. Mechanical | 4 years | 60 seats",
+        "👤 HoD: Dr. Suresh Babu",
+        "📞 Dept Phone: +91-416-2244802",
+        "📧 Dept Email: mech@kingston.ac.in",
+        "🎯 Specializations: Manufacturing • Thermal Engineering • Design & CAD/CAM • Automation",
+        "📊 Placement Rate: 90% | Avg Package: ₹5.2 LPA | Top recruiters: L&T, Ashok Leyland, TVS, BHEL",
+        "🔬 Labs: Workshop • CAD/CAM Lab • Thermal Lab • Fluid Mechanics Lab"
+      ],
+      "actions": [
+        {"text": "Mech Department", "url": "dept_mech.html"},
+        {"text": "Mech Faculty", "url": "departments/mech/mech_faculty.html"}
+      ]
+    },
+    {
+      "id": "it",
+      "keywords": ["it department", "information technology", "it hod", "it contact", "it email", "it phone", "it placement", "networking", "cloud", "cyber security", "software"],
+      "title": "Information Technology (IT) 🖥️",
+      "content_points": [
+        "🎓 Programme: B.E. IT | 4 years | 60 seats",
+        "👤 HoD: Dr. Kavitha Devi",
+        "📞 Dept Phone: +91-416-2244804",
+        "📧 Dept Email: it@kingston.ac.in",
+        "🎯 Specializations: Cloud Computing • Cyber Security • Software Engineering • Networking",
+        "📊 Placement Rate: 95% | Avg Package: ₹6.2 LPA | Top recruiters: TCS, Wipro, IBM, Capgemini",
+        "🔬 Labs: Software Lab • Networking Lab • Cloud Computing Lab • Cyber Security Lab"
+      ],
+      "actions": [
+        {"text": "IT Department", "url": "dept_IT.html"},
+        {"text": "IT Faculty", "url": "departments/it/it_faculty.html"}
+      ]
+    },
+    {
+      "id": "aids",
+      "keywords": ["aids", "ai data science", "artificial intelligence data science", "data science", "aids department", "aids hod", "big data", "machine learning", "ai ds"],
+      "title": "AI & Data Science (AI&DS) 🤖",
+      "content_points": [
+        "🎓 Programme: B.E. AI&DS | 4 years | 60 seats",
+        "👤 HoD: Dr. Anand Raj",
+        "📞 Dept Phone: +91-416-2244806",
+        "📧 Dept Email: aids@kingston.ac.in",
+        "🎯 Specializations: Machine Learning • Big Data Analytics • Deep Learning • Data Engineering",
+        "📊 Placement Rate: 96% | Avg Package: ₹7.2 LPA | Top recruiters: Amazon, Google, Zoho, Freshworks",
+        "🔬 Labs: AI Lab • Data Science Lab • Python & ML Lab • Big Data Lab"
+      ],
+      "actions": [
+        {"text": "AI&DS Department", "url": "dept_aids.html"},
+        {"text": "AI&DS Faculty", "url": "departments/aids/aids_faculty.html"}
+      ]
+    },
+    {
+      "id": "aiml",
+      "keywords": ["aiml", "ai ml", "artificial intelligence machine learning", "aiml department", "aiml hod", "neural network", "computer vision", "nlp", "ai and ml"],
+      "title": "AI & Machine Learning (AI&ML) 🧠",
+      "content_points": [
+        "🎓 Programme: B.E. AI&ML | 4 years | 60 seats",
+        "👤 HoD: Dr. Meena Kumari",
+        "📞 Dept Phone: +91-416-2244807",
+        "📧 Dept Email: aiml@kingston.ac.in",
+        "🎯 Specializations: Neural Networks • Computer Vision • NLP • Robotics & AI",
+        "📊 Placement Rate: 96% | Avg Package: ₹7.5 LPA | Top recruiters: NVIDIA, Google, Microsoft",
+        "🔬 Labs: ML Lab • Computer Vision Lab • NLP Lab • Robotics Lab"
+      ],
+      "actions": [
+        {"text": "AI&ML Department", "url": "dept_AI&ML.html"},
+        {"text": "AI&ML Faculty", "url": "departments/aiml/aiml_faculty.html"}
+      ]
+    },
+    {
+      "id": "csbs",
+      "keywords": ["csbs", "cs business systems", "computer science business", "csbs department", "csbs hod", "tcs curriculum", "erp", "sap", "business analytics"],
+      "title": "CS & Business Systems (CSBS) 💼",
+      "content_points": [
+        "🎓 Programme: B.E. CSBS | 4 years | 60 seats",
+        "👤 HoD: Dr. Vijayalakshmi",
+        "📞 Dept Phone: +91-416-2244808",
+        "📧 Dept Email: csbs@kingston.ac.in",
+        "🎯 TCS-aligned curriculum: Enterprise Applications • Business Analytics • ERP & SAP",
+        "📊 Placement Rate: 97% | Avg Package: ₹7.0 LPA | Top recruiters: TCS, SAP, Oracle, Deloitte",
+        "🔬 Labs: ERP Lab • Business Analytics Lab • Programming Lab"
+      ],
+      "actions": [
+        {"text": "CSBS Department", "url": "dept_csbs.html"},
+        {"text": "CSBS Faculty", "url": "departments/csbs/csbs_faculty.html"}
+      ]
+    },
+    {
+      "id": "arch",
+      "keywords": ["arch", "architecture", "barch", "b arch", "arch department", "arch hod", "design", "urban planning", "interior design", "bim", "5 year"],
+      "title": "Architecture (B.Arch) 🏛️",
+      "content_points": [
+        "🎓 Programme: B.Arch | 5 years | 40 seats",
+        "👤 HoD: Ar. Soundarya Rajan",
+        "📞 Dept Phone: +91-416-2244809",
+        "📧 Dept Email: arch@kingston.ac.in",
+        "🎯 Focus: Architectural Design • Urban Planning • Interior Design • BIM • Landscape Design",
+        "📊 Placement Rate: 88% | Avg Package: ₹4.5 LPA",
+        "🏗️ Studios: Design Studio • Model Making Lab • CAD Lab • BIM Lab"
+      ],
+      "actions": [
+        {"text": "Architecture Dept", "url": "dept_BA.html"},
+        {"text": "Arch Faculty", "url": "departments/arch/arch_faculty.html"}
+      ]
+    },
+    {
+      "id": "mba",
+      "keywords": ["mba", "mba department", "mba hod", "mba contact", "management", "finance", "marketing", "hr", "human resources", "operations", "postgraduate management", "master business"],
+      "title": "MBA Programme 📈",
+      "content_points": [
+        "🎓 Programme: MBA | 2 years | 60 seats",
+        "👤 HoD: Dr. Rajkumar G",
+        "📞 Dept Phone: +91-416-2244810",
+        "📧 Dept Email: mba@kingston.ac.in",
+        "🎯 Specializations: Finance • Marketing • Human Resources • Operations Management",
+        "📊 Placement Rate: 92% | Avg Package: ₹5.5 LPA | Recruiters: HDFC, Deloitte, KPMG, Amazon",
+        "✅ Eligibility: Any graduation + CAT/MAT/TANCET score required"
+      ],
+      "actions": [
+        {"text": "MBA Department", "url": "dept_MBA.html"},
+        {"text": "MBA Faculty", "url": "departments/mba/mba_faculty.html"}
+      ]
+    },
+    {
+      "id": "naac",
+      "keywords": ["naac", "accreditation", "naac grade", "naac score", "naac cgpa", "naac cycle", "naac a grade", "accredited", "nba", "quality", "ranking"],
+      "title": "NAAC & Accreditation 🏅",
+      "content_points": [
+        "🏅 NAAC Grade: 'A' (2nd Cycle, 2022) | CGPA: 2.93 out of 4.00",
+        "🏆 NBA Accreditation: Multiple programmes (CSE, ECE, IT, Mech) are NBA accredited",
+        "📋 Affiliation: Anna University, Chennai | Approved by AICTE, New Delhi",
+        "✅ Autonomous Status: Autonomous institution with right to set own curriculum",
+        "📄 Documents Available: IIQA • SSR (Self Study Report) • DVV Clarifications • AQARs",
+        "🎯 IQAC: Active Internal Quality Assurance Cell driving continuous improvement"
+      ],
+      "actions": [
+        {"text": "NAAC Section", "url": "naac.html"},
+        {"text": "IQAC Section", "url": "iqac.html"}
+      ]
+    },
+    {
+      "id": "iqac",
+      "keywords": ["iqac", "internal quality", "quality assurance", "aqar", "best practices", "quality cell", "institutional quality"],
+      "title": "IQAC – Internal Quality Assurance Cell ⭐",
+      "content_points": [
+        "✅ IQAC drives quality culture across all academic and administrative processes at Kingston",
+        "📋 Key Activities: Academic audits • Faculty development programmes • Student feedback system • Best practices documentation",
+        "📄 Documents: AQARs • Action Plans • Best Practices • Institutional Distinctiveness reports",
+        "🎯 Goal: Continuous quality improvement, external rankings and accreditation outcomes",
+        "📧 Contact: iqac@kingston.ac.in"
+      ],
+      "actions": [
+        {"text": "IQAC Page", "url": "iqac.html"},
+        {"text": "NAAC Details", "query": "Tell me about NAAC accreditation"}
+      ]
+    },
+    {
+      "id": "facilities",
+      "keywords": ["facility", "facilities", "infrastructure", "lab", "library", "hostel", "canteen", "sports", "gym", "medical", "wifi", "internet", "campus", "amenities", "grounds", "auditorium", "campus facilities"],
+      "title": "Campus Facilities 🏢",
+      "content_points": [
+        "📚 Library: 50,000+ books • 200+ journals • N-LIST digital access • 8 AM–8 PM Mon–Sat",
+        "🏠 Hostel: Separate boys & girls hostels • 24/7 WiFi, CCTV, mess • ₹1,00,000/year all-inclusive",
+        "⚽ Sports: Cricket ground • Basketball • Volleyball • Badminton • Gym • Kabaddi",
+        "🏥 Medical: On-campus clinic • Doctor on call • Emergency services",
+        "🎭 Auditorium: 2000-seat capacity for events and convocation",
+        "📡 WiFi: 24/7 high-speed internet across campus | 🍽️ Canteen: Multi-cuisine hygienic food"
+      ],
+      "actions": [
+        {"text": "Facilities Page", "url": "facilities.html"},
+        {"text": "Hostel Info", "query": "Tell me about hostel facilities"}
       ]
     },
     {
       "id": "hostel",
-      "keywords": ["hostel", "hostel fees", "accommodation", "room", "dorm", "lodging", "stay", "residence", "boys hostel", "girls hostel", "hostel facilities"],
+      "keywords": ["hostel", "hostel fees", "accommodation", "room", "dorm", "lodging", "stay", "residence", "boys hostel", "girls hostel", "hostel facilities", "mess", "hostel food"],
       "title": "Hostel & Accommodation 🏠",
       "content_points": [
-        "✨ Modern Facilities: 2-3 bed rooms • Attached washrooms • Hot/cold water • 24/7 electricity & WiFi",
-        "💰 Cost: ₹1,00,000 per annum (includes mess, electricity, maintenance)",
-        "🍽️ Mess: Nutritious meals • Breakfast, lunch, dinner • Special dietary options available",
-        "🎮 Recreation: TV lounge • Gaming area • Common room • Sports facilities",
-        "🔒 Security: CCTV monitoring • Trained staff • Regular maintenance • Emergency support 24/7",
-        "📋 Rules: Peaceful environment • No ragging policy • Respect for diverse backgrounds"
+        "✨ Separate hostels for boys and girls — both with excellent facilities",
+        "🛏️ Rooms: 2–3 bed rooms with attached washrooms",
+        "💰 Fee: ₹1,00,000 per annum (includes accommodation + mess + electricity + WiFi)",
+        "🍽️ Mess: 3 meals/day — nutritious and hygienic. Special dietary options available",
+        "🎮 Amenities: 24/7 WiFi • CCTV • TV lounge • Gym • Hot & cold water",
+        "🔒 Security: CCTV monitoring • Trained wardens • Anti-ragging policy • Emergency support 24/7"
       ],
       "actions": [
-        {"text": "Hostel Details", "url": "facilities_welfare.html"},
+        {"text": "Hostel Details", "url": "facilities.html"},
         {"text": "Fee Structure", "query": "What is the fee structure?"}
       ]
     },
     {
       "id": "library",
-      "keywords": ["library", "books", "online resources", "database", "reference", "study", "digital library", "e-books", "research"],
+      "keywords": ["library", "books", "online resources", "database", "reference", "study", "digital library", "e-books", "research", "nlist", "journal"],
       "title": "Library & Learning Resources 📚",
       "content_points": [
-        "📖 Collection: 50,000+ books • Journals & magazines • Rare collections • Audio-visual materials",
-        "💻 Digital Access: Online databases • E-books • Journals • Research papers • 24/7 remote access",
-        "🏢 Spaces: Reading halls • Study zones • Quiet areas • Collaborative spaces • Computer lab",
-        "👥 Services: Reference support • Document delivery • Literature search • Research guidance",
-        "⏰ Hours: Monday–Saturday 8 AM – 6 PM | Sunday 10 AM – 4 PM"
+        "📖 Collection: 50,000+ books • 200+ journals • Rare collections • Audio-visual materials",
+        "💻 Digital: N-LIST access • E-books • Research databases • Shodhganga • 24/7 remote access",
+        "🏢 Spaces: Reading halls • Study zones • OPAC catalog • Computer lab for digital resources",
+        "👥 Services: Reference support • Literature search • Research guidance",
+        "⏰ Hours: Mon–Sat 8 AM – 8 PM | Sun 10 AM – 4 PM"
       ],
       "actions": [
-        {"text": "Library Page", "url": "facilities_library.html"}
+        {"text": "Facilities Page", "url": "facilities.html"}
       ]
     },
     {
-      "id": "academics",
-      "keywords": ["academic", "academics", "syllabus", "curriculum", "semester", "examination", "exam", "exam schedule", "results", "transcript", "degree", "study material", "books required"],
-      "title": "Academic Programs & Schedule 📖",
+      "id": "sports",
+      "keywords": ["sports", "games", "cricket", "basketball", "volleyball", "badminton", "gym", "gymnasium", "athletics", "sports facilities", "sports ground", "kabaddi", "chess"],
+      "title": "Sports & Athletics ⚽",
       "content_points": [
-        "📅 Academic Calendar: Semesters follow Anna University guidelines • Regular updates on portal",
-        "📚 Curriculum: Updated regularly • Industry-relevant • Practical focus • Internship requirements",
-        "👨‍🎓 Faculty: PhD-qualified instructors • Industry experts • Mentorship programs",
-        "✍️ Assessment: Continuous evaluation • Mid-terms • End-semester exams • Project work • Industrial training",
-        "🎯 Learning: Classroom teaching • Lab experiments • Project-based learning • Seminar presentations"
+        "🏏 Cricket ground (full-size) | 🏀 Basketball court | 🏐 Volleyball court",
+        "🏸 Badminton hall | 🏋️ Modern gymnasium | ♟️ Chess room | 🤸 Kabaddi ground",
+        "🏆 Students regularly participate at state and national-level competitions",
+        "🎯 Sports Quota: Scholarships available for state/national level achievers",
+        "⚽ Tournaments: Inter-departmental and inter-college competitions organized annually"
       ],
       "actions": [
-        {"text": "Academic Details", "url": "academics.html"},
+        {"text": "Facilities Page", "url": "facilities.html"}
+      ]
+    },
+    {
+      "id": "transport",
+      "keywords": ["transport", "bus", "bus routes", "bus service", "conveyance", "commute", "transport fee", "bus from vellore", "pick up", "drop", "route"],
+      "title": "Transport & Bus Services 🚌",
+      "content_points": [
+        "🚌 Kingston operates bus services covering Vellore city and surrounding areas",
+        "💰 Transport Fee: ₹50,000 – ₹1,00,000 per annum (based on distance)",
+        "🗺️ Routes: Multiple routes covering key areas in and around Vellore district",
+        "📞 For route & timing details: Contact +91-75400-37999 or visit the college office"
+      ],
+      "actions": [
+        {"text": "Contact Us", "url": "contact.html"},
+        {"text": "Hostel Option", "query": "Tell me about hostel facilities"}
+      ]
+    },
+    {
+      "id": "clubs",
+      "keywords": ["clubs", "activities", "extracurricular", "nss", "ncc", "cultural", "technical club", "fest", "symposium", "cultural event", "student activity", "association"],
+      "title": "Clubs & Student Activities 🎭",
+      "content_points": [
+        "💻 Technical Clubs: Coding club • Robotics club • IEEE student chapter • AI/ML club",
+        "🎭 Cultural: Drama club • Music club • Fine arts • Literary club",
+        "🌍 NSS & NCC: Active NSS units • Social service camps • NCC for discipline and leadership",
+        "🎉 Events: Annual technical symposium • Cultural fest (Kinston) • Sports day • Hackathons",
+        "🎓 Department Associations: Each dept has student association with technical and cultural activities"
+      ],
+      "actions": [
+        {"text": "Student Activities", "url": "facilities.html"}
+      ]
+    },
+    {
+      "id": "research",
+      "keywords": ["research", "publication", "journal", "paper", "phd", "innovation", "incubation", "startup", "patent", "project", "funded project"],
+      "title": "Research & Innovation 🔬",
+      "content_points": [
+        "🔬 Research Centres: Department-level research labs with active funded projects",
+        "📚 Publications: 500+ research papers in Scopus/Web of Science indexed journals",
+        "🎓 PhD: Faculty pursuing PhD and guiding research scholars",
+        "💡 Startup Incubation: MSME-approved incubation cell • Up to ₹30 lakhs funding for student startups",
+        "🏆 Patents: Multiple patents filed and granted by faculty and students",
+        "📋 Funded Projects: DST, AICTE, TNSCST funded research projects"
+      ],
+      "actions": [
+        {"text": "Academics", "url": "academics.html"},
         {"text": "Departments", "url": "departments.html"}
       ]
     },
     {
-      "id": "not_found",
-      "keywords": ["unclear", "don't know", "help", "other", "something else"],
-      "title": "Let Me Help You Find What You're Looking For! 🔍",
+      "id": "alumni",
+      "keywords": ["alumni", "old students", "graduates", "alumni network", "alumni meet", "notable alumni", "alumni association", "pass out", "passed out"],
+      "title": "Alumni Network 🎓",
       "content_points": [
-        "I couldn't find a specific answer to your question, but here are some useful resources:",
-        "💡 Popular topics: Admissions • Fees • Placements • Departments • Facilities • Hostel • Contact",
-        "🔗 You can also explore: Our departments page • Academic programs • Events calendar",
-        "📞 For detailed questions, our admission team is happy to help!"
+        "🌐 Kingston alumni are placed across top global companies — TCS, Infosys, Amazon, Wipro, Bosch and more",
+        "🤝 Alumni Association: Active alumni network with annual meets and mentorship programmes",
+        "💼 Mentorship: Alumni mentor current students for placements, higher education and entrepreneurship",
+        "🎉 Alumni Meet: Annual alumni reunion celebrated with cultural events and networking sessions",
+        "📞 To connect: alumni@kingston.ac.in"
       ],
       "actions": [
-        {"text": "Homepage", "url": "index.html"},
-        {"text": "Contact Us", "url": "contact.html"},
-        {"text": "Admission Enquiry", "url": "admission_enquiry.html"}
+        {"text": "Alumni Page", "url": "alumni.html"},
+        {"text": "Placements", "query": "Tell me about placements"}
+      ]
+    },
+    {
+      "id": "higher_education",
+      "keywords": ["higher education", "gate", "gre", "gmat", "cat", "mba after btech", "ms abroad", "higher studies", "phd after btech", "abroad", "foreign university", "pg"],
+      "title": "Higher Education & GATE/GRE Guidance 🎓",
+      "content_points": [
+        "📚 Training: GATE coaching integrated with academics for final-year students",
+        "🌍 MS Abroad: GRE/GMAT/TOEFL guidance and university shortlisting support",
+        "📋 MBA: CAT/MAT coaching available on campus",
+        "🎯 Success: Many Kingston alumni are studying at IITs, NITs and top US/UK universities",
+        "💡 Contact the Placement & Training Cell for guidance: placements@kingston.ac.in"
+      ],
+      "actions": [
+        {"text": "Placement Cell", "url": "placements/placement_pat.html"}
+      ]
+    },
+    {
+      "id": "internship",
+      "keywords": ["internship", "intern", "training", "industrial training", "project training", "summer internship", "6 month training", "in-plant training"],
+      "title": "Internships & Industrial Training 💼",
+      "content_points": [
+        "🏭 Industrial Training: Mandatory 6-month internship for final year students",
+        "🤝 MOU Partners: 50+ industry MOU partners for internship placements",
+        "💡 In-plant Training: Short-term training programmes at partner companies",
+        "🎯 Internship Cell: Placement & Training Cell coordinates all internship opportunities",
+        "📞 Contact: placements@kingston.ac.in | +91-416-2244805"
+      ],
+      "actions": [
+        {"text": "Placement Cell", "url": "placements/placement_pat.html"},
+        {"text": "Placement Info", "query": "Tell me about placements"}
+      ]
+    },
+    {
+      "id": "about",
+      "keywords": ["about kingston", "about kec", "about college", "tell me about", "history", "vision", "mission", "chairman", "principal", "management", "founded", "established", "autonomous"],
+      "title": "About Kingston Engineering College 🏛️",
+      "content_points": [
+        "🏫 Kingston Engineering College — Autonomous Institution in Vellore, Tamil Nadu",
+        "📅 Established: 2009 | Affiliated: Anna University, Chennai | Approved: AICTE, New Delhi",
+        "🏅 NAAC: 'A' Grade (CGPA 2.93/4.00, 2nd Cycle 2022) | NBA Accredited (multiple depts)",
+        "👨‍🎓 5000+ students | 300+ faculty | 10 departments | 2000+ seat auditorium",
+        "📍 Location: Chittoor Main Road, Vellore — excellent connectivity from Chennai and Bangalore",
+        "🎯 Vision: To be a world-class institution producing globally competitive engineers"
+      ],
+      "actions": [
+        {"text": "About Page", "url": "about.html"},
+        {"text": "Departments", "url": "departments.html"},
+        {"text": "Admissions", "query": "Tell me about admissions"}
+      ]
+    },
+    {
+      "id": "coe",
+      "keywords": ["exam", "examination", "coe", "controller", "hall ticket", "results", "revaluation", "exam schedule", "internal marks", "university exam", "end semester", "grade"],
+      "title": "Controller of Examinations (COE) 📋",
+      "content_points": [
+        "📋 COE manages all examination activities at Kingston Engineering College",
+        "🎫 Hall Tickets: Available on student portal before each semester exam",
+        "📊 Results: Anna University results published on university portal. Internal marks via ERP",
+        "🔄 Revaluation: Revaluation and photocopy requests through COE office",
+        "📅 Schedule: Exam timetable published well in advance via notice board and portal",
+        "📧 Contact: coe@kingston.ac.in | 📞 +91-416-2244777"
+      ],
+      "actions": [
+        {"text": "COE Page", "url": "coe.html"},
+        {"text": "Student Login", "url": "student_login.html"}
+      ]
+    },
+    {
+      "id": "thanks",
+      "keywords": ["thank you", "thanks", "thank you so much", "tq", "thx", "ty", "dhanyawad", "shukriya", "helpful", "great", "awesome", "good bot"],
+      "title": "You're Welcome! 😊",
+      "content_points": [
+        "Happy to help! Feel free to ask anything else about Kingston Engineering College.",
+        "For direct assistance: Call +91-75400-37999 or email admission@kingston.ac.in",
+        "Visit us at Chittoor Main Road, Vellore — our admission team is always ready!"
+      ],
+      "actions": [
+        {"text": "Admission Info", "query": "Tell me about admissions"},
+        {"text": "Contact Us", "url": "contact.html"}
+      ]
+    },
+    {
+      "id": "goodbye",
+      "keywords": ["bye", "goodbye", "see you", "take care", "ok thanks", "alright thanks", "ok bye", "alvida", "tata"],
+      "title": "Goodbye! 👋",
+      "content_points": [
+        "Thank you for chatting with Kingston AI Assistant!",
+        "Feel free to come back anytime. Good luck with your academic journey! 🎓",
+        "For urgent queries: +91-75400-37999 | admission@kingston.ac.in"
+      ],
+      "actions": []
+    },
+    {
+      "id": "not_found",
+      "keywords": [],
+      "title": "Let Me Help You Find That! 🔍",
+      "content_points": [
+        "I may not have an exact answer to that specific query — but here are some popular topics:",
+        "💡 Try asking: 'CSE HOD contact' • 'fee structure' • 'placement stats' • 'hostel details' • 'NAAC grade'",
+        "📞 For specific or complex queries, our team is ready: +91-75400-37999"
+      ],
+      "actions": [
+        {"text": "Admissions", "query": "Tell me about admissions"},
+        {"text": "Department Contacts", "query": "What are the department contact numbers?"},
+        {"text": "Contact Us", "url": "contact.html"}
       ]
     }
   ],
+  "facts": {
+    "hods": {
+      "cse": { "name": "Dr. Priya T", "designation": "Head of Department, CSE", "email": "cse@kingston.ac.in", "phone": "+91-416-2244800" },
+      "ece": { "name": "Dr. Ramesh Kumar", "designation": "Head of Department, ECE", "email": "ece@kingston.ac.in", "phone": "+91-416-2244801" },
+      "mech": { "name": "Dr. Suresh Babu", "designation": "Head of Department, Mechanical", "email": "mech@kingston.ac.in", "phone": "+91-416-2244802" },
+      "it":   { "name": "Dr. Kavitha Devi", "designation": "Head of Department, IT", "email": "it@kingston.ac.in", "phone": "+91-416-2244804" },
+      "aids": { "name": "Dr. Anand Raj", "designation": "Head of Department, AI&DS", "email": "aids@kingston.ac.in", "phone": "+91-416-2244806" },
+      "aiml": { "name": "Dr. Meena Kumari", "designation": "Head of Department, AI&ML", "email": "aiml@kingston.ac.in", "phone": "+91-416-2244807" },
+      "csbs": { "name": "Dr. Vijayalakshmi", "designation": "Head of Department, CSBS", "email": "csbs@kingston.ac.in", "phone": "+91-416-2244808" },
+      "arch": { "name": "Ar. Soundarya Rajan", "designation": "Head of Department, Architecture", "email": "arch@kingston.ac.in", "phone": "+91-416-2244809" },
+      "mba":  { "name": "Dr. Rajkumar G", "designation": "Director / HoD, MBA", "email": "mba@kingston.ac.in", "phone": "+91-416-2244810" },
+      "sh":   { "name": "Dr. Lalitha Devi", "designation": "Head of Department, Science & Humanities", "email": "sh@kingston.ac.in", "phone": "+91-416-2244811" }
+    },
+    "quick_facts": [
+      { "q": "naac grade", "a": "NAAC 'A' Grade with CGPA 2.93 out of 4.00 (2nd Cycle, 2022)" },
+      { "q": "naac cgpa", "a": "CGPA: 2.93 out of 4.00 (2nd Cycle 2022)" },
+      { "q": "highest package", "a": "₹25 LPA (Highest CTC offered during campus placements)" },
+      { "q": "average package", "a": "₹6.5 LPA average package across all departments" },
+      { "q": "placement rate", "a": "95%+ placement rate consistently" },
+      { "q": "total students", "a": "5000+ students across all programmes" },
+      { "q": "total faculty", "a": "300+ qualified faculty members" },
+      { "q": "affiliation", "a": "Anna University, Chennai" },
+      { "q": "approved by", "a": "AICTE, New Delhi" },
+      { "q": "established year", "a": "2009" },
+      { "q": "address", "a": "Chittoor Main Road, Vellore, Tamil Nadu – 632 059" },
+      { "q": "main phone", "a": "+91-416-2244777" },
+      { "q": "admission phone", "a": "+91-75400-37999" },
+      { "q": "admission email", "a": "admission@kingston.ac.in" },
+      { "q": "general email", "a": "info@kingston.ac.in" },
+      { "q": "library books", "a": "50,000+ books and 200+ journals" },
+      { "q": "hostel fee", "a": "₹1,00,000 per annum (all inclusive — mess, WiFi, electricity)" },
+      { "q": "be fee", "a": "₹1,60,000 tuition + ₹11,800 university fee = ~₹1,71,800 per annum" },
+      { "q": "mba fee", "a": "₹2,00,000 per annum" },
+      { "q": "auditorium capacity", "a": "2000-seat auditorium" }
+    ]
+  },
   "fallback": {
-    "message": "I couldn't find exact information on that, but let me point you to some useful resources:",
+    "message": "I couldn't find an exact match — but here are some resources that may help:",
     "suggestions": [
       {"text": "📋 Admission Process", "query": "Tell me about admissions"},
       {"text": "💰 Fee Structure", "query": "What is the fee structure?"},
       {"text": "📊 Placement Info", "query": "Tell me about placements"},
-      {"text": "📞 Contact Us", "query": "How to contact Kingston?"}
+      {"text": "📞 Department Contacts", "query": "What are the department contact numbers?"}
     ]
   }
 }
