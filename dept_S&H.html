@@ -508,6 +508,206 @@
             </ul>
         </aside>
 
+<style>
+/* Supreme Glassmorphic Card */
+.glass-card-premium {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+}
+.glass-card-premium::before {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%;
+    width: 50%; height: 100%;
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);
+    transform: skewX(-25deg);
+    transition: all 0.7s ease;
+}
+.glass-card-premium:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 50px rgba(0, 51, 102, 0.2);
+    border-color: rgba(163, 31, 36, 0.4);
+}
+.glass-card-premium:hover::before {
+    left: 200%;
+}
+
+/* Cyber/Lab Specs Card */
+.lab-card {
+    background: linear-gradient(145deg, #1A1A2E, #16213E);
+    color: #E94560;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #0F3460;
+    box-shadow: 0 8px 32px rgba(22, 33, 62, 0.5);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.lab-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 40px rgba(233, 69, 96, 0.3);
+    border-left: 5px solid #E94560;
+}
+.lab-title {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.lab-spec {
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    color: #00FFCC;
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Event Timelines */
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+.event-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    border-top: 4px solid #a31f24;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease;
+}
+.event-box:hover {
+    transform: translateY(-5px);
+}
+.event-date {
+    display: inline-block;
+    padding: 5px 12px;
+    background: #fdf5f5;
+    color: #a31f24;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+}
+
+/* Animated Student Achievement Grid */
+.achievement-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+}
+.achieve-card {
+    background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(240,240,250,0.9));
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0, 51, 102, 0.1);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.achieve-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    background: linear-gradient(135deg, rgba(255,255,255,1), rgba(255,255,255,1));
+}
+.achieve-card::after {
+    content: '\f091';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    font-size: 6rem;
+    color: rgba(163, 31, 36, 0.05);
+    transform: rotate(-15deg);
+    transition: all 0.5s;
+}
+.achieve-card:hover::after {
+    color: rgba(245, 197, 24, 0.2);
+    transform: rotate(0deg) scale(1.1);
+}
+.student-name {
+    color: #003366;
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #a31f24;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.prize-item {
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.prize-badge {
+    background: #f5c518;
+    color: #000;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Faculty Table */
+.pub-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 15px;
+    font-size: 0.95rem;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.pub-table th {
+    background: #003366;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+.pub-table td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    color: #444;
+}
+.pub-table tr:hover td {
+    background: #fdf5f5;
+}
+
+.pdf-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #a31f24;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-weight: 600;
+}
+.pdf-btn:hover {
+    background: #003366;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+</style>
+
         <main class="dept-main-content">
 
             <div class="dept-main-slider" data-aos="fade-up">
