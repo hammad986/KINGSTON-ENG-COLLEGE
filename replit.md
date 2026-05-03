@@ -195,6 +195,17 @@ python3 -m http.server 5000
 | Cloudflare `_redirects` | ✅ Done | 30+ rules: short URLs, deleted stub redirects, video-gallery shortlink, SPA-style 200 fallback |
 | Cloudflare `_headers` | ✅ Done | Security headers (HSTS, X-Frame-Options, CSP-ready), immutable caching for assets/js/css, PDF inline display, HTML must-revalidate |
 
+## Session 8 — Top-Bar Pages: Content Enrichment + Glassmorphism Compliance
+
+| Task | Status | Notes |
+|---|---|---|
+| `alumni.html` — `backdrop-filter` removed | ✅ Done | `.glass-card` `backdrop-filter: blur(10px)` deleted. `--glass-bg` fixed: 0.7 → 0.06; `--glass-border` fixed: 0.3 → 0.12. Card bg changed to solid `#fff` with navy border. |
+| `alumni.html` — `ai-assistant.css` added | ✅ Done | Was missing from `<head>`. Link added before `<style>`. |
+| `grievance_helpdesk.html` — `backdrop-filter` removed | ✅ Done | `.grievance-hero .badge` had `backdrop-filter: blur(10px)`. Removed. Background changed from `rgba(255,255,255,0.1)` → `rgba(255,255,255,0.05)`. |
+| `coe.html` — content enriched | ✅ Done | Added: 5-step Examination Process Flow (numbered circles), Grading & Marking Scheme table (O/A+/A/B+/B/C/RA grades per Anna Univ norms), 4 Results & Student Services portal buttons (Anna Univ portal, Revaluation, Photocopy, Provisional Cert), 4 Important Downloads (exam schedule, regulations, malpractice policy, grade sheet). |
+| `careers.html` — content enriched | ✅ Done | Added: Non-Teaching & Administrative Roles table (5 positions: Lab Instructor, Office Admin, Librarian, IT Support, PE Director with vacancies), 5-step Application & Selection Timeline (numbered circles). No `backdrop-filter` violation found. |
+| Global `backdrop-filter` check | ✅ Pass | Zero `backdrop-filter` matches across all 4 top-bar pages. |
+
 ## Cloudflare Deployment Files
 
 - `_redirects` — short URL aliases, deleted stub 301s, 200 fallback for SPA
