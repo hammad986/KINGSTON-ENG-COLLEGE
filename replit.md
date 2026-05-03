@@ -116,6 +116,17 @@ python3 -m http.server 5000
 - `facilities/`: 5
 - `alumni/`: 2
 
+## Session 4 — Placement Pages Content Build
+
+| Task | Status | Notes |
+|---|---|---|
+| placement_campus_hiring.html | ✅ Done | Built full content: overview para, stats bar (85+ companies / 712 students / 10 LPA / 4.8 LPA avg), 6-step hiring process cards, eligibility criteria list, 8-sector grid, contact CTA. Removed broken campus-hiring.pdf iframe. 87/87 div balance, ~1029 words |
+| placement_capacity_dev.html | ✅ Done | Built full content: overview para, four pillars (Aptitude, Soft Skills, Technical, Mock Interviews), year-wise roadmap (Y1–Y4), training partners banner. Removed broken capacity_development PDF iframe. 67/67 div balance, ~1006 words |
+| placement_value_added.html | ✅ Done | Built full content: overview para, 8 course cards (Python, Java, AWS, Data Science, Cyber Security, SQL, IoT, SAP) with hours/cert tags, kept working value_added_training_course.pdf iframe (3.4MB). 81/81 div balance, ~975 words |
+| policies.html audit | ✅ Clean | 18 "coming soon" cards use intentional onclick-alert pattern; 3 cards have real PDFs (R&D, Scholarship, Sports); ADMISSION POLICY card is in HTML comment. No action needed. |
+| placement_pat.html | ✅ Clean | "Loading stories..." is rendered by working placement-stories.js — not a static defect. |
+| "placeholder" false positive | ✅ Resolved | All instances = form `placeholder="Type your question..."` attribute on AI chatbot input — 100% false positive. |
+
 ## Session 3 — Deployment-Ready Tasks Completed
 
 | Task | Status | Notes |
