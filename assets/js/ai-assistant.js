@@ -337,7 +337,7 @@ class AIAssistant {
             }
         }
 
-        /* ── 2. HOD queries ──────────────────────────────────── */
+        /* ── 2. HOD / department contact queries ────────────── */
         const hodPatterns = [/hod/, /head of dept/, /head of department/, /department head/, /hod name/, /who is hod/, /hod who/];
         const asksHod = hodPatterns.some(p => p.test(query));
         const asksContact = /phone|contact|number|call/.test(query);
@@ -347,40 +347,37 @@ class AIAssistant {
 
         if (detectedDept) {
             const deptData = depts[detectedDept];
-            const hodData = hods[detectedDept];
 
-            if (asksHod && hodData) {
+            /* HOD name not publicly available — direct to main office */
+            if (asksHod) {
                 return this._factCard(
                     `👤 ${deptData?.name || detectedDept.toUpperCase()} — Head of Department`,
-                    `<strong>${hodData.name}</strong><br>
-                    ${hodData.designation}<br>
-                    📞 <a href="tel:${hodData.phone.replace(/\s|-/g,'')}">${hodData.phone}</a><br>
-                    📧 <a href="mailto:${hodData.email}">${hodData.email}</a>`
+                    `HOD details are not publicly listed on the website.<br>
+                    Please contact the main office:<br>
+                    📞 <a href="tel:+914162244777">+91-416-2244777</a><br>
+                    📧 <a href="mailto:info@kingston.ac.in">info@kingston.ac.in</a>`
                 );
             }
 
-            if (asksEmail && deptData?.email) {
+            /* Dept-specific phone/email not publicly confirmed — direct to main office */
+            if (asksEmail || asksContact) {
                 return this._factCard(
-                    `📧 ${deptData.name} — Email`,
-                    `<a href="mailto:${deptData.email}">${deptData.email}</a>`
+                    `📞 ${deptData?.name || detectedDept.toUpperCase()} — Contact`,
+                    `For department-specific enquiries, please use the main office:<br>
+                    📞 <a href="tel:+914162244777">+91-416-2244777</a><br>
+                    📧 <a href="mailto:info@kingston.ac.in">info@kingston.ac.in</a><br>
+                    📱 Admission: <a href="tel:+917540037999">+91-75400-37999</a>`
                 );
             }
 
-            if (asksContact && deptData?.phone) {
+            /* Placement stats per dept — not confirmed, show college-wide */
+            if (/placement|package|placed|lpa|salary/.test(query)) {
+                const p = kb.placements || {};
                 return this._factCard(
-                    `📞 ${deptData.name} — Contact`,
-                    `Phone: <a href="tel:${deptData.phone.replace(/\s|-/g,'')}">${deptData.phone}</a><br>
-                    Email: <a href="mailto:${deptData.email}">${deptData.email}</a>`
-                );
-            }
-
-            /* Placement stats per dept */
-            if (/placement|package|placed|lpa|salary/.test(query) && deptData?.placement_rate) {
-                return this._factCard(
-                    `📊 ${deptData.name} — Placement Stats`,
-                    `Placement Rate: <strong>${deptData.placement_rate}</strong><br>
-                    Avg Package: <strong>${deptData.avg_package}</strong><br>
-                    Top Recruiters: ${(deptData.top_recruiters || []).join(' • ')}`
+                    `📊 ${deptData?.name || detectedDept.toUpperCase()} — Placement Info`,
+                    `For department-specific placement statistics, visit the department page.<br>
+                    College-wide: Highest Package <strong>${p.highest_package || '₹25 LPA'}</strong> | Total Offers: <strong>${p.total_offers || '3499+'}</strong><br>
+                    <a href="placements/placement_report.html">→ View Placement Report</a>`
                 );
             }
 
@@ -396,52 +393,32 @@ class AIAssistant {
 
         /* ── 3. All department contacts query ──────────────── */
         if (/all department|all dept|department contact|dept contact|department number|department phone/.test(query)) {
-            const deptKeys = ['cse','ece','mech','it','aids','aiml','csbs','arch','mba'];
-            let rows = deptKeys.map(k => {
-                const d = depts[k];
-                if (!d) return '';
-                return `<tr><td style="padding:4px 8px;font-weight:600;">${d.short}</td>
-                <td style="padding:4px 8px;">${d.name.split(' ').slice(0,3).join(' ')}</td>
-                <td style="padding:4px 8px;"><a href="tel:${(d.phone||'').replace(/\s|-/g,'')}">${d.phone||'—'}</a></td>
-                <td style="padding:4px 8px;"><a href="mailto:${d.email||''}">${d.email||'—'}</a></td></tr>`;
-            }).join('');
-            return `<strong>📞 All Department Contacts</strong>
-            <div style="overflow-x:auto;margin-top:10px;">
-            <table style="width:100%;border-collapse:collapse;font-size:0.82rem;">
-            <thead><tr style="background:rgba(0,51,102,0.12);">
-            <th style="padding:6px 8px;text-align:left;">Code</th>
-            <th style="padding:6px 8px;text-align:left;">Department</th>
-            <th style="padding:6px 8px;text-align:left;">Phone</th>
-            <th style="padding:6px 8px;text-align:left;">Email</th>
-            </tr></thead><tbody>${rows}</tbody></table></div>`;
+            return this._factCard('📞 Department Contacts',
+                `Department-specific phone numbers are not publicly listed.<br>
+                Please reach us through the main office:<br>
+                📞 <a href="tel:+914162244777">+91-416-2244777</a> | 
+                📧 <a href="mailto:info@kingston.ac.in">info@kingston.ac.in</a><br>
+                📱 Admissions: <a href="tel:+917540037999">+91-75400-37999</a>`
+            );
         }
 
         /* ── 4. All HOD query ──────────────────────────────── */
         if (/all hod|all heads|list of hod|all head of department/.test(query)) {
-            const deptKeys = ['cse','ece','mech','it','aids','aiml','csbs','arch','mba','sh'];
-            let rows = deptKeys.map(k => {
-                const h = hods[k]; const d = depts[k];
-                if (!h) return '';
-                return `<tr><td style="padding:4px 8px;font-weight:600;">${d?.short || k.toUpperCase()}</td>
-                <td style="padding:4px 8px;">${h.name}</td>
-                <td style="padding:4px 8px;"><a href="mailto:${h.email}">${h.email}</a></td></tr>`;
-            }).join('');
-            return `<strong>👥 All Department HoDs</strong>
-            <div style="overflow-x:auto;margin-top:10px;">
-            <table style="width:100%;border-collapse:collapse;font-size:0.82rem;">
-            <thead><tr style="background:rgba(0,51,102,0.12);">
-            <th style="padding:6px 8px;text-align:left;">Dept</th>
-            <th style="padding:6px 8px;text-align:left;">HoD Name</th>
-            <th style="padding:6px 8px;text-align:left;">Email</th>
-            </tr></thead><tbody>${rows}</tbody></table></div>`;
+            return this._factCard('👥 Department Heads',
+                `HOD details are not publicly listed on the website.<br>
+                For department head enquiries, contact the main office:<br>
+                📞 <a href="tel:+914162244777">+91-416-2244777</a><br>
+                📧 <a href="mailto:info@kingston.ac.in">info@kingston.ac.in</a>`
+            );
         }
 
         /* ── 5. Placement cell contact ─────────────────────── */
         if (/placement cell contact|placement office|placement phone|placement email/.test(query)) {
-            const p = kb.placements || {};
             return this._factCard('💼 Placement & Training Cell',
-                `📞 <a href="tel:${(p.placement_cell_phone||'').replace(/\s|-/g,'')}">${p.placement_cell_phone}</a><br>
-                📧 <a href="mailto:${p.placement_cell_email}">${p.placement_cell_email}</a>`
+                `For placement enquiries, contact the main office:<br>
+                📞 <a href="tel:+914162244777">+91-416-2244777</a><br>
+                📧 <a href="mailto:info@kingston.ac.in">info@kingston.ac.in</a><br>
+                Or visit: <a href="placements/placement_pat.html">Placement Cell page</a>`
             );
         }
 

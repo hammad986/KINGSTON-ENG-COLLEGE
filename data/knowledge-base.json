@@ -10,7 +10,7 @@
     "website": "https://www.kingston.ac.in",
     "whatsapp": "+91-75400-37999",
     "about": "Kingston Engineering College is an autonomous institution approved by AICTE and affiliated to Anna University. Established with a vision to provide quality technical education, KEC has achieved NAAC 'A' grade accreditation and NBA accreditation for several programmes.",
-    "founded": "2009",
+    "founded": "2001",
     "affiliation": "Anna University, Chennai",
     "approved_by": "AICTE, New Delhi",
     "naac_grade": "A",
@@ -25,166 +25,100 @@
     "cse": {
       "name": "Computer Science & Engineering",
       "short": "CSE",
-      "hod": "Dr. Priya T",
-      "phone": "+91-416-2244800",
-      "email": "cse@kingston.ac.in",
-      "intake": 120,
+      "intake": 240,
       "degree": "B.E.",
       "url": "dept_cse.html",
-      "specializations": ["AI & Data Science", "Cyber Security", "Full Stack Development"],
-      "labs": ["Data Structures Lab", "Networks Lab", "AI & ML Lab", "Programming Lab", "Project Lab"],
-      "placement_rate": "97%",
-      "avg_package": "₹6.8 LPA",
-      "top_recruiters": ["TCS", "Infosys", "Wipro", "Zoho", "HCL", "Amazon", "Microsoft"],
-      "about": "The CSE department is the flagship department at Kingston Engineering College with 120 seats. Known for high placement rates and industry-aligned curriculum."
+      "established": 2008,
+      "nba_accredited": true,
+      "nba_years": [2018, 2022],
+      "specializations": ["Cloud Computing (AtoS CoE)", "Full Stack Computing (NTT Data CoE)", "Cyber Security (LTIMindtree CoE)"],
+      "faculty_professors": 5,
+      "faculty_associate_professors": 12,
+      "faculty_assistant_professors": 20,
+      "faculty_total": 37,
+      "doctorates": 17,
+      "pursuing_phd": 17,
+      "h_index": 19,
+      "research_centre": "Recognized Research Centre by Anna University",
+      "about": "The CSE department was established in 2008 with an intake of 60, now expanded to 240. NBA accredited (2018, 2022). The department has a recognized research centre by Anna University with an H-index of 19."
     },
     "ece": {
       "name": "Electronics & Communication Engineering",
       "short": "ECE",
-      "hod": "Dr. Ramesh Kumar",
-      "phone": "+91-416-2244801",
-      "email": "ece@kingston.ac.in",
       "intake": 60,
       "degree": "B.E.",
       "url": "dept_ece.html",
-      "specializations": ["VLSI Design", "Embedded Systems", "Signal Processing", "Communication Engineering"],
-      "labs": ["VLSI Lab", "Embedded Systems Lab", "Communication Lab", "Signal Processing Lab"],
-      "placement_rate": "93%",
-      "avg_package": "₹5.8 LPA",
-      "top_recruiters": ["Bosch", "BSNL", "Intel", "Samsung", "Texas Instruments", "Qualcomm"],
       "about": "ECE department offers a rigorous curriculum in electronics, communication systems, VLSI and embedded systems with modern labs."
     },
     "mech": {
       "name": "Mechanical Engineering",
       "short": "Mech",
-      "hod": "Dr. Suresh Babu",
-      "phone": "+91-416-2244802",
-      "email": "mech@kingston.ac.in",
       "intake": 60,
       "degree": "B.E.",
       "url": "dept_mech.html",
-      "specializations": ["Manufacturing", "Thermal Engineering", "Design & CAD/CAM", "Automation & Robotics"],
-      "labs": ["Workshop", "CAD/CAM Lab", "Thermal Lab", "Fluid Mechanics Lab", "Strength of Materials Lab"],
-      "placement_rate": "90%",
-      "avg_package": "₹5.2 LPA",
-      "top_recruiters": ["L&T", "Ashok Leyland", "TVS", "BHEL", "Hyundai", "Bosch"],
       "about": "Mechanical Engineering department with well-equipped workshops and labs covering design, manufacturing, thermal and production engineering."
     },
     "it": {
       "name": "Information Technology",
       "short": "IT",
-      "hod": "Dr. Kavitha Devi",
-      "phone": "+91-416-2244804",
-      "email": "it@kingston.ac.in",
       "intake": 60,
       "degree": "B.E.",
       "url": "dept_IT.html",
-      "specializations": ["Cloud Computing", "Cyber Security", "Software Engineering", "Networking"],
-      "labs": ["Software Lab", "Networking Lab", "Cloud Computing Lab", "Cyber Security Lab"],
-      "placement_rate": "95%",
-      "avg_package": "₹6.2 LPA",
-      "top_recruiters": ["TCS", "Wipro", "Infosys", "Cognizant", "IBM", "Capgemini"],
       "about": "IT department focuses on software development, networking, cloud computing and cyber security with industry-standard infrastructure."
     },
     "aids": {
       "name": "Artificial Intelligence & Data Science",
       "short": "AI&DS",
-      "hod": "Dr. Anand Raj",
-      "phone": "+91-416-2244806",
-      "email": "aids@kingston.ac.in",
       "intake": 60,
       "degree": "B.E.",
       "url": "dept_aids.html",
-      "specializations": ["Machine Learning", "Big Data Analytics", "Deep Learning", "Data Engineering"],
-      "labs": ["AI Lab", "Data Science Lab", "Python & ML Lab", "Big Data Lab"],
-      "placement_rate": "96%",
-      "avg_package": "₹7.2 LPA",
-      "top_recruiters": ["Amazon", "Google", "Zoho", "Freshworks", "Analytics companies"],
-      "about": "AI & Data Science is one of the newest and most sought-after programmes at Kingston, with Python, ML, deep learning and big data analytics as core focus areas."
+      "about": "AI & Data Science programme at Kingston covers Python, ML, deep learning and big data analytics as core focus areas."
     },
     "aiml": {
       "name": "Artificial Intelligence & Machine Learning",
       "short": "AI&ML",
-      "hod": "Dr. Meena Kumari",
-      "phone": "+91-416-2244807",
-      "email": "aiml@kingston.ac.in",
       "intake": 60,
       "degree": "B.E.",
       "url": "dept_AI&ML.html",
-      "specializations": ["Neural Networks", "Computer Vision", "Natural Language Processing", "Robotics & AI"],
-      "labs": ["ML Lab", "Computer Vision Lab", "NLP Lab", "Robotics Lab"],
-      "placement_rate": "96%",
-      "avg_package": "₹7.5 LPA",
-      "top_recruiters": ["NVIDIA", "Google", "Microsoft", "OpenAI partners", "Product-based companies"],
-      "about": "AI & ML department is at the forefront of intelligent systems, covering computer vision, NLP, deep learning and autonomous systems."
+      "about": "AI & ML department covers computer vision, NLP, deep learning and autonomous systems."
     },
     "csbs": {
       "name": "Computer Science & Business Systems",
       "short": "CSBS",
-      "hod": "Dr. Vijayalakshmi",
-      "phone": "+91-416-2244808",
-      "email": "csbs@kingston.ac.in",
       "intake": 60,
       "degree": "B.E.",
       "url": "dept_csbs.html",
-      "specializations": ["Enterprise Applications", "Business Analytics", "ERP & SAP", "Software Project Management"],
-      "labs": ["ERP Lab", "Business Analytics Lab", "Programming Lab"],
-      "placement_rate": "97%",
-      "avg_package": "₹7.0 LPA",
-      "top_recruiters": ["TCS", "SAP", "Oracle", "Deloitte", "Accenture", "IBM"],
       "about": "CSBS is a TCS curriculum-aligned programme combining computer science with business systems, ERP, analytics and management skills."
     },
     "arch": {
       "name": "Architecture",
       "short": "Arch",
-      "hod": "Ar. Soundarya Rajan",
-      "phone": "+91-416-2244809",
-      "email": "arch@kingston.ac.in",
       "intake": 40,
       "degree": "B.Arch",
       "url": "dept_BA.html",
       "duration": "5 years",
-      "specializations": ["Architectural Design", "Urban Planning", "Interior Design", "Landscape Design", "BIM"],
-      "labs": ["Studio", "Model Making Lab", "CAD Lab", "BIM Lab", "Material Lab"],
-      "placement_rate": "88%",
-      "avg_package": "₹4.5 LPA",
       "about": "B.Arch is a 5-year programme emphasizing design thinking, sustainability, CAD/BIM and studio culture with regular design studios and jury evaluations."
     },
     "mba": {
       "name": "Master of Business Administration",
       "short": "MBA",
-      "hod": "Dr. Rajkumar G",
-      "phone": "+91-416-2244810",
-      "email": "mba@kingston.ac.in",
       "intake": 60,
       "degree": "MBA",
       "duration": "2 years",
       "url": "dept_MBA.html",
       "specializations": ["Finance", "Marketing", "Human Resources", "Operations Management"],
-      "placement_rate": "92%",
-      "avg_package": "₹5.5 LPA",
-      "top_recruiters": ["HDFC Bank", "Axis Bank", "Deloitte", "KPMG", "Amazon", "FMCG companies"],
       "about": "MBA programme at Kingston offers specializations in Finance, Marketing, HR and Operations with case-study methodology, live projects and industry mentorship."
     },
     "sh": {
       "name": "Science & Humanities",
       "short": "S&H",
-      "hod": "Dr. Lalitha Devi",
-      "phone": "+91-416-2244811",
-      "email": "sh@kingston.ac.in",
       "url": "dept_S&H.html",
       "about": "The S&H department provides foundation courses in Mathematics, Physics, Chemistry, English Communication and Management for all engineering programmes."
     }
   },
   "placements": {
-    "overall_rate": "95%+",
     "highest_package": "₹25 LPA",
-    "average_package": "₹6.5 LPA",
-    "students_placed": "500+",
-    "companies_visited": "200+",
-    "offers_per_student": "3–4 average",
-    "placement_cell_phone": "+91-416-2244805",
-    "placement_cell_email": "placements@kingston.ac.in",
+    "total_offers": "3499+",
     "top_recruiters": [
       "TCS", "Infosys", "Wipro", "HCL", "Amazon", "Microsoft", "Zoho",
       "Cognizant", "Accenture", "Capgemini", "IBM", "Tech Mahindra",
@@ -300,15 +234,7 @@
   "key_contacts": {
     "main_office": { "phone": "+91-416-2244777", "email": "info@kingston.ac.in" },
     "admission_cell": { "phone": "+91-75400-37999", "email": "admission@kingston.ac.in", "hours": "Mon–Sat, 9 AM–6 PM" },
-    "placements": { "phone": "+91-416-2244805", "email": "placements@kingston.ac.in" },
-    "iqac": { "email": "iqac@kingston.ac.in" },
-    "principal_office": { "phone": "+91-416-2244777", "email": "principal@kingston.ac.in" },
-    "coe": { "email": "coe@kingston.ac.in" },
-    "cse_dept": { "phone": "+91-416-2244800", "email": "cse@kingston.ac.in" },
-    "ece_dept": { "phone": "+91-416-2244801", "email": "ece@kingston.ac.in" },
-    "mech_dept": { "phone": "+91-416-2244802", "email": "mech@kingston.ac.in" },
-    "civil_dept": { "phone": "+91-416-2244803", "email": "civil@kingston.ac.in" },
-    "it_dept": { "phone": "+91-416-2244804", "email": "it@kingston.ac.in" }
+    "iqac": { "email": "iqac@kingston.ac.in" }
   },
   "intents": [
     {
@@ -317,8 +243,8 @@
       "title": "Hello! Welcome to Kingston 👋",
       "content_points": [
         "I'm your Kingston Engineering College AI Assistant, available 24/7!",
-        "I can answer questions about: Admissions • Fees • Placements • Departments • HOD Contacts • Facilities • Scholarships • NAAC",
-        "Try asking: 'What is the CSE HOD contact?' or 'What is the fee for B.E.?' — I know it all!"
+        "I can answer questions about: Admissions • Fees • Placements • Departments • Facilities • Scholarships • NAAC",
+        "Try asking: 'What is the fee for B.E.?' or 'Tell me about CSE department' or 'What is the NAAC grade?' — I know it all!"
       ],
       "actions": [
         {"text": "📋 Admission Info", "query": "Tell me about admissions"},
@@ -388,13 +314,11 @@
       "keywords": ["placement", "package", "company", "recruiters", "job", "salary", "hiring", "lpa", "offer", "placed", "recruit", "campus", "career", "naukri", "jobs", "placement rate", "salary package", "highest package", "average package", "placement cell"],
       "title": "Placements at Kingston 📊",
       "content_points": [
-        "✨ Placement Rate: 95%+ consistently across all departments",
         "💰 Highest Package: ₹25 LPA",
-        "📈 Average Package: ₹6.5 LPA",
+        "📊 Total Offers: 3499+ (college-wide)",
         "🏢 Top Companies: TCS • Infosys • Wipro • HCL • Amazon • Microsoft • Zoho • Cognizant • Accenture • Deloitte • Bosch • L&T",
-        "📊 Last Batch: 500+ students placed | Average 3–4 offers per student | 200+ companies visited",
         "🎯 Training: Aptitude coaching • Mock interviews • GD practice • Resume workshops • AMCAT/eLitmus prep",
-        "📞 Placement Cell: +91-416-2244805 | placements@kingston.ac.in"
+        "📞 For placement details: +91-416-2244777 | info@kingston.ac.in"
       ],
       "actions": [
         {"text": "Placement Report", "url": "placements/placement_report.html"},
@@ -429,9 +353,7 @@
         "🚀 Specialised B.E. (4 years): AI & Data Science • AI & Machine Learning • CS & Business Systems",
         "🏛️ B.Arch (5 years): Architecture — 40 seats",
         "📚 Postgraduate: M.Tech (4 specializations) | MBA (Finance, Marketing, HR, Operations)",
-        "💻 For CSE: +91-416-2244800 | cse@kingston.ac.in",
-        "📡 For ECE: +91-416-2244801 | ece@kingston.ac.in",
-        "⚙️ For Mech: +91-416-2244802 | mech@kingston.ac.in"
+        "📞 General enquiries: +91-416-2244777 | info@kingston.ac.in"
       ],
       "actions": [
         {"text": "All Departments", "url": "departments.html"},
@@ -444,13 +366,12 @@
       "keywords": ["cse", "computer science", "cs department", "cse department", "computer science engineering", "cse hod", "cse contact", "cse email", "cse phone", "cse faculty", "cse placements", "cse labs", "cse syllabus"],
       "title": "Computer Science & Engineering (CSE) 💻",
       "content_points": [
-        "🎓 Programme: B.E. CSE | 4 years | 120 seats",
-        "👤 HoD: Dr. Priya T",
-        "📞 Dept Phone: +91-416-2244800",
-        "📧 Dept Email: cse@kingston.ac.in",
-        "🎯 Specializations: AI & Data Science • Cyber Security • Full Stack Development",
-        "📊 Placement Rate: 97% | Avg Package: ₹6.8 LPA | Top recruiters: TCS, Amazon, Zoho, Microsoft, Wipro",
-        "🔬 Labs: AI & ML Lab • Networking Lab • Data Structures Lab • Programming Lab • Project Lab"
+        "🎓 Programme: B.E. CSE | 4 years | 240 seats",
+        "📅 Established: 2008 | NBA Accredited: 2018, 2022",
+        "🏭 Industry CoE Partners: Cloud Computing (AtoS) • Full Stack Computing (NTT Data) • Cyber Security (LTIMindtree)",
+        "👨‍🏫 Faculty: 5 Professors • 12 Associate Professors • 20 Assistant Professors | H-index: 19",
+        "🔬 Research: Anna University Recognized Research Centre | 17 PhDs, 17 pursuing PhD",
+        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
       ],
       "actions": [
         {"text": "CSE Department", "url": "dept_cse.html"},
@@ -464,12 +385,8 @@
       "title": "Electronics & Communication Engineering (ECE) 📡",
       "content_points": [
         "🎓 Programme: B.E. ECE | 4 years | 60 seats",
-        "👤 HoD: Dr. Ramesh Kumar",
-        "📞 Dept Phone: +91-416-2244801",
-        "📧 Dept Email: ece@kingston.ac.in",
-        "🎯 Specializations: VLSI Design • Embedded Systems • Signal Processing • Communication",
-        "📊 Placement Rate: 93% | Avg Package: ₹5.8 LPA | Top recruiters: Bosch, Samsung, Intel",
-        "🔬 Labs: VLSI Lab • Embedded Systems Lab • Communication Lab • Signal Processing Lab"
+        "🎯 Focus Areas: VLSI Design • Embedded Systems • Signal Processing • Communication Engineering",
+        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
       ],
       "actions": [
         {"text": "ECE Department", "url": "dept_ece.html"},
@@ -482,12 +399,8 @@
       "title": "Mechanical Engineering ⚙️",
       "content_points": [
         "🎓 Programme: B.E. Mechanical | 4 years | 60 seats",
-        "👤 HoD: Dr. Suresh Babu",
-        "📞 Dept Phone: +91-416-2244802",
-        "📧 Dept Email: mech@kingston.ac.in",
-        "🎯 Specializations: Manufacturing • Thermal Engineering • Design & CAD/CAM • Automation",
-        "📊 Placement Rate: 90% | Avg Package: ₹5.2 LPA | Top recruiters: L&T, Ashok Leyland, TVS, BHEL",
-        "🔬 Labs: Workshop • CAD/CAM Lab • Thermal Lab • Fluid Mechanics Lab"
+        "🎯 Focus Areas: Manufacturing • Thermal Engineering • Design & CAD/CAM • Automation & Robotics",
+        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
       ],
       "actions": [
         {"text": "Mech Department", "url": "dept_mech.html"},
@@ -500,12 +413,8 @@
       "title": "Information Technology (IT) 🖥️",
       "content_points": [
         "🎓 Programme: B.E. IT | 4 years | 60 seats",
-        "👤 HoD: Dr. Kavitha Devi",
-        "📞 Dept Phone: +91-416-2244804",
-        "📧 Dept Email: it@kingston.ac.in",
-        "🎯 Specializations: Cloud Computing • Cyber Security • Software Engineering • Networking",
-        "📊 Placement Rate: 95% | Avg Package: ₹6.2 LPA | Top recruiters: TCS, Wipro, IBM, Capgemini",
-        "🔬 Labs: Software Lab • Networking Lab • Cloud Computing Lab • Cyber Security Lab"
+        "🎯 Focus Areas: Cloud Computing • Cyber Security • Software Engineering • Networking",
+        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
       ],
       "actions": [
         {"text": "IT Department", "url": "dept_IT.html"},
@@ -518,12 +427,8 @@
       "title": "AI & Data Science (AI&DS) 🤖",
       "content_points": [
         "🎓 Programme: B.E. AI&DS | 4 years | 60 seats",
-        "👤 HoD: Dr. Anand Raj",
-        "📞 Dept Phone: +91-416-2244806",
-        "📧 Dept Email: aids@kingston.ac.in",
-        "🎯 Specializations: Machine Learning • Big Data Analytics • Deep Learning • Data Engineering",
-        "📊 Placement Rate: 96% | Avg Package: ₹7.2 LPA | Top recruiters: Amazon, Google, Zoho, Freshworks",
-        "🔬 Labs: AI Lab • Data Science Lab • Python & ML Lab • Big Data Lab"
+        "🎯 Focus Areas: Machine Learning • Big Data Analytics • Deep Learning • Data Engineering",
+        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
       ],
       "actions": [
         {"text": "AI&DS Department", "url": "dept_aids.html"},
@@ -536,12 +441,8 @@
       "title": "AI & Machine Learning (AI&ML) 🧠",
       "content_points": [
         "🎓 Programme: B.E. AI&ML | 4 years | 60 seats",
-        "👤 HoD: Dr. Meena Kumari",
-        "📞 Dept Phone: +91-416-2244807",
-        "📧 Dept Email: aiml@kingston.ac.in",
-        "🎯 Specializations: Neural Networks • Computer Vision • NLP • Robotics & AI",
-        "📊 Placement Rate: 96% | Avg Package: ₹7.5 LPA | Top recruiters: NVIDIA, Google, Microsoft",
-        "🔬 Labs: ML Lab • Computer Vision Lab • NLP Lab • Robotics Lab"
+        "🎯 Focus Areas: Neural Networks • Computer Vision • Natural Language Processing • Robotics & AI",
+        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
       ],
       "actions": [
         {"text": "AI&ML Department", "url": "dept_AI&ML.html"},
@@ -554,12 +455,8 @@
       "title": "CS & Business Systems (CSBS) 💼",
       "content_points": [
         "🎓 Programme: B.E. CSBS | 4 years | 60 seats",
-        "👤 HoD: Dr. Vijayalakshmi",
-        "📞 Dept Phone: +91-416-2244808",
-        "📧 Dept Email: csbs@kingston.ac.in",
         "🎯 TCS-aligned curriculum: Enterprise Applications • Business Analytics • ERP & SAP",
-        "📊 Placement Rate: 97% | Avg Package: ₹7.0 LPA | Top recruiters: TCS, SAP, Oracle, Deloitte",
-        "🔬 Labs: ERP Lab • Business Analytics Lab • Programming Lab"
+        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
       ],
       "actions": [
         {"text": "CSBS Department", "url": "dept_csbs.html"},
@@ -572,12 +469,8 @@
       "title": "Architecture (B.Arch) 🏛️",
       "content_points": [
         "🎓 Programme: B.Arch | 5 years | 40 seats",
-        "👤 HoD: Ar. Soundarya Rajan",
-        "📞 Dept Phone: +91-416-2244809",
-        "📧 Dept Email: arch@kingston.ac.in",
         "🎯 Focus: Architectural Design • Urban Planning • Interior Design • BIM • Landscape Design",
-        "📊 Placement Rate: 88% | Avg Package: ₹4.5 LPA",
-        "🏗️ Studios: Design Studio • Model Making Lab • CAD Lab • BIM Lab"
+        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
       ],
       "actions": [
         {"text": "Architecture Dept", "url": "dept_BA.html"},
@@ -590,12 +483,9 @@
       "title": "MBA Programme 📈",
       "content_points": [
         "🎓 Programme: MBA | 2 years | 60 seats",
-        "👤 HoD: Dr. Rajkumar G",
-        "📞 Dept Phone: +91-416-2244810",
-        "📧 Dept Email: mba@kingston.ac.in",
         "🎯 Specializations: Finance • Marketing • Human Resources • Operations Management",
-        "📊 Placement Rate: 92% | Avg Package: ₹5.5 LPA | Recruiters: HDFC, Deloitte, KPMG, Amazon",
-        "✅ Eligibility: Any graduation + CAT/MAT/TANCET score required"
+        "✅ Eligibility: Any graduation + CAT/MAT/TANCET score required",
+        "📞 Enquiries: +91-416-2244777 | info@kingston.ac.in"
       ],
       "actions": [
         {"text": "MBA Department", "url": "dept_MBA.html"},
@@ -799,7 +689,7 @@
       "title": "About Kingston Engineering College 🏛️",
       "content_points": [
         "🏫 Kingston Engineering College — Autonomous Institution in Vellore, Tamil Nadu",
-        "📅 Established: 2009 | Affiliated: Anna University, Chennai | Approved: AICTE, New Delhi",
+        "📅 Established: 2001 | Affiliated: Anna University, Chennai | Approved: AICTE, New Delhi",
         "🏅 NAAC: 'A' Grade (CGPA 2.93/4.00, 2nd Cycle 2022) | NBA Accredited (multiple depts)",
         "👨‍🎓 5000+ students | 300+ faculty | 10 departments | 2000+ seat auditorium",
         "📍 Location: Chittoor Main Road, Vellore — excellent connectivity from Chennai and Bangalore",
@@ -859,7 +749,7 @@
       "title": "Let Me Help You Find That! 🔍",
       "content_points": [
         "I may not have an exact answer to that specific query — but here are some popular topics:",
-        "💡 Try asking: 'CSE HOD contact' • 'fee structure' • 'placement stats' • 'hostel details' • 'NAAC grade'",
+        "💡 Try asking: 'Tell me about CSE' • 'fee structure' • 'placement highest package' • 'hostel details' • 'NAAC grade'",
         "📞 For specific or complex queries, our team is ready: +91-75400-37999"
       ],
       "actions": [
@@ -871,28 +761,18 @@
   ],
   "facts": {
     "hods": {
-      "cse": { "name": "Dr. Priya T", "designation": "Head of Department, CSE", "email": "cse@kingston.ac.in", "phone": "+91-416-2244800" },
-      "ece": { "name": "Dr. Ramesh Kumar", "designation": "Head of Department, ECE", "email": "ece@kingston.ac.in", "phone": "+91-416-2244801" },
-      "mech": { "name": "Dr. Suresh Babu", "designation": "Head of Department, Mechanical", "email": "mech@kingston.ac.in", "phone": "+91-416-2244802" },
-      "it":   { "name": "Dr. Kavitha Devi", "designation": "Head of Department, IT", "email": "it@kingston.ac.in", "phone": "+91-416-2244804" },
-      "aids": { "name": "Dr. Anand Raj", "designation": "Head of Department, AI&DS", "email": "aids@kingston.ac.in", "phone": "+91-416-2244806" },
-      "aiml": { "name": "Dr. Meena Kumari", "designation": "Head of Department, AI&ML", "email": "aiml@kingston.ac.in", "phone": "+91-416-2244807" },
-      "csbs": { "name": "Dr. Vijayalakshmi", "designation": "Head of Department, CSBS", "email": "csbs@kingston.ac.in", "phone": "+91-416-2244808" },
-      "arch": { "name": "Ar. Soundarya Rajan", "designation": "Head of Department, Architecture", "email": "arch@kingston.ac.in", "phone": "+91-416-2244809" },
-      "mba":  { "name": "Dr. Rajkumar G", "designation": "Director / HoD, MBA", "email": "mba@kingston.ac.in", "phone": "+91-416-2244810" },
-      "sh":   { "name": "Dr. Lalitha Devi", "designation": "Head of Department, Science & Humanities", "email": "sh@kingston.ac.in", "phone": "+91-416-2244811" }
+      "_note": "HOD names and direct department contacts are not publicly listed on the live website. Please contact the main office at +91-416-2244777 or info@kingston.ac.in for department-specific queries."
     },
     "quick_facts": [
       { "q": "naac grade", "a": "NAAC 'A' Grade with CGPA 2.93 out of 4.00 (2nd Cycle, 2022)" },
       { "q": "naac cgpa", "a": "CGPA: 2.93 out of 4.00 (2nd Cycle 2022)" },
       { "q": "highest package", "a": "₹25 LPA (Highest CTC offered during campus placements)" },
-      { "q": "average package", "a": "₹6.5 LPA average package across all departments" },
-      { "q": "placement rate", "a": "95%+ placement rate consistently" },
+      { "q": "total offers", "a": "3499+ placement offers (college-wide)" },
       { "q": "total students", "a": "5000+ students across all programmes" },
       { "q": "total faculty", "a": "300+ qualified faculty members" },
       { "q": "affiliation", "a": "Anna University, Chennai" },
       { "q": "approved by", "a": "AICTE, New Delhi" },
-      { "q": "established year", "a": "2009" },
+      { "q": "established year", "a": "2001" },
       { "q": "address", "a": "Chittoor Main Road, Vellore, Tamil Nadu – 632 059" },
       { "q": "main phone", "a": "+91-416-2244777" },
       { "q": "admission phone", "a": "+91-75400-37999" },
