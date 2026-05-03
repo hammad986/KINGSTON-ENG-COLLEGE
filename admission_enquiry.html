@@ -535,101 +535,186 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="hero-video-wrapper">
-            <video autoplay muted loop playsinline class="hero-video">
-                <source src="assets/videos/video1.mp4" type="video/mp4">
-            </video>
-            <div class="hero-overlay"></div>
-        </div>
-
-        <!-- Absolute Top Bar for College Info & TNEA inside Hero -->
-        <div class="hero-top-panel container" data-aos="fade-down">
-            <div class="hero-college-brand">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/A_Greek_Temple_Icon.svg"
-                    class="hero-logo-medium" onerror="this.style.display='none'" alt="Kingston Engineering College">
-
-
+    <!-- ══ PAGE HERO BANNER ══ -->
+    <section class="form-hero">
+        <video autoplay muted loop playsinline>
+            <source src="assets/videos/video1.mp4" type="video/mp4">
+        </video>
+        <div class="form-hero-content" data-aos="fade-up">
+            <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.12);padding:5px 18px;border-radius:50px;margin-bottom:14px;font-size:0.8rem;">
+                <i class="fa-solid fa-home" style="color:#f5c518;"></i>
+                <a href="index.html" style="color:#ccc;text-decoration:none;">Home</a>
+                <i class="fa-solid fa-chevron-right" style="color:#666;font-size:0.65rem;"></i>
+                <span style="color:#f5c518;font-weight:700;">Admission Enquiry</span>
             </div>
+            <h1>Admission Enquiry</h1>
+            <p>Fill in your details — our team will contact you within 24 hours</p>
+            <p style="font-size:0.9rem;opacity:0.75;margin-top:6px;">TNEA Code: <strong style="color:#f5c518;font-size:1.1rem;">1520</strong> &nbsp;|&nbsp; +91 75400 37999</p>
+        </div>
+    </section>
 
+    <!-- ══ ENQUIRY FORM ══ -->
+    <main class="form-container-wrap">
+        <div class="container">
+            <div class="row" style="display:flex;gap:40px;align-items:flex-start;flex-wrap:wrap;">
 
-
-            <main class='form-container-wrap'>
-
-                <div class="container">
-                    <div class="row" style="display: flex; gap: 40px; align-items: flex-start;">
-                        <div style="flex: 2;">
-                            <div class="glass-form-card" data-aos="fade-right">
-                                <h2 style="color: #003366; margin-bottom: 30px; font-weight: 800;">Get in Touch</h2>
-                                <form id="enquiryForm" action="/api/enquiry" method="POST" onsubmit="handleEnquirySubmit(event)">
-                                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-                                        <div class="form-group">
-                                            <label>Full Name *</label>
-                                            <input type="text" class="form-control" name="fullName"
-                                                placeholder="Enter your full name" required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Email Address *</label>
-                                            <input type="email" class="form-control" name="email"
-                                                placeholder="Enter your email" required>
-                                        </div>
-                                    </div>
-                                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-                                        <div class="form-group">
-                                            <label>Phone Number *</label>
-                                            <input type="tel" class="form-control" name="phone"
-                                                placeholder="Your contact number" pattern="[0-9]{10}" required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Course Interested In *</label>
-                                            <select class="form-control" name="course" required>
-                                                <option value="">Select a Course</option>
-                                                <option>B.E. Computer Science and Engineering</option>
-                                                <option>B.E. AI & ML</option>
-                                                <option>B.Tech Information Technology</option>
-                                                <option>B.E. Electronics & Communication</option>
-                                                <option>B.Arch</option>
-                                                <option>MBA</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Your Message / Query</label>
-                                        <textarea class="form-control" name="message" rows="4"
-                                            placeholder="Tell us what you'd like to know"></textarea>
-                                    </div>
-                                    <button type="submit" class="btn-submit">Send Enquiry</button>
-                                </form>
+                <!-- Left: Enquiry Form -->
+                <div style="flex:2;min-width:300px;">
+                    <div class="glass-form-card" data-aos="fade-right">
+                        <div style="display:flex;align-items:center;gap:14px;margin-bottom:28px;padding-bottom:20px;border-bottom:2px solid #f0f4f8;">
+                            <div style="width:48px;height:48px;background:#003366;border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                <i class="fa-solid fa-paper-plane" style="color:#f5c518;font-size:1.2rem;"></i>
+                            </div>
+                            <div>
+                                <h2 style="color:#003366;font-weight:800;font-size:1.5rem;margin:0;">Get in Touch</h2>
+                                <p style="color:#888;font-size:0.88rem;margin:4px 0 0;">We typically respond within a few hours</p>
                             </div>
                         </div>
-                        <div style="flex: 1;" data-aos="fade-left">
-                            <div style="background: #003366; color: #fff; padding: 40px; border-radius: 20px;">
-                                <h3 style="color: #f5c518; margin-bottom: 25px;">Why Kingston?</h3>
-                                <ul style="list-style: none; padding: 0;">
-                                    <li style="margin-bottom: 20px;"><i class="fa-solid fa-trophy"
-                                            style="margin-right: 15px; color: #f5c518;"></i> 95% Placement Record</li>
-                                    <li style="margin-bottom: 20px;"><i class="fa-solid fa-flask"
-                                            style="margin-right: 15px; color: #f5c518;"></i> AICTE Idea Lab</li>
-                                    <li style="margin-bottom: 20px;"><i class="fa-solid fa-graduation-cap"
-                                            style="margin-right: 15px; color: #f5c518;"></i> Autonomous Institution</li>
-                                    <li style="margin-bottom: 20px;"><i class="fa-solid fa-users"
-                                            style="margin-right: 15px; color: #f5c518;"></i> Expert Faculty</li>
-                                </ul>
-                                <div
-                                    style="margin-top: 40px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 25px;">
-                                    <p style="font-size: 0.9rem; opacity: 0.8;">Need immediate help? Call us:</p>
-                                    <h4 style="color: #f5c518; font-size: 1.3rem;">+91 75400 37999</h4>
+
+                        <!-- Step Indicator -->
+                        <div class="step-indicator" style="margin-bottom:32px;">
+                            <div class="step active" id="step1">1</div>
+                            <div class="step-line" id="line1"></div>
+                            <div class="step" id="step2">2</div>
+                            <div class="step-line" id="line2"></div>
+                            <div class="step" id="step3">&#10003;</div>
+                        </div>
+
+                        <form id="enquiryForm" action="/api/enquiry" method="POST" onsubmit="handleEnquirySubmit(event)">
+                            <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+                                <div class="form-group">
+                                    <label><i class="fa-solid fa-user" style="color:#003366;margin-right:6px;"></i>Full Name *</label>
+                                    <input type="text" class="form-control" name="fullName" placeholder="Enter your full name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fa-solid fa-envelope" style="color:#003366;margin-right:6px;"></i>Email Address *</label>
+                                    <input type="email" class="form-control" name="email" placeholder="Enter your email" required>
                                 </div>
                             </div>
-                        </div>
+                            <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+                                <div class="form-group">
+                                    <label><i class="fa-solid fa-phone" style="color:#003366;margin-right:6px;"></i>Phone Number *</label>
+                                    <input type="tel" class="form-control" name="phone" placeholder="10-digit mobile number" pattern="[0-9]{10}" required>
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fa-solid fa-map-pin" style="color:#003366;margin-right:6px;"></i>City / State</label>
+                                    <input type="text" class="form-control" name="city" placeholder="Your city and state">
+                                </div>
+                            </div>
+                            <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+                                <div class="form-group">
+                                    <label><i class="fa-solid fa-graduation-cap" style="color:#003366;margin-right:6px;"></i>Programme Interested *</label>
+                                    <select class="form-control" name="course" required>
+                                        <option value="">Select Programme</option>
+                                        <optgroup label="B.E. / B.Tech. Programmes">
+                                            <option>B.E. Computer Science &amp; Engineering</option>
+                                            <option>B.E. AI &amp; Data Science</option>
+                                            <option>B.E. CSE with AI &amp; ML</option>
+                                            <option>B.E. CS &amp; Business Systems</option>
+                                            <option>B.Tech. Information Technology</option>
+                                            <option>B.E. Electronics &amp; Communication Engg.</option>
+                                            <option>B.E. Mechanical Engineering</option>
+                                        </optgroup>
+                                        <optgroup label="Other Programmes">
+                                            <option>B.Arch. Architecture</option>
+                                            <option>MBA</option>
+                                            <option>Lateral Entry (Diploma)</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fa-solid fa-calendar" style="color:#003366;margin-right:6px;"></i>Admission Year *</label>
+                                    <select class="form-control" name="year" required>
+                                        <option value="">Select Year</option>
+                                        <option>2026-27</option>
+                                        <option>2027-28</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa-solid fa-school" style="color:#003366;margin-right:6px;"></i>12th / HSC / Diploma Percentage</label>
+                                <input type="text" class="form-control" name="percentage" placeholder="e.g. 85%">
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa-solid fa-comment-dots" style="color:#003366;margin-right:6px;"></i>Your Query / Message</label>
+                                <textarea class="form-control" name="message" rows="4" placeholder="Tell us what you'd like to know about admissions, scholarships, hostel, etc."></textarea>
+                            </div>
+                            <div class="form-group" style="display:flex;align-items:flex-start;gap:12px;margin-bottom:20px;">
+                                <input type="checkbox" id="consent" name="consent" required style="margin-top:4px;accent-color:#003366;width:16px;height:16px;flex-shrink:0;">
+                                <label for="consent" style="font-weight:500;font-size:0.88rem;color:#555;cursor:pointer;">I agree to be contacted by Kingston Engineering College via phone, email, or WhatsApp regarding my admission enquiry.</label>
+                            </div>
+                            <button type="submit" class="btn-submit"><i class="fa-solid fa-paper-plane" style="margin-right:10px;"></i>Send Enquiry</button>
+                        </form>
                     </div>
                 </div>
 
-            </main>
+                <!-- Right: Why Kingston Panel -->
+                <div style="flex:1;min-width:260px;" data-aos="fade-left">
+                    <!-- Why Kingston card -->
+                    <div style="background:linear-gradient(135deg,#003366,#1a5490);color:#fff;padding:36px;border-radius:20px;margin-bottom:24px;box-shadow:0 20px 50px rgba(0,51,102,0.25);">
+                        <h3 style="color:#f5c518;margin-bottom:20px;font-size:1.2rem;font-weight:800;"><i class="fa-solid fa-star" style="margin-right:8px;"></i>Why Kingston?</h3>
+                        <ul style="list-style:none;padding:0;margin:0;">
+                            <li style="margin-bottom:16px;display:flex;align-items:center;gap:12px;"><i class="fa-solid fa-trophy" style="color:#f5c518;width:18px;"></i><span>95%+ Placement Record</span></li>
+                            <li style="margin-bottom:16px;display:flex;align-items:center;gap:12px;"><i class="fa-solid fa-flask" style="color:#f5c518;width:18px;"></i><span>AICTE Idea Lab &amp; Innovation Hub</span></li>
+                            <li style="margin-bottom:16px;display:flex;align-items:center;gap:12px;"><i class="fa-solid fa-graduation-cap" style="color:#f5c518;width:18px;"></i><span>Autonomous Institution</span></li>
+                            <li style="margin-bottom:16px;display:flex;align-items:center;gap:12px;"><i class="fa-solid fa-award" style="color:#f5c518;width:18px;"></i><span>NAAC 'A' Grade Accredited</span></li>
+                            <li style="margin-bottom:16px;display:flex;align-items:center;gap:12px;"><i class="fa-solid fa-handshake" style="color:#f5c518;width:18px;"></i><span>Industry MoUs with TCS, Wipro &amp; more</span></li>
+                            <li style="margin-bottom:0;display:flex;align-items:center;gap:12px;"><i class="fa-solid fa-building" style="color:#f5c518;width:18px;"></i><span>NBA Accredited Programmes</span></li>
+                        </ul>
+                    </div>
 
-            <!-- Footer -->
-            <footer class="main-footer">
+                    <!-- Contact quick access -->
+                    <div style="background:#fff;border:1px solid #eee;border-radius:18px;padding:28px;box-shadow:0 8px 30px rgba(0,0,0,0.06);">
+                        <h4 style="color:#003366;font-weight:800;margin-bottom:18px;"><i class="fa-solid fa-headset" style="color:#f5c518;margin-right:8px;"></i>Direct Contact</h4>
+                        <a href="tel:+917540037999" style="display:flex;align-items:center;gap:12px;text-decoration:none;padding:14px;background:#f8faff;border-radius:12px;margin-bottom:12px;border:1px solid #e8eef8;transition:all 0.2s;">
+                            <div style="width:40px;height:40px;background:#003366;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fa-solid fa-phone" style="color:#f5c518;"></i></div>
+                            <div><div style="font-weight:700;color:#003366;font-size:0.95rem;">+91 75400 37999</div><div style="font-size:0.8rem;color:#888;">Mon–Sat, 9am–5pm</div></div>
+                        </a>
+                        <a href="https://wa.me/917540037999" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:12px;text-decoration:none;padding:14px;background:#f0fdf4;border-radius:12px;margin-bottom:12px;border:1px solid #bbf7d0;">
+                            <div style="width:40px;height:40px;background:#25D366;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fa-brands fa-whatsapp" style="color:#fff;font-size:1.2rem;"></i></div>
+                            <div><div style="font-weight:700;color:#166534;font-size:0.95rem;">WhatsApp Us</div><div style="font-size:0.8rem;color:#888;">Quick response guaranteed</div></div>
+                        </a>
+                        <a href="mailto:admission@kingston.ac.in" style="display:flex;align-items:center;gap:12px;text-decoration:none;padding:14px;background:#f8faff;border-radius:12px;border:1px solid #e8eef8;">
+                            <div style="width:40px;height:40px;background:#8b1a2b;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fa-solid fa-envelope" style="color:#fff;"></i></div>
+                            <div><div style="font-weight:700;color:#003366;font-size:0.95rem;">admission@kingston.ac.in</div><div style="font-size:0.8rem;color:#888;">Email for documents</div></div>
+                        </a>
+                    </div>
+
+                    <!-- TNEA code box -->
+                    <div style="background:linear-gradient(135deg,#8b1a2b,#a82035);color:#fff;padding:22px;border-radius:16px;margin-top:20px;text-align:center;">
+                        <div style="font-size:0.75rem;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:6px;">TNEA College Code</div>
+                        <div style="font-size:3rem;font-weight:900;color:#f5c518;letter-spacing:8px;line-height:1;">1520</div>
+                        <div style="font-size:0.8rem;color:rgba(255,255,255,0.7);margin-top:6px;">Kingston Engineering College</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function handleEnquirySubmit(e) {
+            e.preventDefault();
+            const btn = e.target.querySelector('.btn-submit');
+            btn.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin" style="margin-right:10px;"></i>Sending...';
+            btn.disabled = true;
+            setTimeout(() => {
+                btn.innerHTML = '<i class="fa-solid fa-circle-check" style="margin-right:10px;color:#4caf50;"></i>Enquiry Sent! We'll contact you soon.';
+                btn.style.background = '#f0fdf4';
+                btn.style.color = '#166534';
+                btn.style.border = '2px solid #bbf7d0';
+                document.getElementById('enquiryForm').reset();
+                document.getElementById('step1').classList.remove('active');
+                document.getElementById('step1').classList.add('completed');
+                document.getElementById('line1').classList.add('active');
+                document.getElementById('step2').classList.add('completed');
+                document.getElementById('line2').classList.add('active');
+                document.getElementById('step3').classList.add('active');
+            }, 1500);
+        }
+    </script>
+
+    <footer class="main-footer">
             <div class="container footer-grid">
                 <div class="footer-col about-col">
                     <h3 class="footer-college-name">KINGSTON ENGINEERING COLLEGE</h3>
