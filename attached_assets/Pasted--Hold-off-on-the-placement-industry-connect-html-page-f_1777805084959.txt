@@ -1,0 +1,21 @@
+"Hold off on the placement_industry_connect.html page for a moment. You did great on the Campus Hiring page, but we have three critical UI and functional bugs that need immediate fixing across the site. Execute the following strictly in parallel:
+
+1. Fix Department Sub-Page Layouts (CRITICAL UI BUG):
+
+The Issue: Look at your work on sub-pages like departments/cse/cse_about.html. You mistakenly injected a massive homepage-style hero section at the top. This is pushing the left-side navigation menu way down below the fold.
+
+The Fix: The layout of ALL department sub-pages must match the main dept_cse.html layout exactly. REMOVE the giant hero sections/banners from ALL department sub-pages (*_about.html, *_faculty.html, *_peos.html, etc. across all 10 departments). The left-side navigation bar must start immediately below the main top header, just like it does in the main department pages.
+
+2. AI Assistant Chat History Clear on Refresh:
+
+The Issue: The AI chatbot is saving previous conversations even after the page is refreshed. It should be a stateless session per page load.
+
+The Fix: Modify the AI Assistant JavaScript logic (e.g., ai-assistant.js). Clear the chat history whenever the page is refreshed. Use sessionStorage instead of localStorage for the chat arrays, or simply clear the DOM chat container and variables on window.onload.
+
+3. Fix Sports Cards Width (facilities.html):
+
+The Issue: In a previous session, I asked you to make the 'Inter College Level Sports Achievements' cards smaller. You reduced their height, which squished them. I wanted you to reduce their width.
+
+The Fix: Open facilities.html. Restrict the width or max-width of these sports cards (e.g., set them to 300px or 350px). They should look like compact, standard-sized portrait/square cards, NOT long horizontal banners spanning the whole container. Fix the flex/grid layout so they wrap nicely.
+
+Execute these 3 exact fixes right now, ensure the sub-page sidebars are back at the top, and give me a report!"

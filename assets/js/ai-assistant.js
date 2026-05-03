@@ -203,25 +203,11 @@ class AIAssistant {
     }
 
     saveMessage(html, sender, type) {
-        try {
-            const key = this.storageKey(type);
-            const history = JSON.parse(localStorage.getItem(key) || '[]');
-            history.push({ html, sender, ts: Date.now() });
-            if (history.length > this.MAX_STORED) history.splice(0, history.length - this.MAX_STORED);
-            localStorage.setItem(key, JSON.stringify(history));
-        } catch (e) {}
+        try { localStorage.removeItem(this.storageKey(type)); } catch (e) {}
     }
 
     restoreHistory(type) {
-        try {
-            const key = this.storageKey(type);
-            const history = JSON.parse(localStorage.getItem(key) || '[]');
-            if (!history.length) return false;
-            history.forEach(({ html, sender }) => {
-                this.displayMessage(html, sender, false, type, false);
-            });
-            return true;
-        } catch (e) { return false; }
+        return false;
     }
 
     clearChat(type) {
