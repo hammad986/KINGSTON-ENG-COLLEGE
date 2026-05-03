@@ -195,6 +195,28 @@ python3 -m http.server 5000
 | Cloudflare `_redirects` | ✅ Done | 30+ rules: short URLs, deleted stub redirects, video-gallery shortlink, SPA-style 200 fallback |
 | Cloudflare `_headers` | ✅ Done | Security headers (HSTS, X-Frame-Options, CSP-ready), immutable caching for assets/js/css, PDF inline display, HTML must-revalidate |
 
+## Session 10 — sitemap.xml + robots.txt + Final Pre-Deployment Sweep
+
+| Task | Status | Notes |
+|---|---|---|
+| `sitemap.xml` generated | ✅ Done | 475 URLs total (474 HTML pages + canonical `https://www.kingston.ac.in/`). Priorities: 1.0 = index, 0.9 = admission/departments/about/contact/academics, 0.8 = naac/iqac/ugc-mandatory/top-bar pages/login portals, 0.7 = dept sub-pages/placements, 0.6 = ugc/about/facilities sub-pages, 0.5 = remaining. Base URL: `https://www.kingston.ac.in/`. `<lastmod>` = 2026-05-03, `<changefreq>` = monthly. |
+| `robots.txt` confirmed | ✅ Existing | `User-agent: * / Allow: /` with `Sitemap: https://www.kingston.ac.in/sitemap.xml` and internal path disallows. Already correct. |
+| Sitewide `backdrop-filter:blur` final sweep | ✅ Done | 107 instances removed across 88 files (ugc/53, naac/12, dept-csbs/7, dept-mech/4, facilities/2, about/2, root dept pages/7, blog/1). `404.html` only has the phrase in a CSS comment — not a property. **Zero actual `backdrop-filter:blur` CSS properties remain sitewide.** |
+
+### Pre-Deployment Checklist — ALL GREEN ✅
+| Check | Result |
+|---|---|
+| `href="#"` dead links sitewide | 0 ✅ |
+| `backdrop-filter:blur` CSS property violations | 0 ✅ |
+| All 7 top-bar pages exist and wired | ✅ |
+| `_redirects` (Cloudflare) | ✅ 40 lines |
+| `_headers` (Cloudflare) | ✅ 32 lines |
+| `robots.txt` | ✅ 17 lines |
+| `sitemap.xml` | ✅ 475 URLs |
+| Total HTML files | 474 ✅ |
+| Login links wired at root / depth-1 / depth-2 | ✅ |
+| `ai-assistant.css` linked | 469 pages ✅ |
+
 ## Session 9 — Login Portals + Sitewide href="#" Zero-Dead-Links Sweep
 
 | Task | Status | Notes |
